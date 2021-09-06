@@ -1,0 +1,211 @@
+Text	With By The Associated Press . Key dates in the fight by the Kurdistan Workers Party , or PKK , against Turkey . Nov. 1978 _ Abdullah Ocalan forms the Marxist Kurdistan Workers Party , the Partiya Karkeren Kurdistan , or PKK , in southeastern Turkey . May 1979 _ Turkey detains several members of the outlawed group . Ocalan flees to Syria a few days later . Sept. 1980 _ Military stages coup , prominent PKK members flee abroad . 1982 _ PKK joins forces with other leftist groups under a short-lived umbrella group , the United Resistance Front Against Fascism . 1984 _ PKK forms armed units , which fight under the name of the Kurdistan Liberation Union . Aug. 1984 _ PKK carries out its first armed attack , killing one soldier . 1985 _ PKK 's political wing , the Kurdistan National Liberation Front , is formed during a meeting in northern Iraq . 1993 _ Lebanon bows to Turkish pressure and closes the PKK 's main training camp in the Bekaa Valley . March 1993 _ PKK declares unilateral cease-fire . PKK fighters break the cease-fire days later , killing 33 unarmed Turkish soldiers . June 1994 _ PKK carries out its first bombing against tourist sites , injuring 13 people , including seven foreign tourists , in the Mediterranean resort town of Fethiye . April 1995 _ 65-seat Kurdish Parliament in exile formed in The Hague , the Netherlands . June 1996 _ PKK stages its first suicide bombing , killing six soldiers in the eastern city of Tunceli . Feb. 15 1999 _ Ocalan captured in Kenya , sparking angry protests by PKK sympathizers around the world . May 31 , 1999 _ Ocalan 's trial on charges of treason , an offense punishable by death , begins on the Turkish prison island of Imrali . sh-lm-ek . 
+Event	1	fight	event	48
+Event	2	detains	event	270
+Event	3	flees	event	325
+Event	4	coup	event	388
+Event	5	flee	event	417
+Event	6	fight	event	601
+Event	7	carries	event	674
+Event	8	attack	event	702
+Event	9	killing	event	711
+Event	10	killing	event	1052
+Event	11	carries	event	1106
+Event	12	bombing	event	1128
+Event	13	injuring	event	1160
+Event	14	stages	event	1367
+Event	15	suicide	event	1384
+Event	16	killing	event	1402
+Event	17	captured	event	1478
+Event	18	protests	event	1513
+Event	19	trial	event	1587
+Event	20	charges	event	1596
+Relation	1	2	NoRel	true	fight	detains
+Relation	1	3	NoRel	true	fight	flees
+Relation	1	4	NoRel	true	fight	coup
+Relation	1	5	NoRel	true	fight	flee
+Relation	1	6	NoRel	true	fight	fight
+Relation	1	7	NoRel	true	fight	carries
+Relation	1	8	NoRel	true	fight	attack
+Relation	1	9	NoRel	true	fight	killing
+Relation	1	10	NoRel	true	fight	killing
+Relation	1	11	NoRel	true	fight	carries
+Relation	1	12	NoRel	true	fight	bombing
+Relation	1	13	NoRel	true	fight	injuring
+Relation	1	14	NoRel	true	fight	stages
+Relation	1	15	NoRel	true	fight	suicide
+Relation	1	16	NoRel	true	fight	killing
+Relation	1	17	NoRel	true	fight	captured
+Relation	1	18	NoRel	true	fight	protests
+Relation	1	19	NoRel	true	fight	trial
+Relation	1	20	NoRel	true	fight	charges
+Relation	2	3	NoRel	true	detains	flees
+Relation	2	4	NoRel	true	detains	coup
+Relation	2	5	NoRel	true	detains	flee
+Relation	2	6	NoRel	true	detains	fight
+Relation	2	7	NoRel	true	detains	carries
+Relation	2	8	NoRel	true	detains	attack
+Relation	2	9	NoRel	true	detains	killing
+Relation	2	10	NoRel	true	detains	killing
+Relation	2	11	NoRel	true	detains	carries
+Relation	2	12	NoRel	true	detains	bombing
+Relation	2	13	NoRel	true	detains	injuring
+Relation	2	14	NoRel	true	detains	stages
+Relation	2	15	NoRel	true	detains	suicide
+Relation	2	16	NoRel	true	detains	killing
+Relation	2	17	NoRel	true	detains	captured
+Relation	2	18	NoRel	true	detains	protests
+Relation	2	19	NoRel	true	detains	trial
+Relation	2	20	NoRel	true	detains	charges
+Relation	3	4	NoRel	true	flees	coup
+Relation	3	5	NoRel	true	flees	flee
+Relation	3	6	NoRel	true	flees	fight
+Relation	3	7	NoRel	true	flees	carries
+Relation	3	8	NoRel	true	flees	attack
+Relation	3	9	NoRel	true	flees	killing
+Relation	3	10	NoRel	true	flees	killing
+Relation	3	11	NoRel	true	flees	carries
+Relation	3	12	NoRel	true	flees	bombing
+Relation	3	13	NoRel	true	flees	injuring
+Relation	3	14	NoRel	true	flees	stages
+Relation	3	15	NoRel	true	flees	suicide
+Relation	3	16	NoRel	true	flees	killing
+Relation	3	17	NoRel	true	flees	captured
+Relation	3	18	NoRel	true	flees	protests
+Relation	3	19	NoRel	true	flees	trial
+Relation	3	20	NoRel	true	flees	charges
+Relation	4	5	NoRel	true	coup	flee
+Relation	4	6	NoRel	true	coup	fight
+Relation	4	7	NoRel	true	coup	carries
+Relation	4	8	NoRel	true	coup	attack
+Relation	4	9	NoRel	true	coup	killing
+Relation	4	10	NoRel	true	coup	killing
+Relation	4	11	NoRel	true	coup	carries
+Relation	4	12	NoRel	true	coup	bombing
+Relation	4	13	NoRel	true	coup	injuring
+Relation	4	14	NoRel	true	coup	stages
+Relation	4	15	NoRel	true	coup	suicide
+Relation	4	16	NoRel	true	coup	killing
+Relation	4	17	NoRel	true	coup	captured
+Relation	4	18	NoRel	true	coup	protests
+Relation	4	19	NoRel	true	coup	trial
+Relation	4	20	NoRel	true	coup	charges
+Relation	5	6	NoRel	true	flee	fight
+Relation	5	7	NoRel	true	flee	carries
+Relation	5	8	NoRel	true	flee	attack
+Relation	5	9	NoRel	true	flee	killing
+Relation	5	10	NoRel	true	flee	killing
+Relation	5	11	NoRel	true	flee	carries
+Relation	5	12	NoRel	true	flee	bombing
+Relation	5	13	NoRel	true	flee	injuring
+Relation	5	14	NoRel	true	flee	stages
+Relation	5	15	NoRel	true	flee	suicide
+Relation	5	16	NoRel	true	flee	killing
+Relation	5	17	NoRel	true	flee	captured
+Relation	5	18	NoRel	true	flee	protests
+Relation	5	19	NoRel	true	flee	trial
+Relation	5	20	NoRel	true	flee	charges
+Relation	6	7	NoRel	true	fight	carries
+Relation	6	8	NoRel	true	fight	attack
+Relation	6	9	NoRel	true	fight	killing
+Relation	6	10	NoRel	true	fight	killing
+Relation	6	11	NoRel	true	fight	carries
+Relation	6	12	NoRel	true	fight	bombing
+Relation	6	13	NoRel	true	fight	injuring
+Relation	6	14	NoRel	true	fight	stages
+Relation	6	15	NoRel	true	fight	suicide
+Relation	6	16	NoRel	true	fight	killing
+Relation	6	17	NoRel	true	fight	captured
+Relation	6	18	NoRel	true	fight	protests
+Relation	6	19	NoRel	true	fight	trial
+Relation	6	20	NoRel	true	fight	charges
+Relation	7	8	NoRel	true	carries	attack
+Relation	7	9	NoRel	true	carries	killing
+Relation	7	10	NoRel	true	carries	killing
+Relation	7	11	NoRel	true	carries	carries
+Relation	7	12	NoRel	true	carries	bombing
+Relation	7	13	NoRel	true	carries	injuring
+Relation	7	14	NoRel	true	carries	stages
+Relation	7	15	NoRel	true	carries	suicide
+Relation	7	16	NoRel	true	carries	killing
+Relation	7	17	NoRel	true	carries	captured
+Relation	7	18	NoRel	true	carries	protests
+Relation	7	19	NoRel	true	carries	trial
+Relation	7	20	NoRel	true	carries	charges
+Relation	8	9	SuperSub	true	attack	killing
+Relation	8	10	NoRel	true	attack	killing
+Relation	8	11	NoRel	true	attack	carries
+Relation	8	12	NoRel	true	attack	bombing
+Relation	8	13	NoRel	true	attack	injuring
+Relation	8	14	NoRel	true	attack	stages
+Relation	8	15	NoRel	true	attack	suicide
+Relation	8	16	NoRel	true	attack	killing
+Relation	8	17	NoRel	true	attack	captured
+Relation	8	18	NoRel	true	attack	protests
+Relation	8	19	NoRel	true	attack	trial
+Relation	8	20	NoRel	true	attack	charges
+Relation	9	10	NoRel	true	killing	killing
+Relation	9	11	NoRel	true	killing	carries
+Relation	9	12	NoRel	true	killing	bombing
+Relation	9	13	NoRel	true	killing	injuring
+Relation	9	14	NoRel	true	killing	stages
+Relation	9	15	NoRel	true	killing	suicide
+Relation	9	16	NoRel	true	killing	killing
+Relation	9	17	NoRel	true	killing	captured
+Relation	9	18	NoRel	true	killing	protests
+Relation	9	19	NoRel	true	killing	trial
+Relation	9	20	NoRel	true	killing	charges
+Relation	10	11	NoRel	true	killing	carries
+Relation	10	12	NoRel	true	killing	bombing
+Relation	10	13	NoRel	true	killing	injuring
+Relation	10	14	NoRel	true	killing	stages
+Relation	10	15	NoRel	true	killing	suicide
+Relation	10	16	NoRel	true	killing	killing
+Relation	10	17	NoRel	true	killing	captured
+Relation	10	18	NoRel	true	killing	protests
+Relation	10	19	NoRel	true	killing	trial
+Relation	10	20	NoRel	true	killing	charges
+Relation	11	12	NoRel	true	carries	bombing
+Relation	11	13	NoRel	true	carries	injuring
+Relation	11	14	NoRel	true	carries	stages
+Relation	11	15	NoRel	true	carries	suicide
+Relation	11	16	NoRel	true	carries	killing
+Relation	11	17	NoRel	true	carries	captured
+Relation	11	18	NoRel	true	carries	protests
+Relation	11	19	NoRel	true	carries	trial
+Relation	11	20	NoRel	true	carries	charges
+Relation	12	13	SuperSub	true	bombing	injuring
+Relation	12	14	NoRel	true	bombing	stages
+Relation	12	15	NoRel	true	bombing	suicide
+Relation	12	16	NoRel	true	bombing	killing
+Relation	12	17	NoRel	true	bombing	captured
+Relation	12	18	NoRel	true	bombing	protests
+Relation	12	19	NoRel	true	bombing	trial
+Relation	12	20	NoRel	true	bombing	charges
+Relation	13	14	NoRel	true	injuring	stages
+Relation	13	15	NoRel	true	injuring	suicide
+Relation	13	16	NoRel	true	injuring	killing
+Relation	13	17	NoRel	true	injuring	captured
+Relation	13	18	NoRel	true	injuring	protests
+Relation	13	19	NoRel	true	injuring	trial
+Relation	13	20	NoRel	true	injuring	charges
+Relation	14	15	NoRel	true	stages	suicide
+Relation	14	16	NoRel	true	stages	killing
+Relation	14	17	NoRel	true	stages	captured
+Relation	14	18	NoRel	true	stages	protests
+Relation	14	19	NoRel	true	stages	trial
+Relation	14	20	NoRel	true	stages	charges
+Relation	15	16	SuperSub	true	suicide	killing
+Relation	15	17	NoRel	true	suicide	captured
+Relation	15	18	NoRel	true	suicide	protests
+Relation	15	19	NoRel	true	suicide	trial
+Relation	15	20	NoRel	true	suicide	charges
+Relation	16	17	NoRel	true	killing	captured
+Relation	16	18	NoRel	true	killing	protests
+Relation	16	19	NoRel	true	killing	trial
+Relation	16	20	NoRel	true	killing	charges
+Relation	17	18	NoRel	true	captured	protests
+Relation	17	19	NoRel	true	captured	trial
+Relation	17	20	NoRel	true	captured	charges
+Relation	18	19	NoRel	true	protests	trial
+Relation	18	20	NoRel	true	protests	charges
+Relation	19	20	NoRel	true	trial	charges

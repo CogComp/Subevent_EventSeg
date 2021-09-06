@@ -1,0 +1,58 @@
+Text	Lebanese Shiites rejoice at ' Night of Destiny ' helicopter crash . Lebanese Shiites living in areas controlled by Hezbollah guerrillas fired shots into the air to rejoice at Tuesday 's mid-air crash between two Israeli helicopters which killed more than 70 soldiers . News of the accident , the worst catastrophe in Israeli military history , was announced by muezzins from mosques across villages in south Lebanon near Israel 's self-declared " security zone " . . " God has responded to the wish of Moslems because it is the Night of Destiny , " said one muezzin , referring to a Moslem celebration marking the day God handed the Koran , the Islamic holy book , to the prophet Mohammad . " We asked that they throw themselves against each other and that the winds destroy their planes , and God has heard us , " the caller to Moslem prayers said . Israeli Prime Minister Benjamin Netanyahu has announced an investigation into the accident , in which two Sikorsky troop carriers collided over northern Israel as they were flying to the occupied zone in south Lebanon . Hezbollah , a pro-Iranian Shiite movement , is spearheading a guerrilla campaign against the Jewish states 's occupation of the region . In the town of Baalbek , a Hezbollah stronghold in eastern Lebanon , news of the crash was greeted by automatic weapon fire which lasted around half an hour . In some villages , sweets were distributed as a sign of joy . Hezbollah television Al-Manar was the first to announce the accident in Lebanon and was inundated with telephone calls from viewers offering their congratulations . Earlier Tuesday , Israeli artillery bombarded south Lebanon with more than 100 shells , damaging several houses , in retaliation for a Hezbollah attack on Israeli positions . Lebanese Foreign Minister Fares Bweiz said he will complain about the Israeli shelling to an international committee monitoring a ceasefire accord in south Lebanon . Under the accord which ended Israel 's " Grapes of Wrath " offensive in Lebanon last year , in which 175 people were killed , civilians on both sides must be spared any attacks . Since the beginning of the year , four Israeli soldiers have been killed and 15 wounded in attacks in south Lebanon , most of them carried out by Hezbollah . 
+Event	1	crash	event	10
+Event	37	controlled	event	16
+Event	2	fired	event	20
+Event	3	crash	event	31
+Event	4	killed	event	37
+Event	5	accident	event	45
+Event	6	catastrophe	event	49
+Event	7	announced	report	56
+Event	40	asked	report	120
+Event	38	destroy	event	132
+Event	39	said	report	148
+Event	8	announced	report	155
+Event	9	investigation	event	157
+Event	10	accident	event	160
+Event	11	collided	event	168
+Event	12	campaign	event	194
+Event	13	occupation	event	200
+Event	14	crash	event	220
+Event	15	fire	event	226
+Event	17	announce	report	252
+Event	18	accident	event	254
+Event	20	bombarded	event	273
+Event	21	damaging	event	282
+Event	23	attack	event	291
+Event	24	said	report	300
+Event	25	complain	report	303
+Event	26	shelling	event	307
+Event	30	offensive	event	331
+Event	31	killed	event	342
+Event	32	attacks	event	352
+Event	34	killed	event	365
+Event	35	wounded	event	368
+Event	36	attacks	event	370
+Event	41	carried	event	378
+Relation	3	1	coreference
+Relation	4	5	subevent_of
+Relation	5	3	coreference
+Relation	5	7	in_reporting
+Relation	6	5	coreference
+Relation	40	39	in_reporting
+Relation	38	39	in_reporting
+Relation	9	8	in_reporting
+Relation	10	5	coreference
+Relation	10	8	in_reporting
+Relation	11	1	coreference
+Relation	14	1	coreference
+Relation	18	5	coreference
+Relation	18	17	in_reporting
+Relation	21	20	subevent_of
+Relation	23	36	member_of
+Relation	25	24	in_reporting
+Relation	26	20	coreference
+Relation	26	24	in_reporting
+Relation	31	30	subevent_of
+Relation	34	36	subevent_of
+Relation	35	36	subevent_of
+Relation	36	12	member_of

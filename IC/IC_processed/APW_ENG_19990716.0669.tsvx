@@ -1,0 +1,86 @@
+Text	Kurdish rebels claim nine soldiers killed in attacks Eds : UPDATES with Kurdish rebel claim to have killed soldiers , . ERCIS , Turkey ( AP ) . Kurdish rebels claimed to have killed nine Turkish soldiers and two village guards in attacks in eastern Turkey , a pro-Kurdish news agency reported Friday . Rebels killed three soldiers and two village guards in an attack Thursday against a Turkish state television relay station near the Turkish-Syrian border , the pro-Kurdish German-based news agency DEM reported , quoting the Kurdistan Workers Party . State television officials said they had no report of any such clash . Rebels said they killed six Turkish soldiers in a Tuesday attack on a paramilitary police station in the province of Van , the agency reported . Security forces in Van had no information of such an attack . The reported sites of both clashes are in remote and inaccessible areas of Turkey . Village guards are Kurdish militiamen armed by the state to fight the rebels . The rebels vowed earlier this week to put an end to a spate of attacks against civilians to avenge the death sentence by a Turkish court against their leader , Abdullah Ocalan . Half a dozen people were killed and more than 50 injured in those attacks . But rebels said they would continue to fight Turkish forces . In northern Iraq , the rebels claimed to have killed 18 fighters of the rival Iraqi Kurdistan Democratic Party in fighting Tuesday . The KDP is allied with Turkey against the Kurdistan Workers Party . That report also could not be independently confirmed . The rebels maintain key bases in northern Iraq near the Turkish border . Meanwhile , suspected Kurdish rebels attacked two police stations in eastern Turkey , injuring one policeman in the province of Agri , Turkey 's Anatolia news agency reported . In the town of Ercis , suspected rebels fired rockets at a police station , Anatolia said . No one was injured in the attack . A Turkish court last month sentenced Ocalan to death for leading the PKK 's 15-year war for autonomy in southeast Turkey . Some 37,000 people have been killed in the conflict . ht-lm . 
+Event	1	claim	report	2
+Event	2	killed	event	5
+Event	3	attacks	event	7
+Event	4	claim	report	14
+Event	5	killed	event	17
+Event	6	claimed	report	28
+Event	7	killed	event	31
+Event	8	attacks	event	40
+Event	9	reported	report	49
+Event	10	killed	event	52
+Event	11	attack	event	61
+Event	12	reported	report	81
+Event	54	quoting	report	83
+Event	14	said	report	91
+Event	16	clash	event	99
+Event	17	said	report	101
+Event	18	killed	event	103
+Event	19	attack	event	110
+Event	20	reported	report	124
+Event	22	attack	event	135
+Event	23	clashes	event	141
+Event	52	armed	event	155
+Event	53	fight	event	160
+Event	24	vowed	report	165
+Event	26	attacks	event	177
+Event	28	sentence	event	184
+Event	29	killed	event	200
+Event	30	injured	event	205
+Event	31	attacks	event	208
+Event	32	said	report	211
+Event	34	fight	event	216
+Event	35	claimed	report	225
+Event	36	killed	event	228
+Event	37	fighting	event	239
+Event	40	attacked	event	277
+Event	41	injuring	event	285
+Event	42	reported	report	299
+Event	43	fired	event	308
+Event	44	said	report	316
+Event	45	injured	event	320
+Event	46	attack	event	323
+Event	47	sentenced	event	329
+Event	48	war	event	339
+Event	49	killed	event	350
+Event	50	conflict	event	353
+Relation	2	7	member_of
+Relation	5	2	coreference
+Relation	6	9	in_reporting
+Relation	7	8	subevent_of
+Relation	7	9	in_reporting
+Relation	8	34	member_of
+Relation	8	3	coreference
+Relation	8	9	in_reporting
+Relation	10	7	member_of
+Relation	10	11	subevent_of
+Relation	10	12	in_reporting
+Relation	11	8	member_of
+Relation	11	12	in_reporting
+Relation	54	12	in_reporting
+Relation	16	11	coreference
+Relation	16	14	in_reporting
+Relation	17	20	in_reporting
+Relation	18	7	member_of
+Relation	18	19	subevent_of
+Relation	18	17	in_reporting
+Relation	19	8	member_of
+Relation	19	17	in_reporting
+Relation	22	19	coreference
+Relation	23	8	coreference
+Relation	29	31	subevent_of
+Relation	30	26	subevent_of
+Relation	31	26	coreference
+Relation	34	32	in_reporting
+Relation	36	37	subevent_of
+Relation	37	35	in_reporting
+Relation	40	34	member_of
+Relation	40	42	in_reporting
+Relation	41	51	subevent_of
+Relation	41	42	in_reporting
+Relation	43	46	subevent_of
+Relation	43	44	in_reporting
+Relation	45	46	subevent_of
+Relation	46	40	member_of
+Relation	49	50	subevent_of
+Relation	50	48	coreference

@@ -1,0 +1,39 @@
+Text	Kurdish group claims responsibility for blasts in Turkish city . ANKARA , Turkey . A militant Kurdish group claimed responsibility Saturday for two bombings in southern Turkey that injured 17 people . The Kurdistan Freedom Falcons said in a statement on their Web site that the two blasts Friday were in retaliation for actions by Turkish security forces . Kurdish guerrillas have recently escalated their attacks against Turkish targets , and Turkish security forces have been cracking down against militants . The first blast occurred in front of a bank on a busy road in the city of Adana , injuring two bank employees . The second explosion occurred about 10 minutes later a few meters ( yards ) away and injured police who had rushed to the site of the first blast . Rebels of the Kurdistan Workers Party or PKK have been fighting for autonomy since 1984 , and some 37,000 people have been killed as a result of the conflict . The Kurdistan Freedom Falcons are believed to be linked to the PKK . Unlike the PKK , which has largely concentrated its attacks against security forces in the overwhelmingly rural and Kurdish southeast of Turkey , the Falcons appear mostly to be based in urban areas and have largely carried out attacks against civilian targets . 
+Event	1	claims	report	2
+Event	2	blasts	event	5
+Event	3	claimed	report	16
+Event	4	bombings	event	21
+Event	5	injured	event	26
+Event	6	said	report	33
+Event	8	blasts	event	44
+Event	27	actions	event	50
+Event	10	attacks	event	61
+Event	12	cracking	event	72
+Event	13	blast	event	78
+Event	14	injuring	event	95
+Event	15	explosion	event	101
+Event	16	injured	event	115
+Event	18	blast	event	126
+Event	19	fighting	event	137
+Event	20	killed	event	149
+Event	21	conflict	event	155
+Event	23	attacks	event	177
+Event	28	carried	event	204
+Event	24	attacks	event	206
+Relation	2	1	in_reporting
+Relation	4	2	coreference
+Relation	4	3	in_reporting
+Relation	5	4	subevent_of
+Relation	8	4	coreference
+Relation	8	6	in_reporting
+Relation	27	6	in_reporting
+Relation	12	27	subevent_of
+Relation	13	2	member_of
+Relation	14	5	member_of
+Relation	14	13	subevent_of
+Relation	15	2	member_of
+Relation	16	5	member_of
+Relation	16	15	subevent_of
+Relation	18	13	coreference
+Relation	20	21	subevent_of
+Relation	21	19	coreference

@@ -1,0 +1,54 @@
+Text	Three blasts in southeast Turkey : police . Three blasts went off almost simultaneously in a town in mainly Kurdish southeast Turkey Friday , injuring at least one person and causing material damage , officials and press reports said . The blasts ocurred outside shops at three separate locations in Silopi , at the Iraqi border , in the province of Sirnak , local police told AFP . Two blasts went off simultaneously at around 8:30 pm ( 1830 GMT ) , while the third followed in about 15 minutes , the pro-Kurdish Firat news agency reported . The semi-official Anatolia news agency said one person was wounded , while Firat reported several injured . The blasts followed a police operation in Silopi earlier this week in which two suspected Kurdish rebels and seven accomplices were detained on suspicion that they were planning " simultaneous sensational bombings/armed attacks , " according to an official statement . The security forces also seized weapons and about a kilogram ( 2.2 pounds ) of plastic explosives in the homes of the suspects and a member of Silopi 's township council , identified by the media as the town 's Kurdish deputy mayor who remained at large and was wanted by the police . Unrest in the southeast rose noticeably this year after the rebel Kurdistan Workers ' Party ( PKK ) , blacklisted as a terrorist group by Turkey , the European Union and the United States , called off a five - year unilateral ceasefire in June 2004 . The Kurdish conflict in Turkey has claimed some 37,000 lives since 1984 when the PKK took up arms for Kurdish self-rule in the southeast . 
+Event	1	blasts	event	1
+Event	2	blasts	event	8
+Event	3	went	event	9
+Event	4	injuring	event	23
+Event	5	damage	event	31
+Event	6	said	report	37
+Event	7	blasts	event	39
+Event	8	told	report	63
+Event	9	blasts	event	66
+Event	10	off	event	68
+Event	13	reported	report	93
+Event	14	said	report	99
+Event	15	wounded	event	103
+Event	16	reported	report	107
+Event	17	injured	event	109
+Event	18	blasts	event	111
+Event	19	operation	event	115
+Event	20	detained	event	131
+Event	21	planning	event	137
+Event	22	attacks	event	142
+Event	23	according	report	145
+Event	25	seized	event	154
+Event	33	at	event	195
+Event	26	Unrest	event	203
+Event	30	conflict	event	251
+Event	31	claimed	event	255
+Event	32	took	event	264
+Relation	1	26	subevent_of
+Relation	2	26	subevent_of
+Relation	2	1	coreference
+Relation	2	6	in_reporting
+Relation	4	1	subevent_of
+Relation	4	6	in_reporting
+Relation	5	1	subevent_of
+Relation	5	6	in_reporting
+Relation	7	1	coreference
+Relation	7	8	in_reporting
+Relation	9	1	member_of
+Relation	9	13	in_reporting
+Relation	15	4	coreference
+Relation	15	14	in_reporting
+Relation	17	4	coreference
+Relation	17	16	in_reporting
+Relation	18	1	coreference
+Relation	18	23	in_reporting
+Relation	19	23	in_reporting
+Relation	20	19	subevent_of
+Relation	20	23	in_reporting
+Relation	21	23	in_reporting
+Relation	22	23	in_reporting
+Relation	26	30	member_of
+Relation	31	30	subevent_of
+Relation	32	30	subevent_of

@@ -1,0 +1,43 @@
+Text	Hamas military wing warns to continue rocket attack at Israel . GAZA , Nov. 21 ( Xinhua ) . A military wing of the ruling Palestinian Islamic Resistance Movement ( Hamas ) warned on Tuesday it will continue launching home-made rockets against Israel . Abu Obaida , a spokesman for Izz el-Deen al-Qassam Brigades , told a news conference that his militias will double their attacks against Israel , especially at Sderot city which is adjacent to northeast Gaza Strip . However , Abu Obaida said they can halt rocket attacks if Sderot residents emigrated from their town . During the conference , the armed wing of the Hamas movement claimed responsibility for firing rockets into Sderot Tuesday morning , wounding a man seriously . In addition , al-Quds Brigades of the Islamic Jihad ( Holy War ) movement also claimed responsibility for firing rockets into Sderot . Meanwhile , Israeli troops are still operating in northern Gaza Strip after entering the area over the past couple of days . Security sources said the Israeli forces rolled into open fields in northern Gaza towns of Beit Lahiya and Beit Hanoun . Israeli sources said two soldiers were lightly wounded after Palestinian militants hurled grenades at a group of soldiers who took up position in a makeshift house . 
+Event	1	warns	report	3
+Event	3	attack	event	7
+Event	4	warned	report	30
+Event	6	launching	event	36
+Event	7	told	report	52
+Event	9	attacks	event	62
+Event	10	said	report	81
+Event	12	attacks	event	86
+Event	13	claimed	report	105
+Event	14	firing	event	108
+Event	15	wounding	event	115
+Event	16	claimed	report	134
+Event	17	firing	event	137
+Event	24	operating	event	147
+Event	23	entering	event	153
+Event	26	said	report	164
+Event	25	rolled	event	168
+Event	18	said	report	184
+Event	20	wounded	event	189
+Event	21	hurled	event	193
+Event	22	position	event	203
+Relation	3	1	in_reporting
+Relation	4	1	coreference
+Relation	6	3	coreference
+Relation	6	1	in_reporting
+Relation	7	1	coreference
+Relation	9	3	coreference
+Relation	9	7	in_reporting
+Relation	10	1	coreference
+Relation	12	3	coreference
+Relation	12	10	in_reporting
+Relation	15	14	subevent_of
+Relation	15	13	in_reporting
+Relation	17	12	member_of
+Relation	17	14	coreference
+Relation	25	26	in_reporting
+Relation	20	19	subevent_of
+Relation	20	18	in_reporting
+Relation	21	19	subevent_of
+Relation	21	18	in_reporting
+Relation	22	19	subevent_of
+Relation	22	18	in_reporting

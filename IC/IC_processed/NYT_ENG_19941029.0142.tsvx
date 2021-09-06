@@ -1,0 +1,90 @@
+Text	SRI LANKANS STUNNED BY LATEST WAVE OF POLITICAL VIOLENCE . COLOMBO , Sri Lanka - NYT ) . As Sri Lankans struggled this week to cope with the suicide bombing that killed the country 's main opposition leader and dozens of others at a political rally , many found a focus for their grief in a moment that one newspaper called the `` gathering of the widows '' . In an encounter that encapsulated the melancholy that has settled on this country like a shroud , three women who lost their husbands in previous political killings met on Wednesday by the rainswept bier of Gamini Dissanayake , the slain opposition leader , to console his widow , Srima . The brief meeting , at an open-air pavilion at the country 's parliamentary complex , was wordless . Leading the widows was Prime Minister Chandrika Kumaratunga , whose husband was shot dead six years ago . Also in the group was Mrs. Kumaratunga 's mother , Sirimavo Bandaranaika , who became the world 's first female prime minister in 1959 after her husband , also prime minister , was shot dead by a Buddhist monk . Sri Lanka has billed itself in travel brochures as a `` fantasy island '' of graceful Buddhist and Hindu temples , south sea beaches and swaying palms . But nowadays , many in this island nation see themselves not so much blessed as cursed , by a seemingly endless cycle of bombings and shootings and massacres , many of them , like the latest , carried out with a ferocity that seems to have taken on a grisly logic of its own . `` A dozen leaders you worked closely with , whose families you knew , all killed -- it eats into your very being , '' said Neelam Tiruchelvam , a 50-year-old Harvard-educated lawyer who knew Dissanayake since the two were schoolboys . After a moment 's silence , Tiruchelvam added : `` They say it 's immoral to be pessimistic at a time of moral crisis . But events like this induce a sense of helplessness '' . The despair felt by many here runs beyond the 11-year civil war that has pitted the majority population of ethnic Sinhalese , mostly Buddhists , against the rebel group suspected of having killed Dissanayake , the Liberation Tigers of Tamil Eelam . The Tigers , who are renowned for the brutality of their tactics , including suicide bombings , are fighting for a separate state in northern and eastern Sri Lanka for the country 's minority of ethnic Tamils , mostly Hindus , who make up about 12 percent of the population . The war has killed at least 40,000 people since it began in 1983 . But at times it has been a sideshow to other eruptions of political violence in which the main perpetrators , and victims , have been ethnic Sinhalese . Then , in the late 1980s , the government army and police went to war against an extreme Sinhalese nationalist group , the Janatha Vimukthi Peramuna . From 1987 to 1990 , the two sides engaged in a deadly trade of assassination , massacre and torture in which 20,000 to 60,000 people are said to have been killed . The two conflicts gave birth to a wider cult of violence . Hardly a day goes by when newspapers here do not chronicle killings that have grown out of political rivalries , ethnic or religious tensions , or gang warfare that is rife in Colombo and other major cities . Shootings or knifings are the exception . Often , the victims are pushed into burning cars , hacked to death with machetes , or tortured to death over hours or days . Often , their children die with them . But few recent events have stunned Sri Lanka 's 18 million people more than Monday morning 's blast . Just past midnight Sunday , as the 52 - year-old Dissanayake closed the rally in a Colombo suburb by bidding the crowd a cheery `` Good morning , '' a young woman with braided hair stepped forward , positioned herself 10 feet from the platform , and reached beneath her T-shirt to detonate a bomb . The bomb , laced with 10 pounds of ball bearings , killed 54 people and wounded more than 100 , many critically . Among the dead were three former Cabinet ministers , seven police officers , and several wives and daughters of leading political figures , as well as many others on the platform and in the front rows of the crowd . The head of the suicide bomber , who remains unidentified , was found more than 80 feet away , on a second-story rooftop . The blast threw Sri Lanka 's political landscape into chaos for the second time in 18 months . During a May Day procession through Colombo last year , President Ranasinghe Premadasa was killed with more than 20 others by a suicide bomber on a bicycle , apparently sent by the Tiger rebels . A week earlier , a man who had been widely touted as the country 's future leader , Lalith Athulathmudali , a political partner of Dissanayake , was shot dead at another rally . That killing , too , was blamed on the Tigers , though many here believe it may have been ordered by Premadasa . Athulathmudali 's widow , Srimani , was one of the widows who gathered at Dissanayake 's bier this week . The earlier killings left Dissanayake on a short list of middle-age politicians considered capable of running the government . His United National Party , a conservative grouping that had governed for 17 years , narrowly lost a general election in August to a left-of-center coalition headed by Mrs. Kumaratunga . It was hoping to make a comeback in the presidential election on Nov. 9 , in which the two main candidates were to have been Mrs. Kumaratunga and Dissanayake . Now , the United National Party 's candidate will be Mrs. Dissanayake , a 50-year-old lawyer , who will be continuing the tradition of widows ' stepping into politics that was started 35 years ago by Mrs. Bandaranaika , Mrs. Kumaratunga 's mother . In a measure of how democracy here has been inhibited by violence , both Mrs. Kumaratunga and Mrs. Dissanayake have said they will hold no further public rallies before the election . But for many Sri Lankans , who wins the presidency has become almost irrelevant . As middle-class families gathered this week , searching for explanations for the violence , the talk was more of culture and psychology than of the election . One prominent physician stunned guests at dinner into silence when he interrupted a discussion to say , `` If you ask me , what this country needs is a crash program in mental health '' . 
+Event	1	VIOLENCE	event	8
+Event	2	bombing	event	27
+Event	3	killed	event	29
+Event	53	lost	event	86
+Event	4	killings	event	92
+Event	5	shot	event	144
+Event	6	shot	event	182
+Event	7	bombings	event	238
+Event	8	shootings	event	240
+Event	9	massacres	event	242
+Event	10	killed	event	284
+Event	11	said	report	294
+Event	12	war	event	355
+Event	14	killed	event	376
+Event	41	bombings	event	400
+Event	15	fighting	event	403
+Event	16	war	event	436
+Event	17	killed	event	438
+Event	18	violence	event	461
+Event	20	war	event	489
+Event	21	assassination	event	515
+Event	22	massacre	event	517
+Event	23	torture	event	519
+Event	24	said	report	527
+Event	25	killed	event	531
+Event	26	conflicts	event	534
+Event	42	violence	event	542
+Event	43	killings	event	554
+Event	55	warfare	event	570
+Event	44	Shootings	event	580
+Event	45	knifings	event	582
+Event	54	pushed	event	591
+Event	46	hacked	event	596
+Event	46	death	event	598
+Event	48	tortured	event	603
+Event	48	death	event	605
+Event	50	die	event	614
+Event	27	blast	event	634
+Event	28	detonate	event	687
+Event	29	killed	event	701
+Event	30	wounded	event	705
+Event	32	blast	event	775
+Event	34	killed	event	805
+Event	35	shot	event	853
+Event	36	killing	event	859
+Event	37	blamed	report	864
+Event	39	ordered	report	877
+Event	40	killings	event	901
+Event	51	violence	event	1030
+Event	52	violence	event	1076
+Relation	3	10	member_of
+Relation	3	2	subevent_of
+Relation	53	4	subevent_of
+Relation	4	10	member_of
+Relation	6	4	member_of
+Relation	7	1	subevent_of
+Relation	8	1	subevent_of
+Relation	9	1	subevent_of
+Relation	10	11	in_reporting
+Relation	12	26	member_of
+Relation	14	3	member_of
+Relation	14	27	subevent_of
+Relation	16	12	coreference
+Relation	17	12	subevent_of
+Relation	20	26	member_of
+Relation	21	20	subevent_of
+Relation	22	20	subevent_of
+Relation	23	20	subevent_of
+Relation	25	20	subevent_of
+Relation	44	43	member_of
+Relation	45	43	member_of
+Relation	54	43	member_of
+Relation	46	43	member_of
+Relation	46	43	member_of
+Relation	48	43	member_of
+Relation	48	43	member_of
+Relation	50	43	member_of
+Relation	27	2	coreference
+Relation	28	27	subevent_of
+Relation	29	27	subevent_of
+Relation	29	3	coreference
+Relation	30	27	subevent_of
+Relation	32	27	coreference
+Relation	34	4	member_of
+Relation	35	4	member_of
+Relation	36	35	coreference
+Relation	40	3	coreference
+Relation	51	1	coreference
+Relation	52	51	coreference

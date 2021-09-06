@@ -1,0 +1,1 @@
+{"dataset": "HiEve", "add_seg": false, "0000": true, "hidden_rect": 10, "lr": 0.001, "fold": 4, "batch_size": 8, "epoch_num": 1000, "exp_no": "0429_6_cons"}

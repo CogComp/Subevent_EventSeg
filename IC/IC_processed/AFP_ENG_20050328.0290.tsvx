@@ -1,0 +1,86 @@
+Text	Followers of slain Yemen rebel preacher kill seven policemen by Hammoud Mounassar . Seven Yemeni police were shot dead Monday by followers of a rebel preacher killed last year by the army , in an attack on their patrol in Saada province of northwest Yemen , a local official said . The policemen were killed by followers of Sheikh Hussein Badr Eddin al-Huthi , of the Faithful Youth organization , who attacked their patrol at dawn in Nushur , northeast of the town of Saada , the official told AFP , requesting anonymity . Police and army units launched an offensive against the militants following the attack , but it was not immediately known if any of Huthi 's followers were killed in the assault , in which heavy weapons were used . The renewed violence came less than 10 days after Yemeni police shot dead three Huthi supporters during a clash in Saada . Three prominent Faithful Youth members were killed and two others wounded on March 19 " when police attacked them as they tried to buy weapons and ammunition from a store , " a local official told AFP at the time . Witnesses said three policemen were injured in that clash , the first since the Yemeni government announced in September last year that the army had killed the radical Zaidi preacher , nearly three months after he started a rebellion in the mountainous northwest . The uprising , near the border with Saudi Arabia , triggered clashes which left more than 400 people dead . The Zaidi sect is a moderate Shiite Muslim sect dominant in northwest Yemen but in the minority in the mainly Sunni country . The local official said after the March 19 incident that security forces had been hunting down members of the Faithful Youth organization , an offshoot of the Islamist opposition movement Al-Haq formed in 1992 , after hundreds of detained Huthi followers " refused to drop their radical religious views " . " Security authorities in Saada detected underground movements by the remnants of the Faithful Youth organization in the past few days in the Nushur area ... and in Saqin , near the Maran mountains " where last year 's rebellion took place , the official said . Authorities had offered a 10-million-rial ( 55,000-dollar ) reward for information leading to the capture of Huthi , whom they accused of seeking to foment sectarian strife . But Huthi told AFP last July the conflict was a result of his anti-US stand . Huthi 's top aide , Abdullah Ayedh al-Razami , was reported by officials to have surrendered to authorities along with dozens of supporters 10 days after the announcement of his death . They turned themselves in in Saada , where they had been besieged by army troops for more than two months . 
+Event	1	kill	event	6
+Event	2	shot	event	16
+Event	3	killed	event	25
+Event	4	attack	event	34
+Event	5	said	report	48
+Event	6	killed	event	52
+Event	7	attacked	event	69
+Event	8	told	report	86
+Event	10	offensive	event	97
+Event	11	attack	event	103
+Event	12	killed	event	118
+Event	13	assault	event	121
+Event	14	violence	event	131
+Event	15	shot	event	140
+Event	16	clash	event	147
+Event	17	killed	event	156
+Event	18	wounded	event	160
+Event	19	attacked	event	167
+Event	20	told	report	185
+Event	21	said	report	191
+Event	22	injured	event	195
+Event	23	clash	event	198
+Event	24	announced	report	206
+Event	25	killed	event	215
+Event	27	rebellion	event	228
+Event	28	uprising	event	234
+Event	30	clashes	event	244
+Event	31	dead	event	251
+Event	32	said	report	277
+Event	33	incident	event	282
+Event	34	hunting	event	288
+Event	35	rebellion	event	363
+Event	36	said	report	369
+Event	38	capture	event	384
+Event	39	accused	report	390
+Event	41	strife	event	396
+Event	42	told	report	399
+Event	43	conflict	event	404
+Event	44	reported	report	422
+Event	45	surrendered	event	427
+Event	46	announcement	report	439
+Event	47	death	event	442
+Event	48	turned	event	444
+Event	49	besieged	event	454
+Relation	1	4	subevent_of
+Relation	2	4	subevent_of
+Relation	2	1	coreference
+Relation	2	5	in_reporting
+Relation	3	5	in_reporting
+Relation	4	14	coreference
+Relation	6	1	coreference
+Relation	6	8	in_reporting
+Relation	7	4	coreference
+Relation	11	4	coreference
+Relation	12	10	subevent_of
+Relation	13	10	coreference
+Relation	15	16	subevent_of
+Relation	17	15	coreference
+Relation	17	20	in_reporting
+Relation	18	16	subevent_of
+Relation	18	20	in_reporting
+Relation	19	16	coreference
+Relation	19	20	in_reporting
+Relation	22	23	subevent_of
+Relation	22	21	in_reporting
+Relation	23	16	coreference
+Relation	23	21	in_reporting
+Relation	25	3	coreference
+Relation	25	24	in_reporting
+Relation	28	35	coreference
+Relation	30	28	subevent_of
+Relation	31	30	subevent_of
+Relation	33	19	coreference
+Relation	33	32	in_reporting
+Relation	34	32	in_reporting
+Relation	35	27	coreference
+Relation	35	36	in_reporting
+Relation	38	37	in_reporting
+Relation	43	41	coreference
+Relation	43	42	in_reporting
+Relation	45	44	in_reporting
+Relation	46	44	in_reporting
+Relation	47	3	coreference
+Relation	47	46	in_reporting
+Relation	48	49	subevent_of

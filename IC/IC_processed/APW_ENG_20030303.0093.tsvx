@@ -1,0 +1,103 @@
+Text	Israel arrests a founder of Hamas in Gaza , blows up his house . JERUSALEM ( AP ) . Sheik Mohammed Taha , who was arrested by Israeli troops Monday , is one of five founders of Hamas and the most senior member of the Islamic militant group to be detained since fighting erupted 29 months ago . The arrest signaled a turning point in how Israel is dealing with Hamas , which has killed hundreds of Israelis in shootings and bombings since its founding in 1987 . Taha , 65 , a hardline ideologue and close associate of the Hamas spiritual leader , Sheik Ahmed Yassin , is the first senior Hamas political leader to be arrested since September 2000 , even though the group has been responsible for most of the attacks on Israelis since then . In retaliating for Hamas bombings and shootings , Israel has killed dozens of Hamas activists and rounded up hundreds . It has also hit installations of the Palestinian security forces , arguing that Yasser Arafat 's Palestinian Authority is responsible for all attacks because it has failed to rein in militants . Palestinians say the Israeli raids have been counterproductive , weakening the security forces expected to crack down on Hamas , Arafat 's main political rival . Israeli Defense Minister Shaul Mofaz suggested Sunday that there would be a change in direction . `` In the Gaza Strip , we are increasing the pressure and the scope of our operations against Hamas ... and we will also operate that way in the West Bank , '' Mofaz said . `` We want to arrive at a situation where the terror organizations invest more and more ( effort ) defending themselves '' . Taha and his five sons _ all senior Hamas activists _ were caught off guard by the Israeli arrest raid on Gaza 's Bureij refugee camp early Monday . Taha and his son , Ayman , were wounded in fighting that erupted when soldiers surrounded the family 's home which was later demolished . The two were taken to an Israeli hospital . Hamas was founded several days after the Dec. 9 , 1987 outbreak of the first Palestinian uprising against Israeli occupation . At the time , Yassin , Taha and three other leading Islamic clerics met at Yassin 's home in Gaza City . All five were members of the Muslim Brotherhood , a movement established a century ago in Egypt with the aim of establishing Islamic rule in the Arab world . The five formed Hamas as a strike force of the Muslim Brotherhood . In the meeting , Yassin , a quadriplegic , was elected leader of Hamas , while Taha and the other three formed an advisory council and since then have largely stayed out of the spotlight . Taha has persistently declined to give interviews . Taha and his family fled to Gaza in the 1948 Mideast war and settled in the Bureij camp . Taha , a stout man with a short beard , served as a mosque preacher at Gaza City 's Islamic University and at his local mosque in Bureij . As a Hamas ideologue , Taha 's influence stretched across Gaza and into the West Bank . The Israeli military says Taha is responsible for orchestrating and planning dozens of attacks in which several Israelis were killed . Taha 's son , Ayman , 32 , is an assistant to Hamas bombmaker Mohammed Deif , No. 1 on Israel 's most wanted list , the army said . Mohammed and Ayman Taha were both deported by Israel in 1992 , along with more than 400 other suspected Islamic militants . They were sent to Lebanon for a year and allowed to return in 1993 . Ayman and his brother , Yasser , are well-known Hamas military leaders in Gaza . Both have also been active in the Islamic University 's student council . Ayman has been arrested several times by the Palestinian Authority for his Hamas activities . Taha 's other sons have planted bombs and carried out other attacks , the army said . Hamas spokesman Abdel Aziz Rantisi said Taha 's arrest was a big loss to the group . `` But this does not mean that Hamas is going to stop its resistance , '' he said . `` Israel will pay a high price for all of its crimes '' . Israel has targeted known Hamas military wing leaders in the past , hunting them down and killing them in military operations ranging from missile strikes to booby-trapping cars and equipment . Salah Shehadeh , the leader of the Hamas military wing in Gaza , was killed July 23 when Israel dropped a bomb from a fighter plane on his home . Shehadeh 's bodyguard and 13 bystanders also died in the bombing . str-rpm/kl . 
+Event	1	arrests	event	1
+Event	2	blows	event	9
+Event	3	arrested	event	23
+Event	4	detained	event	48
+Event	5	fighting	event	50
+Event	7	arrest	event	56
+Event	9	killed	event	71
+Event	10	shootings	event	76
+Event	11	bombings	event	78
+Event	12	arrested	event	113
+Event	13	attacks	event	129
+Event	15	bombings	event	138
+Event	16	shootings	event	140
+Event	17	killed	event	144
+Event	18	rounded	event	150
+Event	19	hit	event	156
+Event	20	arguing	report	164
+Event	21	attacks	event	175
+Event	22	say	report	185
+Event	23	raids	event	188
+Event	24	crack	event	199
+Event	26	operations	event	240
+Event	68	operate	event	248
+Event	62	said	report	258
+Event	69	defending	event	278
+Event	27	raid	event	300
+Event	28	wounded	event	317
+Event	29	fighting	event	319
+Event	31	surrounded	event	324
+Event	32	demolished	event	332
+Event	54	uprising	event	357
+Event	56	occupation	event	360
+Event	57	fled	event	468
+Event	33	war	event	475
+Event	34	says	report	529
+Event	58	orchestrating	event	534
+Event	35	planning	event	536
+Event	36	attacks	event	539
+Event	37	killed	event	545
+Event	39	arrested	event	639
+Event	70	activities	event	649
+Event	40	planted	event	655
+Event	71	carried	event	658
+Event	42	attacks	event	661
+Event	43	said	report	665
+Event	44	said	report	671
+Event	45	arrest	event	674
+Event	67	said	report	699
+Event	72	crimes	event	711
+Event	46	targeted	event	715
+Event	47	hunting	event	725
+Event	48	killing	event	729
+Event	49	operations	event	733
+Event	60	strikes	event	737
+Event	50	killed	event	757
+Event	51	dropped	event	762
+Event	52	died	event	779
+Event	53	bombing	event	782
+Relation	3	27	subevent_of
+Relation	3	1	coreference
+Relation	4	1	coreference
+Relation	7	1	coreference
+Relation	9	21	subevent_of
+Relation	10	21	member_of
+Relation	11	21	member_of
+Relation	12	1	coreference
+Relation	15	11	coreference
+Relation	16	10	coreference
+Relation	17	23	subevent_of
+Relation	18	23	subevent_of
+Relation	19	23	subevent_of
+Relation	23	22	in_reporting
+Relation	24	22	in_reporting
+Relation	26	62	in_reporting
+Relation	68	62	in_reporting
+Relation	69	62	in_reporting
+Relation	27	23	member_of
+Relation	28	27	subevent_of
+Relation	29	27	coreference
+Relation	31	27	subevent_of
+Relation	32	27	subevent_of
+Relation	32	2	coreference
+Relation	58	34	in_reporting
+Relation	35	34	in_reporting
+Relation	36	59	coreference
+Relation	36	34	in_reporting
+Relation	37	36	subevent_of
+Relation	37	34	in_reporting
+Relation	40	43	in_reporting
+Relation	71	43	in_reporting
+Relation	42	43	in_reporting
+Relation	45	3	coreference
+Relation	45	44	in_reporting
+Relation	72	67	in_reporting
+Relation	46	49	subevent_of
+Relation	47	49	subevent_of
+Relation	48	49	subevent_of
+Relation	60	49	member_of
+Relation	50	51	subevent_of
+Relation	52	53	subevent_of
+Relation	53	60	member_of
+Relation	53	51	coreference

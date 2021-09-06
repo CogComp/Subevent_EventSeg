@@ -1,0 +1,67 @@
+Text	At least six injured in Istanbul blast . A separatist group called the Kurdistan Freedom Falcons ( TAK ) claimed responsibility for an explosion late on Monday which wounded six people , one of them seriously , in an Istanbul supermarket . Istanbul governor Muammer Guler told Anatolia news agency the explosion in the Bahcelievler district of Turkey 's largest city injured six people . The agency said 15 other people had been hurt . " We consider the explosion that took place tonight in an Istanbul supermarket to be a response to the barbaric policies against the Kurdish people by the fascist Turkish state , " the Falcons said in a statement published on the website of pro-Kurdish press agency Firat ( FNA ) . NTV television channel quoted police as saying the attack might have been timed to coincide with the anniversary of the arrest on February 15 , 1999 , of Kurdish separatist leader Abdullah Ocalan , who was later jailed for life . The blast came four days after an explosion rocked an Internet cafe in Istanbul frequented by police officers , killing one person and injuring 15 . Firat , which is based in Europe , reported that an anonymous caller had claimed responsibility for that blast on behalf of TAK . Turkish officials say TAK is a cover group used by the outlawed Kurdistan Workers ' Party ( PKK ) , of which Ocalan is the leader , to carry out attacks on civilian targets that would draw international condemnation . But the PKK denies any link to TAK , which was blamed for a series of bomb attacks last year , including one in the Aegean resort of Kusadasi in July that killed five people , including two foreign tourists . The PKK is blacklisted as a " terrorist " organisation by Turkey , the United States and the European Union . It has been fighting the Ankara government since 1984 in a campaign for self-rule in the country 's mainly Kurdish southeast . The conflict has claimed some 37,000 lives . 
+Event	1	injured	event	3
+Event	2	blast	event	6
+Event	3	claimed	report	18
+Event	4	explosion	event	22
+Event	5	wounded	event	27
+Event	6	told	report	44
+Event	7	explosion	event	49
+Event	8	injured	event	59
+Event	9	said	report	64
+Event	10	hurt	event	70
+Event	11	explosion	event	75
+Event	12	said	report	105
+Event	14	quoted	report	124
+Event	15	saying	report	127
+Event	16	attack	event	129
+Event	17	arrest	event	141
+Event	42	jailed	event	158
+Event	18	blast	event	162
+Event	19	explosion	event	168
+Event	20	rocked	event	169
+Event	21	killing	event	180
+Event	22	injuring	event	184
+Event	23	reported	report	194
+Event	24	claimed	report	200
+Event	25	blast	event	204
+Event	26	say	report	211
+Event	43	carry	event	237
+Event	28	attacks	event	239
+Event	40	condemnation	report	247
+Event	32	blamed	report	259
+Event	33	attacks	event	265
+Event	35	killed	event	280
+Event	36	fighting	event	311
+Event	41	campaign	event	319
+Event	37	conflict	event	330
+Event	38	claimed	event	332
+Event	38	lives	event	335
+Relation	1	2	subevent_of
+Relation	4	2	coreference
+Relation	5	2	subevent_of
+Relation	5	1	coreference
+Relation	7	4	coreference
+Relation	7	6	in_reporting
+Relation	8	4	subevent_of
+Relation	8	1	coreference
+Relation	8	6	in_reporting
+Relation	10	4	subevent_of
+Relation	10	1	coreference
+Relation	10	9	in_reporting
+Relation	11	4	coreference
+Relation	11	12	in_reporting
+Relation	15	14	in_reporting
+Relation	16	2	coreference
+Relation	16	15	in_reporting
+Relation	17	15	in_reporting
+Relation	18	2	coreference
+Relation	20	19	subevent_of
+Relation	21	19	subevent_of
+Relation	22	19	subevent_of
+Relation	24	23	in_reporting
+Relation	25	19	coreference
+Relation	28	26	in_reporting
+Relation	35	34	subevent_of
+Relation	36	41	subevent_of
+Relation	37	36	coreference
+Relation	38	37	subevent_of

@@ -1,0 +1,211 @@
+Text	Kurdish paper says Al Qaeda-linked suspects in Arbil blasts were Iraqis . A Kurdish newspaper said Wednesday that Iraqi members of an Al Qaeda - linked group , a Kurd and an Arab , blew themselves up in northern Iraq on February 1 , killing at least 105 people . The twin suicide bombing was the deadliest attack in post-war Iraq and was suspected to have been carried out by foreign fighters , possibly linked to Osama bin Laden 's Al-Qaeda network . The pair were named respectively as Abu Bakr Hawleri and Kazem Al - Juburi , alias Abu Turab , by independent newspaper Hawlani , which said they belonged to the Army of Ansar al-Sunna . The Kurd blew himself up in the offices of the Patriotic Union of Kurdistan ( PUK ) and the Arab in the offices of the Kurdistan Democratic Party ( KDP ) , both in the Kurdish city of Arbil , said the newspaper . Each one carried a belt packed with four kilograms ( 8.8 pounds ) of TNT mixed with phosphorus , a highly flammable material , the newspaper said . Ansar al-Sunna last week claimed the twin bombings in a statement posted on an Islamist website . The newspaper said the motive of the attack was to " punish " the two Kurdish secular groups , which control Iraqi Kurdistan , for their alliance with the US-led coalition . The newspaper said Ansar al-Sunna broke away from the Ansar al-Islam group last October and was led by an Arab whose alias is Abu Abdullah Hasan bin Mahmud . Ansar al-Sunna is more extreme , said the newspaper . The newspaper added that bin Mahmud is the brother of man whose alias is Abdullah Al-Shami , an Ansar al-Islam leader who was killed last year while fighting a US-backed onslaught by the PUK that forced the group out of its enclave near the Iranian border at the end of March last year . 
+Event	1	says	report	14
+Event	2	blasts	event	53
+Event	3	said	report	94
+Event	4	blew	event	181
+Event	5	killing	event	233
+Event	6	suicide	event	272
+Event	7	attack	event	306
+Event	8	carried	event	361
+Event	9	blew	event	648
+Event	10	said	report	831
+Event	11	claimed	report	1025
+Event	12	bombings	event	1042
+Event	13	said	report	1112
+Event	14	attack	event	1135
+Event	15	control	event	1199
+Event	16	added	report	1498
+Event	17	killed	event	1610
+Event	18	fighting	event	1633
+Event	19	onslaught	event	1654
+Event	20	forced	event	1680
+Relation	1	2	NoRel	true	says	blasts
+Relation	1	3	Coref	true	says	said
+Relation	1	4	NoRel	true	says	blew
+Relation	1	5	NoRel	true	says	killing
+Relation	1	6	NoRel	true	says	suicide
+Relation	1	7	NoRel	true	says	attack
+Relation	1	8	NoRel	true	says	carried
+Relation	1	9	NoRel	true	says	blew
+Relation	1	10	NoRel	true	says	said
+Relation	1	11	NoRel	true	says	claimed
+Relation	1	12	NoRel	true	says	bombings
+Relation	1	13	NoRel	true	says	said
+Relation	1	14	NoRel	true	says	attack
+Relation	1	15	NoRel	true	says	control
+Relation	1	16	NoRel	true	says	added
+Relation	1	17	NoRel	true	says	killed
+Relation	1	18	NoRel	true	says	fighting
+Relation	1	19	NoRel	true	says	onslaught
+Relation	1	20	NoRel	true	says	forced
+Relation	2	3	NoRel	true	blasts	said
+Relation	2	4	SuperSub	true	blasts	blew
+Relation	2	5	SuperSub	true	blasts	killing
+Relation	2	6	Coref	true	blasts	suicide
+Relation	2	7	Coref	true	blasts	attack
+Relation	2	8	NoRel	true	blasts	carried
+Relation	2	9	SuperSub	true	blasts	blew
+Relation	2	10	NoRel	true	blasts	said
+Relation	2	11	NoRel	true	blasts	claimed
+Relation	2	12	Coref	true	blasts	bombings
+Relation	2	13	NoRel	true	blasts	said
+Relation	2	14	Coref	true	blasts	attack
+Relation	2	15	NoRel	true	blasts	control
+Relation	2	16	NoRel	true	blasts	added
+Relation	2	17	NoRel	true	blasts	killed
+Relation	2	18	NoRel	true	blasts	fighting
+Relation	2	19	NoRel	true	blasts	onslaught
+Relation	2	20	NoRel	true	blasts	forced
+Relation	3	4	NoRel	true	said	blew
+Relation	3	5	NoRel	true	said	killing
+Relation	3	6	NoRel	true	said	suicide
+Relation	3	7	NoRel	true	said	attack
+Relation	3	8	NoRel	true	said	carried
+Relation	3	9	NoRel	true	said	blew
+Relation	3	10	NoRel	true	said	said
+Relation	3	11	NoRel	true	said	claimed
+Relation	3	12	NoRel	true	said	bombings
+Relation	3	13	NoRel	true	said	said
+Relation	3	14	NoRel	true	said	attack
+Relation	3	15	NoRel	true	said	control
+Relation	3	16	NoRel	true	said	added
+Relation	3	17	NoRel	true	said	killed
+Relation	3	18	NoRel	true	said	fighting
+Relation	3	19	NoRel	true	said	onslaught
+Relation	3	20	NoRel	true	said	forced
+Relation	4	5	NoRel	true	blew	killing
+Relation	4	6	SubSuper	true	blew	suicide
+Relation	4	7	SubSuper	true	blew	attack
+Relation	4	8	NoRel	true	blew	carried
+Relation	4	9	SuperSub	true	blew	blew
+Relation	4	10	NoRel	true	blew	said
+Relation	4	11	NoRel	true	blew	claimed
+Relation	4	12	SubSuper	true	blew	bombings
+Relation	4	13	NoRel	true	blew	said
+Relation	4	14	SubSuper	true	blew	attack
+Relation	4	15	NoRel	true	blew	control
+Relation	4	16	NoRel	true	blew	added
+Relation	4	17	NoRel	true	blew	killed
+Relation	4	18	NoRel	true	blew	fighting
+Relation	4	19	NoRel	true	blew	onslaught
+Relation	4	20	NoRel	true	blew	forced
+Relation	5	6	SubSuper	true	killing	suicide
+Relation	5	7	SubSuper	true	killing	attack
+Relation	5	8	NoRel	true	killing	carried
+Relation	5	9	NoRel	true	killing	blew
+Relation	5	10	NoRel	true	killing	said
+Relation	5	11	NoRel	true	killing	claimed
+Relation	5	12	SubSuper	true	killing	bombings
+Relation	5	13	NoRel	true	killing	said
+Relation	5	14	SubSuper	true	killing	attack
+Relation	5	15	NoRel	true	killing	control
+Relation	5	16	NoRel	true	killing	added
+Relation	5	17	NoRel	true	killing	killed
+Relation	5	18	NoRel	true	killing	fighting
+Relation	5	19	NoRel	true	killing	onslaught
+Relation	5	20	NoRel	true	killing	forced
+Relation	6	7	Coref	true	suicide	attack
+Relation	6	8	NoRel	true	suicide	carried
+Relation	6	9	SuperSub	true	suicide	blew
+Relation	6	10	NoRel	true	suicide	said
+Relation	6	11	NoRel	true	suicide	claimed
+Relation	6	12	Coref	true	suicide	bombings
+Relation	6	13	NoRel	true	suicide	said
+Relation	6	14	Coref	true	suicide	attack
+Relation	6	15	NoRel	true	suicide	control
+Relation	6	16	NoRel	true	suicide	added
+Relation	6	17	NoRel	true	suicide	killed
+Relation	6	18	NoRel	true	suicide	fighting
+Relation	6	19	NoRel	true	suicide	onslaught
+Relation	6	20	NoRel	true	suicide	forced
+Relation	7	8	NoRel	true	attack	carried
+Relation	7	9	SuperSub	true	attack	blew
+Relation	7	10	NoRel	true	attack	said
+Relation	7	11	NoRel	true	attack	claimed
+Relation	7	12	Coref	true	attack	bombings
+Relation	7	13	NoRel	true	attack	said
+Relation	7	14	Coref	true	attack	attack
+Relation	7	15	NoRel	true	attack	control
+Relation	7	16	NoRel	true	attack	added
+Relation	7	17	NoRel	true	attack	killed
+Relation	7	18	NoRel	true	attack	fighting
+Relation	7	19	NoRel	true	attack	onslaught
+Relation	7	20	NoRel	true	attack	forced
+Relation	8	9	NoRel	true	carried	blew
+Relation	8	10	NoRel	true	carried	said
+Relation	8	11	NoRel	true	carried	claimed
+Relation	8	12	NoRel	true	carried	bombings
+Relation	8	13	NoRel	true	carried	said
+Relation	8	14	NoRel	true	carried	attack
+Relation	8	15	NoRel	true	carried	control
+Relation	8	16	NoRel	true	carried	added
+Relation	8	17	NoRel	true	carried	killed
+Relation	8	18	NoRel	true	carried	fighting
+Relation	8	19	NoRel	true	carried	onslaught
+Relation	8	20	NoRel	true	carried	forced
+Relation	9	10	NoRel	true	blew	said
+Relation	9	11	NoRel	true	blew	claimed
+Relation	9	12	SubSuper	true	blew	bombings
+Relation	9	13	NoRel	true	blew	said
+Relation	9	14	SubSuper	true	blew	attack
+Relation	9	15	NoRel	true	blew	control
+Relation	9	16	NoRel	true	blew	added
+Relation	9	17	NoRel	true	blew	killed
+Relation	9	18	NoRel	true	blew	fighting
+Relation	9	19	NoRel	true	blew	onslaught
+Relation	9	20	NoRel	true	blew	forced
+Relation	10	11	NoRel	true	said	claimed
+Relation	10	12	NoRel	true	said	bombings
+Relation	10	13	NoRel	true	said	said
+Relation	10	14	NoRel	true	said	attack
+Relation	10	15	NoRel	true	said	control
+Relation	10	16	NoRel	true	said	added
+Relation	10	17	NoRel	true	said	killed
+Relation	10	18	NoRel	true	said	fighting
+Relation	10	19	NoRel	true	said	onslaught
+Relation	10	20	NoRel	true	said	forced
+Relation	11	12	NoRel	true	claimed	bombings
+Relation	11	13	NoRel	true	claimed	said
+Relation	11	14	NoRel	true	claimed	attack
+Relation	11	15	NoRel	true	claimed	control
+Relation	11	16	NoRel	true	claimed	added
+Relation	11	17	NoRel	true	claimed	killed
+Relation	11	18	NoRel	true	claimed	fighting
+Relation	11	19	NoRel	true	claimed	onslaught
+Relation	11	20	NoRel	true	claimed	forced
+Relation	12	13	NoRel	true	bombings	said
+Relation	12	14	Coref	true	bombings	attack
+Relation	12	15	NoRel	true	bombings	control
+Relation	12	16	NoRel	true	bombings	added
+Relation	12	17	NoRel	true	bombings	killed
+Relation	12	18	NoRel	true	bombings	fighting
+Relation	12	19	NoRel	true	bombings	onslaught
+Relation	12	20	NoRel	true	bombings	forced
+Relation	13	14	NoRel	true	said	attack
+Relation	13	15	NoRel	true	said	control
+Relation	13	16	NoRel	true	said	added
+Relation	13	17	NoRel	true	said	killed
+Relation	13	18	NoRel	true	said	fighting
+Relation	13	19	NoRel	true	said	onslaught
+Relation	13	20	NoRel	true	said	forced
+Relation	14	15	NoRel	true	attack	control
+Relation	14	16	NoRel	true	attack	added
+Relation	14	17	NoRel	true	attack	killed
+Relation	14	18	NoRel	true	attack	fighting
+Relation	14	19	NoRel	true	attack	onslaught
+Relation	14	20	NoRel	true	attack	forced
+Relation	15	16	NoRel	true	control	added
+Relation	15	17	NoRel	true	control	killed
+Relation	15	18	NoRel	true	control	fighting
+Relation	15	19	NoRel	true	control	onslaught
+Relation	15	20	NoRel	true	control	forced
+Relation	16	17	NoRel	true	added	killed
+Relation	16	18	NoRel	true	added	fighting
+Relation	16	19	NoRel	true	added	onslaught
+Relation	16	20	NoRel	true	added	forced
+Relation	17	18	SubSuper	true	killed	fighting
+Relation	17	19	NoRel	true	killed	onslaught
+Relation	17	20	NoRel	true	killed	forced
+Relation	18	19	NoRel	true	fighting	onslaught
+Relation	18	20	NoRel	true	fighting	forced
+Relation	19	20	NoRel	true	onslaught	forced

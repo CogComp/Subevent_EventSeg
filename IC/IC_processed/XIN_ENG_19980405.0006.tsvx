@@ -1,0 +1,66 @@
+Text	Hamas Calls for Revenge Attacks Against Israel . JERUSALEM , April 4 ( Xinhua ) . The militant Palestinian group Islamic Resistance Movement ( Hamas ) , held a big rally in Gaza Saturday calling for revenge attacks against Israel over the death of Hamas bomb maker Muhi Sharif . Over 1,000 pro-Hamas Palestinian students held an anti-Israeli demonstration at the campus of Gaza 's Islamic University and later marched through central streets in central city . Protesters , waving the green Hamas flags , chanted anti-Israeli slogans and burned Israeli flags . They called on the Hamas military wing Izzedin Kassim to launch attacks against Israeli targets inside and outside Israel to avenge the death of Sharif , who was killed in a controversial car bombing in Ramallah last Sunday . Despite Israel 's strong denial , Hamas has been accusing Israel of murdering Sharif , whose burned body was found inside a bombed car . Some reports said he was killed hours before the car bomb was set off to cover his assassination . Meanwhile , the Palestinian National Authority ( PNA ) condemned the killing of Sharif in a statement issued by the PNA Cabinet which met Friday night in Ramallah . The statement denounced Sharif ' killing as a " terrible crime , " but it did not name who was responsible for his death . Earlier , the Palestinian Legislative Council issued a statement , blaming Israel for murdering Sharif . The PNA Cabinet called on Hamas leaders to cooperate with Palestinian security forces in continuing the investigation into Sharif 's death . It also promised to publish the investigation results once they are achieved . Following Sharif 's death , Palestinian security heads have met with Hamas political leaders in Gaza in an attempt to prevent Hamas attacks against Israel . Israeli government has warned that the PNA would be held responsible for any such attacks . Israeli security forces have been put on high alert throughout the country to guard against possible terror attacks by Hamas , which has not launched any attacks in Israel since last September 's bombing of the Ben Yehuda pedestrian mall in Jerusalem . Israeli police Inspector-General Yehuda Wilk said the current security alert would continue throughout the upcoming one-week Passover holiday beginning on Monday and the Independence Day celebrations early next month . 
+Event	1	Calls	report	1
+Event	2	Attacks	event	4
+Event	3	calling	report	32
+Event	4	attacks	event	35
+Event	5	death	event	40
+Event	58	held	event	52
+Event	59	demonstration	event	55
+Event	60	marched	event	66
+Event	61	burned	event	85
+Event	6	called	report	89
+Event	8	attacks	event	99
+Event	10	death	event	110
+Event	11	killed	event	116
+Event	12	bombing	event	121
+Event	13	denial	report	130
+Event	14	accusing	report	135
+Event	15	murdering	event	138
+Event	16	said	report	152
+Event	17	killed	event	155
+Event	18	set	event	162
+Event	20	assassination	event	167
+Event	21	condemned	report	177
+Event	22	killing	event	179
+Event	26	denounced	report	198
+Event	27	killing	event	201
+Event	28	crime	event	206
+Event	31	death	event	219
+Event	34	blaming	report	230
+Event	35	murdering	event	233
+Event	36	called	report	238
+Event	37	investigation	event	251
+Event	38	death	event	255
+Event	42	death	event	271
+Event	45	attacks	event	290
+Event	46	warned	report	296
+Event	47	held	report	302
+Event	48	attacks	event	307
+Event	50	guard	event	321
+Event	51	attacks	event	325
+Event	53	attacks	event	334
+Event	54	bombing	event	341
+Relation	3	1	coreference
+Relation	4	2	coreference
+Relation	8	4	coreference
+Relation	10	5	coreference
+Relation	11	12	subevent_of
+Relation	11	10	coreference
+Relation	15	10	coreference
+Relation	17	11	coreference
+Relation	17	16	in_reporting
+Relation	18	16	in_reporting
+Relation	20	17	coreference
+Relation	20	16	in_reporting
+Relation	22	11	coreference
+Relation	26	21	coreference
+Relation	27	22	coreference
+Relation	28	27	coreference
+Relation	31	27	coreference
+Relation	34	14	coreference
+Relation	35	15	coreference
+Relation	38	31	coreference
+Relation	42	38	coreference
+Relation	45	2	coreference
+Relation	48	45	coreference
+Relation	51	48	coreference

@@ -1,0 +1,30 @@
+Text	Two Abu Sayyaf gunmen killed in southern Philippines clash . Two members of the Al-Qaeda-linked Muslim Abu Sayyaf gang were killed Tuesday in a clash with government forces in the southern Philippine island of Sulu , the military said . Marine troops clashed with Abu Sayyaf rebels near the town of Patikul , a known hotbed of Muslim militants , said Marine commander Colonel Juancho Sabban . " We recovered the slain bodies of the Abu Sayyaf which were left behind by their fleeing companions including a female suspect , " said Sabban . There were no reports of casualties among the soldiers . The firefight came a day after a landmine allegedly planted by Abu Sayyaf rebels killed three soldiers in the adjacent town of Maimbung . The Abu Sayyaf , or Bearer of the Sword , is a small gang of Islamic militants founded in the early 1990s . It has been blamed for the country 's worst terrorist attacks , including the firebombing of a ferry last year , killing over 100 people . 
+Event	1	killed	event	4
+Event	2	clash	event	8
+Event	3	killed	event	19
+Event	4	clash	event	23
+Event	5	said	report	37
+Event	6	clashed	event	40
+Event	7	said	report	58
+Event	11	casualties	event	95
+Event	12	firefight	event	100
+Event	14	planted	event	108
+Event	15	killed	event	113
+Event	16	blamed	report	147
+Event	17	attacks	event	154
+Event	18	firebombing	event	158
+Event	19	killing	event	165
+Relation	1	2	subevent_of
+Relation	2	17	member_of
+Relation	3	1	coreference
+Relation	3	5	in_reporting
+Relation	4	2	coreference
+Relation	4	5	in_reporting
+Relation	6	2	coreference
+Relation	6	7	in_reporting
+Relation	11	2	subevent_of
+Relation	12	2	coreference
+Relation	14	13	subevent_of
+Relation	15	13	subevent_of
+Relation	18	17	member_of
+Relation	19	18	subevent_of

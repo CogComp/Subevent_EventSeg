@@ -1,0 +1,154 @@
+Text	Three killed in attack in Sudan 's Darfur region : rebels . Rebel leaders from Sudan 's Darfur region said Saturday that three people were killed and five injured by government-backed militia , in an attack they charged was a violation of a ceasefire . " I want to report a violation of the ceasefire ... which happened ( Friday ) and was witnessed by the CFC ( Ceasefire Commission ) , " spokesman for Sudan Liberation Movement ( SLM ) Abdelhafiz Mustafa Musa told reporters . He said the CFC witnessed the killings at Sayah in Darfur on Friday . Two women were among the dead , he said , accusing the Khartoum-backed Arab militia known as Janjaweed of the killings . The Janjaweed have been accused of conducting a scorched earth policy and of ethnic cleansing in Darfur , prompting the UN and rebels groups to call on the government to rein in the group . According to UN estimates , up to 50,000 people have died in Darfur since rebels rose up against the government in February last year , and about 1.4 million people have fled their homes . 
+Event	1	killed	event	6
+Event	2	attack	event	16
+Event	3	said	report	102
+Event	4	killed	event	139
+Event	5	injured	event	155
+Event	6	attack	event	200
+Event	7	charged	report	212
+Event	8	said	report	481
+Event	9	killings	event	508
+Event	10	accusing	report	590
+Event	11	killings	event	658
+Event	12	accused	report	693
+Event	13	ethnic	event	746
+Event	14	According	report	859
+Event	15	died	event	912
+Event	16	rose	event	940
+Event	17	fled	event	1029
+Relation	1	2	SubSuper	true	killed	attack
+Relation	1	3	NoRel	true	killed	said
+Relation	1	4	Coref	true	killed	killed
+Relation	1	5	NoRel	true	killed	injured
+Relation	1	6	SubSuper	true	killed	attack
+Relation	1	7	NoRel	true	killed	charged
+Relation	1	8	NoRel	true	killed	said
+Relation	1	9	Coref	true	killed	killings
+Relation	1	10	NoRel	true	killed	accusing
+Relation	1	11	Coref	true	killed	killings
+Relation	1	12	NoRel	true	killed	accused
+Relation	1	13	NoRel	true	killed	ethnic
+Relation	1	14	NoRel	true	killed	According
+Relation	1	15	NoRel	true	killed	died
+Relation	1	16	NoRel	true	killed	rose
+Relation	1	17	NoRel	true	killed	fled
+Relation	2	3	NoRel	true	attack	said
+Relation	2	4	SuperSub	true	attack	killed
+Relation	2	5	SuperSub	true	attack	injured
+Relation	2	6	Coref	true	attack	attack
+Relation	2	7	NoRel	true	attack	charged
+Relation	2	8	NoRel	true	attack	said
+Relation	2	9	SuperSub	true	attack	killings
+Relation	2	10	NoRel	true	attack	accusing
+Relation	2	11	SuperSub	true	attack	killings
+Relation	2	12	NoRel	true	attack	accused
+Relation	2	13	NoRel	true	attack	ethnic
+Relation	2	14	NoRel	true	attack	According
+Relation	2	15	NoRel	true	attack	died
+Relation	2	16	NoRel	true	attack	rose
+Relation	2	17	NoRel	true	attack	fled
+Relation	3	4	NoRel	true	said	killed
+Relation	3	5	NoRel	true	said	injured
+Relation	3	6	NoRel	true	said	attack
+Relation	3	7	NoRel	true	said	charged
+Relation	3	8	NoRel	true	said	said
+Relation	3	9	NoRel	true	said	killings
+Relation	3	10	NoRel	true	said	accusing
+Relation	3	11	NoRel	true	said	killings
+Relation	3	12	NoRel	true	said	accused
+Relation	3	13	NoRel	true	said	ethnic
+Relation	3	14	NoRel	true	said	According
+Relation	3	15	NoRel	true	said	died
+Relation	3	16	NoRel	true	said	rose
+Relation	3	17	NoRel	true	said	fled
+Relation	4	5	NoRel	true	killed	injured
+Relation	4	6	SubSuper	true	killed	attack
+Relation	4	7	NoRel	true	killed	charged
+Relation	4	8	NoRel	true	killed	said
+Relation	4	9	Coref	true	killed	killings
+Relation	4	10	NoRel	true	killed	accusing
+Relation	4	11	Coref	true	killed	killings
+Relation	4	12	NoRel	true	killed	accused
+Relation	4	13	NoRel	true	killed	ethnic
+Relation	4	14	NoRel	true	killed	According
+Relation	4	15	NoRel	true	killed	died
+Relation	4	16	NoRel	true	killed	rose
+Relation	4	17	NoRel	true	killed	fled
+Relation	5	6	SubSuper	true	injured	attack
+Relation	5	7	NoRel	true	injured	charged
+Relation	5	8	NoRel	true	injured	said
+Relation	5	9	NoRel	true	injured	killings
+Relation	5	10	NoRel	true	injured	accusing
+Relation	5	11	NoRel	true	injured	killings
+Relation	5	12	NoRel	true	injured	accused
+Relation	5	13	NoRel	true	injured	ethnic
+Relation	5	14	NoRel	true	injured	According
+Relation	5	15	NoRel	true	injured	died
+Relation	5	16	NoRel	true	injured	rose
+Relation	5	17	NoRel	true	injured	fled
+Relation	6	7	NoRel	true	attack	charged
+Relation	6	8	NoRel	true	attack	said
+Relation	6	9	SuperSub	true	attack	killings
+Relation	6	10	NoRel	true	attack	accusing
+Relation	6	11	SuperSub	true	attack	killings
+Relation	6	12	NoRel	true	attack	accused
+Relation	6	13	NoRel	true	attack	ethnic
+Relation	6	14	NoRel	true	attack	According
+Relation	6	15	NoRel	true	attack	died
+Relation	6	16	NoRel	true	attack	rose
+Relation	6	17	NoRel	true	attack	fled
+Relation	7	8	NoRel	true	charged	said
+Relation	7	9	NoRel	true	charged	killings
+Relation	7	10	NoRel	true	charged	accusing
+Relation	7	11	NoRel	true	charged	killings
+Relation	7	12	NoRel	true	charged	accused
+Relation	7	13	NoRel	true	charged	ethnic
+Relation	7	14	NoRel	true	charged	According
+Relation	7	15	NoRel	true	charged	died
+Relation	7	16	NoRel	true	charged	rose
+Relation	7	17	NoRel	true	charged	fled
+Relation	8	9	NoRel	true	said	killings
+Relation	8	10	NoRel	true	said	accusing
+Relation	8	11	NoRel	true	said	killings
+Relation	8	12	NoRel	true	said	accused
+Relation	8	13	NoRel	true	said	ethnic
+Relation	8	14	NoRel	true	said	According
+Relation	8	15	NoRel	true	said	died
+Relation	8	16	NoRel	true	said	rose
+Relation	8	17	NoRel	true	said	fled
+Relation	9	10	NoRel	true	killings	accusing
+Relation	9	11	Coref	true	killings	killings
+Relation	9	12	NoRel	true	killings	accused
+Relation	9	13	NoRel	true	killings	ethnic
+Relation	9	14	NoRel	true	killings	According
+Relation	9	15	NoRel	true	killings	died
+Relation	9	16	NoRel	true	killings	rose
+Relation	9	17	NoRel	true	killings	fled
+Relation	10	11	NoRel	true	accusing	killings
+Relation	10	12	NoRel	true	accusing	accused
+Relation	10	13	NoRel	true	accusing	ethnic
+Relation	10	14	NoRel	true	accusing	According
+Relation	10	15	NoRel	true	accusing	died
+Relation	10	16	NoRel	true	accusing	rose
+Relation	10	17	NoRel	true	accusing	fled
+Relation	11	12	NoRel	true	killings	accused
+Relation	11	13	NoRel	true	killings	ethnic
+Relation	11	14	NoRel	true	killings	According
+Relation	11	15	NoRel	true	killings	died
+Relation	11	16	NoRel	true	killings	rose
+Relation	11	17	NoRel	true	killings	fled
+Relation	12	13	NoRel	true	accused	ethnic
+Relation	12	14	NoRel	true	accused	According
+Relation	12	15	NoRel	true	accused	died
+Relation	12	16	NoRel	true	accused	rose
+Relation	12	17	NoRel	true	accused	fled
+Relation	13	14	NoRel	true	ethnic	According
+Relation	13	15	NoRel	true	ethnic	died
+Relation	13	16	NoRel	true	ethnic	rose
+Relation	13	17	NoRel	true	ethnic	fled
+Relation	14	15	NoRel	true	According	died
+Relation	14	16	NoRel	true	According	rose
+Relation	14	17	NoRel	true	According	fled
+Relation	15	16	NoRel	true	died	rose
+Relation	15	17	NoRel	true	died	fled
+Relation	16	17	NoRel	true	rose	fled

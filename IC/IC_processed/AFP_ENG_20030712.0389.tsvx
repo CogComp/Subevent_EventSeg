@@ -1,0 +1,81 @@
+Text	Attack hints resurgence of Shining Path rebels in Peru by Ricardo Uztarroz . A resurgence of violence by Shining Path rebels in Peru this week raised questions on whether the Maoist group , thought to have been nearly eradicated , is staging a comeback . Shining Path fighters ambushed an army patrol Thursday , killing five soldiers and two civilians and wounding several others , the group 's bloodiest attack on the army since the killing of five soldiers in a 1999 helicopter ambush . Authorities are doubly concerned because Thursday 's attack was on a patrol sent out specifically to root out what were thought to be remnants of the Shining Path . It occurred in village of Matucana in Ayacucho province , 500 kilometers ( 310 miles ) south of Lima . The dead included four officers and one enlisted man . The two civilians were part of a local self-defense force acting as guides for the patrol , tracking a column of some 50 Shining Path guerrillas who had been recruiting in a nearby village earlier in the week . Immediately after the attack , Vice President Raul Diez Canseco , during a visit to Chile , acknowledged an apparent resurgence of Shining Path activity in his country , but stressed Peru remained safe . He sought to downplay the incident , calling it the work of an isolated group of guerrillas , which former president Alberto Fujimori attempted to crushed . Cancseco claimed the Shining Path activities were limited to a rural area in the southeast of the country that is difficult to access . A week ago , Peruvian anti-terrorist police announced the capture of what was believed to be the last Shining Path leader still at large . Florentino Cerron Cardoso was captured July 5 in the city of Huancayo , in the Andes of central Peru , after a lengthy intelligence operation , said General Marco Miyashiro , chief of Peru 's anti-terrorism police force . Cerron Cardoso was a member of the Shining Path 's central organizing committee and had attended its first congress in 1989 . The October 1999 attack , which claimed the lives of five soldiers , was a fiasco that signaled the demise of the Fujimori strategy of isolation and decapitation . The victims comprised a delegation of high-level army officers , arriving in the heart of Shining Path territory in a military helicopter after weeks of secret talks on the surrender of a Shining Path leader still at large . The officers were part of the government 's anti-insurrection strategy team . The instant their helicopter set down and its occupants were descending , guerrillas opened fire in what turned out to be a decisive and humiliating massacre . The bodies were recovered months later , mutilated and dismembered , in what was broadly seen as the death knell for Fujimori 's campaign to eradicate the Maoists on their own turf . Thursday 's ambush was seen as worse still , including the deaths of two members of the government-armed and - organized civilian self-defense forces formed in the past decade as the spearhead of the anti- subversion battle . The government 's organization and arming of Indian communities in the early 1990s to counter the Shining Path guerrillas , who never hesitated to execute anyone they considered opposed to their movement , was seen at best as a long shot . The government , said observers , was gambling big that these Indians would remain faithful , would not side with the Maoists , and would not turn their government-issued weapons against the government . The gamble , experts say , paid off , allowing the government to isolate and put the screws to the guerrillas . " The self-defense committees drained the pond in which the Shining Path thought they could swim freely , a military strategy based on the Maoist precept that a revolutionary needs to be immersed in his population like a fish in water , " explained one expert . Thursday 's ambush came only two days after Peruvian President Alejandro Toledo had launched an anti-subversion operation in the heart of the Shining Path 's stronghold , an Amazonian jungle in the foothills of the Andes mountains . The Shining Path guerrillas seized the initiative last June 9 , kidnapping , in the space of 36 hours , 71 people working on a gas pipeline . The guerrillas have since escalated their attacks , including a June 25 ambush that left one soldier dead and three wounded . Since the beginning of this week more than a thousand government troops have been deployed to the area . 
+Event	59	Attack	event	0
+Event	1	violence	event	15
+Event	60	ambushed	event	46
+Event	3	killing	event	52
+Event	4	wounding	event	59
+Event	5	attack	event	67
+Event	6	killing	event	73
+Event	7	ambush	event	81
+Event	8	attack	event	89
+Event	75	sent	event	94
+Event	76	root	event	98
+Event	77	tracking	event	155
+Event	10	attack	event	179
+Event	11	acknowledged	report	193
+Event	61	activity	event	200
+Event	14	incident	event	215
+Event	62	claimed	report	237
+Event	63	activities	event	241
+Event	18	announced	report	266
+Event	19	capture	event	268
+Event	72	large	event	282
+Event	21	captured	event	287
+Event	22	operation	event	307
+Event	23	said	report	309
+Event	24	attack	event	345
+Event	25	claimed	event	348
+Event	28	surrender	event	399
+Event	78	large	event	407
+Event	30	opened	event	432
+Event	32	massacre	event	444
+Event	33	mutilated	event	452
+Event	34	dismembered	event	454
+Event	64	campaign	event	468
+Event	36	eradicate	event	470
+Event	37	ambush	event	479
+Event	38	deaths	event	488
+Event	39	battle	event	513
+Event	73	arming	event	519
+Event	41	execute	event	538
+Event	71	said	report	558
+Event	70	turn	event	581
+Event	51	ambush	event	657
+Event	53	operation	event	671
+Event	65	kidnapping	event	703
+Event	55	attacks	event	725
+Event	56	ambush	event	731
+Event	57	dead	event	736
+Event	58	wounded	event	739
+Event	74	deployed	event	754
+Relation	1	59	coreference
+Relation	60	1	coreference
+Relation	3	60	subevent_of
+Relation	4	60	subevent_of
+Relation	5	60	coreference
+Relation	6	7	subevent_of
+Relation	8	5	coreference
+Relation	10	8	coreference
+Relation	14	10	coreference
+Relation	63	61	coreference
+Relation	63	62	in_reporting
+Relation	19	18	in_reporting
+Relation	21	22	subevent_of
+Relation	21	19	coreference
+Relation	21	23	in_reporting
+Relation	22	23	in_reporting
+Relation	24	7	coreference
+Relation	25	24	subevent_of
+Relation	25	6	coreference
+Relation	30	24	subevent_of
+Relation	32	24	coreference
+Relation	33	24	subevent_of
+Relation	34	24	subevent_of
+Relation	37	60	coreference
+Relation	38	3	member_of
+Relation	70	71	in_reporting
+Relation	51	55	member_of
+Relation	51	37	coreference
+Relation	56	55	member_of
+Relation	57	56	subevent_of
+Relation	58	56	subevent_of

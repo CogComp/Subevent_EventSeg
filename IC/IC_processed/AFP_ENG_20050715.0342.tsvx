@@ -1,0 +1,40 @@
+Text	Suspected Al-Qaeda chief hospitalized after Spanish jail fight . The alleged chief of an Al-Qaeda cell in Spain believed to have helped prepare the September 11 attacks was hospitalized Friday morning after being attacked by fellow prisoners , authorities said . While his injuries were not serious , Imad Eddin Barakat Yarkas , alias Abu Dahdah , was admitted to hospital in the eastern city of Castellon for a complete medical examination , the Spanish prison administration told AFP . Abu Dahdah and 23 other co-defendants face record jail terms of 74,377 years for their alleged involvement in preparing the September 11 , 2001 attacks on New York and Washington in which some 3,000 people were killed . During breakfast on Friday Abu Dahdah was insulted by a fellow prisoner , and then attacked after guards ordered inmates out of the cafeteria , a prison administration spokesman said . The authorities were still trying to determine the perpetrators of the attack . Abu Dahdah had just arrived at the Castellon prison Thursday evening from Madrid where the trial was held from April to the beginning of July . A verdict is expected to be handed down in September . Prosecutors accuse Abu Dahdah and his cell of helping prepare the September 11 attacks following a meeting in July 2001 in Spain believed to have been attended by Mohammed Atta , the ringleader of the hijackers who attacked the World Trade Center in New York . He has denied the charges against him and claimed the trial to be a farce . 
+Event	2	fight	event	7
+Event	4	prepare	event	21
+Event	5	attacks	event	25
+Event	7	attacked	event	32
+Event	8	said	report	38
+Event	12	involvement	event	93
+Event	13	preparing	event	95
+Event	14	attacks	event	101
+Event	15	killed	event	113
+Event	16	attacked	event	129
+Event	17	said	report	143
+Event	19	attack	event	155
+Event	20	trial	event	171
+Event	31	verdict	event	182
+Event	32	handed	report	187
+Event	22	accuse	report	192
+Event	23	prepare	event	200
+Event	24	attacks	event	204
+Event	25	attacked	event	228
+Event	26	denied	report	238
+Event	27	charges	event	240
+Event	28	claimed	report	244
+Event	29	trial	event	246
+Relation	4	5	subevent_of
+Relation	7	2	subevent_of
+Relation	7	8	in_reporting
+Relation	12	13	subevent_of
+Relation	13	14	subevent_of
+Relation	13	4	coreference
+Relation	14	5	coreference
+Relation	15	14	subevent_of
+Relation	16	7	coreference
+Relation	16	17	in_reporting
+Relation	19	16	coreference
+Relation	23	24	subevent_of
+Relation	23	4	coreference
+Relation	24	14	coreference
+Relation	25	24	member_of
+Relation	29	20	coreference

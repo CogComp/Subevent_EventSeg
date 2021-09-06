@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?><article lng="en">
+  <sentence id="1" pid="1">
+    <word lem="three" start="94" wd="Three"/>
+    <word lem="Palestinian" start="100" wd="Palestinian"/>
+    <word lem="Protesters" start="112" wd="Protesters"/>
+    <word epistemic_status="actual_occurrence" event_type="event" eventid="1" lem="wound" provenance="18693::wound" start="123" wd="Wounded"/>
+    <word lem="in" start="131" wd="in"/>
+  </sentence>
+  <sentence id="2" pid="2">
+    <word lem="JERUSALEM" start="157" wd="JERUSALEM"/>
+    <word lem="," start="166" wd=","/>
+    <word lem="April" start="168" wd="April"/>
+    <word lem="4" start="174" wd="4"/>
+    <word lem="-lrb-" start="176" wd="("/>
+    <word lem="Xinhua" start="177" wd="Xinhua"/>
+    <word lem="-rrb-" start="183" wd=")"/>
+  </sentence>
+  <sentence id="3" pid="3">
+    <word lem="at" start="194" wd="At"/>
+    <word lem="least" start="197" wd="least"/>
+    <word lem="three" start="203" wd="three"/>
+    <word lem="Palestinians" start="209" wd="Palestinians"/>
+    <word lem="be" start="222" wd="were"/>
+    <word coreference="1" epistemic_status="actual_occurrence" event_type="event" eventid="2" lem="wound" provenance="18693::wound" start="227" wd="wounded"/>
+    <word lem="in" start="235" wd="in"/>
+    <word lem="East" start="238" wd="East"/>
+    <word lem="Jerusalem" start="243" wd="Jerusalem"/>
+    <word lem="Saturday" start="253" wd="Saturday"/>
+    <word lem="by" start="262" wd="by"/>
+    <word lem="israeli" start="265" wd="Israeli"/>
+    <word lem="soldier" start="273" wd="soldiers"/>
+    <word lem="as" start="282" wd="as"/>
+    <word lem="the" start="285" wd="the"/>
+    <word lem="Palestinians" start="289" wd="Palestinians"/>
+    <word lem="continue" start="302" wd="continued"/>
+    <word epistemic_status="OO" event_type="event" eventid="3" lem="protest" provenance="18693::protest" start="312" wd="protesting"/>
+    <word lem="the" start="323" wd="the"/>
+    <word epistemic_status="actual_occurrence" event_type="event" eventid="4" lem="murder" provenance="18693::murder" start="327" wd="murder"/>
+    <word lem="of" start="334" wd="of"/>
+    <word lem="Hamas" start="337" wd="Hamas"/>
+    <word lem="bomb" start="343" wd="bomb"/>
+    <word lem="maker" start="348" wd="maker"/>
+    <word lem="Muhi" start="354" wd="Muhi"/>
+    <word lem="Sharif" start="359" wd="Sharif"/>
+  </sentence>
+  <sentence id="4" pid="4">
+    <word lem="dozen" start="376" wd="Dozens"/>
+    <word lem="of" start="383" wd="of"/>
+    <word lem="palestinian" start="386" wd="Palestinian"/>
+    <word lem="youth" start="398" wd="youths"/>
+    <word epistemic_status="AO" event_type="event" eventid="42" lem="hold" provenance="18693::hold" start="405" wd="held"/>
+    <word epistemic_status="AO" event_type="event" eventid="43" lem="rally" start="410" wd="rally"/>
+    <word lem="in" start="416" wd="in"/>
+    <word lem="the" start="419" wd="the"/>
+    <word lem="Abu" start="423" wd="Abu"/>
+    <word lem="Dis" start="427" wd="Dis"/>
+    <word lem="Arab" start="431" wd="Arab"/>
+    <word lem="village" start="436" wd="village"/>
+    <word lem="in" start="444" wd="in"/>
+    <word lem="East" start="447" wd="East"/>
+    <word lem="Jerusalem" start="452" wd="Jerusalem"/>
+    <word lem="to" start="462" wd="to"/>
+    <word coreference="3" epistemic_status="EDO" event_type="event" eventid="6" lem="protest" provenance="18693::protest" start="465" wd="protest"/>
+    <word lem="against" start="473" wd="against"/>
+    <word lem="the" start="481" wd="the"/>
+    <word coreference="4" epistemic_status="actual_occurrence" event_type="event" eventid="7" lem="killing" provenance="18693::killing" start="485" wd="killing"/>
+    <word lem="of" start="493" wd="of"/>
+    <word lem="Sharif" start="496" wd="Sharif"/>
+  </sentence>
+  <sentence id="5" pid="4">
+    <word lem="the" start="504" wd="The"/>
+    <word lem="protester" start="508" wd="protesters"/>
+    <word lem="later" start="519" wd="later"/>
+    <word epistemic_status="actual_occurrence" event_type="event" eventid="8" in_reporting="12" lem="riot" provenance="18693::riot" start="525" wd="rioted"/>
+    <word lem="by" start="532" wd="by"/>
+    <word epistemic_status="actual_occurrence" event_type="event" eventid="9" in_reporting="12" lem="throw" provenance="18693::throw_$TRIGGERNOUN" start="535" subevent_of="8" wd="throwing"/>
+    <word lem="stone" start="544" wd="stones"/>
+    <word lem="at" start="551" wd="at"/>
+    <word lem="israeli" start="554" wd="Israeli"/>
+    <word lem="soldier" start="562" wd="soldiers"/>
+    <word lem="," start="570" wd=","/>
+    <word lem="who" start="572" wd="who"/>
+    <word epistemic_status="actual_occurrence" event_type="event" eventid="10" in_reporting="12" lem="fire" provenance="18693::fire" start="576" wd="fired"/>
+    <word lem="rubber" start="582" wd="rubber"/>
+    <word lem="bullet" start="589" wd="bullets"/>
+    <word lem="and" start="597" wd="and"/>
+    <word lem="tear" start="601" wd="tear"/>
+    <word lem="gas" start="606" wd="gas"/>
+    <word lem="to" start="610" wd="to"/>
+    <word epistemic_status="EDO" event_type="event" eventid="11" in_reporting="12" lem="disperse" provenance="18693::disperse" start="613" wd="disperse"/>
+    <word lem="they" start="622" wd="them"/>
+    <word lem="," start="626" wd=","/>
+    <word lem="Israel" start="628" wd="Israel"/>
+    <word lem="Radio" start="635" wd="Radio"/>
+    <word epistemic_status="actual_occurrence" event_type="report" eventid="12" lem="report" provenance="18693::report" start="641" wd="reported"/>
+  </sentence>
+  <sentence id="6" pid="5">
+    <word lem="despite" start="660" wd="Despite"/>
+    <word lem="Israel" start="668" wd="Israel"/>
+    <word lem="'s" start="674" wd="'s"/>
+    <word lem="strong" start="677" wd="strong"/>
+    <word epistemic_status="actual_occurrence" event_type="report" eventid="13" lem="denial" provenance="18693::denial" start="684" wd="denial"/>
+    <word lem="," start="690" wd=","/>
+    <word lem="Hamas" start="692" wd="Hamas"/>
+    <word lem="have" start="698" wd="has"/>
+    <word lem="be" start="702" wd="been"/>
+    <word epistemic_status="actual_occurrence" event_type="report" eventid="14" lem="accuse" provenance="18693::accuse" start="707" wd="accusing"/>
+    <word lem="Israel" start="716" wd="Israel"/>
+    <word lem="of" start="723" wd="of"/>
+    <word coreference="4" epistemic_status="CO" event_type="event" eventid="15" in_reporting="14" lem="murdering" provenance="18693::murdering" start="726" wd="murdering"/>
+    <word lem="Sharif" start="736" wd="Sharif"/>
+    <word lem="," start="742" wd=","/>
+    <word lem="whose" start="744" wd="whose"/>
+    <word lem="burned" start="750" wd="burned"/>
+    <word lem="body" start="757" wd="body"/>
+    <word lem="be" start="762" wd="was"/>
+    <word lem="find" start="766" wd="found"/>
+    <word lem="inside" start="772" wd="inside"/>
+    <word lem="a" start="779" wd="a"/>
+    <word lem="bombed" start="781" wd="bombed"/>
+    <word lem="car" start="788" wd="car"/>
+  </sentence>
+  <sentence id="7" pid="5">
+    <word lem="some" start="793" wd="Some"/>
+    <word lem="report" start="798" wd="reports"/>
+    <word epistemic_status="actual_occurrence" event_type="report" eventid="16" lem="say" provenance="18693::say" start="806" wd="said"/>
+    <word lem="he" start="811" wd="he"/>
+    <word lem="be" start="814" wd="was"/>
+    <word coreference="15" epistemic_status="actual_occurrence" event_type="event" eventid="17" in_reporting="16" lem="kill" provenance="18693::kill" start="818" wd="killed"/>
+    <word lem="hour" start="825" wd="hours"/>
+    <word lem="before" start="831" wd="before"/>
+    <word lem="the" start="838" wd="the"/>
+    <word lem="car" start="842" wd="car"/>
+    <word lem="bomb" start="846" wd="bomb"/>
+    <word lem="be" start="851" wd="was"/>
+    <word epistemic_status="actual_occurrence" event_type="event" eventid="18" in_reporting="16" lem="set" provenance="18693::set_off" start="855" subevent_of="39" wd="set"/>
+    <word eventid="18" lem="off" provenance="18693::set_off" start="859" wd="off"/>
+    <word lem="to" start="863" wd="to"/>
+    <word lem="cover" start="866" wd="cover"/>
+    <word lem="he" start="872" wd="his"/>
+    <word coreference="17" epistemic_status="actual_occurrence" event_type="event" eventid="19" in_reporting="16" lem="assassination" provenance="18693::assassination" start="876" wd="assassination"/>
+  </sentence>
+  <sentence id="8" pid="6">
+    <word lem="at" start="900" wd="At"/>
+    <word lem="least" start="903" wd="least"/>
+    <word lem="three" start="909" wd="three"/>
+    <word lem="protester" start="915" wd="protesters"/>
+    <word lem="be" start="926" wd="were"/>
+    <word coreference="1" epistemic_status="actual_occurrence" event_type="event" eventid="20" lem="wound" provenance="18693::wound" start="931" wd="wounded"/>
+    <word lem="by" start="939" wd="by"/>
+    <word lem="rubber" start="942" wd="rubber"/>
+    <word lem="bullet" start="949" wd="bullets"/>
+    <word lem="," start="956" wd=","/>
+    <word lem="but" start="958" wd="but"/>
+    <word lem="some" start="962" wd="some"/>
+    <word lem="report" start="967" wd="reports"/>
+    <word lem="put" start="975" wd="put"/>
+    <word lem="the" start="979" wd="the"/>
+    <word lem="number" start="983" wd="number"/>
+    <word lem="of" start="990" wd="of"/>
+    <word coreference="20" epistemic_status="actual_occurrence" event_type="event" eventid="21" lem="injured" provenance="18693::injured" start="993" wd="injured"/>
+    <word lem="at" start="1001" wd="at"/>
+    <word lem="six" start="1004" wd="six"/>
+  </sentence>
+  <sentence id="9" pid="7">
+    <word epistemic_status="actual_occurrence" event_type="event" eventid="41" lem="protest" start="1018" wd="Protests"/>
+    <word lem="be" start="1027" wd="were"/>
+    <word lem="also" start="1032" wd="also"/>
+    <word epistemic_status="AO" event_type="event" eventid="44" lem="hold" provenance="18693::hold" start="1037" wd="held"/>
+    <word lem="in" start="1042" wd="in"/>
+    <word lem="Gaza" start="1045" wd="Gaza"/>
+    <word lem="and" start="1050" wd="and"/>
+    <word lem="several" start="1054" wd="several"/>
+    <word lem="town" start="1062" wd="towns"/>
+    <word lem="in" start="1068" wd="in"/>
+    <word lem="the" start="1071" wd="the"/>
+    <word lem="West" start="1075" wd="West"/>
+    <word lem="Bank" start="1080" wd="Bank"/>
+  </sentence>
+  <sentence id="10" pid="7">
+    <word lem="in" start="1086" wd="In"/>
+    <word lem="Halhul" start="1089" wd="Halhul"/>
+    <word lem="between" start="1096" wd="between"/>
+    <word lem="Jerusalem" start="1104" wd="Jerusalem"/>
+    <word lem="and" start="1114" wd="and"/>
+    <word lem="Hebron" start="1118" wd="Hebron"/>
+    <word lem="," start="1124" wd=","/>
+    <word lem="israeli" start="1126" wd="Israeli"/>
+    <word lem="armed" start="1134" wd="armed"/>
+    <word lem="patrol" start="1140" wd="patrol"/>
+    <word lem="vehicle" start="1147" wd="vehicles"/>
+    <word lem="come" start="1156" wd="came"/>
+    <word lem="under" start="1161" wd="under"/>
+    <word lem="stone" start="1167" wd="stone"/>
+    <word epistemic_status="actual_occurrence" event_type="event" eventid="23" lem="attack" provenance="18693::attack" start="1173" wd="attacks"/>
+    <word lem="by" start="1181" wd="by"/>
+    <word lem="Palestinians" start="1184" wd="Palestinians"/>
+  </sentence>
+  <sentence id="11" pid="7">
+    <word lem="the" start="1198" wd="The"/>
+    <word lem="israeli" start="1202" wd="Israeli"/>
+    <word lem="soldier" start="1210" wd="soldiers"/>
+    <word epistemic_status="actual_occurrence" event_type="event" eventid="24" lem="fire" provenance="18693::fire" start="1219" subevent_of="23" wd="fired"/>
+    <word lem="rubber" start="1225" wd="rubber"/>
+    <word lem="bullet" start="1232" wd="bullets"/>
+    <word lem="and" start="1240" wd="and"/>
+    <word lem="tear" start="1244" wd="tear"/>
+    <word lem="gas" start="1249" wd="gas"/>
+    <word lem="in" start="1253" wd="in"/>
+    <word lem="response" start="1256" wd="response"/>
+  </sentence>
+  <sentence id="12" pid="7">
+    <word lem="no" start="1266" wd="No"/>
+    <word epistemic_status="negated_occurrence" event_type="event" eventid="25" in_reporting="26" lem="injury" provenance="18693::injury" start="1269" subevent_of="23" wd="injuries"/>
+    <word lem="be" start="1278" wd="were"/>
+    <word epistemic_status="actual_occurrence" event_type="report" eventid="26" lem="report" provenance="18693::report" start="1283" wd="reported"/>
+  </sentence>
+  <sentence id="13" pid="8">
+    <word lem="in" start="1302" wd="In"/>
+    <word lem="Qalqilyah" start="1305" wd="Qalqilyah"/>
+    <word lem="," start="1314" wd=","/>
+    <word lem="palestinian" start="1316" wd="Palestinian"/>
+    <word lem="protester" start="1328" wd="protesters"/>
+    <word epistemic_status="actual_occurrence" event_type="event" eventid="27" lem="clash" provenance="18693::clash" start="1339" wd="clashed"/>
+    <word lem="with" start="1347" wd="with"/>
+    <word lem="israeli" start="1352" wd="Israeli"/>
+    <word lem="soldier" start="1360" wd="soldiers"/>
+    <word lem="by" start="1369" wd="by"/>
+    <word epistemic_status="actual_occurrence" event_type="event" eventid="28" lem="throw" provenance="18693::throw_$TRIGGERNOUN" start="1372" subevent_of="27" wd="throwing"/>
+    <word lem="stone" start="1381" wd="stones"/>
+  </sentence>
+  <sentence id="14" pid="8">
+    <word lem="the" start="1389" wd="The"/>
+    <word coreference="27" epistemic_status="actual_occurrence" event_type="event" eventid="29" lem="rioting" provenance="18693::rioting" start="1393" wd="rioting"/>
+    <word lem="be" start="1401" wd="was"/>
+    <word lem="bring" start="1405" wd="brought"/>
+    <word epistemic_status="AO" event_type="event" eventid="46" lem="control" start="1413" wd="control"/>
+    <word lem="by" start="1421" wd="by"/>
+    <word lem="palestinian" start="1424" wd="Palestinian"/>
+    <word lem="police" start="1436" wd="police"/>
+    <word lem="," start="1442" wd=","/>
+    <word lem="who" start="1444" wd="who"/>
+    <word lem="arrive" start="1448" wd="arrived"/>
+    <word lem="to" start="1456" wd="to"/>
+    <word lem="separate" start="1459" wd="separate"/>
+    <word lem="the" start="1468" wd="the"/>
+    <word lem="protester" start="1472" wd="protesters"/>
+    <word lem="from" start="1483" wd="from"/>
+    <word lem="israeli" start="1488" wd="Israeli"/>
+    <word lem="soldier" start="1496" wd="soldiers"/>
+  </sentence>
+  <sentence id="15" pid="9">
+    <word lem="in" start="1515" wd="In"/>
+    <word lem="the" start="1518" wd="the"/>
+    <word lem="biggest" start="1522" wd="biggest"/>
+    <word epistemic_status="AO" event_type="event" eventid="45" lem="rally" start="1530" wd="rally"/>
+    <word lem="hold" provenance="18693::hold" start="1536" wd="held"/>
+    <word lem="in" start="1541" wd="in"/>
+    <word lem="Gaza" start="1544" wd="Gaza"/>
+    <word lem="," start="1548" wd=","/>
+    <word lem="over" start="1550" wd="over"/>
+    <word lem="1,000" start="1555" wd="1,000"/>
+    <word lem="pro-hamas" start="1561" wd="pro-Hamas"/>
+    <word lem="palestinian" start="1571" wd="Palestinian"/>
+    <word lem="student" start="1583" wd="students"/>
+    <word lem="gather" start="1592" wd="gathered"/>
+    <word lem="at" start="1601" wd="at"/>
+    <word lem="the" start="1604" wd="the"/>
+    <word lem="campus" start="1608" wd="campus"/>
+    <word lem="of" start="1615" wd="of"/>
+    <word lem="the" start="1618" wd="the"/>
+    <word lem="Islamic" start="1622" wd="Islamic"/>
+    <word lem="University" start="1630" wd="University"/>
+    <word lem="and" start="1641" wd="and"/>
+    <word lem="later" start="1645" wd="later"/>
+    <word lem="march" start="1651" wd="marched"/>
+    <word lem="through" start="1659" wd="through"/>
+    <word lem="downtown" start="1667" wd="downtown"/>
+    <word lem="street" start="1676" wd="streets"/>
+    <word lem="of" start="1684" wd="of"/>
+    <word lem="the" start="1687" wd="the"/>
+    <word lem="city" start="1691" wd="city"/>
+  </sentence>
+  <sentence id="16" pid="9">
+    <word lem="protester" start="1697" wd="Protesters"/>
+    <word lem="," start="1707" wd=","/>
+    <word lem="wave" start="1709" wd="waving"/>
+    <word lem="the" start="1716" wd="the"/>
+    <word lem="green" start="1720" wd="green"/>
+    <word lem="Hamas" start="1726" wd="Hamas"/>
+    <word lem="flag" start="1732" wd="flags"/>
+    <word lem="," start="1737" wd=","/>
+    <word lem="chant" provenance="18693::chant" start="1739" wd="chanted"/>
+    <word lem="anti-israeli" start="1747" wd="anti-Israeli"/>
+    <word lem="slogan" start="1760" wd="slogans"/>
+    <word lem="and" start="1768" wd="and"/>
+    <word lem="burn" start="1772" wd="burned"/>
+    <word lem="israeli" start="1779" wd="Israeli"/>
+    <word lem="flag" start="1787" wd="flags"/>
+  </sentence>
+  <sentence id="17" pid="10">
+    <word lem="they" start="1803" wd="They"/>
+    <word epistemic_status="actual_occurrence" event_type="report" eventid="32" lem="call" provenance="18693::call" start="1808" wd="called"/>
+    <word eventid="32" lem="on" start="1815" wd="on"/>
+    <word lem="the" start="1818" wd="the"/>
+    <word lem="Hamas" start="1822" wd="Hamas"/>
+    <word lem="military" start="1828" wd="military"/>
+    <word lem="wing" start="1837" wd="wing"/>
+    <word lem="Izzedin" start="1842" wd="Izzedin"/>
+    <word lem="Kassim" start="1850" wd="Kassim"/>
+    <word lem="to" start="1857" wd="to"/>
+    <word lem="launch" provenance="18693::launch_$TRIGGERNOUN" start="1860" wd="launch"/>
+    <word epistemic_status="expected_occurrence" event_type="event" eventid="34" lem="attack" provenance="18693::attack" start="1867" wd="attacks"/>
+    <word lem="against" start="1875" wd="against"/>
+    <word lem="israeli" start="1883" wd="Israeli"/>
+    <word lem="target" provenance="18693::target" start="1891" wd="targets"/>
+    <word lem="inside" start="1899" wd="inside"/>
+    <word lem="and" start="1906" wd="and"/>
+    <word lem="outside" start="1910" wd="outside"/>
+    <word lem="Israel" start="1918" wd="Israel"/>
+    <word lem="to" start="1925" wd="to"/>
+    <word lem="avenge" provenance="18693::avenge" start="1928" wd="avenge"/>
+    <word lem="the" start="1935" wd="the"/>
+    <word coreference="4" epistemic_status="actual_occurrence" event_type="event" eventid="37" lem="death" provenance="18693::death" start="1939" wd="death"/>
+    <word lem="of" start="1945" wd="of"/>
+    <word lem="Sharif" start="1948" wd="Sharif"/>
+    <word lem="," start="1954" wd=","/>
+    <word lem="who" start="1956" wd="who"/>
+    <word lem="be" start="1960" wd="was"/>
+    <word coreference="37" epistemic_status="actual_occurrence" event_type="event" eventid="38" lem="kill" provenance="18693::kill" start="1964" subevent_of="39" wd="killed"/>
+    <word lem="in" start="1971" wd="in"/>
+    <word lem="a" start="1974" wd="a"/>
+    <word lem="controversial" start="1976" wd="controversial"/>
+    <word eventid="39" lem="car" start="1990" wd="car"/>
+    <word epistemic_status="actual_occurrence" event_type="event" eventid="39" lem="bombing" provenance="18693::bombing" start="1994" wd="bombing"/>
+    <word lem="in" start="2002" wd="in"/>
+    <word lem="Ramallah" start="2005" wd="Ramallah"/>
+    <word lem="last" start="2014" wd="last"/>
+    <word lem="Sunday" start="2019" wd="Sunday"/>
+  </sentence>
+  <sentence id="18" pid="11">
+    <word lem="israeli" start="2036" wd="Israeli"/>
+    <word lem="security" start="2044" wd="security"/>
+    <word lem="force" start="2053" wd="forces"/>
+    <word lem="have" start="2060" wd="have"/>
+    <word lem="be" start="2065" wd="been"/>
+    <word lem="put" start="2070" wd="put"/>
+    <word lem="on" start="2074" wd="on"/>
+    <word lem="high" start="2077" wd="high"/>
+    <word lem="alert" start="2082" wd="alert"/>
+    <word lem="across" start="2088" wd="across"/>
+    <word lem="the" start="2095" wd="the"/>
+    <word lem="country" start="2099" wd="country"/>
+    <word lem="to" start="2107" wd="to"/>
+    <word lem="prevent" start="2110" wd="prevent"/>
+    <word lem="possible" start="2118" wd="possible"/>
+    <word lem="Hamas" start="2127" wd="Hamas"/>
+    <word lem="revenge" start="2133" wd="revenge"/>
+    <word coreference="34" epistemic_status="NEDO" event_type="event" eventid="40" lem="attack" provenance="18693::attack" start="2141" wd="attacks"/>
+  </sentence>
+</article>

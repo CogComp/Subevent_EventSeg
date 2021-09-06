@@ -1,0 +1,155 @@
+Text	PAKISTAN-LINKED GROUPS REPORTEDLY TIED TO BOMBAY BLASTS . Militant Islamic groups with ties to Pakistan may be behind the bombings that rocked India on Tuesday , and experts warn that if the reports are true , the fragile peace on the subcontinent could be seriously jeopardized . At stake , they say are the peace talks between India and Pakistan which , up to now , have made steady progress over the status of Kashmir and other issues that have separated the two nuclear-armed powers . " This dialogue process ... has been incredibly successful , " said Dana Dillon , an India expert at the Heritage Foundation in Washington . But if India were to accuse Pakistan of sponsoring the terrorist group that masterminded the attacks , " or somehow trace this terrorist group back to Pakistan it would probably knock the whole chessboard of negotiations over , " he said . Pakistan President Pervez Musharraf was quick to condemn the bombings and no one has yet taken responsibility for the attacks , in which eight separate blasts killed at least 147 people in Bombay and injured hundreds more . Indian Prime Minister Manmohan Singh called the attacks " shocking and cowardly attempts to spread a feeling of fear and terror among our citizens " . He pledged to tackle terrorism with all possible measures . The Times of India , citing Indian intelligence sources , said two radical Muslim groups were behind the attacks -- one of them based in Pakistan , which has fought two wars with India over Kashmir . ( That group , the newspaper reported , is the Pakistan-based militant group Lashkar-e-Toiba , or Army of the Pure , which the U.S. government lists as a terrorist organization linked to al Qaeda and is thought to include members of the Taliban , according to GlobalSecurity.org , a Washington military think tank ) . India blames the group for the bombings in October in crowded New Delhi markets in which 63 people were killed and more than 200 wounded . The other group , according to the Times of India , is the Indian-based Students Islamic Movement of India , which has been in a loose alliance with Lashkar-e-Toiba . The newspaper said the attack was supposed to " trigger communal conflagration in Bombay , the country 's financial capital , " which is home to 16 million people . ( In Washington , a U.S. official who spoke to the Associated Press on condition of anonymity pointed at another group , Jaish-e-Mohammad , or Army of Mohammed , which is also affiliated with al Qaeda , according to the Bush administration . Targeting trains at rush hour is a tactic Jaish-e-Mohammad favors , the official said ( . The U.S. government has designated Jaish-e-Mohammad a terrorist organization . One of its members , Sheikh Omar Sayed , has been sentenced to death for the murder of U.S. journalist Daniel Pearl in 2001 . " If it is proven , obviously Pakistan has an issue , " said Sanjay Puri , chairman of the US-India Political Action Committee , a U.S.-based group that promotes cooperation between New Delhi and Washington . " India will have to continue ( exerting ) pressure on Pakistan to track down these groups " . . The Indian government has not commented yet on who it thinks are the perpetrators or what actions New Delhi may be contemplating . In 2002 , India 's accusations that Pakistan was behind the Dec. 13 , 2001 , attack on India 's parliament , which killed more than a dozen people , put the two nations on the brink of a nuclear war . Since that standoff , the two nations have embarked on a peace process , drawing down the numbers of troops each has along the border and putting a moratorium on nuclear testing . However , India continues to accuse Pakistan of harboring Kashmiri militants , charges that Islamabad denies . On Tuesday , Musharraf offered condolences to India , saying : " Terrorism is a bane of our times , and it must be condemned , rejected and countered effectively and comprehensively " . . Seven carefully coordinated blasts ripped almost simultaneously through packed , rush-hour suburban trains and an eighth detonated at a Bombay train station in the period of just one minute . The seven train bombs detonated in first-class cars carrying commuters from downtown Bombay to the suburbs between 6 and 6:30 p.m. , according to Vilasrao Deshmukh , the top elected official of Maharashtra state , where Bombay is located . During rush hour , each train car can carry 400 to 600 people . It was not known whether suicide bombers carried out any of the attacks , but Bombay police Inspector Ramesh Sawant said most of the victims suffered head and chest injuries , leading authorities to believe the bombs were placed in overhead luggage racks . Indian cities went on high alert , quickly setting up checkpoints at train and bus stations , airports and seaports , movie theaters and busy markets . Indian police began carrying out raids across the country immediately after the blasts One TV station said a suspect was in custody . The home minister , Shivraj Patil , said authorities had had some information that an attack was coming , " but the place and time was not known " . . " Every time , you can not be lucky . Information as to which train they are going to attack and where is not easy to come by , " the Times of India quoted a top Indian intelligence official as saying . The Bombay attacks came hours after several coordinated grenade attacks by Islamist extremists killed eight people in Srinagar , the summer capital of Indian-controlled Kashmir , where more than 90 percent of the population is Muslim . The orchestration of several blasts in quick succession is a tactic frequently employed by Kashmiri groups . If it turns out that the perpetrators of the Tuesday bombings have a foothold in Kashmir , " India will crack down in Kashmir , where poor Kashmiris have been caught in this devil 's triangle of Indian army on one side , Pakistan army on the other side , and Kashmiri rebels , " Dillon said . " It will be far worse for them while the Indians crack down trying to track down this terrorist group " . . The attacks could also damage the delicate fabric of India 's multiethnic society of more than 1 billion people , where centuries-old religious differences between the Hindu majority and the nation 's nearly 130 million Muslims have occasionally boiled over into deadly violence , warned Joanne Mariner , a terrorism and counterterrorism program director at Human Rights Watch in New York . " If these bombings do prove to be linked to militant Islamists , which right now has not been shown , then obviously it 's going to exacerbate religious tensions in India , " she said . In 2002 , after a Muslim mob attacked a train carrying Hindu activists and burned more than 50 alive in the western province of Gujarat , Hindus retaliated , killing nearly 1,000 people , most of them Muslims , in a 72-hour bloodbath . " These kinds of attacks , " like the Tuesday bombing , " create a lot of emotion that could be channeled into something violent , " Mariner said . 
+Event	1	BLASTS	event	6
+Event	117	behind	event	16
+Event	2	bombings	event	18
+Event	3	rocked	event	20
+Event	7	accuse	report	112
+Event	108	masterminded	event	120
+Event	8	attacks	event	122
+Event	10	said	report	147
+Event	11	condemn	report	155
+Event	12	bombings	event	157
+Event	13	taken	report	163
+Event	14	attacks	event	167
+Event	15	blasts	event	173
+Event	16	killed	event	174
+Event	17	injured	event	182
+Event	19	attacks	event	192
+Event	98	pledged	report	211
+Event	109	terrorism	event	214
+Event	22	citing	report	224
+Event	23	said	report	229
+Event	110	behind	event	235
+Event	24	attacks	event	237
+Event	25	fought	event	248
+Event	26	wars	event	250
+Event	27	blames	report	310
+Event	28	bombings	event	315
+Event	29	killed	event	328
+Event	30	wounded	event	333
+Event	32	said	report	365
+Event	33	attack	event	367
+Event	106	conflagration	event	374
+Event	37	Targeting	event	434
+Event	38	said	report	447
+Event	40	sentenced	event	469
+Event	39	murder	event	474
+Event	118	track	event	531
+Event	119	behind	event	567
+Event	41	attack	event	574
+Event	42	killed	event	581
+Event	43	war	event	598
+Event	44	drawing	event	613
+Event	45	accuse	report	636
+Event	111	harboring	event	639
+Event	49	saying	report	656
+Event	112	Terrorism	event	659
+Event	50	condemned	report	671
+Event	51	rejected	report	673
+Event	52	countered	event	675
+Event	53	blasts	event	683
+Event	54	ripped	event	684
+Event	56	detonated	event	696
+Event	57	detonated	event	713
+Event	58	according	report	731
+Event	113	carried	event	768
+Event	59	attacks	event	773
+Event	60	said	report	781
+Event	63	placed	event	799
+Event	114	carrying	event	833
+Event	67	raids	event	835
+Event	68	blasts	event	842
+Event	69	said	report	846
+Event	70	custody	event	851
+Event	71	said	report	859
+Event	101	attack	event	867
+Event	73	attack	event	899
+Event	74	quoted	report	914
+Event	72	saying	report	921
+Event	75	attacks	event	924
+Event	76	attacks	event	931
+Event	77	killed	event	935
+Event	115	orchestration	event	959
+Event	78	blasts	event	962
+Event	80	bombings	event	984
+Event	81	crack	event	994
+Event	83	said	report	1030
+Event	79	crack	event	1042
+Event	116	track	event	1046
+Event	84	attacks	event	1053
+Event	85	violence	event	1094
+Event	82	warned	report	1096
+Event	86	bombings	event	1116
+Event	89	said	report	1148
+Event	90	attacked	event	1156
+Event	91	burned	event	1163
+Event	93	killing	event	1178
+Event	94	bloodbath	event	1191
+Event	95	attacks	event	1196
+Event	96	bombing	event	1202
+Event	97	said	report	1220
+Relation	1	95	member_of
+Relation	2	95	member_of
+Relation	2	1	coreference
+Relation	3	1	subevent_of
+Relation	7	10	in_reporting
+Relation	108	10	in_reporting
+Relation	8	1	coreference
+Relation	8	10	in_reporting
+Relation	12	1	coreference
+Relation	12	11	in_reporting
+Relation	14	1	coreference
+Relation	15	1	coreference
+Relation	16	1	subevent_of
+Relation	17	1	subevent_of
+Relation	19	1	coreference
+Relation	19	18	in_reporting
+Relation	24	1	coreference
+Relation	24	23	in_reporting
+Relation	25	23	in_reporting
+Relation	26	23	in_reporting
+Relation	28	27	in_reporting
+Relation	29	28	subevent_of
+Relation	29	27	in_reporting
+Relation	30	28	subevent_of
+Relation	30	27	in_reporting
+Relation	33	1	coreference
+Relation	33	32	in_reporting
+Relation	37	38	in_reporting
+Relation	42	41	subevent_of
+Relation	50	49	in_reporting
+Relation	51	49	in_reporting
+Relation	52	49	in_reporting
+Relation	53	1	member_of
+Relation	54	53	subevent_of
+Relation	56	55	subevent_of
+Relation	57	53	subevent_of
+Relation	57	58	in_reporting
+Relation	59	1	coreference
+Relation	63	53	subevent_of
+Relation	63	62	in_reporting
+Relation	67	69	in_reporting
+Relation	68	1	coreference
+Relation	68	69	in_reporting
+Relation	73	72	in_reporting
+Relation	72	74	in_reporting
+Relation	75	1	coreference
+Relation	76	95	member_of
+Relation	77	76	subevent_of
+Relation	80	1	coreference
+Relation	80	83	in_reporting
+Relation	81	83	in_reporting
+Relation	79	81	coreference
+Relation	79	83	in_reporting
+Relation	84	1	coreference
+Relation	84	82	in_reporting
+Relation	85	82	in_reporting
+Relation	86	1	coreference
+Relation	86	89	in_reporting
+Relation	90	95	member_of
+Relation	91	90	subevent_of
+Relation	93	92	subevent_of
+Relation	94	92	coreference
+Relation	95	97	in_reporting
+Relation	96	1	coreference
+Relation	96	97	in_reporting

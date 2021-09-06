@@ -1,0 +1,24 @@
+Text	With By The Associated Press . Key dates in the fight by the Kurdistan Workers Party , or PKK , against Turkey . Nov. 1978 _ Abdullah Ocalan forms the Marxist Kurdistan Workers Party , the Partiya Karkeren Kurdistan , or PKK , in southeastern Turkey . May 1979 _ Turkey detains several members of the outlawed group . Ocalan flees to Syria a few days later . Sept. 1980 _ Military stages coup , prominent PKK members flee abroad . 1982 _ PKK joins forces with other leftist groups under a short-lived umbrella group , the United Resistance Front Against Fascism . 1984 _ PKK forms armed units , which fight under the name of the Kurdistan Liberation Union . Aug. 1984 _ PKK carries out its first armed attack , killing one soldier . 1985 _ PKK 's political wing , the Kurdistan National Liberation Front , is formed during a meeting in northern Iraq . 1993 _ Lebanon bows to Turkish pressure and closes the PKK 's main training camp in the Bekaa Valley . March 1993 _ PKK declares unilateral cease-fire . PKK fighters break the cease-fire days later , killing 33 unarmed Turkish soldiers . June 1994 _ PKK carries out its first bombing against tourist sites , injuring 13 people , including seven foreign tourists , in the Mediterranean resort town of Fethiye . April 1995 _ 65-seat Kurdish Parliament in exile formed in The Hague , the Netherlands . June 1996 _ PKK stages its first suicide bombing , killing six soldiers in the eastern city of Tunceli . Feb. 15 1999 _ Ocalan captured in Kenya , sparking angry protests by PKK sympathizers around the world . May 31 , 1999 _ Ocalan 's trial on charges of treason , an offense punishable by death , begins on the Turkish prison island of Imrali . sh-lm-ek . 
+Event	1	fight	event	9
+Event	2	detains	event	48
+Event	3	flees	event	56
+Event	4	coup	event	68
+Event	5	flee	event	73
+Event	6	fight	event	104
+Event	25	carries	event	117
+Event	7	attack	event	122
+Event	8	killing	event	124
+Event	14	killing	event	182
+Event	26	carries	event	191
+Event	16	bombing	event	195
+Event	17	injuring	event	200
+Event	27	stages	event	235
+Event	18	bombing	event	239
+Event	19	killing	event	241
+Event	20	captured	event	255
+Event	23	protests	event	261
+Event	22	trial	event	275
+Event	24	charges	event	277
+Relation	8	7	subevent_of
+Relation	17	16	subevent_of
+Relation	19	18	subevent_of

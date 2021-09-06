@@ -1,0 +1,96 @@
+Text	Death toll rises to 19 in separate Israeli attacks on Gaza . GAZA , July 12 ( Xinhua ) . The death toll from separate Israeli attacks on Wednesday rose to 19 as the Jewish troops continued a large-scale air and ground offensive into the Gaza Strip in a bid to free an abducted Israeli soldier and halt Palestinian rocket firing . Two police officers were killed and another two wounded on Wednesday in an Israeli tank shelling on a police station in the village of al - Gararah , east of the southern Gaza Strip town of Khan Younis . Palestinian security sources and eyewitnesses said that an Israeli tanks fired a tank shell on the main village police station , killing 26-year-old police officer Salama al-Bashitti on the spot . Another policeman died of wound later , the medics said , adding that two others were injured , one of them in critical condition . Shortly before the strike on the police station , four Palestinians were killed and three were injured on Sallah el-Dein road south of the central Gaza Strip town of Deir el-Ballah . Witnesses said that one of the tanks that incurred into central Gaza Strip at predawn on Wednesday fired a tank shell at a car , killing four and wounding three others . In the same area , two members of the Islamic Jihad ( Holy war ) armed wing were killed when their car was hit by an Israeli tank shell , witnesses and security sources said . Early in the morning , a Palestinian militant from the Popular Resistance Committees ( PRC ) was killed as he was trying to launch a homemade rocket at Israeli town of Khan Younis . At predawn on Wednesday when Israeli tanks and armored vehicles ' incurred into the central Gaza Strip , a national security forces officer was killed and another one was injured . An Israeli F-16 warplane demolished a three-storeyed house with a 250 kg bomb in northern Gaza City early Wednesday , killing nine members of a family and wounding 15 others , Palestinian medics and security sources said . The targeted house in Sheikh Radwan neighborhood belongs to Nabil Abu Selmiya , a senior Hamas activist and a teacher at the Islamic University in Gaza City , sources said . Selmiya was killed along with his wife and their seven children in the air strike , the sources added . Israeli troops continued the " Summer Rains " operation into the Gaza Strip , started on June 28 , in a bid to free the captive Galid Shalit by Palestinian militants and halt Palestinian rocket firing . 
+Event	1	Death	event	0
+Event	3	attacks	event	8
+Event	4	death	event	19
+Event	5	attacks	event	24
+Event	7	offensive	event	40
+Event	9	free	event	49
+Event	11	firing	event	58
+Event	12	killed	event	63
+Event	13	wounded	event	67
+Event	14	shelling	event	74
+Event	15	said	report	102
+Event	16	fired	event	107
+Event	17	killing	event	118
+Event	18	died	event	129
+Event	19	said	report	136
+Event	20	adding	report	138
+Event	21	injured	event	143
+Event	23	strike	event	154
+Event	24	killed	event	163
+Event	25	injured	event	167
+Event	26	said	report	183
+Event	28	incurred	event	190
+Event	29	fired	event	199
+Event	30	killing	event	207
+Event	31	wounding	event	210
+Event	32	killed	event	231
+Event	33	hit	event	236
+Event	35	said	report	247
+Event	37	killed	event	265
+Event	39	launch	event	271
+Event	41	incurred	event	292
+Event	42	killed	event	305
+Event	43	injured	event	310
+Event	44	demolished	event	315
+Event	45	killing	event	331
+Event	46	wounding	event	338
+Event	47	said	report	347
+Event	48	killed	event	380
+Event	49	strike	event	392
+Event	50	added	report	396
+Event	52	operation	event	405
+Event	55	free	event	420
+Event	57	firing	event	432
+Relation	1	7	subevent_of
+Relation	3	7	subevent_of
+Relation	4	1	coreference
+Relation	5	7	subevent_of
+Relation	5	3	coreference
+Relation	12	14	subevent_of
+Relation	13	14	subevent_of
+Relation	14	3	member_of
+Relation	16	14	subevent_of
+Relation	16	15	in_reporting
+Relation	17	12	member_of
+Relation	17	14	subevent_of
+Relation	17	15	in_reporting
+Relation	18	12	member_of
+Relation	18	14	subevent_of
+Relation	18	19	in_reporting
+Relation	20	19	coreference
+Relation	21	13	coreference
+Relation	21	20	in_reporting
+Relation	23	14	coreference
+Relation	28	27	subevent_of
+Relation	29	27	subevent_of
+Relation	29	26	in_reporting
+Relation	30	27	subevent_of
+Relation	30	24	coreference
+Relation	30	26	in_reporting
+Relation	31	27	subevent_of
+Relation	31	25	coreference
+Relation	31	26	in_reporting
+Relation	32	34	subevent_of
+Relation	32	35	in_reporting
+Relation	33	34	subevent_of
+Relation	33	35	in_reporting
+Relation	37	36	subevent_of
+Relation	39	36	subevent_of
+Relation	41	40	subevent_of
+Relation	42	40	subevent_of
+Relation	43	40	subevent_of
+Relation	44	49	subevent_of
+Relation	44	47	in_reporting
+Relation	45	49	subevent_of
+Relation	45	47	in_reporting
+Relation	46	49	subevent_of
+Relation	46	47	in_reporting
+Relation	48	45	coreference
+Relation	48	50	in_reporting
+Relation	49	3	member_of
+Relation	49	50	in_reporting
+Relation	50	47	coreference
+Relation	52	7	coreference
+Relation	55	9	coreference
+Relation	57	11	coreference

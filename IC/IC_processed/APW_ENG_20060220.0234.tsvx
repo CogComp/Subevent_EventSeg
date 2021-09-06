@@ -1,0 +1,44 @@
+Text	Four Islamic militants sentenced in absentia to life in prison for Bangladesh bomb attack . BARISAL , Bangladesh . Four fugitive leaders of a banned Islamic militant group were sentenced in absentia to life in prison on Monday in connection with a bomb attack that killed two judges in southern Bangladesh last year , an official said . The leaders of the banned Jumatul Mujahedeen Bangladesh , which aims to replace the Muslim nation 's secular state with strict Islamic law , were convicted of coordinating the supply of explosives in the Nov. 14 attack , said prosecution lawyer Mujibur Rahman . Special court judge Abdul Matin handed down the sentence to Shaikh Abdur Rahman , Siddiqul Islam , Mollah Omar and Khaled Saifullah in a crowded courtroom in Barisal city , 120 kilometers ( 75 miles ) south of national capital Dhaka . Under Bangladeshi law , a life term usually means 25 years or more in jail . Matin earlier this month jailed three other militants from the group for 40 years for the attack . One , Hasan Al Mamun , allegedly hurled the bomb that killed the two judges in Jhalakathi town , next to Barisal city . Bystanders later caught Mamun , who suffered severe head injuries in the attack , and discovered explosives strapped to his body . Jumatul Mujahedeen Bangladesh is blamed for nationwide bombings that have killed 26 people and wounded dozens of others since August 2005 . 
+Event	1	sentenced	event	3
+Event	2	attack	event	13
+Event	3	sentenced	event	27
+Event	4	attack	event	41
+Event	5	killed	event	43
+Event	6	said	report	54
+Event	8	convicted	event	80
+Event	24	coordinating	event	82
+Event	9	attack	event	91
+Event	10	said	report	93
+Event	25	handed	report	103
+Event	11	sentence	event	106
+Event	12	jailed	event	158
+Event	13	attack	event	170
+Event	14	hurled	event	178
+Event	15	killed	event	182
+Event	16	caught	event	196
+Event	27	suffered	event	200
+Event	26	injuries	event	203
+Event	18	attack	event	206
+Event	20	blamed	report	219
+Event	21	bombings	event	222
+Event	22	killed	event	225
+Event	23	wounded	event	229
+Relation	2	21	member_of
+Relation	3	1	coreference
+Relation	3	6	in_reporting
+Relation	4	2	coreference
+Relation	4	6	in_reporting
+Relation	5	2	subevent_of
+Relation	5	6	in_reporting
+Relation	9	2	coreference
+Relation	9	10	in_reporting
+Relation	11	1	coreference
+Relation	13	2	coreference
+Relation	14	2	subevent_of
+Relation	15	5	coreference
+Relation	16	18	subevent_of
+Relation	27	18	subevent_of
+Relation	26	18	subevent_of
+Relation	18	2	coreference
+Relation	22	21	subevent_of
+Relation	23	21	subevent_of

@@ -1,0 +1,72 @@
+Text	French suspect in Australia terror plot to stand trial by Pierre Rochiccioli . A Frenchman charged with abetting a high-profile assassination in Afghanistan and suspected of plotting a terror attack in Australia will stand trial in Paris early next year , legal officials said Tuesday . Willie Brigitte , a 38-year-old Muslim convert , was deported from Australia in October 2003 on immigration grounds and has been held in French custody since . Officials said Brigitte was to be brought before a Paris criminal court primarily on charges of helping supply false identity documents used by killers of Ahmad Shah Massood , an Afghan war chief fighting the Taliban who was murdered two days before the September 11 , 2001 attacks in the United States . Although five Islamic extremists were sentenced to prison terms ranging from two to seven years in May 2005 for their roles in that case , Brigitte was singled out for separate prosecution . His three - day trial is slated to begin on February 7 . France 's top anti-terrorist judge , Jean-Louis Bruguiere , signed the trial order for Brigitte on October 20 . The formal charge against Brigitte is for " associating with criminals in relation to a terrorist enterprise , " a charge which carries with it a maximum 10-year prison term . The document also indicted Sajid Mir , the suspected chief for overseas operations of the Lashkar-e-Toiba radical Islamic group active in Pakistan . Officials said other matters -- including Brigitte 's alleged plans to carry out an attack in Sydney -- may also be raised during the trial . Prosecutors believe that Mir , who remains at large but with a French warrant issued for his arrest , summoned Brigitte to Australia with a view to carrying out attacks in the country . The pair are suspected of plotting strikes on potential targets including a US electronic intelligence outpost in Pine Gap , central Australia , the Lucas Heights nuclear reactor in Sydney and military bases across the country . One of Brigitte 's contacts in Australia was allegedly Faheem Khalid Lodhi , a Pakistani-Australian architect sentenced this year to 20 years in jail for planning a terrorist act on Australian soil . Brigitte 's lawyer , Jean-Claude Durimel , said his client maintained his innocence . " My client contests all allegations of terrorist activity . He had gone to Australia to change his life , he never participated in attack plots , " he said . " There is no material evidence against my client " . . Brigitte , who is originally from the French Caribbean territory of Guadeloupe , converted to Islam in 1998 . That year he travelled to Yemen where he attended a Koranic school alleged by prosecutors to have links to Al-Qaeda , until he was expelled after a wave of arrests in Islamist circles . Upon his return to France , prosecutors believe Brigitte came into contact with sympathisers of the Algerian armed Islamist group the GSPC . During that period he is accused of running forest training camps in France for volunteer Islamist fighters preparing to leave for Afghanistan . Following the September 11 attacks , Brigitte is thought to have tried to reach Afghanistan , but got no further than Pakistan where prosecutors said he underwent military training in camps run by Lashkar-e-Toiba . Back in France , after a " sleeping period " , prosecutors believe he left for Australia after receiving a green light from Mir . 
+Event	1	plot	event	5
+Event	2	trial	event	8
+Event	3	charged	event	14
+Event	4	assassination	event	19
+Event	6	plotting	event	25
+Event	7	attack	event	28
+Event	8	trial	event	33
+Event	9	said	report	42
+Event	11	custody	event	68
+Event	12	said	report	71
+Event	13	charges	event	84
+Event	14	murdered	event	108
+Event	15	attacks	event	117
+Event	16	sentenced	event	127
+Event	56	prosecution	event	153
+Event	17	trial	event	158
+Event	19	charge	event	186
+Event	61	enterprise	event	200
+Event	20	charge	event	204
+Event	21	indicted	report	217
+Event	57	operations	event	226
+Event	22	said	report	237
+Event	23	plans	event	245
+Event	59	carry	event	247
+Event	25	attack	event	250
+Event	27	trial	event	260
+Event	29	at	event	268
+Event	32	arrest	event	278
+Event	60	carrying	event	288
+Event	35	attacks	event	290
+Event	37	plotting	event	299
+Event	38	strikes	event	300
+Event	42	sentenced	event	346
+Event	43	planning	event	355
+Event	44	act	event	358
+Event	45	contests	report	378
+Event	46	activity	event	383
+Event	58	participated	event	396
+Event	47	plots	event	399
+Event	48	said	report	403
+Event	50	arrests	event	461
+Event	53	attacks	event	513
+Relation	3	9	in_reporting
+Relation	4	9	in_reporting
+Relation	6	37	member_of
+Relation	6	1	coreference
+Relation	6	9	in_reporting
+Relation	7	9	in_reporting
+Relation	8	2	coreference
+Relation	8	9	in_reporting
+Relation	13	3	coreference
+Relation	13	12	in_reporting
+Relation	14	4	coreference
+Relation	14	12	in_reporting
+Relation	15	12	in_reporting
+Relation	17	2	coreference
+Relation	19	3	coreference
+Relation	20	19	coreference
+Relation	23	6	coreference
+Relation	25	57	member_of
+Relation	25	7	coreference
+Relation	27	2	coreference
+Relation	27	22	in_reporting
+Relation	35	25	coreference
+Relation	38	35	coreference
+Relation	46	48	in_reporting
+Relation	58	48	in_reporting
+Relation	47	46	subevent_of
+Relation	47	37	coreference
+Relation	47	48	in_reporting
+Relation	53	15	coreference

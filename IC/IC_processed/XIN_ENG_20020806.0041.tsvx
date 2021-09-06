@@ -1,0 +1,55 @@
+Text	Writethru : 8 pilgrims killed , 32 injured in Kashmir . NEW DELHI , Aug. 6 ( Xinhua ) . A lone militant struck at Amarnath pilgrim 's base camp early Tuesday morning at Nunwan near Pahalgam in India-controlled Jammu and Kashmir , killing eight of them and injuring 32 others in their sleep . Appearing from the nearby hillock , the militant , believed to be a foreign mercenary and dressed in Gujjar attire , tore the three - tier security setup and launched the surprise attack at 5.20 a.m. , hurling grenades and firing indiscriminately from an AK-47 rifle for a few minutes before he was shot dead by security persons . Police said that the militant struck when the pilgrims were sleeping at the base camp , from where devotees begin their mountainous trek to reach the Amarnath cave shrine . Fourteen of those seriously injured have been hospitalized in Srinagar while others have been admitted to different hospitals in south Kashmir district of Anantnag . No militant outfit has claimed the responsibility for the attack , the second within a week on pilgrims . Officials did not rule out involvement of Pakistan-based militant outfits Lashkar-i-Toiba and Jaish-e Mohammad in the attack as dominant local Hizbul Mujahideen group had announced that it would not disrupt the pilgrimage . The attack triggered panic and the authorities temporarily suspended the pilgrimage . Immediately after the attack , security forces cordoned off the area and were combing the hills for other militants . The sources said the slain militant was suspected to be a foreign mercenary as his AK-47 rifle bore the inscription " Islamic Library Lahore " and " ya allah mujai madad kar ( Oh God help me ) " . . This was the second attack on the pilgrims this year . On July 30 , two pilgrims were killed and five others injured when militants exploded a powerful grenade in Anantnag inside a vehicle carrying devotees from Uttar Pradesh . Meanwhile , the Indian Home Ministry Tuesday rushed a team of senior officials to Jammu and Kashmir for an on-the-spot assessment of terrorist attack on Amarnath pilgrims . Minister of State for Home I.D. Swami said , " We are determined to continue the Amarnath yatra ( pilgrimage ) . The yatra will continue " . . He told reporters that security arrangements would be reviewed and further tightened . Two years ago , militants struck the pilgrimage in Pahalgam , killing over 23 pilgrims and 10 civilians in the biggest ever strike on the Amarnath route . The pilgrimage became the target of militants since 1994 when Harkat - ul-Ansar outfit threatened the pilgrims and carried out several attacks on them in their bid to disrupt the annual ritual . 
+Event	1	killed	event	4
+Event	2	injured	event	7
+Event	3	struck	event	21
+Event	4	killing	event	41
+Event	5	injuring	event	46
+Event	8	attack	event	84
+Event	9	hurling	event	89
+Event	10	firing	event	92
+Event	11	shot	event	105
+Event	12	said	report	111
+Event	13	struck	event	115
+Event	14	injured	event	143
+Event	15	claimed	report	167
+Event	16	attack	event	172
+Event	43	involvement	event	186
+Event	18	attack	event	197
+Event	21	attack	event	214
+Event	23	attack	event	227
+Event	24	cordoned	event	231
+Event	25	combing	event	237
+Event	26	attack	event	286
+Event	28	killed	event	299
+Event	29	injured	event	303
+Event	30	exploded	event	306
+Event	32	attack	event	343
+Event	33	struck	event	390
+Event	34	killing	event	396
+Event	35	strike	event	407
+Event	36	threatened	report	426
+Event	37	out	event	431
+Event	38	attacks	event	433
+Relation	4	3	subevent_of
+Relation	4	1	coreference
+Relation	5	3	subevent_of
+Relation	5	2	coreference
+Relation	8	3	coreference
+Relation	9	8	subevent_of
+Relation	10	8	subevent_of
+Relation	13	3	coreference
+Relation	13	12	in_reporting
+Relation	14	2	member_of
+Relation	16	8	coreference
+Relation	18	8	coreference
+Relation	21	8	coreference
+Relation	23	8	coreference
+Relation	26	38	member_of
+Relation	26	8	coreference
+Relation	28	27	subevent_of
+Relation	29	27	subevent_of
+Relation	30	27	subevent_of
+Relation	32	8	coreference
+Relation	33	38	member_of
+Relation	34	33	subevent_of
+Relation	35	33	coreference

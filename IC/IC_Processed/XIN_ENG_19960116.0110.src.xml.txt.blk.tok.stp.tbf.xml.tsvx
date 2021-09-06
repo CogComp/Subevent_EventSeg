@@ -1,0 +1,191 @@
+Text	Heavy Fighting Renews In Northwest Somalia . MOGADISHU , January 16 ( Xinhua ) . More than 59 people were killed and as many as 130 people were wounded when a serious fighting broke out recently in Burco , northwest of Somalia . The conflicts were between forces loyal to the President of the break away Republic of Somaliland , Mohamed Ibrahim Egal and those supporting General Aideed 's vice-President Abdurahman Ahmed Ali ( Tuur ) according to field radios communicated from Mogadishu . Opposition sources supporting General Aideed 's government said the attack was one of Egal 's provocation in destabilizing the area and was repulsed back with heavy losses . During the fighting all kinds of weapons including anti- aircraft missiles , multiple rocket launchers , heavy and small machine guns and rocket propelled grenades were used . However , both warring sides in Burco claimed victory , but independent sources indicate that the city , the second largest in Somaliland , is abandoned and has become no man 's land controlled by freelance looters . Sources from the northwestern region of Somalia , also anticipate that this new round of fighting might most probably spread to the capital of Somaliland , Hargeisa , where the clashes between the self styled government of Egal and those of Abdurahman Tuur had Originated . There was peace negotiation effort going on in the region . However General Jama Mohamed Ghalib , the Foreign Secretary of General Aideed and the spokesman of the opposition groups in Somaliland said no negotiation would be possible as far as Egal was claiming presidency in Somaliland . In Burco , no single aid agency or international NGO has been operating since the beginning of the civil war in Somaliland in early 1995 . Dozens of families are believed to starving in the villages surrounding Burco after fleeing the fighting with out food , water and shelter . Somaliland declared its independence from the rest of Somalia in May 1991 . 
+Event	1	Fighting	event	6
+Event	2	killed	event	106
+Event	3	wounded	event	144
+Event	4	fighting	event	167
+Event	5	conflicts	event	233
+Event	6	according	report	434
+Event	7	communicated	report	460
+Event	8	said	report	549
+Event	9	attack	event	558
+Event	10	repulsed	event	630
+Event	11	losses	event	655
+Event	12	fighting	event	675
+Event	13	claimed	report	878
+Event	14	victory	event	886
+Event	15	fighting	event	1146
+Event	16	spread	event	1175
+Event	17	clashes	event	1234
+Event	18	war	event	1724
+Event	19	fighting	event	1854
+Relation	1	2	SuperSub	true	Fighting	killed
+Relation	1	3	SuperSub	true	Fighting	wounded
+Relation	1	4	Coref	true	Fighting	fighting
+Relation	1	5	Coref	true	Fighting	conflicts
+Relation	1	6	NoRel	true	Fighting	according
+Relation	1	7	NoRel	true	Fighting	communicated
+Relation	1	8	NoRel	true	Fighting	said
+Relation	1	9	SuperSub	true	Fighting	attack
+Relation	1	10	SuperSub	true	Fighting	repulsed
+Relation	1	11	SuperSub	true	Fighting	losses
+Relation	1	12	Coref	true	Fighting	fighting
+Relation	1	13	NoRel	true	Fighting	claimed
+Relation	1	14	NoRel	true	Fighting	victory
+Relation	1	15	Coref	true	Fighting	fighting
+Relation	1	16	NoRel	true	Fighting	spread
+Relation	1	17	NoRel	true	Fighting	clashes
+Relation	1	18	SubSuper	true	Fighting	war
+Relation	1	19	Coref	true	Fighting	fighting
+Relation	2	3	NoRel	true	killed	wounded
+Relation	2	4	SubSuper	true	killed	fighting
+Relation	2	5	SubSuper	true	killed	conflicts
+Relation	2	6	NoRel	true	killed	according
+Relation	2	7	NoRel	true	killed	communicated
+Relation	2	8	NoRel	true	killed	said
+Relation	2	9	NoRel	true	killed	attack
+Relation	2	10	NoRel	true	killed	repulsed
+Relation	2	11	NoRel	true	killed	losses
+Relation	2	12	SubSuper	true	killed	fighting
+Relation	2	13	NoRel	true	killed	claimed
+Relation	2	14	NoRel	true	killed	victory
+Relation	2	15	SubSuper	true	killed	fighting
+Relation	2	16	NoRel	true	killed	spread
+Relation	2	17	NoRel	true	killed	clashes
+Relation	2	18	SubSuper	true	killed	war
+Relation	2	19	SubSuper	true	killed	fighting
+Relation	3	4	SubSuper	true	wounded	fighting
+Relation	3	5	SubSuper	true	wounded	conflicts
+Relation	3	6	NoRel	true	wounded	according
+Relation	3	7	NoRel	true	wounded	communicated
+Relation	3	8	NoRel	true	wounded	said
+Relation	3	9	NoRel	true	wounded	attack
+Relation	3	10	NoRel	true	wounded	repulsed
+Relation	3	11	NoRel	true	wounded	losses
+Relation	3	12	SubSuper	true	wounded	fighting
+Relation	3	13	NoRel	true	wounded	claimed
+Relation	3	14	NoRel	true	wounded	victory
+Relation	3	15	SubSuper	true	wounded	fighting
+Relation	3	16	NoRel	true	wounded	spread
+Relation	3	17	NoRel	true	wounded	clashes
+Relation	3	18	SubSuper	true	wounded	war
+Relation	3	19	SubSuper	true	wounded	fighting
+Relation	4	5	Coref	true	fighting	conflicts
+Relation	4	6	NoRel	true	fighting	according
+Relation	4	7	NoRel	true	fighting	communicated
+Relation	4	8	NoRel	true	fighting	said
+Relation	4	9	SuperSub	true	fighting	attack
+Relation	4	10	SuperSub	true	fighting	repulsed
+Relation	4	11	SuperSub	true	fighting	losses
+Relation	4	12	Coref	true	fighting	fighting
+Relation	4	13	NoRel	true	fighting	claimed
+Relation	4	14	NoRel	true	fighting	victory
+Relation	4	15	Coref	true	fighting	fighting
+Relation	4	16	NoRel	true	fighting	spread
+Relation	4	17	NoRel	true	fighting	clashes
+Relation	4	18	SubSuper	true	fighting	war
+Relation	4	19	Coref	true	fighting	fighting
+Relation	5	6	NoRel	true	conflicts	according
+Relation	5	7	NoRel	true	conflicts	communicated
+Relation	5	8	NoRel	true	conflicts	said
+Relation	5	9	SuperSub	true	conflicts	attack
+Relation	5	10	SuperSub	true	conflicts	repulsed
+Relation	5	11	SuperSub	true	conflicts	losses
+Relation	5	12	Coref	true	conflicts	fighting
+Relation	5	13	NoRel	true	conflicts	claimed
+Relation	5	14	NoRel	true	conflicts	victory
+Relation	5	15	Coref	true	conflicts	fighting
+Relation	5	16	NoRel	true	conflicts	spread
+Relation	5	17	NoRel	true	conflicts	clashes
+Relation	5	18	SubSuper	true	conflicts	war
+Relation	5	19	Coref	true	conflicts	fighting
+Relation	6	7	Coref	true	according	communicated
+Relation	6	8	NoRel	true	according	said
+Relation	6	9	NoRel	true	according	attack
+Relation	6	10	NoRel	true	according	repulsed
+Relation	6	11	NoRel	true	according	losses
+Relation	6	12	NoRel	true	according	fighting
+Relation	6	13	NoRel	true	according	claimed
+Relation	6	14	NoRel	true	according	victory
+Relation	6	15	NoRel	true	according	fighting
+Relation	6	16	NoRel	true	according	spread
+Relation	6	17	NoRel	true	according	clashes
+Relation	6	18	NoRel	true	according	war
+Relation	6	19	NoRel	true	according	fighting
+Relation	7	8	NoRel	true	communicated	said
+Relation	7	9	NoRel	true	communicated	attack
+Relation	7	10	NoRel	true	communicated	repulsed
+Relation	7	11	NoRel	true	communicated	losses
+Relation	7	12	NoRel	true	communicated	fighting
+Relation	7	13	NoRel	true	communicated	claimed
+Relation	7	14	NoRel	true	communicated	victory
+Relation	7	15	NoRel	true	communicated	fighting
+Relation	7	16	NoRel	true	communicated	spread
+Relation	7	17	NoRel	true	communicated	clashes
+Relation	7	18	NoRel	true	communicated	war
+Relation	7	19	NoRel	true	communicated	fighting
+Relation	8	9	NoRel	true	said	attack
+Relation	8	10	NoRel	true	said	repulsed
+Relation	8	11	NoRel	true	said	losses
+Relation	8	12	NoRel	true	said	fighting
+Relation	8	13	NoRel	true	said	claimed
+Relation	8	14	NoRel	true	said	victory
+Relation	8	15	NoRel	true	said	fighting
+Relation	8	16	NoRel	true	said	spread
+Relation	8	17	NoRel	true	said	clashes
+Relation	8	18	NoRel	true	said	war
+Relation	8	19	NoRel	true	said	fighting
+Relation	9	10	NoRel	true	attack	repulsed
+Relation	9	11	NoRel	true	attack	losses
+Relation	9	12	SubSuper	true	attack	fighting
+Relation	9	13	NoRel	true	attack	claimed
+Relation	9	14	NoRel	true	attack	victory
+Relation	9	15	SubSuper	true	attack	fighting
+Relation	9	16	NoRel	true	attack	spread
+Relation	9	17	NoRel	true	attack	clashes
+Relation	9	18	SubSuper	true	attack	war
+Relation	9	19	SubSuper	true	attack	fighting
+Relation	10	11	NoRel	true	repulsed	losses
+Relation	10	12	SubSuper	true	repulsed	fighting
+Relation	10	13	NoRel	true	repulsed	claimed
+Relation	10	14	NoRel	true	repulsed	victory
+Relation	10	15	SubSuper	true	repulsed	fighting
+Relation	10	16	NoRel	true	repulsed	spread
+Relation	10	17	NoRel	true	repulsed	clashes
+Relation	10	18	SubSuper	true	repulsed	war
+Relation	10	19	SubSuper	true	repulsed	fighting
+Relation	11	12	SubSuper	true	losses	fighting
+Relation	11	13	NoRel	true	losses	claimed
+Relation	11	14	NoRel	true	losses	victory
+Relation	11	15	SubSuper	true	losses	fighting
+Relation	11	16	NoRel	true	losses	spread
+Relation	11	17	NoRel	true	losses	clashes
+Relation	11	18	SubSuper	true	losses	war
+Relation	11	19	SubSuper	true	losses	fighting
+Relation	12	13	NoRel	true	fighting	claimed
+Relation	12	14	NoRel	true	fighting	victory
+Relation	12	15	Coref	true	fighting	fighting
+Relation	12	16	NoRel	true	fighting	spread
+Relation	12	17	NoRel	true	fighting	clashes
+Relation	12	18	SubSuper	true	fighting	war
+Relation	12	19	Coref	true	fighting	fighting
+Relation	13	14	NoRel	true	claimed	victory
+Relation	13	15	NoRel	true	claimed	fighting
+Relation	13	16	NoRel	true	claimed	spread
+Relation	13	17	NoRel	true	claimed	clashes
+Relation	13	18	NoRel	true	claimed	war
+Relation	13	19	NoRel	true	claimed	fighting
+Relation	14	15	NoRel	true	victory	fighting
+Relation	14	16	NoRel	true	victory	spread
+Relation	14	17	NoRel	true	victory	clashes
+Relation	14	18	NoRel	true	victory	war
+Relation	14	19	NoRel	true	victory	fighting
+Relation	15	16	NoRel	true	fighting	spread
+Relation	15	17	NoRel	true	fighting	clashes
+Relation	15	18	SubSuper	true	fighting	war
+Relation	15	19	Coref	true	fighting	fighting
+Relation	16	17	NoRel	true	spread	clashes
+Relation	16	18	NoRel	true	spread	war
+Relation	16	19	NoRel	true	spread	fighting
+Relation	17	18	SubSuper	true	clashes	war
+Relation	17	19	NoRel	true	clashes	fighting
+Relation	18	19	SuperSub	true	war	fighting

@@ -1,0 +1,70 @@
+Text	IRAQ SECURITY FORCES CAPTURE TWO ZARQAWI AIDES . BAGHDAD , Iraq . Security forces in Iraq have captured two senior aides to the most wanted militant in Iraq , bringing in his top bomb-maker and his propaganda chief in the past 10 days , an Iraqi government spokesman said on Monday . The announcements came hours after a suicide car bomb exploded near the headquarters of Prime Minister Ayad Allawi 's political party , injuring at least 14 people , nine of them policemen , the Interior Ministry said . The bomb detonated at a checkpoint guarded by a special unit of the Iraqi police . The captured bomb-maker , Sami Muhammad Ali Said al-Jaaf , was seized in Baghdad on Jan. 15 . He is believed to have taken part in three - quarters of the car bombings in the capital since the war began , the government spokesman , Thaier al-Naqib , said in a written statement . Major car bombings here began with an attack on the Jordanian Embassy in August 2003 and have killed hundreds . Al-Naqib said al-Jaaf also used the name Abu Omar al-Kurdi and is considered to be a lieutenant of Abu Musab al-Zarqawi , a Jordanian militant who has a $ 25 million bounty on his head . Al-Jaaf has confessed to making the explosives used in the bombing of the Jordanian Embassy , which killed at least 11 people , al-Naqib said . He also confessed to taking part in the car bombing later the same month in Najaf that killed at least 95 people , including Muhammad Bakr al-Hakim , a cleric who founded the most prominent Shiite political party . Al-Naqib issued another statement later on Monday saying that on Jan. 14 , security forces captured al-Zarqawi 's chief of propaganda , Hasam Hamad Abdullah Muhsin al-Dulaimi , who is also known as Dr. Hassan . Al - Dulaimi had not served long in the post ; he took the job after American-led forces killed the former propaganda chief , Hassan Ibrahim , in a Baghdad raid on Dec. 13 , al-Naqib said . " Dr. Hassan has told us that Abu Musab al-Zarqawi designated Abu Omar al-Kurdi as the lieutenant responsible for attacking election sites located in Baghdad , " he said . 
+Event	1	CAPTURE	event	3
+Event	2	captured	event	15
+Event	37	bringing	event	27
+Event	3	said	report	46
+Event	5	exploded	event	58
+Event	6	injuring	event	71
+Event	7	said	report	85
+Event	8	detonated	event	88
+Event	36	guarded	event	92
+Event	9	seized	event	112
+Event	34	taken	event	123
+Event	11	bombings	event	132
+Event	12	war	event	138
+Event	13	said	report	148
+Event	14	bombings	event	155
+Event	15	attack	event	160
+Event	16	killed	event	170
+Event	17	confessed	report	209
+Event	18	making	event	211
+Event	19	bombing	event	217
+Event	20	killed	event	224
+Event	21	said	report	231
+Event	22	confessed	report	234
+Event	35	taking	event	236
+Event	23	bombing	event	241
+Event	24	killed	event	249
+Event	25	saying	report	277
+Event	26	captured	event	285
+Event	27	killed	event	323
+Event	28	raid	event	335
+Event	29	said	report	341
+Event	30	told	report	346
+Event	32	attacking	event	361
+Event	33	said	report	370
+Relation	2	1	coreference
+Relation	2	3	in_reporting
+Relation	37	3	in_reporting
+Relation	5	14	member_of
+Relation	5	7	in_reporting
+Relation	6	5	subevent_of
+Relation	6	7	in_reporting
+Relation	7	3	coreference
+Relation	8	5	coreference
+Relation	9	2	member_of
+Relation	34	11	subevent_of
+Relation	34	13	in_reporting
+Relation	11	13	in_reporting
+Relation	12	13	in_reporting
+Relation	15	14	member_of
+Relation	16	14	subevent_of
+Relation	17	21	in_reporting
+Relation	18	21	in_reporting
+Relation	19	15	coreference
+Relation	19	21	in_reporting
+Relation	20	16	member_of
+Relation	20	15	subevent_of
+Relation	20	21	in_reporting
+Relation	35	23	subevent_of
+Relation	23	14	member_of
+Relation	24	23	subevent_of
+Relation	26	1	member_of
+Relation	26	25	in_reporting
+Relation	27	28	subevent_of
+Relation	27	29	in_reporting
+Relation	28	29	in_reporting
+Relation	29	25	subevent_of
+Relation	30	33	in_reporting
+Relation	32	30	in_reporting
+Relation	33	25	subevent_of

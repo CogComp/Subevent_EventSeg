@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?><article lng="en">
+  <sentence id="1" pid="1">
+    <word lem="Three" start="94" wd="Three"/>
+    <word lem="suspect" provenance="17860::suspect" start="100" wd="suspected"/>
+    <word lem="al-qaida" start="110" wd="al-Qaida"/>
+    <word lem="member" start="119" wd="members"/>
+    <word epistemic_status="actual_occurrence" event_type="event" eventid="2" lem="arraigned" start="127" wd="arraigned"/>
+    <word lem="in" start="137" wd="in"/>
+    <word lem="Morocco" start="140" wd="Morocco"/>
+    <word lem="by" start="148" wd="By"/>
+    <word lem="NICOLAS" start="151" wd="NICOLAS"/>
+    <word lem="MARMIE" start="159" wd="MARMIE"/>
+  </sentence>
+  <sentence id="2" pid="2">
+    <word lem="RABAT" start="189" wd="RABAT"/>
+    <word lem="," start="194" wd=","/>
+    <word lem="Morocco" start="196" wd="Morocco"/>
+    <word lem="-lrb-" start="204" wd="("/>
+    <word lem="AP" start="205" wd="AP"/>
+    <word lem="-rrb-" start="207" wd=")"/>
+  </sentence>
+  <sentence id="3" pid="3">
+    <word lem="three" start="218" wd="Three"/>
+    <word lem="saudi" start="224" wd="Saudi"/>
+    <word lem="national" start="230" wd="nationals"/>
+    <word lem="suspect" provenance="17860::suspect" start="240" wd="suspected"/>
+    <word lem="of" start="250" wd="of"/>
+    <word epistemic_status="CO" event_type="event" eventid="4" in_reporting="7" lem="plan" provenance="17860::plan_$TRIGGERNOUN" start="253" wd="planning"/>
+    <word eventid="5" lem="suicide" start="262" wd="suicide"/>
+    <word epistemic_status="expected_occurrence" event_type="event" eventid="5" in_reporting="7" lem="attack" provenance="17860::attack" start="270" wd="attacks"/>
+    <word lem="against" start="278" wd="against"/>
+    <word lem="U.S." start="286" wd="U.S."/>
+    <word lem="and" start="291" wd="and"/>
+    <word lem="british" start="295" wd="British"/>
+    <word lem="warship" start="303" wd="warships"/>
+    <word lem="be" start="312" wd="were"/>
+    <word coreference="2" epistemic_status="actual_occurrence" event_type="event" eventid="6" in_reporting="7" lem="arraign" provenance="17860::arraign" start="317" wd="arraigned"/>
+    <word lem="in" start="327" wd="in"/>
+    <word lem="a" start="330" wd="a"/>
+    <word lem="Moroccan" start="332" wd="Moroccan"/>
+    <word lem="court" start="341" wd="court"/>
+    <word lem="on" start="347" wd="on"/>
+    <word lem="Monday" start="350" wd="Monday"/>
+    <word lem="," start="356" wd=","/>
+    <word lem="official" start="358" wd="officials"/>
+    <word epistemic_status="actual_occurrence" event_type="report" eventid="7" lem="say" provenance="17860::say" start="368" wd="said"/>
+  </sentence>
+  <sentence id="4" pid="4">
+    <word lem="the" start="383" wd="The"/>
+    <word lem="suspect" start="387" wd="suspects"/>
+    <word lem="," start="395" wd=","/>
+    <word lem="identify" provenance="17860::identify_as" start="397" wd="identified"/>
+    <word lem="as" start="408" wd="as"/>
+    <word lem="Hilal" start="411" wd="Hilal"/>
+    <word lem="Jaber" start="417" wd="Jaber"/>
+    <word lem="Aouad" start="423" wd="Aouad"/>
+    <word lem="Alassiri" start="429" wd="Alassiri"/>
+    <word lem="," start="437" wd=","/>
+    <word lem="Zuher" start="439" wd="Zuher"/>
+    <word lem="Hilal" start="445" wd="Hilal"/>
+    <word lem="Mohamed" start="451" wd="Mohamed"/>
+    <word lem="Al" start="459" wd="Al"/>
+    <word lem="Tbabti" start="462" wd="Tbabti"/>
+    <word lem="and" start="469" wd="and"/>
+    <word lem="Abdellah" start="473" wd="Abdellah"/>
+    <word lem="M" start="482" wd="M"/>
+    <word lem="`" start="483" wd="'"/>
+    <word lem="Sefer" start="484" wd="Sefer"/>
+    <word lem="Ali" start="490" wd="Ali"/>
+    <word lem="Al" start="494" wd="Al"/>
+    <word lem="Ghamdi" start="497" wd="Ghamdi"/>
+    <word lem="," start="503" wd=","/>
+    <word lem="be" start="505" wd="were"/>
+    <word epistemic_status="actual_occurrence" event_type="event" eventid="9" lem="charge" provenance="17860::charge" start="510" wd="charged"/>
+    <word lem="with" start="518" wd="with"/>
+    <word lem="``" start="523" wd="``"/>
+    <word lem="breach" start="525" wd="breach"/>
+    <word lem="of" start="532" wd="of"/>
+    <word lem="internal" start="535" wd="internal"/>
+    <word lem="and" start="544" wd="and"/>
+    <word lem="external" start="548" wd="external"/>
+    <word lem="state" start="557" wd="state"/>
+    <word lem="security" start="563" wd="security"/>
+    <word lem="''" start="572" wd="''"/>
+  </sentence>
+  <sentence id="5" pid="5">
+    <word lem="the" start="584" wd="The"/>
+    <word coreference="9" epistemic_status="AO" event_type="event" eventid="37" lem="charge" provenance="17860::charge" start="588" wd="charge"/>
+    <word lem="carry" start="595" wd="carries"/>
+    <word lem="the" start="603" wd="the"/>
+    <word lem="death" provenance="17860::death" start="607" wd="death"/>
+    <word lem="penalty" start="613" wd="penalty"/>
+    <word lem="," start="620" wd=","/>
+    <word lem="but" start="622" wd="but"/>
+    <word lem="Morocco" start="626" wd="Morocco"/>
+    <word lem="rarely" start="634" wd="rarely"/>
+    <word lem="carry" start="641" wd="carries"/>
+    <word lem="out" start="649" wd="out"/>
+    <word lem="capital" start="653" wd="capital"/>
+    <word lem="punishment" start="661" wd="punishment"/>
+  </sentence>
+  <sentence id="6" pid="5">
+    <word lem="the" start="673" wd="The"/>
+    <word lem="last" start="677" wd="last"/>
+    <word lem="person" start="682" wd="person"/>
+    <word lem="to" start="689" wd="to"/>
+    <word lem="be" start="692" wd="be"/>
+    <word epistemic_status="actual_occurrence" event_type="event" eventid="10" lem="execute" provenance="17860::execute" start="695" wd="executed"/>
+    <word lem="after" start="704" wd="after"/>
+    <word lem="be" start="710" wd="being"/>
+    <word epistemic_status="actual_occurrence" event_type="event" eventid="11" lem="convict" provenance="17860::convict" start="716" wd="convicted"/>
+    <word lem="of" start="726" wd="of"/>
+    <word lem="a" start="729" wd="a"/>
+    <word lem="capital" start="731" wd="capital"/>
+    <word epistemic_status="AO" event_type="event" eventid="38" lem="crime" provenance="17860::crime" start="739" wd="crime"/>
+    <word lem="be" start="745" wd="was"/>
+    <word lem="in" start="749" wd="in"/>
+    <word lem="1995" start="752" wd="1995"/>
+  </sentence>
+  <sentence id="7" pid="6">
+    <word lem="the" start="767" wd="The"/>
+    <word lem="three" start="771" wd="three"/>
+    <word lem="man" start="777" wd="men"/>
+    <word lem="be" start="781" wd="are"/>
+    <word lem="saudi" start="785" wd="Saudi"/>
+    <word lem="citizen" start="791" wd="citizens"/>
+    <word lem="between" start="800" wd="between"/>
+    <word lem="the" start="808" wd="the"/>
+    <word lem="age" start="812" wd="ages"/>
+    <word lem="of" start="817" wd="of"/>
+    <word lem="25" start="820" wd="25"/>
+    <word lem="and" start="823" wd="and"/>
+    <word lem="35" start="827" wd="35"/>
+    <word lem="and" start="830" wd="and"/>
+    <word lem="claim" start="834" wd="claim"/>
+    <word lem="to" start="840" wd="to"/>
+    <word lem="be" start="843" wd="be"/>
+    <word lem="member" start="846" wd="members"/>
+    <word lem="of" start="854" wd="of"/>
+    <word lem="Osama" start="857" wd="Osama"/>
+    <word lem="bin" start="863" wd="bin"/>
+    <word lem="Laden" start="867" wd="Laden"/>
+    <word lem="'s" start="872" wd="'s"/>
+    <word lem="al-qaida" start="875" wd="al-Qaida"/>
+    <word lem="terrorist" start="884" wd="terrorist"/>
+    <word lem="network" start="894" wd="network"/>
+  </sentence>
+  <sentence id="8" pid="7">
+    <word lem="the" start="912" wd="The"/>
+    <word lem="suspect" start="916" wd="suspects"/>
+    <word lem="will" start="925" wd="will"/>
+    <word lem="be" start="930" wd="be"/>
+    <word epistemic_status="expected_occurrence" event_type="event" eventid="13" in_reporting="14" lem="try" start="933" wd="tried"/>
+    <word lem="in" start="939" wd="in"/>
+    <word lem="a" start="942" wd="a"/>
+    <word lem="Moroccan" start="944" wd="Moroccan"/>
+    <word lem="court" start="953" wd="court"/>
+    <word lem="," start="958" wd=","/>
+    <word lem="official" start="960" wd="officials"/>
+    <word lem="here" start="970" wd="here"/>
+    <word epistemic_status="actual_occurrence" event_type="report" eventid="14" lem="say" provenance="17860::say" start="975" wd="said"/>
+    <word lem="," start="979" wd=","/>
+    <word lem="exclude" provenance="17860::exclude" start="981" wd="excluding"/>
+    <word lem="for" start="991" wd="for"/>
+    <word lem="now" start="995" wd="now"/>
+    <word lem="the" start="999" wd="the"/>
+    <word lem="possibility" start="1003" wd="possibility"/>
+    <word lem="that" start="1015" wd="that"/>
+    <word lem="they" start="1020" wd="they"/>
+    <word lem="would" start="1025" wd="would"/>
+    <word lem="be" start="1031" wd="be"/>
+    <word lem="either" start="1034" wd="either"/>
+    <word lem="extradite" provenance="17860::extradite" start="1041" wd="extradited"/>
+    <word lem="to" start="1052" wd="to"/>
+    <word lem="Saudi" start="1055" wd="Saudi"/>
+    <word lem="Arabia" start="1061" wd="Arabia"/>
+    <word lem="or" start="1068" wd="or"/>
+    <word lem="hand" start="1071" wd="handed"/>
+    <word lem="over" start="1078" wd="over"/>
+    <word lem="to" start="1083" wd="to"/>
+    <word lem="the" start="1086" wd="the"/>
+    <word lem="United" start="1090" wd="United"/>
+    <word lem="States" start="1097" wd="States"/>
+  </sentence>
+  <sentence id="9" pid="8">
+    <word lem="the" start="1114" wd="The"/>
+    <word lem="United" start="1118" wd="United"/>
+    <word lem="States" start="1125" wd="States"/>
+    <word lem="be" start="1132" wd="is"/>
+    <word epistemic_status="OO" event_type="event" eventid="18" lem="hold" provenance="17860::hold" start="1135" wd="holding"/>
+    <word lem="detainee" start="1143" wd="detainees"/>
+    <word lem="suspect" provenance="17860::suspect" start="1153" wd="suspected"/>
+    <word lem="of" start="1163" wd="of"/>
+    <word lem="link" start="1166" wd="links"/>
+    <word lem="to" start="1172" wd="to"/>
+    <word lem="the" start="1175" wd="the"/>
+    <word lem="fallen" start="1179" wd="fallen"/>
+    <word lem="Taliban" start="1186" wd="Taliban"/>
+    <word lem="regime" start="1194" wd="regime"/>
+    <word lem="of" start="1201" wd="of"/>
+    <word lem="Afghanistan" start="1204" wd="Afghanistan"/>
+    <word lem="or" start="1216" wd="or"/>
+    <word lem="al-Qaida" start="1219" wd="al-Qaida"/>
+    <word lem="at" start="1228" wd="at"/>
+    <word lem="the" start="1231" wd="the"/>
+    <word lem="U.S." start="1235" wd="U.S."/>
+    <word lem="naval" start="1240" wd="naval"/>
+    <word lem="base" start="1246" wd="base"/>
+    <word lem="in" start="1251" wd="in"/>
+    <word lem="Guantanamo" start="1254" wd="Guantanamo"/>
+    <word lem="Bay" start="1265" wd="Bay"/>
+    <word lem="," start="1268" wd=","/>
+    <word lem="Cuba" start="1270" wd="Cuba"/>
+  </sentence>
+  <sentence id="10" pid="9">
+    <word lem="three" start="1285" wd="Three"/>
+    <word lem="woman" start="1291" wd="women"/>
+    <word lem="," start="1296" wd=","/>
+    <word lem="include" start="1298" wd="including"/>
+    <word lem="two" start="1308" wd="two"/>
+    <word lem="wife" start="1312" wd="wives"/>
+    <word lem="of" start="1318" wd="of"/>
+    <word lem="the" start="1321" wd="the"/>
+    <word lem="suspect" start="1325" wd="suspects"/>
+    <word lem="," start="1333" wd=","/>
+    <word lem="have" start="1335" wd="have"/>
+    <word lem="be" start="1340" wd="been"/>
+    <word epistemic_status="AO" event_type="event" eventid="36" lem="summon" provenance="17860::summon" start="1345" wd="summoned"/>
+    <word lem="to" start="1354" wd="to"/>
+    <word lem="appear" start="1357" wd="appear"/>
+    <word lem="before" start="1364" wd="before"/>
+    <word lem="a" start="1371" wd="a"/>
+    <word lem="criminal" start="1373" wd="criminal"/>
+    <word lem="court" start="1382" wd="court"/>
+    <word lem="on" start="1388" wd="on"/>
+    <word lem="related" start="1391" wd="related"/>
+    <word epistemic_status="OO" event_type="event" eventid="20" lem="charge" provenance="17860::charge" start="1399" wd="charges"/>
+  </sentence>
+  <sentence id="11" pid="10">
+    <word lem="the" start="1417" wd="The"/>
+    <word lem="man" start="1421" wd="men"/>
+    <word lem="," start="1424" wd=","/>
+    <word lem="who" start="1426" wd="who"/>
+    <word lem="allegedly" start="1430" wd="allegedly"/>
+    <word lem="be" start="1440" wd="were"/>
+    <word coreference="4" epistemic_status="CO" event_type="event" eventid="21" lem="plan" provenance="17860::plan_$TRIGGERNOUN" start="1445" wd="planning"/>
+    <word coreference="5" epistemic_status="expected_occurrence" event_type="event" eventid="22" lem="attack" provenance="17860::attack" start="1454" wd="attacks"/>
+    <word lem="against" start="1462" wd="against"/>
+    <word lem="U.S." start="1470" wd="U.S."/>
+    <word lem="and" start="1475" wd="and"/>
+    <word lem="british" start="1479" wd="British"/>
+    <word lem="warship" start="1487" wd="warships"/>
+    <word lem="in" start="1496" wd="in"/>
+    <word lem="the" start="1499" wd="the"/>
+    <word lem="Strait" start="1503" wd="Strait"/>
+    <word lem="of" start="1510" wd="of"/>
+    <word lem="Gibraltar" start="1513" wd="Gibraltar"/>
+    <word lem="," start="1522" wd=","/>
+    <word lem="be" start="1524" wd="were"/>
+    <word epistemic_status="actual_occurrence" event_type="event" eventid="23" lem="arrest" provenance="17860::arrest" start="1529" wd="arrested"/>
+    <word lem="in" start="1538" wd="in"/>
+    <word lem="May" start="1541" wd="May"/>
+  </sentence>
+  <sentence id="12" pid="11">
+    <word lem="moroccan" start="1555" wd="Moroccan"/>
+    <word lem="authority" start="1564" wd="authorities"/>
+    <word epistemic_status="actual_occurrence" event_type="report" eventid="24" lem="say" provenance="17860::say" start="1576" wd="said"/>
+    <word lem="the" start="1581" wd="the"/>
+    <word lem="suspect" start="1585" wd="suspects"/>
+    <word coreference="21" epistemic_status="CO" event_type="event" eventid="25" in_reporting="24" lem="plan" start="1594" wd="planned"/>
+    <word lem="to" start="1602" wd="to"/>
+    <word lem="sail" start="1605" wd="sail"/>
+    <word lem="a" start="1610" wd="a"/>
+    <word lem="dinghy" start="1612" wd="dinghy"/>
+    <word lem="load" start="1619" wd="loaded"/>
+    <word lem="with" start="1626" wd="with"/>
+    <word lem="explosive" start="1631" wd="explosives"/>
+    <word lem="from" start="1642" wd="from"/>
+    <word lem="Morocco" start="1647" wd="Morocco"/>
+    <word lem="into" start="1655" wd="into"/>
+    <word lem="the" start="1660" wd="the"/>
+    <word lem="strait" start="1664" wd="strait"/>
+    <word lem="to" start="1671" wd="to"/>
+    <word coreference="22" epistemic_status="expected_occurrence" event_type="event" eventid="27" in_reporting="24" lem="attack" provenance="17860::attack" start="1674" wd="attack"/>
+    <word lem="the" start="1681" wd="the"/>
+    <word lem="vessel" start="1685" wd="vessels"/>
+  </sentence>
+  <sentence id="13" pid="12">
+    <word lem="the" start="1703" wd="The"/>
+    <word coreference="25" epistemic_status="AO" event_type="event" eventid="35" lem="plan" start="1707" wd="plan"/>
+    <word lem="be" start="1712" wd="was"/>
+    <word lem="similar" start="1716" wd="similar"/>
+    <word lem="to" start="1724" wd="to"/>
+    <word lem="one" start="1727" wd="one"/>
+    <word epistemic_status="AO" event_type="event" eventid="34" lem="carry" start="1731" wd="carried"/>
+    <word eventid="34" lem="out" start="1739" wd="out"/>
+    <word lem="in" start="1743" wd="in"/>
+    <word lem="October" start="1746" wd="October"/>
+    <word lem="2000" start="1754" wd="2000"/>
+    <word lem="," start="1758" wd=","/>
+    <word lem="when" start="1760" wd="when"/>
+    <word lem="two" start="1765" wd="two"/>
+    <word lem="suicide" start="1769" wd="suicide"/>
+    <word lem="bomber" start="1777" wd="bombers"/>
+    <word lem="in" start="1785" wd="in"/>
+    <word lem="a" start="1788" wd="a"/>
+    <word lem="small" start="1790" wd="small"/>
+    <word lem="dinghy" start="1796" wd="dinghy"/>
+    <word epistemic_status="actual_occurrence" event_type="event" eventid="29" lem="ram" provenance="17860::ram" start="1803" subevent_of="32" wd="rammed"/>
+    <word lem="the" start="1810" wd="the"/>
+    <word lem="USS" start="1814" wd="USS"/>
+    <word lem="Cole" start="1818" wd="Cole"/>
+    <word lem="destroyer" start="1823" wd="destroyer"/>
+    <word lem="in" start="1833" wd="in"/>
+    <word lem="a" start="1836" wd="a"/>
+    <word lem="port" start="1838" wd="port"/>
+    <word lem="in" start="1843" wd="in"/>
+    <word lem="Yemen" start="1846" wd="Yemen"/>
+    <word lem="," start="1851" wd=","/>
+    <word epistemic_status="actual_occurrence" event_type="event" eventid="30" lem="kill" provenance="17860::kill" start="1853" subevent_of="32" wd="killing"/>
+    <word lem="17" start="1861" wd="17"/>
+    <word lem="sailor" start="1864" wd="sailors"/>
+  </sentence>
+  <sentence id="14" pid="13">
+    <word lem="the" start="1882" wd="The"/>
+    <word lem="United" start="1886" wd="United"/>
+    <word lem="States" start="1893" wd="States"/>
+    <word epistemic_status="OO" event_type="report" eventid="31" lem="blame" provenance="17860::blame" start="1900" wd="blames"/>
+    <word lem="bin" start="1907" wd="bin"/>
+    <word lem="Laden" start="1911" wd="Laden"/>
+    <word lem="'s" start="1916" wd="'s"/>
+    <word lem="network" start="1919" wd="network"/>
+    <word lem="for" start="1927" wd="for"/>
+    <word lem="the" start="1931" wd="the"/>
+    <word lem="Cole" start="1935" wd="Cole"/>
+    <word epistemic_status="actual_occurrence" event_type="event" eventid="32" lem="attack" provenance="17860::attack" start="1940" wd="attack"/>
+    <word lem="and" start="1947" wd="and"/>
+    <word lem="the" start="1951" wd="the"/>
+    <word lem="Sept." start="1955" wd="Sept."/>
+    <word lem="11" start="1961" wd="11"/>
+    <word epistemic_status="actual_occurrence" event_type="event" eventid="33" lem="attack" provenance="17860::attack" start="1964" wd="attacks"/>
+    <word lem="on" start="1972" wd="on"/>
+    <word lem="the" start="1975" wd="the"/>
+    <word lem="World" start="1979" wd="World"/>
+    <word lem="Trade" start="1985" wd="Trade"/>
+    <word lem="Center" start="1991" wd="Center"/>
+    <word lem="and" start="1998" wd="and"/>
+    <word lem="the" start="2002" wd="the"/>
+    <word lem="Pentagon" start="2006" wd="Pentagon"/>
+  </sentence>
+</article>

@@ -1,0 +1,108 @@
+Text	Roundup : Former Iraqi Defense Minister surrenders as anti-American attacks become more organized . by Li Jizhi . BAGHDAD , Sept. 19 ( Xinhua ) -- Former Iraqi Defense Minister Sultan Hashem Ahmad surrendered to the US-led coalition forces on Friday as the anti-American attacks demonstrated a streak of coordination . " Sultan Hashem Ahmad al-Jabburi al-Tai , No. 27 on the coalition 's list of most wanted government officials , is now under custody of coalition forces , " said a statement issued by the US Central Command on Friday . " The former Iraqi minister of defense turned himself in to the 101st Airborne Division on Sept. 19 , " it added . Earlier , Daoud Bagistani , a Kurd human rights activist and mediator between the US military and Ahmed 's family , told reporters that Ahmed gave himself up early Friday in his house in Mosul , 450 km north of Baghdad . Mosul is where former Iraqi leader Saddam Hussein 's two elder sons , Uday and Qusay , were killed in their hide-out by US troops in July . So far , 40 of the 55 most wanted have either surrendered or been arrested or killed . According to Bagistani , the US military has kept its promise to treat the former official " with dignity and respect " and Ahmed will only be held in custody long enough to be questioned . The mediator said Ahmed 's name , the eight of hearts in a deck of cards issued by Washington to represent the 55 figures , will be removed from the wanted list . Ahmed , who signed the cease-fire treaty with the US army at the end the first Gulf War , was said to have been disfavored by his boss Saddam and was under house arrest before the US-led war on Iraq in March . In another development , three soldiers of the 4th Infantry Division were killed and two wounded in a fierce overnight firefight with unidentified attackers in Saddam 's hometown of Tikrit , 160 km north of Baghdad . The attacks , bursting out when the US troops were conducting an investigating operation , were the most intense and coordinated since US forces arrived in the area in April , according to a spokeswoman of the Division . The fighting was the latest of a series of assaults across the central-northern area of Iraq , following an audio tape purportedly of Saddam aired by Dubai-based Arabiya TV channel on Wednesday . A voice claimed to be that of Saddam urged the US-led coalition forces to withdraw unconditionally and called on the Iraqis to wage holy war against the occupation . " Collapse is starting to eat the banks and rows of the enemy as fire does dry stalks , and the day when they can not even save their military equipments is near , " said the voice . Two US military vehicles were burned when they hit a roadside bomb near Khadldiya , a restive small town 80 km west of Baghdad , late Thursday . Witnesses said the troops were then fired on by rocket-propelled grenades and small arms , and Arabiya channel reported that eight US soldiers were killed in the incident . However , US spokesman Lt. Col. George Krivo on Friday dismissed the reported toll as a " flawed , inaccurate , " but gave no official account . In the northern city of Mosul , the US forces encountered a spate of attacks from Wednesday night to early Thursday , during which several sites of US presence were fired with grenades , witnesses said . In the capital city of Baghdad , several explosions were heard on Friday , but no heavy casualties were reported . A small bomb placed in a roadside trash can near the People 's Stadium in eastern part of the city went off at around 9:00 pm ( 0500 GMT ) , two hours before the night curfew . CNN reported that a taxi passing by was damaged and a lady and three children in the car were slightly injured . The news channel said another blast occurred minutes later in al - Mansur neighborhood in western Baghdad and was under investigation . On Friday afternoon , another huge explosion was heard in Western Baghdad . A Xinhua correspondent said a cloud of smoke dozens meters high could be seen and the bombing was probably somewhere by the highway leading to the restive town of Fallujah . Explosions have become a usual case in Iraqis ' daily life . Some of the blasts were bombing attacks on the US-led coalition forces while the others were controlled detonation of unexploded devices by US troops . 
+Event	1	surrenders	event	6
+Event	2	attacks	event	9
+Event	3	surrendered	event	31
+Event	4	attacks	event	42
+Event	62	custody	event	71
+Event	63	said	report	77
+Event	5	turned	event	95
+Event	6	added	report	109
+Event	64	told	report	131
+Event	65	gave	event	135
+Event	7	killed	event	169
+Event	8	surrendered	event	189
+Event	9	arrested	event	192
+Event	10	killed	event	194
+Event	11	According	report	195
+Event	66	custody	event	224
+Event	13	questioned	event	229
+Event	17	arrest	event	295
+Event	18	war	event	299
+Event	19	killed	event	316
+Event	20	wounded	event	319
+Event	21	firefight	event	324
+Event	22	attacks	event	341
+Event	69	conducting	event	350
+Event	24	operation	event	353
+Event	67	arrived	event	364
+Event	25	according	report	371
+Event	26	fighting	event	379
+Event	27	assaults	event	387
+Event	28	urged	report	418
+Event	29	withdraw	event	424
+Event	30	called	report	427
+Event	31	wage	event	432
+Event	32	war	event	434
+Event	33	occupation	event	437
+Event	68	burned	event	481
+Event	34	hit	event	484
+Event	35	said	report	504
+Event	36	fired	event	509
+Event	37	reported	report	521
+Event	38	killed	event	527
+Event	39	incident	event	530
+Event	41	attacks	event	572
+Event	42	fired	event	588
+Event	43	said	report	593
+Event	44	explosions	event	602
+Event	45	casualties	event	611
+Event	46	reported	report	613
+Event	48	went	event	634
+Event	49	reported	report	652
+Event	50	damaged	event	659
+Event	51	injured	event	671
+Event	52	said	report	675
+Event	53	blast	event	677
+Event	54	investigation	event	692
+Event	55	explosion	event	699
+Event	56	said	report	708
+Event	57	bombing	event	721
+Event	58	Explosions	event	735
+Event	59	blasts	event	749
+Event	60	attacks	event	752
+Event	61	detonation	event	763
+Relation	1	8	member_of
+Relation	1	12	subevent_of
+Relation	3	1	coreference
+Relation	4	2	coreference
+Relation	62	63	in_reporting
+Relation	5	1	coreference
+Relation	5	6	in_reporting
+Relation	7	10	member_of
+Relation	13	12	subevent_of
+Relation	13	11	in_reporting
+Relation	19	21	subevent_of
+Relation	20	21	subevent_of
+Relation	22	21	coreference
+Relation	22	25	in_reporting
+Relation	26	27	member_of
+Relation	26	22	coreference
+Relation	29	28	in_reporting
+Relation	31	30	in_reporting
+Relation	32	30	in_reporting
+Relation	33	30	in_reporting
+Relation	34	39	subevent_of
+Relation	36	39	subevent_of
+Relation	36	35	in_reporting
+Relation	38	39	subevent_of
+Relation	38	37	in_reporting
+Relation	39	37	in_reporting
+Relation	41	43	in_reporting
+Relation	42	41	subevent_of
+Relation	42	43	in_reporting
+Relation	44	46	in_reporting
+Relation	45	44	subevent_of
+Relation	45	46	in_reporting
+Relation	48	47	subevent_of
+Relation	50	47	subevent_of
+Relation	50	49	in_reporting
+Relation	51	47	subevent_of
+Relation	51	49	in_reporting
+Relation	52	49	coreference
+Relation	53	52	in_reporting
+Relation	54	52	in_reporting
+Relation	57	55	coreference
+Relation	57	56	in_reporting
+Relation	59	58	coreference
+Relation	60	59	member_of
+Relation	61	59	member_of

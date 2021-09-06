@@ -1,0 +1,32 @@
+Text	Three killed in attack in Sudan 's Darfur region : rebels . Rebel leaders from Sudan 's Darfur region said Saturday that three people were killed and five injured by government-backed militia , in an attack they charged was a violation of a ceasefire . " I want to report a violation of the ceasefire ... which happened ( Friday ) and was witnessed by the CFC ( Ceasefire Commission ) , " spokesman for Sudan Liberation Movement ( SLM ) Abdelhafiz Mustafa Musa told reporters . He said the CFC witnessed the killings at Sayah in Darfur on Friday . Two women were among the dead , he said , accusing the Khartoum-backed Arab militia known as Janjaweed of the killings . The Janjaweed have been accused of conducting a scorched earth policy and of ethnic cleansing in Darfur , prompting the UN and rebels groups to call on the government to rein in the group . According to UN estimates , up to 50,000 people have died in Darfur since rebels rose up against the government in February last year , and about 1.4 million people have fled their homes . 
+Event	1	killed	event	1
+Event	2	attack	event	3
+Event	3	said	report	18
+Event	4	killed	event	24
+Event	5	injured	event	27
+Event	6	attack	event	34
+Event	7	charged	report	36
+Event	14	said	report	85
+Event	15	killings	event	90
+Event	18	accusing	report	107
+Event	19	killings	event	117
+Event	20	accused	report	122
+Event	21	cleansing	event	132
+Event	23	According	report	152
+Event	24	died	event	162
+Event	27	rose	event	167
+Event	26	fled	event	183
+Relation	4	6	subevent_of
+Relation	4	1	coreference
+Relation	4	3	in_reporting
+Relation	5	6	subevent_of
+Relation	5	3	in_reporting
+Relation	6	2	coreference
+Relation	7	3	in_reporting
+Relation	15	1	coreference
+Relation	15	14	in_reporting
+Relation	19	6	subevent_of
+Relation	19	15	coreference
+Relation	24	23	in_reporting
+Relation	27	23	in_reporting
+Relation	26	23	in_reporting

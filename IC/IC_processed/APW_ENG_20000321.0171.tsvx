@@ -1,0 +1,105 @@
+Text	2000-03-21 40 Sikhs Killed in Kashmir . CHATI SINGHPURA , India ( AP ) . Suspected Islamic separatists roused Sikhs from their homes , lined up 40 men and shot them to death in what India 's prime minister called Tuesday an act of '' ethnic cleansing ' in Kashmir . The killings came Monday night as President Clinton was heading to India , and as Sikh residents of Chati Singhpura marked the Hindu '' festival of colors '' by daubing each other with colored pastes to celebrate the harvest . Some colors were still there Tuesday : red against yellow , as bloodstains smeared a wall , and the white of shrouds of 37 victims laid out in the temple and its garden . Three other men died of their wounds at hospitals . India said Kashmiri rebels were responsible for the massacre , and accused neighboring Pakistan -- which also claims mainly-Muslim Kashmir -- of supporting the rebels . Both Pakistan and the rebels denied responsibility and condemned the killings . Clinton , speaking Tuesday in New Delhi at an appearance with Prime Minister Atal Bihari Vajpayee , said Monday 's attack highlighted '' the tremendous suffering this conflict has caused India '' '' . The violence must end , '' Clinton said . Also Tuesday , at least two Kashmiri rebels stormed an army support camp in the Kashmir capital Srinagar , firing automatic weapons and lobbing grenades as they rushed into the border security base . Two or three soldiers of the Border Security Force were believed wounded . The rebels , members of a suicide squad , holed up on the ground floor of the base and engaged in a shoot-out with 200 soldiers surrounded the building . Hours after the massacre in Chati Singhpura , 40 miles south of Srinagar , Indian army troops searched for the gunmen in the hills and apple and almond orchards near the village . Angry villagers shouted slogans against Pakistan and Vajpayee , and threw stones at reporters ' cars . Home Minister L.K. Advani said Islamic separatists were trying to drive the Sikhs out of Kashmir , just as they had forced out many Hindus with previous attacks . The attack was the first in the Kashmir conflict to target Sikhs , whose religion combines elements of Hinduism and Islam . In New Delhi , the prime minister 's security adviser , Brijesh Mishra , identified two militant groups suspected in Monday 's massacre -- Lashkar-e-Toiba and Hezb-ul Mujahedeen '' . These outfits are supported by the government of Pakistan , '' Mishra asserted . Pakistan 's U.N. ambassador Shamshad Ahmed accused Indian security forces of committing the massacre '' to discredit the legitimate Kashmiri struggle '' . He repeated Pakistan 's calls for the United Nations and Clinton to get personally involved to mediate an agreement between India and Pakistan to allow the Kashmiri people to determine their fate . India rejects outside interference in the conflict , which has been stalemated for more than 50 years and has sparked two wars . In Srinagar , four leading rebel groups disowned the attack and also blamed it on Indian security agencies '' . We are fighting a holy war and Islam does not allow us to target innocent people , '' Abu Osama , a spokesman for the Lashkar-e-Toiba group was quoted as saying by Press Trust of India . His group did claim responsibility for the attack on the border security base . Police said the massacre began when gunmen wearing combat uniforms entered Chati Singhpura just after the village celebrated Holi , the festival of color '' . I had taken my dinner and was about to go to bed when my 10-year-old son told me there was some trouble outside , '' said Balbir Singh , a grocery store owner in Chati Singhpura . He hid , and '' then I heard rapid gunshots . It went on for five to six minutes '' . The attackers killed his younger brother , Deedar Singh . Many Sikh men use the surname Singh . Gurbachan Singh , a village elder who escaped the massacre because he was looking after his animals at the time , was stunned by the attack '' . I still ca n't make sense why they did this to us , '' he said . 
+Event	1	Killed	event	3
+Event	3	shot	event	27
+Event	79	act	event	40
+Event	68	cleansing	event	44
+Event	6	killings	event	49
+Event	9	died	event	123
+Event	77	wounds	event	126
+Event	10	said	report	130
+Event	11	massacre	event	137
+Event	15	condemned	report	162
+Event	16	killings	event	164
+Event	18	said	report	182
+Event	19	attack	event	185
+Event	66	conflict	event	192
+Event	20	violence	event	199
+Event	22	said	report	205
+Event	23	stormed	event	214
+Event	24	firing	event	225
+Event	67	lobbing	event	229
+Event	25	rushed	event	233
+Event	27	wounded	event	250
+Event	80	holed	event	260
+Event	81	engaged	event	270
+Event	29	shoot-out	event	273
+Event	30	surrounded	event	277
+Event	31	massacre	event	283
+Event	32	searched	event	297
+Event	33	threw	event	322
+Event	34	said	report	332
+Event	36	drive	event	338
+Event	37	forced	event	349
+Event	38	attacks	event	355
+Event	39	attack	event	357
+Event	40	conflict	event	364
+Event	41	target	event	366
+Event	44	massacre	event	399
+Event	45	accused	report	425
+Event	78	committing	event	430
+Event	47	massacre	event	432
+Event	49	struggle	event	439
+Event	50	rejects	report	474
+Event	51	conflict	event	479
+Event	53	wars	event	494
+Event	54	disowned	report	502
+Event	55	attack	event	504
+Event	70	fighting	event	516
+Event	71	war	event	519
+Event	72	target	event	527
+Event	73	quoted	report	542
+Event	74	saying	report	544
+Event	57	claim	report	553
+Event	58	attack	event	557
+Event	59	said	report	564
+Event	60	massacre	event	566
+Event	82	entered	event	573
+Event	75	said	report	613
+Event	76	gunshots	event	633
+Event	62	killed	event	645
+Event	64	massacre	event	668
+Event	65	attack	event	684
+Relation	3	1	coreference
+Relation	6	19	subevent_of
+Relation	6	1	coreference
+Relation	9	19	subevent_of
+Relation	11	3	coreference
+Relation	11	10	in_reporting
+Relation	16	6	coreference
+Relation	19	66	subevent_of
+Relation	19	18	in_reporting
+Relation	66	18	in_reporting
+Relation	20	22	in_reporting
+Relation	24	23	subevent_of
+Relation	67	23	subevent_of
+Relation	27	23	subevent_of
+Relation	29	23	subevent_of
+Relation	30	23	subevent_of
+Relation	31	11	coreference
+Relation	36	34	in_reporting
+Relation	37	34	in_reporting
+Relation	38	34	in_reporting
+Relation	39	40	member_of
+Relation	39	19	coreference
+Relation	40	66	coreference
+Relation	41	39	subevent_of
+Relation	44	11	coreference
+Relation	47	44	coreference
+Relation	49	40	coreference
+Relation	51	40	coreference
+Relation	53	51	subevent_of
+Relation	55	19	coreference
+Relation	70	74	in_reporting
+Relation	71	74	in_reporting
+Relation	72	74	in_reporting
+Relation	74	73	in_reporting
+Relation	58	23	coreference
+Relation	60	47	coreference
+Relation	60	59	in_reporting
+Relation	76	65	subevent_of
+Relation	76	75	in_reporting
+Relation	62	1	member_of
+Relation	62	19	subevent_of
+Relation	64	65	subevent_of
+Relation	64	60	coreference
+Relation	65	55	coreference

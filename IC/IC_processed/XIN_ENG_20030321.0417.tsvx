@@ -1,0 +1,46 @@
+Text	Urgent : Iraqi defense minister says Iraq strongly resists enemy . BAGHDAD , March 21 ( Xinhua ) . Iraqi Defence Minister Sultan Hashim Ahmed said here Friday evening that Iraqi forces are strongly resisting American and British invadors . At a press conference held in Baghdad , he acknowledged for the first time that US and British troops have crossed the borders into Iraq from Kuwait and attacked Um al-Qasser and headed towards Basra . He also said that US and British paratroopers landed in a number of border towns close with Syria and Jordan . Towns they attacked include Rutba , 350 km west to Baghdad , al-Nakhaib near Mosul , besides Al-Walid military base close to the Syrian border . But the paratroopers met strong resistance from Iraqi troops and tribesmen . In Rutba area , " two enemy armed vehicles were destroyed by rocket propelled grenades , " he said , adding battles in that area still continued . The press conference was disrupted by loud explosions at around 2100 local time when coalition forces launched massive bombardment on Baghdad . He also said that British forces landed behind al-Saw peninsula and bombarded the town of al Saw by artillery . " The enemy forces have advanced further more into the northern Rumeila area , which has rich oil reserve " . . Another army force heads the city of Basra 520 km north of Baghdad , but " was stopped because of strong resistance . Meanwhile , a statement issued by the military said Iraqi missile force fired surface-to-surface missiles to coalition forces concentrations in Al-Rouqa , and Ali Salem base in Kuwait on Friday . 
+Event	1	says	report	5
+Event	2	resists	event	8
+Event	3	said	report	23
+Event	4	resisting	event	32
+Event	5	acknowledged	report	46
+Event	21	crossed	event	57
+Event	6	attacked	event	65
+Event	22	headed	event	69
+Event	23	said	report	74
+Event	24	landed	event	80
+Event	7	attacked	event	94
+Event	8	resistance	event	122
+Event	9	destroyed	event	138
+Event	10	said	report	146
+Event	11	adding	report	148
+Event	12	battles	event	149
+Event	14	explosions	event	162
+Event	15	bombardment	event	173
+Event	16	said	report	178
+Event	26	landed	event	182
+Event	17	bombarded	event	187
+Event	18	advanced	event	200
+Event	27	resistance	event	236
+Event	19	said	report	245
+Event	20	fired	event	249
+Relation	2	12	member_of
+Relation	2	1	in_reporting
+Relation	3	1	coreference
+Relation	4	2	coreference
+Relation	4	3	in_reporting
+Relation	5	1	coreference
+Relation	6	12	member_of
+Relation	6	5	in_reporting
+Relation	24	23	in_reporting
+Relation	7	12	member_of
+Relation	8	2	coreference
+Relation	9	2	subevent_of
+Relation	9	10	in_reporting
+Relation	12	11	in_reporting
+Relation	14	15	subevent_of
+Relation	17	12	member_of
+Relation	17	16	in_reporting
+Relation	18	16	in_reporting
+Relation	20	12	member_of
+Relation	20	19	in_reporting

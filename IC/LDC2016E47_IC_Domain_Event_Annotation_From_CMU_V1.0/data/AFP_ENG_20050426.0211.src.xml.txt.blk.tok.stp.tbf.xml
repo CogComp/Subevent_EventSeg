@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?><article lng="en">
+  <sentence id="1" pid="1">
+    <word lem="two" start="94" wd="Two"/>
+    <word lem="Abu" start="98" wd="Abu"/>
+    <word lem="Sayyaf" start="102" wd="Sayyaf"/>
+    <word lem="gunman" start="109" wd="gunmen"/>
+    <word epistemic_status="actual_occurrence" event_type="event" eventid="1" lem="kill" provenance="17808::kill" start="116" subevent_of="2" wd="killed"/>
+    <word lem="in" start="123" wd="in"/>
+    <word lem="southern" start="126" wd="southern"/>
+    <word lem="Philippines" start="135" wd="Philippines"/>
+    <word epistemic_status="actual_occurrence" event_type="event" eventid="2" lem="clash" member_of="17" provenance="17808::clash" start="147" wd="clash"/>
+  </sentence>
+  <sentence id="2" pid="2">
+    <word lem="two" start="176" wd="Two"/>
+    <word lem="member" start="180" wd="members"/>
+    <word lem="of" start="188" wd="of"/>
+    <word lem="the" start="191" wd="the"/>
+    <word lem="al-qaeda-linked" start="195" wd="Al-Qaeda-linked"/>
+    <word lem="Muslim" start="212" wd="Muslim"/>
+    <word lem="Abu" start="219" wd="Abu"/>
+    <word lem="Sayyaf" start="223" wd="Sayyaf"/>
+    <word lem="gang" start="230" wd="gang"/>
+    <word lem="be" start="235" wd="were"/>
+    <word coreference="1" epistemic_status="actual_occurrence" event_type="event" eventid="3" in_reporting="5" lem="kill" provenance="17808::kill" start="240" wd="killed"/>
+    <word lem="Tuesday" start="247" wd="Tuesday"/>
+    <word lem="in" start="255" wd="in"/>
+    <word lem="a" start="258" wd="a"/>
+    <word coreference="2" epistemic_status="actual_occurrence" event_type="event" eventid="4" in_reporting="5" lem="clash" provenance="17808::clash" start="260" wd="clash"/>
+    <word lem="with" start="266" wd="with"/>
+    <word lem="government" start="272" wd="government"/>
+    <word lem="force" start="283" wd="forces"/>
+    <word lem="in" start="290" wd="in"/>
+    <word lem="the" start="293" wd="the"/>
+    <word lem="southern" start="297" wd="southern"/>
+    <word lem="philippine" start="306" wd="Philippine"/>
+    <word lem="island" start="317" wd="island"/>
+    <word lem="of" start="324" wd="of"/>
+    <word lem="Sulu" start="327" wd="Sulu"/>
+    <word lem="," start="331" wd=","/>
+    <word lem="the" start="333" wd="the"/>
+    <word lem="military" start="338" wd="military"/>
+    <word epistemic_status="actual_occurrence" event_type="report" eventid="5" lem="say" provenance="17808::say" start="347" wd="said"/>
+  </sentence>
+  <sentence id="3" pid="3">
+    <word lem="Marine" start="362" wd="Marine"/>
+    <word lem="troops" start="369" wd="troops"/>
+    <word coreference="2" epistemic_status="actual_occurrence" event_type="event" eventid="6" in_reporting="7" lem="clash" provenance="17808::clash" start="376" wd="clashed"/>
+    <word lem="with" start="384" wd="with"/>
+    <word lem="Abu" start="389" wd="Abu"/>
+    <word lem="Sayyaf" start="393" wd="Sayyaf"/>
+    <word lem="rebel" start="400" wd="rebels"/>
+    <word lem="near" start="407" wd="near"/>
+    <word lem="the" start="412" wd="the"/>
+    <word lem="town" start="416" wd="town"/>
+    <word lem="of" start="421" wd="of"/>
+    <word lem="Patikul" start="424" wd="Patikul"/>
+    <word lem="," start="431" wd=","/>
+    <word lem="a" start="433" wd="a"/>
+    <word lem="know" start="435" wd="known"/>
+    <word lem="hotbed" start="441" wd="hotbed"/>
+    <word lem="of" start="448" wd="of"/>
+    <word lem="Muslim" start="451" wd="Muslim"/>
+    <word lem="militant" start="458" wd="militants"/>
+    <word lem="," start="467" wd=","/>
+    <word epistemic_status="actual_occurrence" event_type="report" eventid="7" lem="say" provenance="17808::say" start="469" wd="said"/>
+    <word lem="Marine" start="474" wd="Marine"/>
+    <word lem="commander" start="481" wd="commander"/>
+    <word lem="Colonel" start="491" wd="Colonel"/>
+    <word lem="Juancho" start="499" wd="Juancho"/>
+    <word lem="Sabban" start="507" wd="Sabban"/>
+  </sentence>
+  <sentence id="4" pid="4">
+    <word lem="``" start="524" wd="&quot;"/>
+    <word lem="we" start="525" wd="We"/>
+    <word lem="recover" start="528" wd="recovered"/>
+    <word lem="the" start="538" wd="the"/>
+    <word lem="slay" provenance="17808::slay" start="542" wd="slain"/>
+    <word lem="body" start="548" wd="bodies"/>
+    <word lem="of" start="555" wd="of"/>
+    <word lem="the" start="558" wd="the"/>
+    <word lem="Abu" start="562" wd="Abu"/>
+    <word lem="Sayyaf" start="566" wd="Sayyaf"/>
+    <word lem="which" start="573" wd="which"/>
+    <word lem="be" start="579" wd="were"/>
+    <word lem="leave" start="584" wd="left"/>
+    <word lem="behind" start="589" wd="behind"/>
+    <word lem="by" start="596" wd="by"/>
+    <word lem="they" start="599" wd="their"/>
+    <word lem="fleeing" start="605" wd="fleeing"/>
+    <word lem="companion" start="613" wd="companions"/>
+    <word lem="include" start="624" wd="including"/>
+    <word lem="a" start="634" wd="a"/>
+    <word lem="female" start="636" wd="female"/>
+    <word lem="suspect" start="643" wd="suspect"/>
+    <word lem="," start="650" wd=","/>
+    <word lem="''" start="651" wd="&quot;"/>
+    <word lem="say" provenance="17808::say" start="653" wd="said"/>
+    <word lem="Sabban" start="658" wd="Sabban"/>
+  </sentence>
+  <sentence id="5" pid="5">
+    <word lem="there" start="675" wd="There"/>
+    <word lem="be" start="681" wd="were"/>
+    <word lem="no" start="686" wd="no"/>
+    <word lem="report" start="689" wd="reports"/>
+    <word lem="of" start="697" wd="of"/>
+    <word epistemic_status="negated_occurrence" event_type="event" eventid="11" lem="casualty" provenance="17808::casualty" start="700" subevent_of="2" wd="casualties"/>
+    <word lem="among" start="711" wd="among"/>
+    <word lem="the" start="717" wd="the"/>
+    <word lem="soldier" start="721" wd="soldiers"/>
+  </sentence>
+  <sentence id="6" pid="6">
+    <word lem="the" start="740" wd="The"/>
+    <word coreference="2" epistemic_status="actual_occurrence" event_type="event" eventid="12" lem="firefight" provenance="17808::firefight" start="744" wd="firefight"/>
+    <word lem="come" start="754" wd="came"/>
+    <word lem="a" start="759" wd="a"/>
+    <word lem="day" start="761" wd="day"/>
+    <word lem="after" start="765" wd="after"/>
+    <word elliptical="yes" epistemic_status="actual_occurrence" event_type="implicit" eventid="13" member_of="17"/>
+    <word lem="a" start="771" wd="a"/>
+    <word lem="landmine" start="773" wd="landmine"/>
+    <word lem="allegedly" start="782" wd="allegedly"/>
+    <word epistemic_status="CO" event_type="event" eventid="14" lem="plant" start="792" subevent_of="13" wd="planted"/>
+    <word lem="by" start="800" wd="by"/>
+    <word lem="Abu" start="804" wd="Abu"/>
+    <word lem="Sayyaf" start="808" wd="Sayyaf"/>
+    <word lem="rebel" start="815" wd="rebels"/>
+    <word epistemic_status="actual_occurrence" event_type="event" eventid="15" lem="kill" provenance="17808::kill" start="822" subevent_of="13" wd="killed"/>
+    <word lem="three" start="829" wd="three"/>
+    <word lem="soldier" start="835" wd="soldiers"/>
+    <word lem="in" start="844" wd="in"/>
+    <word lem="the" start="847" wd="the"/>
+    <word lem="adjacent" start="851" wd="adjacent"/>
+    <word lem="town" start="860" wd="town"/>
+    <word lem="of" start="865" wd="of"/>
+    <word lem="Maimbung" start="869" wd="Maimbung"/>
+  </sentence>
+  <sentence id="7" pid="7">
+    <word lem="the" start="888" wd="The"/>
+    <word lem="Abu" start="892" wd="Abu"/>
+    <word lem="Sayyaf" start="896" wd="Sayyaf"/>
+    <word lem="," start="902" wd=","/>
+    <word lem="or" start="904" wd="or"/>
+    <word lem="Bearer" start="907" wd="Bearer"/>
+    <word lem="of" start="914" wd="of"/>
+    <word lem="the" start="917" wd="the"/>
+    <word lem="Sword" start="921" wd="Sword"/>
+    <word lem="," start="926" wd=","/>
+    <word lem="be" start="928" wd="is"/>
+    <word lem="a" start="931" wd="a"/>
+    <word lem="small" start="933" wd="small"/>
+    <word lem="gang" start="939" wd="gang"/>
+    <word lem="of" start="944" wd="of"/>
+    <word lem="islamic" start="948" wd="Islamic"/>
+    <word lem="militant" start="956" wd="militants"/>
+    <word lem="found" start="966" wd="founded"/>
+    <word lem="in" start="974" wd="in"/>
+    <word lem="the" start="977" wd="the"/>
+    <word lem="early" start="981" wd="early"/>
+    <word lem="1990s" start="987" wd="1990s"/>
+  </sentence>
+  <sentence id="8" pid="7">
+    <word lem="it" start="994" wd="It"/>
+    <word lem="have" start="997" wd="has"/>
+    <word lem="be" start="1001" wd="been"/>
+    <word epistemic_status="actual_occurrence" event_type="report" eventid="16" lem="blame" provenance="17808::blame" start="1006" wd="blamed"/>
+    <word lem="for" start="1013" wd="for"/>
+    <word lem="the" start="1018" wd="the"/>
+    <word lem="country" start="1022" wd="country"/>
+    <word lem="'s" start="1029" wd="'s"/>
+    <word lem="worst" start="1032" wd="worst"/>
+    <word lem="terrorist" start="1038" wd="terrorist"/>
+    <word epistemic_status="actual_occurrence" event_type="event" eventid="17" lem="attack" provenance="17808::attack" start="1048" wd="attacks"/>
+    <word lem="," start="1055" wd=","/>
+    <word lem="include" start="1057" wd="including"/>
+    <word elliptical="yes"/>
+    <word lem="the" start="1067" wd="the"/>
+    <word epistemic_status="actual_occurrence" event_type="event" eventid="18" lem="firebombing" member_of="17" provenance="17808::firebombing" start="1071" wd="firebombing"/>
+    <word lem="of" start="1083" wd="of"/>
+    <word lem="a" start="1087" wd="a"/>
+    <word lem="ferry" start="1089" wd="ferry"/>
+    <word lem="last" start="1095" wd="last"/>
+    <word lem="year" start="1100" wd="year"/>
+    <word lem="," start="1104" wd=","/>
+    <word epistemic_status="actual_occurrence" event_type="event" eventid="19" lem="kill" provenance="17808::kill" start="1106" subevent_of="18" wd="killing"/>
+    <word lem="over" start="1114" wd="over"/>
+    <word lem="100" start="1119" wd="100"/>
+    <word lem="people" start="1123" wd="people"/>
+  </sentence>
+</article>

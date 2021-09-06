@@ -1,0 +1,73 @@
+Text	2005-01-17 Pakistani militant held over Musharraf death plot . A Pakistani Islamic militant has been arrested for his alleged role in high-profile terror attacks including a plot to kill President Pervez Musharraf , police said Monday . Mohammad Jamil Memon , a member of the extremist organisation Harkatul Mujahideen Al-Alaami , was detained in the northwestern hill resort of Swat a few days ago , senior police investigator Manzoor Mughal said . Memon admitted his involvement in activies including the April 26 , 2002 attempt to kill Musharraf in Karachi , when a remote-controlled device failed to detonate an explosives-laden van near the president 's motorcade , police said . " Memon was initially arrested in Swat and will now be interrogated by Karachi police for his alleged role in high-profile cases here including the plot to kill the president , " Mughal told AFP . Police said they would also quiz Memon over a June 14 , 2002 suicide bomb attack on the US consulate in Karachi , which killed 12 Pakistanis . The vehicle used in the bid on Musharraf 's life was also employed to strike the consulate . Three members of the same Islamic group as Memon were sentenced to 10 years ' hard labour for the assassination attempt . Two of them -- Mohammad Imran Bhai and Hanif Ayub -- were given death sentences for bombing the American consulate . Al-Alaami is an offshoot of Harkatul Mujahideen , which is battling Indian rule in the divided Himalayan region of Kashmir . Musharraf survived two Al-Qaeda-linked assassination attempts in the northern city of Rawalpindi in December 2003 . A junior Pakistan Air Force officer convicted of a key role in one of the Rawalpindi attacks is still on the run after escaping from jail in late November , officials have said . 
+Event	2	plot	event	7
+Event	3	arrested	event	14
+Event	4	attacks	event	22
+Event	5	plot	event	25
+Event	6	kill	event	27
+Event	7	said	report	33
+Event	8	detained	event	50
+Event	9	said	report	68
+Event	10	admitted	report	70
+Event	11	involvement	event	72
+Event	12	activies	event	74
+Event	13	attempt	event	81
+Event	14	kill	event	83
+Event	16	detonate	event	94
+Event	17	said	report	105
+Event	18	arrested	event	110
+Event	42	interrogated	event	117
+Event	20	plot	event	131
+Event	21	kill	event	133
+Event	22	told	report	139
+Event	23	said	report	142
+Event	43	quiz	event	146
+Event	25	attack	event	156
+Event	26	killed	event	165
+Event	28	bid	event	173
+Event	29	strike	event	182
+Event	30	sentenced	event	195
+Event	31	attempt	event	205
+Event	32	sentences	event	220
+Event	33	bombing	event	222
+Event	34	battling	event	236
+Event	44	survived	event	247
+Event	36	attempts	event	251
+Event	37	convicted	event	267
+Event	38	attacks	event	277
+Event	39	the	event	281
+Event	40	escaping	event	284
+Event	41	said	report	293
+Relation	3	1	subevent_of
+Relation	3	7	in_reporting
+Relation	4	12	member_of
+Relation	4	7	in_reporting
+Relation	5	4	member_of
+Relation	5	2	coreference
+Relation	6	7	in_reporting
+Relation	8	1	coreference
+Relation	8	9	in_reporting
+Relation	10	17	in_reporting
+Relation	11	12	subevent_of
+Relation	12	17	in_reporting
+Relation	13	12	member_of
+Relation	14	17	in_reporting
+Relation	16	5	subevent_of
+Relation	16	17	in_reporting
+Relation	18	3	coreference
+Relation	18	22	in_reporting
+Relation	42	22	in_reporting
+Relation	20	5	coreference
+Relation	20	22	in_reporting
+Relation	21	6	coreference
+Relation	21	22	in_reporting
+Relation	43	23	in_reporting
+Relation	25	12	member_of
+Relation	25	23	in_reporting
+Relation	26	25	subevent_of
+Relation	28	13	coreference
+Relation	29	25	coreference
+Relation	31	20	coreference
+Relation	33	25	coreference
+Relation	37	41	in_reporting
+Relation	38	41	in_reporting
+Relation	40	41	in_reporting

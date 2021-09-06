@@ -1,0 +1,41 @@
+Text	Fighting Among Kurds Erupts Again In Northern Iraq . NICOSIA , Cyprus ( AP ) . While Turkish troops have been fighting a Kurdish faction in northern Iraq , two other Kurdish groups have been battling each other . A radio station operated by the Kurdistan Democratic Party said the party 's forces attacked positions of the Patriotic Union of Kurdistan on Monday in the Kurdish region 's capital Irbil . The Voice of Iraqi Kurdistan radio , monitored by the British Broadcasting Corp. , said more than 80 Patriotic Union fighters were killed and at least 150 wounded . The fighting was also reported by a senior Patriotic Union official , Kusret Rasul Ali , who said PUK forces repelled a large KDP attack . `` They left dozens of corpses at the battlefield , '' he told Radio Monte Carlo , which broadcasts to the Middle East . Ali claimed that 300 KDP fighters were killed or wounded and only 11 Patriotic Union members died . In January , Patriotic Union forces took control of Irbil , about 320 kilometers ( 200 miles ) north of Baghdad , after months of internecine clashes in the Kurdish `` safe haven '' . The enclave was set up by the Western allies after the 1991 Gulf War to protect the Kurds from Iraqi leader Saddam Hussein . About 35,000 Turkish troops , backed by warplanes and tanks , have entered the enclave to wipe out bases of the Kurdistan Workers Party , or PKK , which is fighting for independence in eastern Turkey . The leftist Patriotic Union has accused the conservative Democratic Party of collaborating with Turkish troops . 
+Event	1	Fighting	event	0
+Event	2	fighting	event	19
+Event	3	battling	event	33
+Event	4	said	report	45
+Event	5	attacked	event	50
+Event	6	said	report	81
+Event	7	killed	event	89
+Event	8	wounded	event	94
+Event	9	fighting	event	96
+Event	10	reported	report	99
+Event	11	said	report	112
+Event	12	repelled	event	115
+Event	13	attack	event	119
+Event	14	claimed	report	144
+Event	15	killed	event	150
+Event	16	wounded	event	152
+Event	17	died	event	159
+Event	18	control	event	167
+Event	19	clashes	event	186
+Event	25	War	event	207
+Event	21	entered	event	229
+Event	22	wipe	event	233
+Event	23	fighting	event	247
+Relation	5	3	member_of
+Relation	5	1	coreference
+Relation	5	4	in_reporting
+Relation	7	5	subevent_of
+Relation	7	6	in_reporting
+Relation	8	5	subevent_of
+Relation	8	6	in_reporting
+Relation	9	1	coreference
+Relation	9	10	in_reporting
+Relation	11	10	coreference
+Relation	12	11	in_reporting
+Relation	13	5	coreference
+Relation	13	11	in_reporting
+Relation	15	5	subevent_of
+Relation	16	5	subevent_of
+Relation	17	7	coreference
+Relation	19	3	member_of

@@ -1,0 +1,103 @@
+Text	Roundup : Militant group claims to have beheaded US Marine . CAIRO , July 3 ( Xinhua ) . A militant group claimed Saturday that it had beheaded a US Marine of Lebanese descent taken hostage earlier in Iraq . " We inform you that ( Wassef Ali ) Hassoun , the Marine of Lebanese descent , has been decapitated , " said the group , Jaish Ansar al-Sunna , in a statement posted on an Islamic Website . " You will see the video soon , " the message said . The authenticity of the Arabic-language statement , which was addressed to US President George W. Bush and demanded the withdrawal of US troops from Iraq , has yet to be verified . The US military has confirmed that Hassoun had been missing from his unit , which was operating west of Fallujah , since June 21 . Pan-Arab satellite TV al-Jazeera reported on June 27 that Iraqi militants had allegedly kidnapped Hassoun and threatened to behead him unless Iraqi prisoners are released . The TV station aired a video tape of militants holding a blindfolded 24-year-old Hassoun with a sword poised over his head . The Pentagon had no immediate comment on the decapitation claim . Hassoun 's father and brother in Lebanon said they had heard the news but the death had not been confirmed . Ansar al-Sunna also said in its statement that they will issue a new tape showing a new " infidel " hostage , but it did not give the nationality of the captive . A spate of kidnappings of foreigners has hit Iraq and a militant group led by Jordanian Abu Musab al-Zarqawi , accused by the US of links to Osama bin Laden 's al Qaeda , has claimed responsibility for beheading an American and a South Korean . On June 22 , Zarqawi 's group beheaded South Korean hostage Kim Sun-il after Seoul refused to withdraw its forces from Iraq . In May , the group decapitated US hostage Nicholas Berg . One group of militants killed Italian civilian Fabrizio Quattrocchi in April but later freed three of his colleagues . Just hours after Washington 's handover of power to the new Iraqi government last Monday , al Jazeera broadcast a video tape showing what militants said was the killing of US Private Keith Matthew Maupin , 20 . On one of the deadliest days since the new Iraqi government took over , a US soldier , six Iraqi national guardsmen and a policeman were killed by insurgents on Saturday , security and medical sources said . " Five dead bodies were brought in here , including one lieutenant and four soldiers , as well as five wounded people , three of whom were seriously hurt , " said a doctor at a hospital in Mahmudiyah , 30 km south of Baghdad . One of the five wounded died later at the capital 's Yarmuk Hospital , another medical source said . A national guard commander said the soldiers were attacked while guarding a pipeline near the small town of Latifiyah , which has been a target of repeated rebel attacks . A US marine died after an attack west of Baghdad , while a British soldier sustained minor injuries in a bomb attack on a military convoy in southern Basra . An Iraqi policeman was also killed in an attack on a traffic control point in the northern city of Mosul on Friday , US-led forces said . In an effort to thwart attacks , the interim government has said it would announce emergency measures " very soon , " the Iraqi deputy prime minister for national security , Barham Saleh , said in a TV interview broadcast late Friday . " This law will give the government the capability of imposing emergency laws in specific areas and for set periods to deal with terrorist threats , " he said . More than 400 people died in Iraq in a spate of bloody attacks last month in the run-up to the handover of power on June 28 . The militants had warned they would continue attacking Iraqi officials and US-led foreign forces , despite the power handover , until " God 's law " prevailed in Iraq . 
+Event	1	claims	report	4
+Event	2	beheaded	event	7
+Event	3	claimed	report	20
+Event	4	beheaded	event	25
+Event	78	hostage	event	33
+Event	5	inform	report	39
+Event	6	decapitated	event	56
+Event	7	said	report	59
+Event	80	demanded	report	104
+Event	79	withdrawal	event	106
+Event	71	confirmed	report	122
+Event	72	missing	event	127
+Event	76	operating	event	134
+Event	9	reported	report	146
+Event	73	kidnapped	event	155
+Event	10	threatened	report	158
+Event	11	behead	event	160
+Event	12	released	event	166
+Event	81	holding	event	176
+Event	17	said	report	205
+Event	18	death	event	213
+Event	19	confirmed	report	217
+Event	20	kidnappings	event	253
+Event	23	claimed	report	285
+Event	24	beheading	event	288
+Event	25	beheaded	event	302
+Event	75	refused	report	310
+Event	26	withdraw	event	312
+Event	27	decapitated	event	322
+Event	28	killed	event	331
+Event	29	freed	event	340
+Event	33	killing	event	373
+Event	34	killed	event	408
+Event	35	said	report	418
+Event	36	wounded	event	439
+Event	37	hurt	event	447
+Event	38	said	report	450
+Event	77	wounded	event	468
+Event	39	died	event	469
+Event	40	said	report	481
+Event	41	said	report	486
+Event	42	attacked	event	490
+Event	82	guarding	event	492
+Event	45	attacks	event	510
+Event	46	died	event	514
+Event	47	attack	event	517
+Event	49	injuries	event	528
+Event	50	attack	event	532
+Event	51	killed	event	545
+Event	52	attack	event	548
+Event	53	said	report	565
+Event	55	attacks	event	571
+Event	56	said	report	577
+Event	57	announce	report	580
+Event	83	measures	event	582
+Event	58	said	report	600
+Event	61	threats	event	632
+Event	62	said	report	636
+Event	63	died	event	641
+Event	64	attacks	event	649
+Event	65	warned	report	666
+Event	67	attacking	event	670
+Relation	2	1	in_reporting
+Relation	4	2	coreference
+Relation	4	3	in_reporting
+Relation	5	7	in_reporting
+Relation	6	4	coreference
+Relation	6	7	in_reporting
+Relation	73	20	member_of
+Relation	73	9	in_reporting
+Relation	10	9	in_reporting
+Relation	11	10	in_reporting
+Relation	12	10	in_reporting
+Relation	18	2	subevent_of
+Relation	18	17	in_reporting
+Relation	19	17	in_reporting
+Relation	24	23	in_reporting
+Relation	25	24	member_of
+Relation	27	24	member_of
+Relation	34	42	subevent_of
+Relation	34	35	in_reporting
+Relation	36	42	subevent_of
+Relation	36	38	in_reporting
+Relation	37	36	member_of
+Relation	37	38	in_reporting
+Relation	77	36	coreference
+Relation	77	40	in_reporting
+Relation	39	42	subevent_of
+Relation	39	40	in_reporting
+Relation	42	41	in_reporting
+Relation	45	41	in_reporting
+Relation	46	47	subevent_of
+Relation	49	50	subevent_of
+Relation	51	52	subevent_of
+Relation	51	53	in_reporting
+Relation	52	53	in_reporting
+Relation	55	58	in_reporting
+Relation	56	58	in_reporting
+Relation	57	58	in_reporting
+Relation	61	62	in_reporting
+Relation	63	64	subevent_of
+Relation	67	65	in_reporting

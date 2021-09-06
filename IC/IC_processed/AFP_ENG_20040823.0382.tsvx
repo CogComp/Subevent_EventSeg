@@ -1,0 +1,76 @@
+Text	Nepal offers rebels flexibility , killing raises panic in blockaded capital . Nepal 's government on Monday renewed its appeal to Maoist rebels for talks in a bid to get them to call off a six-day blockade of the capital , hit by new jitters as suspected guerrillas shot dead a pedestrian . The Maoists , who control much of the Himalayan kingdom , have declared the capital of 1.5 million people off-limits to traffic as part of their drive to topple the constitutional monarchy . Deputy Prime Minister Bharat Mohan Adhikari reiterated his appeal to the rebels for talks . " We are ready to be as flexible as possible and discuss their grievances , " he told reporters . Adhikari made a similar appeal last Thursday . A key rebel demand for ending the blockade -- which is being enforced by fear of reprisals rather than by roadblocks -- is that the government stop calling them terrorists . The tag keeps guerrilla leaders hiding in the mountains to avoid arrest . Asked about the terrorist label , Adhikari said : " Let them come to the negotiation table . We will discuss whatever they want " . . The government Friday agreed to another demand by saying it would release within a month information on an unspecified number of leftist activists who have gone missing in the civil war , which has claimed 10,000 lives since 1996 . But in a sign the moves were not enough , the Maoists stormed a town in northwestern Nepal late Saturday and launched small-scale attacks in the blockaded capital . Prem Bahadur Thokare , a contractor , was hit by two bullets as he walked Monday past the tightly guarded home of an army officer in the capital 's outlying Kapan Sawaraswoti Nagar area , police said . Dozens of panicked residents gathered around Thokare 's bloodied body as it lay on the pavement , searching for a way to take him to hospital . " Everyone started looking for money to provide a cash deposit to the hospital so he could get treatment , but while we were preparing to take him he succumbed to his injuries , " said neighbour Sunder Wagle . A bomb exploded Monday in a government irrigation office in the Kathmandu Valley 's Bhaktapur area , causing moderate damage but no injuries , police said . In the western Parbat district , rebels abducted 1,500 teachers and students Friday from about six schools and were believed to have taken them for " revolutionary " training , said former district chairman Ganesh Timalsina . Such mass abductions are common in rural Nepal , with most kidnap victims released after several days of indoctrination . Some , however , are drafted into rebel ranks , human rights groups say . Kathmandu , however , has been relatively immune from violence . Observers see the small-scale attacks as a way to maintain psychological pressure since the blockade is maintained through fear . " The Maoists ' main objective is to create panic . The closure of the roads has not been fully successful so they are trying additional methods , " said academic and political analyst Prakash Joshi . Hundreds of trucks continue to venture daily into the Kathmandu Valley , where armed police and soldiers frisk incoming passengers and check the identity of all those going out . " We provide protection , including with helicopters flying overhead , to give the drivers a psychological feeling of protection , " army spokesman Colonel Deepak Gurung said . While local markets remain well stocked with produce , prices have shot up , leading to fears that a prolonged blockade could be devastating . The Maoists late Saturday raided the remote town of Khalanga 445 kilometres ( 278 miles ) northwest of Kathmandu , bombing and setting fire to seven offices including a court . Five rebels and one soldier were killed , police said . Residents said the insurgents carried away 20 to 25 wounded colleagues . Troops searched the mountains Monday for six policemen , four civil servants and four civilians abducted in the raid , police said . The Maoists draw their inspiration from Chinese revolutionary Mao Zedong 's fight against landowners and their tactics from Peru 's ruthless Shining Path guerrillas . 
+Event	1	killing	event	5
+Event	54	blockade	event	35
+Event	5	shot	event	47
+Event	50	control	event	55
+Event	6	topple	event	79
+Event	55	blockade	event	130
+Event	56	roadblocks	event	143
+Event	9	arrest	event	164
+Event	11	saying	report	197
+Event	13	missing	event	215
+Event	14	war	event	219
+Event	15	claimed	event	223
+Event	16	stormed	event	240
+Event	18	attacks	event	251
+Event	20	hit	event	264
+Event	21	said	report	292
+Event	23	succumbed	event	348
+Event	51	injuries	event	351
+Event	24	said	report	354
+Event	25	exploded	event	360
+Event	26	damage	event	377
+Event	27	injuries	event	380
+Event	28	said	report	383
+Event	29	abducted	event	391
+Event	30	said	report	414
+Event	31	abductions	event	422
+Event	32	released	event	433
+Event	33	violence	event	462
+Event	34	attacks	event	467
+Event	57	blockade	event	477
+Event	53	venture	event	522
+Event	36	raided	event	602
+Event	37	bombing	event	618
+Event	38	setting	event	620
+Event	39	killed	event	634
+Event	40	said	report	637
+Event	41	searched	event	650
+Event	42	abducted	event	664
+Event	43	raid	event	667
+Event	44	said	report	670
+Event	48	fight	event	682
+Event	58	tactics	event	687
+Relation	5	1	coreference
+Relation	55	54	coreference
+Relation	56	55	coreference
+Relation	13	14	subevent_of
+Relation	13	11	in_reporting
+Relation	14	11	in_reporting
+Relation	15	14	subevent_of
+Relation	20	19	subevent_of
+Relation	20	21	in_reporting
+Relation	23	19	subevent_of
+Relation	23	24	in_reporting
+Relation	51	19	subevent_of
+Relation	51	24	in_reporting
+Relation	25	18	member_of
+Relation	25	28	in_reporting
+Relation	26	25	subevent_of
+Relation	26	28	in_reporting
+Relation	27	25	subevent_of
+Relation	27	28	in_reporting
+Relation	29	31	member_of
+Relation	29	30	in_reporting
+Relation	34	18	coreference
+Relation	57	56	coreference
+Relation	37	36	subevent_of
+Relation	38	36	subevent_of
+Relation	39	36	subevent_of
+Relation	39	40	in_reporting
+Relation	41	44	in_reporting
+Relation	42	36	subevent_of
+Relation	42	44	in_reporting
+Relation	43	36	coreference
+Relation	43	44	in_reporting
+Relation	44	40	in_reporting

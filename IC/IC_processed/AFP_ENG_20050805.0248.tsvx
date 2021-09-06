@@ -1,0 +1,84 @@
+Text	Bus shooting exacerbates tensions over Gaza pullout by Patrick Anidjar . The murder of four Arab Israelis by a Jewish extremist has raised tensions over the Gaza withdrawal to a whole new level amid fears that radicals are plotting further attacks in a bid to torpedo the operation . Until Thursday evening , the opposition to Prime Minister Ariel Sharon 's disengagement plan , which will see Israel leave the Gaza Strip after a 38-year occupation from August 17 , had been largely peaceful . Although there had been a number of clashes between the security forces and ultranationalists inside Gaza several weeks ago , the campaign against the pullout has been characterised by mass protests and largely abortive attempts by settlers to infiltrate the main Gush Katif settlement bloc . By emptying his rifle on a bus in the northern Galilee , Nathan Zada awoke memories of some of the most traumatic chapters in the recent history of the Middle East including the assassination of Yitzhak Rabin and the massacre of 29 Muslim worshippers in Hebron , both perpetrated by Jewish extremists . Shocking as the shooting was , it was also not unexpected . Intelligence sources have long feared that radicals could try to carry out a spectacular attack that would inflame the situation to such an extent that the government would have to abandon disengagement . Indeed after Rabin 's assassination in 1995 , the centre-left Labour party soon found itself turfed out of government with the hardline Benjamin Netanyahu taking over the premiership . Experts believe that while the number of opponents of disengagement willing to do anything to stop its implementation is a tiny minority , they could still number in the hundreds . " The murder in Shfaram is an individual event . But Zada is a phenomenon , " said Alex Fishman , the top-selling Yediot Aharonot daily 's security affairs analyst . " There are dozens , perhaps hundreds , like him . And in the period of violent incitement on the eve of the disengagement , more such potential murderers crop up . " Most of them will not murder Arabs tomorrow just for being Arabs , but each such Zada has a short fuse , and nobody knows what will light it . Such people have no inhibitions . They are into the ' self - sacrifice ' thing , " he said . Sharon himself appears to be taking no chances , as he now reportedly sleeps with a pistol under his pillow in case an assassin tries to pick him off at night . According to General Iftah Ron , the head of Israeli ground forces , there is every chance of a " repetition " of Zada 's attack . " The Tsahal ( Israeli army ) can not allow such a criminal to use his uniform and his weapon to kill innocent civilians , " he said . Zada was able to carry out his attack despite warnings from even his own mother that he could be a potential danger . " We begged them to take away his gun , " Debbie Zada said . Announcing the launch of an investigation into the killing , the army acknowledged that Zada was of " a problematic background " . He had recently moved to one of the most extreme settlements in the northern West Bank and was a member of the banned ultranationalist Kach movement . For Palestinian leader Mahmud Abbas , the killing highlighted negligence on the behalf of the Israeli authorities who allow settlers to carry weapons . The Hebron outrage in 1994 was carried out by a radical settler , Baruch Goldstein , living in nearby Kiryat Arba . " This crime is a clear illustration of the danger posed by Jewish settlers to our people and we want to know why the Israeli government allows them to be armed and commit crime after crime , " Abbas said in a statement . 
+Event	1	shooting	event	1
+Event	2	pullout	event	6
+Event	3	murder	event	11
+Event	45	withdrawal	event	26
+Event	5	plotting	event	37
+Event	6	attacks	event	39
+Event	9	operation	event	46
+Event	60	leave	event	66
+Event	11	occupation	event	73
+Event	12	clashes	event	89
+Event	46	campaign	event	103
+Event	13	pullout	event	106
+Event	47	protests	event	112
+Event	48	attempts	event	116
+Event	14	emptying	event	128
+Event	15	assassination	event	160
+Event	16	massacre	event	166
+Event	61	perpetrated	event	175
+Event	17	shooting	event	182
+Event	56	carry	event	200
+Event	19	attack	event	204
+Event	22	disengagement	event	221
+Event	23	assassination	event	226
+Event	24	disengagement	event	259
+Event	25	murder	event	282
+Event	26	said	report	296
+Event	27	disengagement	event	331
+Event	49	murder	event	345
+Event	50	said	report	387
+Event	29	pick	event	414
+Event	29	off	event	416
+Event	30	According	report	419
+Event	31	attack	event	444
+Event	53	kill	event	466
+Event	54	said	report	472
+Event	57	carry	event	477
+Event	33	attack	event	480
+Event	35	said	report	508
+Event	36	Announcing	report	509
+Event	37	investigation	event	514
+Event	38	killing	event	517
+Event	40	killing	event	564
+Event	62	carry	event	578
+Event	41	outrage	event	582
+Event	58	carried	event	586
+Event	42	crime	event	603
+Event	59	armed	event	631
+Event	63	commit	event	633
+Event	64	crime	event	634
+Event	65	crime	event	636
+Event	43	said	report	640
+Relation	1	31	subevent_of
+Relation	45	2	coreference
+Relation	9	45	subevent_of
+Relation	60	45	coreference
+Relation	13	2	coreference
+Relation	47	46	subevent_of
+Relation	48	46	subevent_of
+Relation	14	1	coreference
+Relation	17	1	coreference
+Relation	22	45	coreference
+Relation	23	15	coreference
+Relation	24	22	coreference
+Relation	25	3	coreference
+Relation	25	26	in_reporting
+Relation	27	24	coreference
+Relation	49	50	in_reporting
+Relation	29	55	in_reporting
+Relation	53	54	in_reporting
+Relation	33	31	coreference
+Relation	37	36	in_reporting
+Relation	38	3	coreference
+Relation	38	36	in_reporting
+Relation	40	38	coreference
+Relation	41	16	coreference
+Relation	42	40	coreference
+Relation	42	43	in_reporting
+Relation	59	62	coreference
+Relation	59	43	in_reporting
+Relation	63	43	in_reporting
+Relation	64	43	in_reporting
+Relation	65	43	in_reporting
+Relation	43	44	in_reporting

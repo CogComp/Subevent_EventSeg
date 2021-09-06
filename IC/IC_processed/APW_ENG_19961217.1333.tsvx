@@ -1,0 +1,40 @@
+Text	Attackers take over Japanese ambassador 's residence , ministers . LIMA , Peru ( AP ) . An armed group attacked the home of the Japanese ambassador to Peru and took over the residence as diplomats and governments officials attended a party there , witnesses and radio reports said . The attackers apparently set off at least one large explosion and two minor ones and remained inside the residence Tuesday night . Peru 's Foreign Minister Francisco Tudela , various foreign ambassadors and Peruvian congressmen also were inside the building . A witness with binoculars looking down on the ambassador 's home from a taller building nearby told Lima radio station Radioprogramas that he could see armed men crouched behind bushes inside the compound . He also said quests were apparently lying face down nearby . Police surrounded the structure , located in the upscale San Isidro district of Lima , an area with various foreign embassies . Sporadic gunshots came from inside the residence , and police and news crews were pinned down around the building . There was no immediate word on injuries . Congressman Henry Pease , speaking on local radio , said he left the building shortly after 8 p.m. ( 0100 GMT ) and heard a loud explosion come from inside . He said there were a considerable number of people at the birthday party and others were arriving . Pease said guests also included ambassadors from Brazil , Bolivia and Cuba , as well as Carlos Torres Lara y Lara , president of the Congress . At the scene , Jose Munoz , a security guard with the Venezuelan Embassy said that country 's ambassador was also inside . Peru has two armed rebel movements . The larger group , Shining Path , has been blamed for most of the political violence in the country over the last 16 years , during which nearly 30,000 Peruvians have been killed . The violence has subsided since 1992 when Shining Path leader Abimael Guzman was captured . But rebel attacks continue in parts of the countryside , especially in the eastern jungle . Last month , Shining Path guerrillas hacked to death two former rebels who quit fighting during a governement amnesty program . The other group , Tupac Amaru , has dwindled to a couple hundred armed followers , according to some estimates , since they began fighting in 1984 . But there have been recent reports of reorganization within the movement . 
+Event	25	take	event	1
+Event	1	attacked	event	18
+Event	26	took	event	28
+Event	2	said	report	46
+Event	3	set	event	50
+Event	28	explosion	event	56
+Event	5	surrounded	event	130
+Event	6	gunshots	event	151
+Event	7	pinned	event	164
+Event	8	injuries	event	175
+Event	9	speaking	report	180
+Event	10	said	report	185
+Event	11	explosion	event	202
+Event	12	blamed	report	286
+Event	13	violence	event	292
+Event	14	killed	event	309
+Event	15	violence	event	311
+Event	16	captured	event	323
+Event	18	attacks	event	326
+Event	19	hacked	event	345
+Event	21	fighting	event	353
+Event	24	fighting	event	383
+Relation	1	2	in_reporting
+Relation	26	1	subevent_of
+Relation	26	25	coreference
+Relation	26	2	in_reporting
+Relation	3	1	subevent_of
+Relation	6	1	subevent_of
+Relation	8	1	subevent_of
+Relation	10	9	coreference
+Relation	11	3	coreference
+Relation	13	12	in_reporting
+Relation	14	13	subevent_of
+Relation	15	13	coreference
+Relation	18	13	member_of
+Relation	19	27	subevent_of
+Relation	21	13	member_of
+Relation	24	13	member_of
+Relation	24	22	in_reporting

@@ -1,0 +1,123 @@
+Text	US condemns Turkey bombings , says no Americans killed or injured . The United States on Tuesday condemned deadly bombings in Istanbul but said no Americans had been killed or injured in the blasts , denying a claim by one of two groups to take responsibility that it had hit two US intelligence agents in the attacks . " We strongly condemn the bombings in Istanbul this morning , " deputy State Department spokesman Adam Ereli said . " We extend our heartfelt sympathy to the victims of the bombings and their families . " No Americans are known to have been injured in the explosions , " he told reporters . Later , a second department official expanded on Ereli 's remarks , saying that Washington had confirmed that no US citizens had been killed or wounded . Two people were killed and 11 wounded in the blasts which have been claimed by a group linked to the al-Qaeda Islamic militant network , the Abu Hafs al-Masri Brigades , and a previously unknown Kurdish group , the Kurdistan Freedom Falcons . The nearly simultaneous strikes hit the Turkish city during peak holiday season , rocking two tourist hotels and a gas complex . " The Abu Hafs ( al-Masri ) Brigades have carried out the first of a series of operations that will be launched in the face of European states ... and the upcoming attacks will be more violent , " the group said a statement posted on an Islamist website . The Abu Hafs group , which claimed responsibility for the March 11 train attacks in Madrid that killed 191 people , and the bombings of British and Jewish interests in Istanbul nine months ago , warned of more similar strikes in Europe . In a second statement posted to the website , group also said it had " succeeded in targeting two elements of the US intelligence in a direct strike " . . But the pro-Kurdish MHA news agency in Germany then reported receiving a telephone call claiming the bombings in the name of the Kurdistan Freedom Falcons in retaliation for " recent operations in Kurdistan and the execution of Kurdish guerrillas " . . The caller did not specify whether the Kurdistan Freedom Falcons were linked to the outlawed Kurdistan Workers ' Party ( PKK ) or its most recent incarnation , the KONGRA-GEL . Turkish Interior Minister Abdulkadir Aksu hinted earlier that police were looking at possible Kurdish involvement in the bombings . He noted the recent arrests of four alleged PKK members in Istanbul suspected of involvement in a July 2 bomb attack on the convoy of the governor of the eastern Tunceli province , in which six people were killed and 23 injured , and other violent acts in the mainly Kurdish southeast . The PKK called off a five-year unilateral ceasefire with the Ankara government on June 1 , warning foreign tourists and investors to stay away from Turkey . 
+Event	1	condemns	report	1
+Event	2	bombings	event	3
+Event	3	says	report	5
+Event	4	killed	event	8
+Event	5	injured	event	10
+Event	6	condemned	report	16
+Event	7	bombings	event	18
+Event	8	said	report	22
+Event	9	killed	event	27
+Event	10	injured	event	29
+Event	11	blasts	event	32
+Event	12	denying	report	34
+Event	14	responsibility	event	44
+Event	15	hit	event	48
+Event	16	attacks	event	55
+Event	17	condemn	report	59
+Event	18	bombings	event	61
+Event	19	said	report	74
+Event	20	bombings	event	86
+Event	21	injured	event	98
+Event	22	explosions	event	101
+Event	23	told	report	105
+Event	25	saying	report	119
+Event	26	confirmed	report	123
+Event	27	killed	event	130
+Event	28	wounded	event	132
+Event	29	killed	event	136
+Event	30	wounded	event	139
+Event	31	blasts	event	142
+Event	32	claimed	report	146
+Event	33	strikes	event	178
+Event	34	hit	event	179
+Event	35	rocking	event	188
+Event	69	carried	event	205
+Event	36	operations	event	213
+Event	39	attacks	event	228
+Event	40	said	report	237
+Event	41	claimed	report	251
+Event	42	attacks	event	258
+Event	43	killed	event	262
+Event	44	bombings	event	268
+Event	45	warned	report	280
+Event	47	strikes	event	284
+Event	49	said	report	298
+Event	50	targeting	event	304
+Event	51	strike	event	314
+Event	52	reported	report	325
+Event	53	claiming	report	330
+Event	54	bombings	event	332
+Event	56	operations	event	346
+Event	57	execution	event	351
+Event	58	hinted	report	391
+Event	66	involvement	event	400
+Event	59	bombings	event	403
+Event	60	noted	report	405
+Event	61	arrests	event	408
+Event	70	involvement	event	418
+Event	62	attack	event	424
+Event	63	killed	event	442
+Event	64	injured	event	445
+Event	65	acts	event	450
+Relation	4	3	in_reporting
+Relation	5	3	in_reporting
+Relation	6	1	coreference
+Relation	7	2	coreference
+Relation	8	3	coreference
+Relation	9	11	subevent_of
+Relation	9	4	coreference
+Relation	9	8	in_reporting
+Relation	10	11	subevent_of
+Relation	10	5	coreference
+Relation	10	8	in_reporting
+Relation	11	2	subevent_of
+Relation	11	8	in_reporting
+Relation	12	8	in_reporting
+Relation	15	16	subevent_of
+Relation	16	2	coreference
+Relation	17	1	coreference
+Relation	17	19	in_reporting
+Relation	18	2	coreference
+Relation	18	19	in_reporting
+Relation	20	2	coreference
+Relation	20	19	in_reporting
+Relation	21	22	subevent_of
+Relation	21	10	coreference
+Relation	21	23	in_reporting
+Relation	22	11	coreference
+Relation	22	23	in_reporting
+Relation	23	19	coreference
+Relation	25	24	coreference
+Relation	26	25	in_reporting
+Relation	27	4	coreference
+Relation	27	25	in_reporting
+Relation	28	5	coreference
+Relation	28	25	in_reporting
+Relation	29	31	subevent_of
+Relation	30	31	subevent_of
+Relation	31	11	coreference
+Relation	33	2	coreference
+Relation	34	33	subevent_of
+Relation	35	33	subevent_of
+Relation	36	40	in_reporting
+Relation	39	36	member_of
+Relation	39	40	in_reporting
+Relation	43	42	subevent_of
+Relation	47	36	member_of
+Relation	50	15	coreference
+Relation	50	49	in_reporting
+Relation	51	2	subevent_of
+Relation	51	49	in_reporting
+Relation	53	52	in_reporting
+Relation	54	2	coreference
+Relation	54	53	in_reporting
+Relation	56	52	in_reporting
+Relation	57	52	in_reporting
+Relation	66	59	subevent_of
+Relation	59	2	coreference
+Relation	61	60	in_reporting
+Relation	70	62	subevent_of
+Relation	62	60	in_reporting
+Relation	63	62	subevent_of
+Relation	64	62	subevent_of

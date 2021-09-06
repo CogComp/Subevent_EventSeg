@@ -1,0 +1,134 @@
+Text	Eleven wounded in Hebron clashes , Netanyahu blames Palestinians Eds : ADDS Bethlehem stonethrowing , graf 22 , Cabinet meeting , graf . HEBRON , West Bank ( AP ) . Palestinians burned Israeli flags and hurled firebombs at Israeli troops on Sunday , and soldiers responded with rubber bullets , wounding 11 Palestinians , four of them journalists . Prime Minister Benjamin Netanyahu blamed the violence that has occurred in two weeks of daily confrontations on Yasser Arafat 's Palestinian Authority . `` They are fomenting many of these demonstrations , and they are not preventing them , '' Netanyahu told a group of Jewish leaders from Israel Bonds . Three Palestinian cameramen _ APTV 's Imad Isseid , Reuters ' Mazen Dana and ABC 's Amer Jabari _ were shot and slightly wounded with rubber - coated metal pellets as they filmed a demonstrator burning Israeli flags . Diya Juabi , a 23-year-old soundman for Abu Dhabi television , was shot in the head with a rubber-coated bullet in a later incident but was not seriously injured . Connie Mus , spokesman for the Foreign Press Association , said that soldiers appeared to be targeting journalists . `` It is clearly no coincidence that six of our colleagues were shot down in recent days , '' Mus said , appealing to Israeli authorities to use restraint . The army spokesman 's office said in a statement that the army was investigating the shooting of journalists Sunday but that standing orders barred soldiers from targeting journalists . `` The army does n't shoot at journalists and allows them to do their work in every way possible , '' said Lt. Col. Sharon Grinker , an army spokesman . He said access had been increased recently for journalists in Hebron , and `` no doubt when journalists are filming inside an area of unrest they take a chance '' . Grinker added that the `` number of those injured does make it necessary for us to make an internal check '' . Isseid , who was wounded in the leg as he filmed the Reuters ' cameraman writhing in pain on the ground , said that he was standing in the middle of the street far from any demonstrators when he was shot . `` We were all journalists . There were no demonstrators , only us cameramen were around , '' Isseid said . Palestinian lawmaker Jamal Shoubaki said that journalists were targeted as a scare tactic to limit the coverage from Hebron . `` They do not want journalists to record the crimes that they are committing in Hebron , '' Shoubaki said . `` The journalists report to the world and the world sees the truth that is happening in Hebron '' . During the protest , Palestinians wrapped small Israeli flags around their sandals and stomped on them . One demonstrator then placed all the flags in a newspaper and lit a match . The fiery bundle was hurled into the street . Maj. Gen. Uzi Dayan , who is in charge of Israeli troops in the West Bank , warned that Israel would crack down on city residents if the violence persisted . The radio said Israel would deploy additional undercover units in the city , would consider closing Palestinian stores and restricting Muslim prayer at the Tomb of the Patriarchs , a Hebron shrine holy to both Judaism and Islam . In an apparent attempt to prevent or reduce the extent of the riots Sunday , Israel used cement blocks to barricade Shalala Street , an artery separating the Palestinian - and Israeli-controlled sectors of the city . Jewish settlers from the 500-member community in Hebron demonstrated outside the Prime Ministry in Jerusalem Sunday , demanding that the government use harsher measures to stop the violence . `` We want the government to take care of the security ... the security of Jews everyday in Hebron , '' said settler spokesman Noam Arnon . There was also sporadic stonethrowing by Palestinian youth at Israeli troops near the Israeli-controlled shrine Rachel 's Tomb in Bethlehem . In Jerusalem , Netanyahu convened his Cabinet and discussed the situation in Hebron for some two hours . Israel TV reported that Ami Ayalon , head of the Shin Beit security agency , said the Palestinian Authority was behind the rioting , and Infrastructures Minister Ariel Sharon called for a new strategy for quelling the violence . In a separate incident in Jerusalem , an Israel bulldozer razed an Arab-owned home in the city 's eastern sector that was built without a permit . Also , police detained for questioning five right-wing extremists , one of whom set fire to a Palestinian flag outside the Orient House , the Palestinian headquarters in east Jerusalem . Meanwhile , about 70 Palestinians held a peaceful protest near the Jerusalem site where Israel is building Har Homa , a new Jewish neighborhood whose groundbreaking in March led to the current freeze in the peace process . Palestinian Cabinet minister Hanan Ashrawi , who participated in the protest , said `` Har Homa embodies everything ( that is ) going wrong with the peace process ... The Israelis are trying to undermine not just our land but the peace process on the whole '' . Palestinian children dressed in traditional clothes held up signs that read `` No peace with the settlements '' and `` No peace with bulldozers '' . The Har Homa site , which Arabs call Jebel Abu Ghneim , is in the disputed sector of the city where the Palestinians want to establish their capital . pvs/dp . 
+Event	1	wounded	event	1
+Event	2	clashes	event	4
+Event	3	blames	report	7
+Event	74	stonethrowing	event	13
+Event	75	burned	event	30
+Event	76	hurled	event	34
+Event	4	responded	event	44
+Event	5	wounding	event	49
+Event	6	blamed	report	61
+Event	7	violence	event	63
+Event	88	confrontations	event	72
+Event	8	demonstrations	event	86
+Event	9	told	report	97
+Event	10	shot	event	126
+Event	11	wounded	event	129
+Event	77	burning	event	141
+Event	13	shot	event	156
+Event	14	incident	event	167
+Event	15	injured	event	172
+Event	16	said	report	183
+Event	17	targeting	event	189
+Event	18	shot	event	203
+Event	19	said	report	211
+Event	21	said	report	225
+Event	23	investigating	event	233
+Event	24	shooting	event	235
+Event	26	targeting	event	246
+Event	27	shoot	event	253
+Event	29	said	report	269
+Event	30	said	report	279
+Event	32	unrest	event	302
+Event	33	added	report	309
+Event	34	injured	event	316
+Event	91	check	event	327
+Event	35	wounded	event	333
+Event	37	said	report	351
+Event	39	shot	event	369
+Event	40	said	report	393
+Event	41	targeted	event	397
+Event	92	crimes	event	417
+Event	93	committing	event	421
+Event	94	said	report	427
+Event	78	protest	event	449
+Event	49	hurled	event	481
+Event	51	warned	report	502
+Event	52	crack	event	506
+Event	53	violence	event	513
+Event	87	said	report	517
+Event	86	deploy	event	520
+Event	55	riots	event	565
+Event	79	barricade	event	573
+Event	56	demonstrated	event	597
+Event	57	demanding	report	606
+Event	59	violence	event	616
+Event	80	stonethrowing	event	647
+Event	62	reported	report	682
+Event	63	said	report	695
+Event	97	behind	event	700
+Event	64	rioting	event	702
+Event	65	called	report	709
+Event	66	violence	event	717
+Event	67	incident	event	721
+Event	81	razed	event	728
+Event	68	detained	event	747
+Event	69	questioning	event	749
+Event	70	set	event	757
+Event	82	protest	event	782
+Event	89	participated	event	818
+Event	83	protest	event	821
+Relation	1	4	subevent_of
+Relation	2	88	member_of
+Relation	2	3	in_reporting
+Relation	75	2	subevent_of
+Relation	76	2	subevent_of
+Relation	4	18	member_of
+Relation	4	2	subevent_of
+Relation	5	4	subevent_of
+Relation	5	1	coreference
+Relation	7	88	subevent_of
+Relation	88	32	subevent_of
+Relation	8	88	member_of
+Relation	8	9	in_reporting
+Relation	10	24	member_of
+Relation	11	85	member_of
+Relation	11	10	subevent_of
+Relation	77	75	member_of
+Relation	13	24	member_of
+Relation	13	14	subevent_of
+Relation	14	2	member_of
+Relation	15	85	member_of
+Relation	15	13	subevent_of
+Relation	17	2	subevent_of
+Relation	17	16	in_reporting
+Relation	18	88	subevent_of
+Relation	18	19	in_reporting
+Relation	23	21	in_reporting
+Relation	24	4+18	member_of
+Relation	24	21	in_reporting
+Relation	26	27	subevent_of
+Relation	26	17	coreference
+Relation	26	21	in_reporting
+Relation	27	29	in_reporting
+Relation	32	30	in_reporting
+Relation	34	18	subevent_of
+Relation	34	85	coreference
+Relation	34	33	in_reporting
+Relation	91	23	coreference
+Relation	91	33	in_reporting
+Relation	35	11	member_of
+Relation	39	10	member_of
+Relation	39	37	in_reporting
+Relation	41	17	coreference
+Relation	41	40	in_reporting
+Relation	93	94	in_reporting
+Relation	78	2	coreference
+Relation	52	51	in_reporting
+Relation	53	2	coreference
+Relation	53	51	in_reporting
+Relation	86	87	in_reporting
+Relation	55	2	coreference
+Relation	79	2	subevent_of
+Relation	59	7	coreference
+Relation	59	57	in_reporting
+Relation	80	74	coreference
+Relation	63	62	in_reporting
+Relation	97	90	coreference
+Relation	64	88	coreference
+Relation	64	62	in_reporting
+Relation	65	62	in_reporting
+Relation	66	7	coreference
+Relation	66	62	in_reporting
+Relation	81	67	subevent_of
+Relation	83	82	coreference

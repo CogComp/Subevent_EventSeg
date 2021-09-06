@@ -1,0 +1,82 @@
+Text	Turkey blames Kurds for blasts , hardliners call for new offensive . Turkey on Friday blamed Kurdish militants for deadly bombings in Istanbul amid reports of new threats ahead of the 20th anniversary of the start of their armed campaign against Ankara . A police official said authorities were now convinced the Tuesday attacks against two hotels and a gas complex , which left two dead and 11 injured , most of them tourists , were carried out by the former Kurdistan Workers Party ( PKK ) , now known as KONGRA-GEL . As the 20th anniversary on Sunday of the PKK uprising approached , Turkish media reported Friday of a threat of a new urban bombing campaign by a group of Kurdish militants . The PKK 's two-decade armed campaign against the central government in mainly Kurdish southeast Turkey began on August 15 , 1984 with attacks on security forces in the town of Eruh . Since then the conflict has claimed some 37,000 lives . Police spokesman Ramazan Er told a news conference Friday that the authorities believe it was the PKK which carried Tuesday 's bombings , which have been claimed by an extremist organization linked to the Al - Qaeda network and a previously unknown Kurdish group , the Kurdistan Freedom Falcons . " The incidents in the hotels in Istanbul are definitely the work of the PKK/KONGRA-GEL ... They sometimes resort to such sections ( the Kurdistan Freedom Falcons ) to cover up their deeds , " Er said . The Kurdistan Freedom Falcons Thursday , in a statement , urged foreign tourists and investors to leave Turkey , warning that more attacks would follow . According to media reports , police in Istanbul are tracking four Kurd bomb makers in connection with Tuesday 's attacks . The suspects are reportedly loyal to PKK commander Murat Karayilan , a hardliner who is believed to be one of the main figures behind the organisation 's June decision to call off its five-year ceasefire . The rebels have since been blamed for some 50 attacks on security forces in the southeast . Turkish police have intelligence that a group , calling itself " The August 15 Initiative , " is preparing for attacks in big cities , news reports said . The end of the truce has coincided with a rift among PKK leaders -- some have defected and called for the group 's dissolution , while others have insisted on continuing the armed struggle . The rebels , most of whom have been hiding in the mountains of neighboring northern Iraq since the 1999 truce , are also under pressure by the United States , which has promised Turkey that it will crack down on them . Both the United States and the European Union , which Turkey is seeking to join , consider the rebels " terrorists " . . " August 15 will mark the beginning of a new push ... We will resist conspiracies . That is why the war of legitimate defense should be sustained , " the pro-Kurdish Ozgur Politika newspaper . 
+Event	1	blames	report	1
+Event	2	blasts	event	4
+Event	3	call	report	7
+Event	4	offensive	event	10
+Event	5	blamed	report	14
+Event	6	bombings	event	19
+Event	7	threats	event	26
+Event	54	campaign	event	38
+Event	9	said	report	44
+Event	10	attacks	event	51
+Event	12	dead	event	63
+Event	56	injured	event	66
+Event	62	carried	event	74
+Event	13	uprising	event	99
+Event	15	reported	report	104
+Event	16	threat	event	108
+Event	17	campaign	event	114
+Event	67	campaign	event	126
+Event	19	attacks	event	143
+Event	20	conflict	event	155
+Event	21	claimed	event	157
+Event	22	told	report	165
+Event	65	carried	event	179
+Event	24	bombings	event	182
+Event	25	claimed	report	187
+Event	26	incidents	event	212
+Event	66	deeds	event	242
+Event	27	said	report	246
+Event	30	warning	report	266
+Event	31	attacks	event	269
+Event	32	According	report	272
+Event	63	tracking	event	281
+Event	33	attacks	event	291
+Event	37	blamed	report	332
+Event	38	attacks	event	336
+Event	40	preparing	event	361
+Event	41	attacks	event	363
+Event	42	said	report	370
+Event	45	insisted	report	399
+Event	47	armed	event	403
+Event	61	promised	report	437
+Event	59	crack	event	442
+Event	52	war	event	488
+Event	68	defense	event	491
+Relation	4	3	in_reporting
+Relation	6	54	subevent_of
+Relation	6	2	coreference
+Relation	7	55	in_reporting
+Relation	10	6	coreference
+Relation	10	9	in_reporting
+Relation	12	10	subevent_of
+Relation	12	9	in_reporting
+Relation	56	10	subevent_of
+Relation	56	9	in_reporting
+Relation	62	2	subevent_of
+Relation	13	57	coreference
+Relation	16	17	subevent_of
+Relation	16	7	coreference
+Relation	16	15	in_reporting
+Relation	17	15	in_reporting
+Relation	19	57	subevent_of
+Relation	20	57	coreference
+Relation	21	20	subevent_of
+Relation	65	62	coreference
+Relation	24	10	coreference
+Relation	24	22+25	in_reporting
+Relation	26	6	member_of
+Relation	26	27	in_reporting
+Relation	30	29	coreference
+Relation	31	54	subevent_of
+Relation	33	24	coreference
+Relation	33	32	in_reporting
+Relation	38	57	subevent_of
+Relation	40	41	subevent_of
+Relation	40	42	in_reporting
+Relation	41	54	subevent_of
+Relation	41	42	in_reporting
+Relation	47	57	coreference
+Relation	47	45	in_reporting
+Relation	59	61	in_reporting
+Relation	52	47	coreference

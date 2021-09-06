@@ -1,0 +1,30 @@
+Text	HAMAS burns Israeli flag in Gaza demonstration . More than 1,000 members of the Palestinian radical group HAMAS demonstrated at Gaza 's Islamic University on Wednesday and burned an Israeli flag , witnesses said . Youths wearing headbands emblazoned " Ezz Eddin al-Qassam Brigades , " HAMAS ' military wing , stomped on the Israeli flag before setting it alight on stage before the crowd , made up mostly of students . They also carried pictures of Yehiya Ayash , the " engineer " of HAMAS suicide bombing attacks who was killed in Gaza City last January , apparently by Israeli agents . The demonstration was officially to mark the ninth anniversary of the start of the Palestinian Intifada uprising , from 1987 to 1994 . It comes two days before a planned public rally by the Islamic Resistance Movement HAMAS , the first one in over a year to be permitted by Yasser Arafat 's Palestinian Authority . The rally , to be held Friday in Khan Yunis , south of Gaza City , sparked criticisms from Israel that Arafat was seeking to send a warning that the " HAMAS option " still exists if negotiations with Israel remain deadlocked . HAMAS , along with Islamic Jihad , conducted a string of anti-Israeli suicide bombings which left 58 people dead in February and March in revenge for Ayash 's assassination . Under Israeli pressure , Arafat launched a crackdown against Islamic groups , arresting hundreds of their members . But most have been released in the past few months . 
+Event	15	burns	event	1
+Event	1	demonstration	event	6
+Event	2	demonstrated	event	17
+Event	16	burned	event	26
+Event	3	said	report	32
+Event	18	setting	event	55
+Event	4	attacks	event	85
+Event	5	killed	event	88
+Event	6	demonstration	event	100
+Event	7	uprising	event	115
+Event	20	rally	event	129
+Event	21	rally	event	154
+Event	17	conducted	event	202
+Event	8	bombings	event	208
+Event	9	dead	event	213
+Event	10	assassination	event	223
+Event	12	crackdown	event	231
+Event	13	arresting	event	236
+Event	14	released	event	245
+Relation	15	1	subevent_of
+Relation	2	1	coreference
+Relation	2	3	in_reporting
+Relation	16	15	coreference
+Relation	16	3	in_reporting
+Relation	18	16	coreference
+Relation	6	1	coreference
+Relation	9	8	subevent_of
+Relation	10	5	coreference
+Relation	13	12	subevent_of

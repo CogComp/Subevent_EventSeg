@@ -1,0 +1,232 @@
+Text	URGENT Insurgent group claims responsibility for twin suicide bombings in Irbil . BAGHDAD , Iraq ( AP ) . An Iraqi insurgent group claimed responsibility Wednesday for the twin suicide attacks last weekend on the offices of two Kurdish political parties in Irbil , citing the Kurds ' ties to the United States . `` Two of our martyrdom-seeking brothers ... broke into two dens of the devils in the city of Irbil in the north of Iraq , '' said the statement by `` Jaish Ansar al-Sunna , '' or Army of the Protectors of the Sunna . Sunna refers to the collective teachings of the Prophet Muhammad . The statement was posted in Arabic on a Web site that frequently carries statements by Islamic militants . It said the Sunday attacks were launched because the two Kurdish parties `` paved the way for the American crusader army '' . The claim could not be independently confirmed . The name of the organization was included among a dozen insurgent groups that issued a joint statement this week in Ramadi and Fallujah warning Iraqis against cooperating with the U.S.-led occupation . Kurdish and U.S. officials had suspected the attacks were carried out by Ansar al-Islam , an extremist group with alleged ties to al-Qaida . The attacks killed numerous officials of the Kurdistan Democratic Party and the Patriotic Union of Kurdistan . In the statement , the Army of the Protectors of the Sunna condemned the PUK for the crackdown on Ansar al-Islam . It said PUK leader Jalal Talabani `` was coordinating with the crusaders ( Americans ) to attack our mujahedeen brothers from Ansar al-Islam group and their women and children '' . The statement said U.S. and Kurdish forces `` pummeled them with tens of U.S. rockets , shelled them with aircraft and for eight days , nonstop , whole villages with their mosques were obliterated from the face of the Earth '' . The statement was signed by Abu Abdullah al-Hassan bin Mahmoud , identified as the leader of Jaish Ansar al-Sunna . 
+Event	1	claims	report	23
+Event	2	suicide	event	54
+Event	3	claimed	report	131
+Event	4	suicide	event	177
+Event	5	said	report	707
+Event	6	attacks	event	723
+Event	7	claim	report	834
+Event	8	warning	report	1015
+Event	9	occupation	event	1068
+Event	10	attacks	event	1126
+Event	11	carried	event	1139
+Event	12	attacks	event	1226
+Event	13	killed	event	1234
+Event	14	condemned	report	1392
+Event	15	crackdown	event	1418
+Event	16	said	report	1451
+Event	17	attack	event	1538
+Event	18	said	report	1643
+Event	19	pummeled	event	1675
+Event	20	shelled	event	1717
+Event	21	obliterated	event	1814
+Relation	1	2	NoRel	true	claims	suicide
+Relation	1	3	NoRel	true	claims	claimed
+Relation	1	4	NoRel	true	claims	suicide
+Relation	1	5	NoRel	true	claims	said
+Relation	1	6	NoRel	true	claims	attacks
+Relation	1	7	NoRel	true	claims	claim
+Relation	1	8	NoRel	true	claims	warning
+Relation	1	9	NoRel	true	claims	occupation
+Relation	1	10	NoRel	true	claims	attacks
+Relation	1	11	NoRel	true	claims	carried
+Relation	1	12	NoRel	true	claims	attacks
+Relation	1	13	NoRel	true	claims	killed
+Relation	1	14	NoRel	true	claims	condemned
+Relation	1	15	NoRel	true	claims	crackdown
+Relation	1	16	NoRel	true	claims	said
+Relation	1	17	NoRel	true	claims	attack
+Relation	1	18	NoRel	true	claims	said
+Relation	1	19	NoRel	true	claims	pummeled
+Relation	1	20	NoRel	true	claims	shelled
+Relation	1	21	NoRel	true	claims	obliterated
+Relation	2	3	NoRel	true	suicide	claimed
+Relation	2	4	Coref	true	suicide	suicide
+Relation	2	5	NoRel	true	suicide	said
+Relation	2	6	Coref	true	suicide	attacks
+Relation	2	7	NoRel	true	suicide	claim
+Relation	2	8	NoRel	true	suicide	warning
+Relation	2	9	NoRel	true	suicide	occupation
+Relation	2	10	Coref	true	suicide	attacks
+Relation	2	11	NoRel	true	suicide	carried
+Relation	2	12	Coref	true	suicide	attacks
+Relation	2	13	SuperSub	true	suicide	killed
+Relation	2	14	NoRel	true	suicide	condemned
+Relation	2	15	NoRel	true	suicide	crackdown
+Relation	2	16	NoRel	true	suicide	said
+Relation	2	17	NoRel	true	suicide	attack
+Relation	2	18	NoRel	true	suicide	said
+Relation	2	19	NoRel	true	suicide	pummeled
+Relation	2	20	NoRel	true	suicide	shelled
+Relation	2	21	NoRel	true	suicide	obliterated
+Relation	3	4	NoRel	true	claimed	suicide
+Relation	3	5	NoRel	true	claimed	said
+Relation	3	6	NoRel	true	claimed	attacks
+Relation	3	7	NoRel	true	claimed	claim
+Relation	3	8	NoRel	true	claimed	warning
+Relation	3	9	NoRel	true	claimed	occupation
+Relation	3	10	NoRel	true	claimed	attacks
+Relation	3	11	NoRel	true	claimed	carried
+Relation	3	12	NoRel	true	claimed	attacks
+Relation	3	13	NoRel	true	claimed	killed
+Relation	3	14	NoRel	true	claimed	condemned
+Relation	3	15	NoRel	true	claimed	crackdown
+Relation	3	16	NoRel	true	claimed	said
+Relation	3	17	NoRel	true	claimed	attack
+Relation	3	18	NoRel	true	claimed	said
+Relation	3	19	NoRel	true	claimed	pummeled
+Relation	3	20	NoRel	true	claimed	shelled
+Relation	3	21	NoRel	true	claimed	obliterated
+Relation	4	5	NoRel	true	suicide	said
+Relation	4	6	Coref	true	suicide	attacks
+Relation	4	7	NoRel	true	suicide	claim
+Relation	4	8	NoRel	true	suicide	warning
+Relation	4	9	NoRel	true	suicide	occupation
+Relation	4	10	Coref	true	suicide	attacks
+Relation	4	11	NoRel	true	suicide	carried
+Relation	4	12	Coref	true	suicide	attacks
+Relation	4	13	SuperSub	true	suicide	killed
+Relation	4	14	NoRel	true	suicide	condemned
+Relation	4	15	NoRel	true	suicide	crackdown
+Relation	4	16	NoRel	true	suicide	said
+Relation	4	17	NoRel	true	suicide	attack
+Relation	4	18	NoRel	true	suicide	said
+Relation	4	19	NoRel	true	suicide	pummeled
+Relation	4	20	NoRel	true	suicide	shelled
+Relation	4	21	NoRel	true	suicide	obliterated
+Relation	5	6	NoRel	true	said	attacks
+Relation	5	7	NoRel	true	said	claim
+Relation	5	8	NoRel	true	said	warning
+Relation	5	9	NoRel	true	said	occupation
+Relation	5	10	NoRel	true	said	attacks
+Relation	5	11	NoRel	true	said	carried
+Relation	5	12	NoRel	true	said	attacks
+Relation	5	13	NoRel	true	said	killed
+Relation	5	14	NoRel	true	said	condemned
+Relation	5	15	NoRel	true	said	crackdown
+Relation	5	16	NoRel	true	said	said
+Relation	5	17	NoRel	true	said	attack
+Relation	5	18	NoRel	true	said	said
+Relation	5	19	NoRel	true	said	pummeled
+Relation	5	20	NoRel	true	said	shelled
+Relation	5	21	NoRel	true	said	obliterated
+Relation	6	7	NoRel	true	attacks	claim
+Relation	6	8	NoRel	true	attacks	warning
+Relation	6	9	NoRel	true	attacks	occupation
+Relation	6	10	Coref	true	attacks	attacks
+Relation	6	11	NoRel	true	attacks	carried
+Relation	6	12	Coref	true	attacks	attacks
+Relation	6	13	SuperSub	true	attacks	killed
+Relation	6	14	NoRel	true	attacks	condemned
+Relation	6	15	NoRel	true	attacks	crackdown
+Relation	6	16	NoRel	true	attacks	said
+Relation	6	17	NoRel	true	attacks	attack
+Relation	6	18	NoRel	true	attacks	said
+Relation	6	19	NoRel	true	attacks	pummeled
+Relation	6	20	NoRel	true	attacks	shelled
+Relation	6	21	NoRel	true	attacks	obliterated
+Relation	7	8	NoRel	true	claim	warning
+Relation	7	9	NoRel	true	claim	occupation
+Relation	7	10	NoRel	true	claim	attacks
+Relation	7	11	NoRel	true	claim	carried
+Relation	7	12	NoRel	true	claim	attacks
+Relation	7	13	NoRel	true	claim	killed
+Relation	7	14	NoRel	true	claim	condemned
+Relation	7	15	NoRel	true	claim	crackdown
+Relation	7	16	NoRel	true	claim	said
+Relation	7	17	NoRel	true	claim	attack
+Relation	7	18	NoRel	true	claim	said
+Relation	7	19	NoRel	true	claim	pummeled
+Relation	7	20	NoRel	true	claim	shelled
+Relation	7	21	NoRel	true	claim	obliterated
+Relation	8	9	NoRel	true	warning	occupation
+Relation	8	10	NoRel	true	warning	attacks
+Relation	8	11	NoRel	true	warning	carried
+Relation	8	12	NoRel	true	warning	attacks
+Relation	8	13	NoRel	true	warning	killed
+Relation	8	14	NoRel	true	warning	condemned
+Relation	8	15	NoRel	true	warning	crackdown
+Relation	8	16	NoRel	true	warning	said
+Relation	8	17	NoRel	true	warning	attack
+Relation	8	18	NoRel	true	warning	said
+Relation	8	19	NoRel	true	warning	pummeled
+Relation	8	20	NoRel	true	warning	shelled
+Relation	8	21	NoRel	true	warning	obliterated
+Relation	9	10	NoRel	true	occupation	attacks
+Relation	9	11	NoRel	true	occupation	carried
+Relation	9	12	NoRel	true	occupation	attacks
+Relation	9	13	NoRel	true	occupation	killed
+Relation	9	14	NoRel	true	occupation	condemned
+Relation	9	15	NoRel	true	occupation	crackdown
+Relation	9	16	NoRel	true	occupation	said
+Relation	9	17	NoRel	true	occupation	attack
+Relation	9	18	NoRel	true	occupation	said
+Relation	9	19	NoRel	true	occupation	pummeled
+Relation	9	20	NoRel	true	occupation	shelled
+Relation	9	21	NoRel	true	occupation	obliterated
+Relation	10	11	NoRel	true	attacks	carried
+Relation	10	12	Coref	true	attacks	attacks
+Relation	10	13	SuperSub	true	attacks	killed
+Relation	10	14	NoRel	true	attacks	condemned
+Relation	10	15	NoRel	true	attacks	crackdown
+Relation	10	16	NoRel	true	attacks	said
+Relation	10	17	NoRel	true	attacks	attack
+Relation	10	18	NoRel	true	attacks	said
+Relation	10	19	NoRel	true	attacks	pummeled
+Relation	10	20	NoRel	true	attacks	shelled
+Relation	10	21	NoRel	true	attacks	obliterated
+Relation	11	12	NoRel	true	carried	attacks
+Relation	11	13	NoRel	true	carried	killed
+Relation	11	14	NoRel	true	carried	condemned
+Relation	11	15	NoRel	true	carried	crackdown
+Relation	11	16	NoRel	true	carried	said
+Relation	11	17	NoRel	true	carried	attack
+Relation	11	18	NoRel	true	carried	said
+Relation	11	19	NoRel	true	carried	pummeled
+Relation	11	20	NoRel	true	carried	shelled
+Relation	11	21	NoRel	true	carried	obliterated
+Relation	12	13	SuperSub	true	attacks	killed
+Relation	12	14	NoRel	true	attacks	condemned
+Relation	12	15	NoRel	true	attacks	crackdown
+Relation	12	16	NoRel	true	attacks	said
+Relation	12	17	NoRel	true	attacks	attack
+Relation	12	18	NoRel	true	attacks	said
+Relation	12	19	NoRel	true	attacks	pummeled
+Relation	12	20	NoRel	true	attacks	shelled
+Relation	12	21	NoRel	true	attacks	obliterated
+Relation	13	14	NoRel	true	killed	condemned
+Relation	13	15	NoRel	true	killed	crackdown
+Relation	13	16	NoRel	true	killed	said
+Relation	13	17	NoRel	true	killed	attack
+Relation	13	18	NoRel	true	killed	said
+Relation	13	19	NoRel	true	killed	pummeled
+Relation	13	20	NoRel	true	killed	shelled
+Relation	13	21	NoRel	true	killed	obliterated
+Relation	14	15	NoRel	true	condemned	crackdown
+Relation	14	16	NoRel	true	condemned	said
+Relation	14	17	NoRel	true	condemned	attack
+Relation	14	18	NoRel	true	condemned	said
+Relation	14	19	NoRel	true	condemned	pummeled
+Relation	14	20	NoRel	true	condemned	shelled
+Relation	14	21	NoRel	true	condemned	obliterated
+Relation	15	16	NoRel	true	crackdown	said
+Relation	15	17	NoRel	true	crackdown	attack
+Relation	15	18	NoRel	true	crackdown	said
+Relation	15	19	SuperSub	true	crackdown	pummeled
+Relation	15	20	SuperSub	true	crackdown	shelled
+Relation	15	21	SuperSub	true	crackdown	obliterated
+Relation	16	17	NoRel	true	said	attack
+Relation	16	18	NoRel	true	said	said
+Relation	16	19	NoRel	true	said	pummeled
+Relation	16	20	NoRel	true	said	shelled
+Relation	16	21	NoRel	true	said	obliterated
+Relation	17	18	NoRel	true	attack	said
+Relation	17	19	NoRel	true	attack	pummeled
+Relation	17	20	NoRel	true	attack	shelled
+Relation	17	21	NoRel	true	attack	obliterated
+Relation	18	19	NoRel	true	said	pummeled
+Relation	18	20	NoRel	true	said	shelled
+Relation	18	21	NoRel	true	said	obliterated
+Relation	19	20	NoRel	true	pummeled	shelled
+Relation	19	21	NoRel	true	pummeled	obliterated
+Relation	20	21	NoRel	true	shelled	obliterated

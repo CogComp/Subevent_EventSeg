@@ -1,0 +1,165 @@
+Text	SPAIN CONTINUES TO UNCOVER TERRORIST PLOTS , OFFICIALS SAY . MADRID , Spain . One year after the worst terrorist attack in Spanish history , the Spanish police continue to uncover and thwart new plots involving Islamic militants , according to senior Spanish intelligence and law enforcement officials . Despite sweeping measures to improve their ability to investigate potential terrorist threats since the March 11 , 2004 , bomb attacks that left 191 people dead , the officials estimate that there are hundreds of people scattered in cells around the country committed to attacking centers of power in Spain . The police have found indications of a cell of Pakistanis that they suspect was planning an attack on a high-profile target in Barcelona . They also found evidence of a cell of North Africans in Madrid that apparently wanted to attack Madrid 's high court , the officials said . " We have been lucky that our investigations have managed to abort other plots before acts of terrorism took place , " Juan Fernando Lopez Aguilar , the justice minister , said in an interview . " That means the threats have not disappeared " . . Lopez Aguilar added that Spain had detained about 1,000 people suspected of being connected to the Madrid bombings and other potential terrorist activities in the past year . Most have been released . As for the investigation into the Madrid bombing , it is far from over . Spain is still hunting down at least half a dozen suspects , who are probably outside the country . " The great majority of the perpetrators are identified , dead or in prison , " said a senior intelligence official at the Guardia Civil , or Civil Guard , a police force with military and civilian functions . " But we can not say that we have all of them . There are questions that remain unclear . The most important is : Who masterminded March 11 " . . Of 79 suspects believed to be involved in the Madrid bombings , 24 are in jail and awaiting trial . Seven suspects blew themselves up in a Madrid apartment three weeks after the bombing to avoid capture . The evidence of a Pakistani cell has emerged since the bombings . Last September , the police arrested 10 Pakistanis suspected of belonging to a support network for Islamic militants . The raid turned up a video showing details of a number of buildings in Barcelona , including the 40-story Mapfre Tower and the 44-story Hotel Arts , the two buildings known as Spain 's " twin towers , " a senior Spanish intelligence official said . The police also seized documents and videos calling for an Islamic holy war , several pounds of cocaine and more than $ 20,000 in cash . The group apparently raised money through drug trafficking , falsifying documents and extortion , the intelligence officials said . They said they had evidence that the cell sent the money to cells in Pakistan that were loyal to al-Qaida . But no evidence of any link to the March 11 attacks was found . The senior intelligence official at the Civil Guard said the group was sending money to the same Islamic militants who killed the American journalist Daniel Pearl of The Wall Street Journal in 2002 in Pakistan . Fernando Reinares , a special adviser to the Interior Ministry and a terrorism specialist with the Elcano Institute , said , " Apparently they were taking the first steps of what could be plans for committing terrorist actions " . . Another cell was uncovered last fall , when the police carried out an operation against a group of Algerian and Moroccan radicals who were believed to be planning an attack on Madrid 's High Court and perhaps other targets . Using informers , investigators learned that the plotters had started to try to procure explosives for the operation . There was no concrete information about the exact timing of the attack or the plan for carrying it out , Spanish officials said . But the government was concerned that the attack was imminent , so it decided to close down the cell . Investigators brought the information to Judge Baltasar Garzon , Spain 's highest antiterrorism magistrate , who ordered the arrests of more than 30 people , mostly North Africans , who were suspected of taking part in the plot . " This particular plot was pretty close , " said Lopez Aguilar , the justice minister , in an interview . " But it did n't happen " . . Investigators are trying to piece together whether there are connections between operatives of al-Qaida in Spain and the Madrid bombings . Some of those arrested had been in contact with Imad Eddin Barakat Yarkas , a Syrian who is believed to be the leader of a Qaida cell in Spain and who is in Spanish custody in connection with the Sept. 11 terror attacks in the United States , a senior intelligence official said . There were also contacts with Allekem Laamari , an Algerian killed in the suicide bombing after the Madrid attacks , the official added . Evidence about the cells indicates that Spain is still a target for terrorist attacks despite the withdrawal of its troops from Iraq . The Madrid bombers left behind a video declaring that the attacks were an answer to the Bush administration 's " crimes , " particularly in Iraq and Afghanistan . Although Spain has troops in Afghanistan , one of the first acts by Prime Minister Jose Luis Rodriguez Zapatero when he was elected three days after the attacks was to pull troops out of Iraq . In the past year , Spain has taken extraordinary measures to improve its ability to investigate potential Islamic terrorist plots . Until March 11 , 2004 , most of Spain 's counterterrorism efforts were focused on ETA , the Basque separatist movement . The Civil Guard , the police force and the National Intelligence Center , Spain 's external intelligence agency , have been reorganized under a unified command and meet once a week . The agencies have also created a joint database of suspects ' fingerprints , DNA , voices , documents , car rentals and travel , as well as details about arms and explosives transfers . There are also plans to recruit 1,000 more officers and 130 Arab translators and interpreters . There is no concrete evidence from any foreign intelligence agency of a phone call or message that suggests that the Madrid plot was organized from outside Spain . Jorge Dezcallar , the former head of the National Intelligence Center , the equivalent of the Central Intelligence Agency , was quoted in El Pais on Thursday as saying that after the attacks he asked the National Security Agency in Washington to look for evidence of links with groups outside Spain , but none were found . Spanish intelligence officials said they were not convinced by the claims of Sayed Ahmed Rabei Osman , known as " Muhammad the Egyptian " who was arrested in Milan , Italy , last June and extradited to Spain last December . Although Rabei Osman boasted in conversations recorded by the Italian police in Milan that he organized the Madrid bombings , there is no corroborating evidence of his involvement in the attacks , Spanish officials said . 
+Event	3	PLOTS	event	5
+Event	4	SAY	report	8
+Event	5	attack	event	18
+Event	8	plots	event	32
+Event	9	according	report	37
+Event	10	investigate	event	54
+Event	11	threats	event	57
+Event	12	attacks	event	66
+Event	13	dead	event	71
+Event	127	committed	report	88
+Event	15	attacking	event	90
+Event	17	planning	event	110
+Event	18	attack	event	112
+Event	20	attack	event	135
+Event	21	said	report	143
+Event	22	investigations	event	151
+Event	24	plots	event	157
+Event	25	acts	event	159
+Event	26	said	report	175
+Event	124	threats	event	183
+Event	28	added	report	190
+Event	29	detained	event	194
+Event	32	bombings	event	205
+Event	33	activities	event	210
+Event	34	released	event	218
+Event	35	investigation	event	222
+Event	36	bombing	event	226
+Event	37	hunting	event	236
+Event	39	dead	event	261
+Event	40	prison	event	264
+Event	41	said	report	267
+Event	118	masterminded	event	313
+Event	44	involved	event	323
+Event	45	bombings	event	327
+Event	46	jail	event	332
+Event	47	trial	event	335
+Event	48	blew	event	338
+Event	49	bombing	event	349
+Event	51	capture	event	352
+Event	52	bombings	event	363
+Event	53	arrested	event	369
+Event	55	raid	event	383
+Event	56	said	report	426
+Event	57	seized	event	430
+Event	128	war	event	439
+Event	60	attacks	event	500
+Event	61	said	report	511
+Event	62	killed	event	523
+Event	63	said	report	557
+Event	64	plans	event	571
+Event	65	committing	event	573
+Event	66	actions	event	575
+Event	67	carried	event	587
+Event	68	operation	event	590
+Event	70	planning	event	604
+Event	71	attack	event	606
+Event	72	procure	event	629
+Event	73	operation	event	633
+Event	74	attack	event	645
+Event	75	plan	event	648
+Event	125	carrying	event	650
+Event	76	said	report	656
+Event	77	attack	event	664
+Event	78	ordered	report	692
+Event	79	arrests	event	694
+Event	81	taking	event	709
+Event	82	plot	event	713
+Event	83	plot	event	717
+Event	84	said	report	723
+Event	85	bombings	event	760
+Event	86	arrested	event	764
+Event	88	custody	event	795
+Event	89	attacks	event	803
+Event	90	said	report	813
+Event	91	killed	event	824
+Event	92	bombing	event	828
+Event	93	attacks	event	832
+Event	94	added	report	836
+Event	97	attacks	event	850
+Event	119	withdrawal	event	853
+Event	98	declaring	report	866
+Event	99	attacks	event	869
+Event	100	crimes	event	879
+Event	101	attacks	event	914
+Event	102	pull	event	917
+Event	103	investigate	event	937
+Event	104	plots	event	941
+Event	120	efforts	event	953
+Event	121	transfers	event	1026
+Event	106	plot	event	1063
+Event	126	organized	event	1065
+Event	107	quoted	report	1090
+Event	108	saying	report	1097
+Event	109	attacks	event	1101
+Event	110	said	report	1128
+Event	112	arrested	event	1151
+Event	113	extradited	event	1160
+Event	122	boasted	report	1168
+Event	123	organized	event	1180
+Event	114	bombings	event	1183
+Event	115	involvement	event	1192
+Event	116	attacks	event	1195
+Event	117	said	report	1199
+Relation	3	4	in_reporting
+Relation	5	9	in_reporting
+Relation	8	11	member_of
+Relation	8	3	coreference
+Relation	8	9	in_reporting
+Relation	9	4	coreference
+Relation	12	5	subevent_of
+Relation	13	5	subevent_of
+Relation	17	8	member_of
+Relation	22	26	in_reporting
+Relation	24	3	coreference
+Relation	24	26	in_reporting
+Relation	25	26	in_reporting
+Relation	28	26	in_reporting
+Relation	32	12	coreference
+Relation	36	32	coreference
+Relation	39	38	member_of
+Relation	39	41	in_reporting
+Relation	40	38	member_of
+Relation	40	41	in_reporting
+Relation	44	38	coreference
+Relation	45	36	coreference
+Relation	46	40	coreference
+Relation	48	39	coreference
+Relation	49	36	coreference
+Relation	52	45	coreference
+Relation	53	55	subevent_of
+Relation	60	12	coreference
+Relation	64	17	coreference
+Relation	70	19	coreference
+Relation	72	73	subevent_of
+Relation	74	73	subevent_of
+Relation	74	71	coreference
+Relation	74	76	in_reporting
+Relation	75	73	subevent_of
+Relation	75	70	coreference
+Relation	75	76	in_reporting
+Relation	77	71	coreference
+Relation	82	75	coreference
+Relation	83	82	coreference
+Relation	85	12	coreference
+Relation	86	90	in_reporting
+Relation	88	90	in_reporting
+Relation	89	90	in_reporting
+Relation	91	48	member_of
+Relation	91	94	in_reporting
+Relation	92	94	in_reporting
+Relation	93	12	coreference
+Relation	99	12	coreference
+Relation	101	99	coreference
+Relation	106	5	subevent_of
+Relation	108	107	in_reporting
+Relation	109	12	coreference
+Relation	109	108	in_reporting
+Relation	122	117	in_reporting
+Relation	123	117	in_reporting
+Relation	114	12	coreference
+Relation	114	117	in_reporting
+Relation	115	117	in_reporting
+Relation	116	99	coreference
+Relation	116	117	in_reporting

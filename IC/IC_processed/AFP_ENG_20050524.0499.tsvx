@@ -1,0 +1,50 @@
+Text	Two Moroccan suspects in Madrid train bombings freed on bail . Spanish authorities have freed on bail two Moroccans held since February on suspicion of involvement in last year 's March 11 train bombings in Madrid , judicial officials said Tuesday . Rachid Bendouda and Rachid Mohamed Kadour , suspected of collaboration with a terrorist organisation , were freed on May 10 and 11 respectively . Judge Juan del Olmo jailed Bendouda on February 9 after saying he believed he had a " close " relationship with Jamal Zougam , one of the presumed bombers and now in custody facing charges . According to Del Olmo , Bendouda also has links to Imad Eddin Barakat Yarkas , alias " Abou Dahdah " , currently on trial along with 23 other suspected Al-Qaeda operatives , three of whom are suspected of having helped prepare the September 11 , 2001 attacks in the United States . Abou Dahdah is suspected of having headed up a Spanish-based Al-Qaeda cell which Spanish investigators dismantled in the aftermath of the September 11 attacks . Bendouda is also suspected of having met Abdennabi Kounjaa , alias " Abdallah " , the night before the bombings of four commuter trains which killed 191 people in Spain 's worst such attack . Kounjaa , suspected of directly participating in the bombings , blew himself up along with six associates during a police raid on a flat in a Madrid suburb three weeks later . In total , 23 people , the majority Moroccans , remain in custody over the Madrid blasts and 104 others are suspected of having been implicated in the carnage . None has yet been formally charged , although a Spanish teenager was last year sentenced to six years in custody for helping to transport the explosives used . 
+Event	1	bombings	event	6
+Event	2	freed	event	7
+Event	3	freed	event	13
+Event	4	held	event	18
+Event	5	involvement	event	24
+Event	6	bombings	event	32
+Event	7	said	report	38
+Event	9	freed	event	56
+Event	10	jailed	event	67
+Event	13	custody	event	95
+Event	14	charges	event	97
+Event	15	According	report	98
+Event	39	trial	event	121
+Event	17	prepare	event	138
+Event	18	attacks	event	144
+Event	20	attacks	event	172
+Event	22	bombings	event	192
+Event	23	killed	event	198
+Event	24	attack	event	206
+Event	40	participating	event	212
+Event	26	bombings	event	215
+Event	27	blew	event	217
+Event	28	raid	event	227
+Event	29	custody	event	250
+Event	30	blasts	event	254
+Event	37	implicated	event	263
+Event	32	carnage	event	266
+Event	33	charged	event	272
+Event	34	sentenced	event	281
+Event	36	custody	event	286
+Relation	3	2	coreference
+Relation	3	7	in_reporting
+Relation	4	7	in_reporting
+Relation	5	6	subevent_of
+Relation	5	7	in_reporting
+Relation	6	1	coreference
+Relation	6	7	in_reporting
+Relation	9	2	coreference
+Relation	13	29	member_of
+Relation	17	15	in_reporting
+Relation	18	15	in_reporting
+Relation	20	18	coreference
+Relation	22	1	coreference
+Relation	23	22	subevent_of
+Relation	24	1	coreference
+Relation	26	1	coreference
+Relation	27	28	subevent_of
+Relation	30	1	coreference
+Relation	32	1	coreference

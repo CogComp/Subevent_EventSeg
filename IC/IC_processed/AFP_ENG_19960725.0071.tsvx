@@ -1,0 +1,23 @@
+Text	Palestinian police arrest HAMAS leader . Palestinian police said Thursday they had arrested a top militant from the Islamic fundamentalist group HAMAS in the Gaza Strip , Awad Silmi . Police also rounded up a number of other HAMAS members and seized arms and explosives in the night-time raid . Silmi was arrested in March by Palestinian police after a string of suicide bombings carried out by HAMAS and the smaller Islamic Jihad that killed 58 people in Israel , but he escaped from prison three weeks later . Before the launch of Palestinian self-rule in the Gaza Strip in 1994 , Silmi was hunted by Israel 's security services . Along with Mohammad Deif , who is still at large , Silmi is considered the main leader of the military wing of the Islamic Resistance Movement ( HAMAS ) that is pursuing armed attacks against Israel . The rightwing Israeli government of Prime Minister Benjamin Netanyahu has demanded the Palestinian Authority dismantle all fundamentalist cells before the peace process can continue . 
+Event	1	arrest	event	2
+Event	2	said	report	7
+Event	3	arrested	event	11
+Event	4	rounded	event	30
+Event	5	seized	event	39
+Event	6	raid	event	46
+Event	7	arrested	event	49
+Event	8	bombings	event	60
+Event	17	carried	event	61
+Event	9	killed	event	71
+Event	10	escaped	event	79
+Event	11	hunted	event	100
+Event	16	at	event	114
+Event	13	attacks	event	139
+Relation	1	6	subevent_of
+Relation	3	1	coreference
+Relation	3	2	in_reporting
+Relation	4	6	subevent_of
+Relation	5	6	subevent_of
+Relation	7	3	coreference
+Relation	8	13	member_of
+Relation	9	8	subevent_of

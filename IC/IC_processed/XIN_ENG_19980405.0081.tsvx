@@ -1,0 +1,80 @@
+Text	Israel Expects PNA to Clear Its Name in Sharif 's . JERUSALEM , April 5 ( Xinhua ) . Israel is expecting the Palestinian National Authority ( PNA ) to clear its name in the alleged assassination of Hamas bombmaker Muhei Eddine Sharif , Israel Radio reported Sunday . The PNA has promised to publish the results of its probe into the mysterious death of Sharif , whose deformed body was found inside a car that exploded last Sunday in the West Bank city Ramallah . Israel hopes the PNA investigation would exonerate its alleged involvement in Sharif 's death so as to reduce the motivation of Islamic Resistance Movement for launching terror attacks against it . Hamas has blamed Israeli agents for killing Sharif before blowing up the car to cover up the murder . It vowed to avenge Sharif 's killing by carrying out suicide attacks against Israel . But the militant group is also suspecting that Palestinian police might have carried out the assassination in collaboration with Israel . Hamas leader in Gaza Abdel Rantisi hinted Saturday that Sharif was arrested and tortured to death by the Palestinian security forces before they used the car bombing to cover up the killing . The PNA originally held Israel responsible for murdering Sharif , but it later revised the position following Israel 's strong denial of any involvement . Israeli General Security Service head Ami Ayalon and Prime Minister Benjamin Netanyahu 's attorney Yithzak Molcho have met secretly with PNA President Yasser Arafat in Gaza Strip to drive home that Israel had nothing to do with the killing . Netanyahu warned Friday that Israel would hold the PNA responsible for any Hamas attacks if it continued accusing Israel of plotting the murder . In a statement issued Friday , the PNA Cabinet said it is now investigating the possibility that Sharif was killed by other Hamas members due to inner split . Arafat has reportedly been trying to placate Hamas to forestall terror attacks against Israel , fearing Israel could find excuses to torpedo the already stalled peace process . Hamas has so far rejected the PNA 's claim on Hamas ' inner feud and the demand for restraint , vowing to avenge the death of Sharif with blood - shed . Addressing a Hamas rally in Gaza Saturday , Rantisi called on Hamas ' military wing Izzedin Kassim , which is responsible for the past suicide bombings in Israel , to continue its struggle against Israel . Israeli security forces have been on high alert to guard against possible terror attacks by Hamas , which has suspended operations against Israel since its spiritual leader and founder Sheikh Ahmed Yassin was released from Israeli jail last October . 
+Event	3	assassination	event	34
+Event	4	reported	report	44
+Event	69	probe	event	56
+Event	7	death	event	60
+Event	8	exploded	event	73
+Event	9	investigation	event	86
+Event	11	involvement	event	91
+Event	12	death	event	95
+Event	14	attacks	event	109
+Event	72	blamed	report	114
+Event	16	killing	event	118
+Event	17	blowing	event	121
+Event	18	murder	event	129
+Event	19	vowed	report	131
+Event	21	killing	event	136
+Event	22	carrying	event	138
+Event	70	attacks	event	141
+Event	24	carried	event	156
+Event	71	assassination	event	159
+Event	25	hinted	report	170
+Event	26	arrested	event	175
+Event	27	tortured	event	177
+Event	28	bombing	event	190
+Event	30	killing	event	195
+Event	31	held	report	199
+Event	31	responsible	event	201
+Event	32	murdering	event	203
+Event	33	denial	report	216
+Event	34	involvement	event	219
+Event	36	killing	event	258
+Event	37	warned	report	260
+Event	38	hold	report	265
+Event	39	attacks	event	272
+Event	41	accusing	report	276
+Event	42	plotting	event	279
+Event	43	murder	event	281
+Event	46	said	report	291
+Event	47	investigating	event	295
+Event	48	killed	event	301
+Event	50	attacks	event	321
+Event	54	vowing	report	357
+Event	56	death	event	361
+Event	57	blood	event	365
+Event	58	called	report	377
+Event	60	bombings	event	393
+Event	62	struggle	event	400
+Event	64	guard	event	412
+Event	65	attacks	event	416
+Event	67	operations	event	423
+Event	68	released	event	436
+Relation	3	4	in_reporting
+Relation	9	69	coreference
+Relation	12	7	coreference
+Relation	16	3	coreference
+Relation	17	8	coreference
+Relation	18	16	coreference
+Relation	21	16	coreference
+Relation	71	3	coreference
+Relation	26	25	in_reporting
+Relation	27	25	in_reporting
+Relation	28	17	coreference
+Relation	28	25	in_reporting
+Relation	30	16	coreference
+Relation	30	25	in_reporting
+Relation	32	3	coreference
+Relation	34	11	coreference
+Relation	36	30	coreference
+Relation	39	14	coreference
+Relation	43	32	coreference
+Relation	47	9	coreference
+Relation	47	46	in_reporting
+Relation	48	36	coreference
+Relation	48	46	in_reporting
+Relation	50	39	coreference
+Relation	54	19	coreference
+Relation	56	12	coreference
+Relation	60	62	subevent_of
+Relation	65	50	coreference
+Relation	67	62	subevent_of

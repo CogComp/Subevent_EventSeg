@@ -1,0 +1,78 @@
+Text	CAR EXPLOSION IN GAZA CITY KILLS A LEADER OF JIHAD GROUP . JERUSALEM . A leader in the armed wing of the Palestinian faction Islamic Jihad was killed Wednesday when an explosion tore a car apart on a busy street in Gaza City . The cause of the blast was not clear . Islamic Jihad , which carried out all six suicide bombings in Israel last year , blamed Israel for the death of the man , Khaled Dahdouh , who had survived many attempts to kill him . Khaled al-Batsh , another Islamic Jihad leader , said the blast had been caused by an Israeli airstrike , or by a bomb detonated by remote control , Agence France-Presse reported . The Israeli military , which regularly acknowledges killing Palestinian militants , said it had nothing to do with the blast , which left a white sedan scorched and mangled . Violence also erupted in the West Bank , where Palestinian gunmen staged two shootings , killing one Israeli man , Eldad Abir , 48 , at a gas station , and seriously wounding a second man , the Israeli military said . Al Aksa Martyrs Brigades claimed responsibility for both attacks . Islamic Jihad rejected an informal truce that other armed Palestinian factions agreed to a year ago . In addition to its suicide bombings , the group has fired rockets from the Gaza Strip into southern Israel . Islamic Jihad members have frequently been the targets of Israeli attacks in the past year . Israel has been carrying out ground raids in the West Bank and occasional airstrikes in Gaza , saying it is responding to planned or actual Palestinian attacks . The vast majority of the deaths in recent weeks have been on the Palestinian side . In February , 33 Palestinians were killed by the Israeli security forces , and one Israeli civilian was stabbed to death by a Palestinian , the Palestinian Human Rights Monitoring Group said in its monthly report on fatalities . Israel 's foreign minister , Tzipi Livni , began a European tour on Wednesday by calling on European countries not to finance a Palestinian Authority government led by the militant group Hamas . " Part of the idea of the free world fighting terrorism is not to welcome terrorists , not to give money to terror , " Livni said in Vienna , Austria . Israel has already stopped transferring the tax money it collects on behalf of the Palestinians . The European Union agreed Monday to provide more than $ 140 million in emergency assistance to the Palestinians , who have a caretaker government . The European Union did not say what it would do when Hamas comes to power , which is expected this month . The leader of Israel 's left-leaning Labor Party , Amir Peretz , plans to meet Thursday in the West Bank with the Palestinian Authority president , Mahmoud Abbas . Meetings between Israeli politicians and Abbas have been rare since he was elected a year ago , and it is even more unusual for such talks to occur in Palestinian areas . Peretz , who was born in Morocco , recently went to Egypt for talks with President Hosni Mubarak , and to Morocco for a visit with King Mohammed VI . Israel has national elections planned for March 28 , and the Labor Party is running a distant second to the centrist Kadima Party , led by the acting prime minister , Ehud Olmert . The Labor Party has long advocated peace talks with the Palestinians , though the party says it would not negotiate with Hamas , which has always refused to recognize Israel . 
+Event	1	EXPLOSION	event	1
+Event	2	KILLS	event	5
+Event	3	killed	event	25
+Event	4	explosion	event	29
+Event	5	tore	event	30
+Event	6	blast	event	45
+Event	7	carried	event	53
+Event	8	bombings	event	58
+Event	9	blamed	report	64
+Event	10	death	event	68
+Event	12	kill	event	82
+Event	13	said	report	92
+Event	14	blast	event	94
+Event	45	airstrike	event	101
+Event	15	detonated	event	107
+Event	16	reported	report	114
+Event	17	acknowledges	report	121
+Event	18	killing	event	122
+Event	19	said	report	126
+Event	20	blast	event	134
+Event	21	Violence	event	144
+Event	49	staged	event	155
+Event	22	shootings	event	157
+Event	23	killing	event	159
+Event	24	wounding	event	176
+Event	25	said	report	184
+Event	26	claimed	report	189
+Event	27	attacks	event	193
+Event	30	bombings	event	215
+Event	31	fired	event	220
+Event	32	attacks	event	239
+Event	33	carrying	event	247
+Event	34	raids	event	250
+Event	46	airstrikes	event	257
+Event	35	saying	report	261
+Event	37	attacks	event	270
+Event	38	deaths	event	276
+Event	39	killed	event	292
+Event	40	stabbed	event	304
+Event	42	said	report	317
+Event	47	fatalities	event	323
+Event	48	terrorism	event	366
+Event	44	said	report	382
+Relation	2	38	member_of
+Relation	2	1	subevent_of
+Relation	3	38	member_of
+Relation	3	2	coreference
+Relation	4	1	coreference
+Relation	5	1	subevent_of
+Relation	6	1	coreference
+Relation	10	38	member_of
+Relation	10	2	coreference
+Relation	10	9	in_reporting
+Relation	12	9	in_reporting
+Relation	13	16	in_reporting
+Relation	14	6	coreference
+Relation	14	13	in_reporting
+Relation	15	1	subevent_of
+Relation	15	13	in_reporting
+Relation	18	17	in_reporting
+Relation	20	1	coreference
+Relation	20	19	in_reporting
+Relation	21	25	in_reporting
+Relation	22	25	in_reporting
+Relation	23	38	member_of
+Relation	23	22	subevent_of
+Relation	23	25	in_reporting
+Relation	24	22	subevent_of
+Relation	24	25	in_reporting
+Relation	27	22	coreference
+Relation	27	26	in_reporting
+Relation	30	8	coreference
+Relation	34	32	subevent_of
+Relation	39	38	member_of
+Relation	39	42	in_reporting
+Relation	40	38	member_of
+Relation	40	42	in_reporting

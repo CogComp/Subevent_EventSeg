@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?><article lng="en">
+  <sentence id="1" pid="1">
+    <word epistemic_status="AO" event_type="event" eventid="1" lem="fighting" start="94" wd="Fighting"/>
+    <word lem="among" start="103" wd="Among"/>
+    <word lem="Kurds" start="109" wd="Kurds"/>
+    <word lem="Erupts" start="115" wd="Erupts"/>
+    <word lem="again" start="122" wd="Again"/>
+    <word lem="in" start="128" wd="In"/>
+    <word lem="Northern" start="131" wd="Northern"/>
+    <word lem="Iraq" start="140" wd="Iraq"/>
+  </sentence>
+  <sentence id="2" pid="2">
+    <word lem="NICOSIA" start="168" wd="NICOSIA"/>
+    <word lem="," start="175" wd=","/>
+    <word lem="Cyprus" start="177" wd="Cyprus"/>
+    <word lem="-lrb-" start="184" wd="("/>
+    <word lem="AP" start="185" wd="AP"/>
+    <word lem="-rrb-" start="187" wd=")"/>
+  </sentence>
+  <sentence id="3" pid="3">
+    <word lem="while" start="198" wd="While"/>
+    <word lem="turkish" start="204" wd="Turkish"/>
+    <word lem="troops" start="212" wd="troops"/>
+    <word lem="have" start="219" wd="have"/>
+    <word lem="be" start="224" wd="been"/>
+    <word epistemic_status="OO" event_type="event" eventid="2" lem="fight" start="229" wd="fighting"/>
+    <word lem="a" start="238" wd="a"/>
+    <word lem="Kurdish" start="240" wd="Kurdish"/>
+    <word lem="faction" start="248" wd="faction"/>
+    <word lem="in" start="256" wd="in"/>
+    <word lem="northern" start="259" wd="northern"/>
+    <word lem="Iraq" start="268" wd="Iraq"/>
+    <word lem="," start="272" wd=","/>
+    <word lem="two" start="274" wd="two"/>
+    <word lem="other" start="278" wd="other"/>
+    <word lem="kurdish" start="284" wd="Kurdish"/>
+    <word lem="group" start="292" wd="groups"/>
+    <word lem="have" start="299" wd="have"/>
+    <word lem="be" start="304" wd="been"/>
+    <word epistemic_status="OO" event_type="event" eventid="3" lem="battle" start="309" wd="battling"/>
+    <word lem="each" start="318" wd="each"/>
+    <word lem="other" start="323" wd="other"/>
+  </sentence>
+  <sentence id="4" pid="4">
+    <word lem="a" start="339" wd="A"/>
+    <word lem="radio" start="341" wd="radio"/>
+    <word lem="station" start="347" wd="station"/>
+    <word lem="operate" start="355" wd="operated"/>
+    <word lem="by" start="364" wd="by"/>
+    <word lem="the" start="367" wd="the"/>
+    <word lem="Kurdistan" start="371" wd="Kurdistan"/>
+    <word lem="Democratic" start="381" wd="Democratic"/>
+    <word lem="Party" start="392" wd="Party"/>
+    <word epistemic_status="actual_occurrence" event_type="report" eventid="4" lem="say" start="398" wd="said"/>
+    <word lem="the" start="403" wd="the"/>
+    <word lem="party" start="407" wd="party"/>
+    <word lem="'s" start="412" wd="'s"/>
+    <word lem="force" start="415" wd="forces"/>
+    <word coreference="1" epistemic_status="actual_occurrence" event_type="event" eventid="5" in_reporting="4" lem="attack" member_of="3" start="422" wd="attacked"/>
+    <word lem="position" start="431" wd="positions"/>
+    <word lem="of" start="441" wd="of"/>
+    <word lem="the" start="444" wd="the"/>
+    <word lem="Patriotic" start="448" wd="Patriotic"/>
+    <word lem="Union" start="458" wd="Union"/>
+    <word lem="of" start="464" wd="of"/>
+    <word lem="Kurdistan" start="467" wd="Kurdistan"/>
+    <word lem="on" start="477" wd="on"/>
+    <word lem="Monday" start="480" wd="Monday"/>
+    <word lem="in" start="487" wd="in"/>
+    <word lem="the" start="490" wd="the"/>
+    <word lem="Kurdish" start="494" wd="Kurdish"/>
+    <word lem="region" start="502" wd="region"/>
+    <word lem="'s" start="508" wd="'s"/>
+    <word lem="capital" start="511" wd="capital"/>
+    <word lem="irbil" start="519" wd="Irbil"/>
+  </sentence>
+  <sentence id="5" pid="5">
+    <word lem="the" start="535" wd="The"/>
+    <word lem="Voice" start="539" wd="Voice"/>
+    <word lem="of" start="545" wd="of"/>
+    <word lem="iraqi" start="548" wd="Iraqi"/>
+    <word lem="Kurdistan" start="554" wd="Kurdistan"/>
+    <word lem="radio" start="564" wd="radio"/>
+    <word lem="," start="569" wd=","/>
+    <word lem="monitor" start="571" wd="monitored"/>
+    <word lem="by" start="581" wd="by"/>
+    <word lem="the" start="584" wd="the"/>
+    <word lem="British" start="588" wd="British"/>
+    <word lem="Broadcasting" start="596" wd="Broadcasting"/>
+    <word lem="Corp." start="609" wd="Corp."/>
+    <word lem="," start="614" wd=","/>
+    <word epistemic_status="actual_occurrence" event_type="report" eventid="6" lem="say" start="616" wd="said"/>
+    <word lem="more" start="621" wd="more"/>
+    <word lem="than" start="626" wd="than"/>
+    <word lem="80" start="631" wd="80"/>
+    <word lem="Patriotic" start="634" wd="Patriotic"/>
+    <word lem="Union" start="644" wd="Union"/>
+    <word lem="fighter" start="650" wd="fighters"/>
+    <word lem="be" start="659" wd="were"/>
+    <word epistemic_status="actual_occurrence" event_type="event" eventid="7" in_reporting="6" lem="kill" start="664" subevent_of="5" wd="killed"/>
+    <word lem="and" start="671" wd="and"/>
+    <word lem="at" start="675" wd="at"/>
+    <word lem="least" start="678" wd="least"/>
+    <word lem="150" start="684" wd="150"/>
+    <word epistemic_status="actual_occurrence" event_type="event" eventid="8" in_reporting="6" lem="wound" start="688" subevent_of="5" wd="wounded"/>
+  </sentence>
+  <sentence id="6" pid="6">
+    <word lem="the" start="707" wd="The"/>
+    <word coreference="1" epistemic_status="AO" event_type="event" eventid="9" in_reporting="10" lem="fighting" start="711" wd="fighting"/>
+    <word lem="be" start="720" wd="was"/>
+    <word lem="also" start="724" wd="also"/>
+    <word epistemic_status="actual_occurrence" event_type="report" eventid="10" lem="report" start="729" wd="reported"/>
+    <word lem="by" start="738" wd="by"/>
+    <word lem="a" start="741" wd="a"/>
+    <word lem="senior" start="743" wd="senior"/>
+    <word lem="Patriotic" start="750" wd="Patriotic"/>
+    <word lem="Union" start="760" wd="Union"/>
+    <word lem="official" start="766" wd="official"/>
+    <word lem="," start="774" wd=","/>
+    <word lem="Kusret" start="776" wd="Kusret"/>
+    <word lem="Rasul" start="783" wd="Rasul"/>
+    <word lem="Ali" start="789" wd="Ali"/>
+    <word lem="," start="792" wd=","/>
+    <word lem="who" start="794" wd="who"/>
+    <word coreference="10" epistemic_status="actual_occurrence" event_type="report" eventid="11" lem="say" start="798" wd="said"/>
+    <word lem="PUK" start="803" wd="PUK"/>
+    <word lem="force" start="807" wd="forces"/>
+    <word epistemic_status="actual_occurrence" event_type="event" eventid="12" in_reporting="11" lem="repel" start="814" wd="repelled"/>
+    <word lem="a" start="823" wd="a"/>
+    <word lem="large" start="825" wd="large"/>
+    <word lem="kdp" start="831" wd="KDP"/>
+    <word coreference="5" epistemic_status="actual_occurrence" event_type="event" eventid="13" in_reporting="11" lem="attack" start="835" wd="attack"/>
+  </sentence>
+  <sentence id="7" pid="7">
+    <word lem="``" start="853" wd="``"/>
+    <word lem="they" start="855" wd="They"/>
+    <word lem="leave" start="860" wd="left"/>
+    <word lem="dozen" start="865" wd="dozens"/>
+    <word lem="of" start="872" wd="of"/>
+    <word lem="corpse" start="875" wd="corpses"/>
+    <word lem="at" start="883" wd="at"/>
+    <word lem="the" start="886" wd="the"/>
+    <word lem="battlefield" start="890" wd="battlefield"/>
+    <word lem="," start="901" wd=","/>
+    <word lem="''" start="902" wd="''"/>
+    <word lem="he" start="905" wd="he"/>
+    <word lem="tell" start="908" wd="told"/>
+    <word lem="Radio" start="913" wd="Radio"/>
+    <word lem="Monte" start="919" wd="Monte"/>
+    <word lem="Carlo" start="925" wd="Carlo"/>
+    <word lem="," start="930" wd=","/>
+    <word lem="which" start="932" wd="which"/>
+    <word lem="broadcast" start="938" wd="broadcasts"/>
+    <word lem="to" start="949" wd="to"/>
+    <word lem="the" start="952" wd="the"/>
+    <word lem="Middle" start="956" wd="Middle"/>
+    <word lem="East" start="963" wd="East"/>
+  </sentence>
+  <sentence id="8" pid="8">
+    <word lem="Ali" start="978" wd="Ali"/>
+    <word epistemic_status="actual_occurrence" event_type="report" eventid="14" lem="claim" start="982" wd="claimed"/>
+    <word lem="that" start="990" wd="that"/>
+    <word lem="300" start="995" wd="300"/>
+    <word lem="KDP" start="999" wd="KDP"/>
+    <word lem="fighter" start="1003" wd="fighters"/>
+    <word lem="be" start="1012" wd="were"/>
+    <word epistemic_status="actual_occurrence" event_type="event" eventid="15" lem="kill" start="1017" subevent_of="5" wd="killed"/>
+    <word lem="or" start="1024" wd="or"/>
+    <word epistemic_status="actual_occurrence" event_type="event" eventid="16" lem="wound" start="1027" subevent_of="5" wd="wounded"/>
+    <word lem="and" start="1035" wd="and"/>
+    <word lem="only" start="1039" wd="only"/>
+    <word lem="11" start="1044" wd="11"/>
+    <word lem="Patriotic" start="1047" wd="Patriotic"/>
+    <word lem="Union" start="1057" wd="Union"/>
+    <word lem="member" start="1063" wd="members"/>
+    <word coreference="7" epistemic_status="actual_occurrence" event_type="event" eventid="17" lem="die" start="1071" wd="died"/>
+  </sentence>
+  <sentence id="9" pid="9">
+    <word lem="in" start="1086" wd="In"/>
+    <word lem="January" start="1089" wd="January"/>
+    <word lem="," start="1096" wd=","/>
+    <word lem="Patriotic" start="1098" wd="Patriotic"/>
+    <word lem="Union" start="1108" wd="Union"/>
+    <word lem="force" start="1114" wd="forces"/>
+    <word lem="take" start="1121" wd="took"/>
+    <word epistemic_status="AO" event_type="event" eventid="18" lem="control" start="1126" wd="control"/>
+    <word lem="of" start="1134" wd="of"/>
+    <word lem="Irbil" start="1137" wd="Irbil"/>
+    <word lem="," start="1142" wd=","/>
+    <word lem="about" start="1144" wd="about"/>
+    <word lem="320" start="1150" wd="320"/>
+    <word lem="kilometers" start="1154" wd="kilometers"/>
+    <word lem="-lrb-" start="1165" wd="("/>
+    <word lem="200" start="1166" wd="200"/>
+    <word lem="mile" start="1170" wd="miles"/>
+    <word lem="-rrb-" start="1175" wd=")"/>
+    <word lem="north" start="1177" wd="north"/>
+    <word lem="of" start="1183" wd="of"/>
+    <word lem="Baghdad" start="1186" wd="Baghdad"/>
+    <word lem="," start="1193" wd=","/>
+    <word lem="after" start="1195" wd="after"/>
+    <word lem="month" start="1201" wd="months"/>
+    <word lem="of" start="1208" wd="of"/>
+    <word lem="internecine" start="1211" wd="internecine"/>
+    <word epistemic_status="actual_occurrence" event_type="event" eventid="19" lem="clash" member_of="3" start="1223" wd="clashes"/>
+    <word lem="in" start="1231" wd="in"/>
+    <word lem="the" start="1234" wd="the"/>
+    <word lem="kurdish" start="1238" wd="Kurdish"/>
+    <word lem="``" start="1246" wd="``"/>
+    <word lem="safe" start="1248" wd="safe"/>
+    <word lem="haven" start="1253" wd="haven"/>
+    <word lem="''" start="1259" wd="''"/>
+  </sentence>
+  <sentence id="10" pid="10">
+    <word lem="the" start="1271" wd="The"/>
+    <word lem="enclave" start="1275" wd="enclave"/>
+    <word lem="be" start="1283" wd="was"/>
+    <word lem="set" start="1287" wd="set"/>
+    <word lem="up" start="1291" wd="up"/>
+    <word lem="by" start="1294" wd="by"/>
+    <word lem="the" start="1297" wd="the"/>
+    <word lem="western" start="1301" wd="Western"/>
+    <word lem="ally" start="1309" wd="allies"/>
+    <word lem="after" start="1316" wd="after"/>
+    <word lem="the" start="1322" wd="the"/>
+    <word lem="1991" start="1326" wd="1991"/>
+    <word lem="Gulf" start="1331" wd="Gulf"/>
+    <word epistemic_status="AO" event_type="event" eventid="25" lem="War" start="1336" wd="War"/>
+    <word lem="to" start="1340" wd="to"/>
+    <word lem="protect" start="1343" wd="protect"/>
+    <word lem="the" start="1351" wd="the"/>
+    <word lem="Kurds" start="1355" wd="Kurds"/>
+    <word lem="from" start="1361" wd="from"/>
+    <word lem="iraqi" start="1366" wd="Iraqi"/>
+    <word lem="leader" start="1372" wd="leader"/>
+    <word lem="Saddam" start="1379" wd="Saddam"/>
+    <word lem="Hussein" start="1386" wd="Hussein"/>
+  </sentence>
+  <sentence id="11" pid="11">
+    <word lem="about" start="1404" wd="About"/>
+    <word lem="35,000" start="1410" wd="35,000"/>
+    <word lem="turkish" start="1417" wd="Turkish"/>
+    <word lem="troops" start="1425" wd="troops"/>
+    <word lem="," start="1431" wd=","/>
+    <word lem="back" start="1433" wd="backed"/>
+    <word lem="by" start="1440" wd="by"/>
+    <word lem="warplane" start="1443" wd="warplanes"/>
+    <word lem="and" start="1453" wd="and"/>
+    <word lem="tank" start="1457" wd="tanks"/>
+    <word lem="," start="1462" wd=","/>
+    <word lem="have" start="1464" wd="have"/>
+    <word epistemic_status="actual_occurrence" event_type="event" eventid="21" lem="enter" start="1469" wd="entered"/>
+    <word lem="the" start="1477" wd="the"/>
+    <word lem="enclave" start="1481" wd="enclave"/>
+    <word lem="to" start="1489" wd="to"/>
+    <word epistemic_status="AO" event_type="event" eventid="22" lem="wipe" start="1492" wd="wipe"/>
+    <word eventid="22" lem="out" start="1497" wd="out"/>
+    <word lem="basis" start="1501" wd="bases"/>
+    <word lem="of" start="1507" wd="of"/>
+    <word lem="the" start="1510" wd="the"/>
+    <word lem="Kurdistan" start="1514" wd="Kurdistan"/>
+    <word lem="Workers" start="1524" wd="Workers"/>
+    <word lem="Party" start="1532" wd="Party"/>
+    <word lem="," start="1537" wd=","/>
+    <word lem="or" start="1539" wd="or"/>
+    <word lem="PKK" start="1542" wd="PKK"/>
+    <word lem="," start="1545" wd=","/>
+    <word lem="which" start="1547" wd="which"/>
+    <word lem="be" start="1553" wd="is"/>
+    <word epistemic_status="OO" event_type="event" eventid="23" lem="fight" start="1556" wd="fighting"/>
+    <word lem="for" start="1565" wd="for"/>
+    <word lem="independence" start="1569" wd="independence"/>
+    <word lem="in" start="1582" wd="in"/>
+    <word lem="eastern" start="1585" wd="eastern"/>
+    <word lem="Turkey" start="1593" wd="Turkey"/>
+  </sentence>
+  <sentence id="12" pid="12">
+    <word lem="the" start="1610" wd="The"/>
+    <word lem="leftist" start="1614" wd="leftist"/>
+    <word lem="Patriotic" start="1622" wd="Patriotic"/>
+    <word lem="Union" start="1632" wd="Union"/>
+    <word lem="have" start="1638" wd="has"/>
+    <word lem="accuse" start="1642" wd="accused"/>
+    <word lem="the" start="1650" wd="the"/>
+    <word lem="conservative" start="1654" wd="conservative"/>
+    <word lem="democratic" start="1667" wd="Democratic"/>
+    <word lem="party" start="1678" wd="Party"/>
+    <word lem="of" start="1684" wd="of"/>
+    <word lem="collaborate" start="1687" wd="collaborating"/>
+    <word lem="with" start="1701" wd="with"/>
+    <word lem="turkish" start="1706" wd="Turkish"/>
+    <word lem="troops" start="1714" wd="troops"/>
+  </sentence>
+</article>

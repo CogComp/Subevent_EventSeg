@@ -1,0 +1,94 @@
+Text	Kurdish guerrilla group PKK claims responsibility for bombing that injured 17 . ANKARA , Turkey 2006-09-25 09:03:39 UTC . A Kurdish guerrilla group claimed responsibility for a weekend bomb attack that injured 17 people in eastern Turkey , a pro-Kurdish news agency reported Monday . The armed wing of the Kurdistan Workers Party , or PKK , said on its Web site that it was behind Saturday 's attack near a police guest house in the eastern city of Igdir , according to the Firat news agency . The group also claimed responsibility for another bombing Saturday that derailed a freight train in southeastern Turkey . In latest reported violence , the rebels ambushed a Turkish military unit , killing a lieutenant on Sunday night near the town of Dargecit in Mardin province , the governor 's office announced Monday . The rebels have intensified their attacks across the country and have so far ignored a recent call by the pro-Kurdish Democratic Society Party to declare a unilateral cease-fire in the hopes of establishing dialogue with the state . The violence also comes amid new efforts by Turkey , the United States and Iraq to counter the rebels , who are based in northern Iraq . Iraqi President Jalal Talabani , himself a Kurd , said in the United States that the PKK could declare a new cease-fire in the coming days , Turkey 's state-owned Anatolia news agency reported Monday . " We convinced the PKK to stop fighting , and within days it will officially announce a cease-fire , " Anatolia quoted Talabani as saying . The bulk of the PKK 's estimated 5,000 guerrillas are thought to be in Turkey , but many operate in Iraq and Iran . The guerrillas have benefited from the years of a power vacuum in northern Iraq to stage cross-border offensives on Turkish targets . Last year , the guerrilla group heeded a similar call from the pro- Kurdish party , but the rebels ended their unilateral truce more than a month later , saying the government had failed to recognize the rebel group and was maintaining its military drive against its members . The PKK 's longest unilateral cease-fire declared after the capture of its leader Abdullah Ocalan in 1999 lasted five years . The rebels resumed fighting in 2004 . Turkey has repeatedly said it will not negotiate with terrorists , and will fight until all rebels are killed or surrender . The PKK is also listed as a terrorist organization by the United States and the European Union . Saturday 's attacks also coincided with complaints by Ocalan about his prison conditions , which were relayed by his lawyers and reported by the Firat news agency . The guerrillas have lately intensified their attacks , carrying out bombings in Mediterranean resorts that killed at least three people and wounded dozens . One of the attacks , a minibus bombing in the popular resort town of Marmaris , wounded 10 Britons in late August . Turkish authorities have said more than 90 soldiers have been killed in PKK attacks since the beginning of this year , and 472 civilians have been killed or injured , a dramatic increase over past years . The U.S. and EU have called on Turkey to improve the economy of the war-ravaged southeastern Turkey to end the 22-year-old conflict , which has killed 37,000 people . Turkey has been trying to improve its treatment of Turkish Kurds under pressure from the EU and has granted more cultural rights , such as the right to broadcast in the once-banned Kurdish language . 
+Event	1	claims	report	4
+Event	2	bombing	event	7
+Event	3	injured	event	9
+Event	4	claimed	report	21
+Event	5	attack	event	27
+Event	6	injured	event	29
+Event	7	reported	report	40
+Event	8	said	report	54
+Event	69	was	event	61
+Event	9	attack	event	65
+Event	10	according	report	78
+Event	11	claimed	report	87
+Event	12	bombing	event	91
+Event	70	derailed	event	94
+Event	14	violence	event	104
+Event	66	ambushed	event	108
+Event	15	killing	event	114
+Event	16	announced	report	133
+Event	17	attacks	event	140
+Event	21	violence	event	173
+Event	28	fighting	event	240
+Event	31	quoted	report	254
+Event	32	saying	report	257
+Event	73	operate	event	276
+Event	71	stage	event	296
+Event	33	offensives	event	298
+Event	40	capture	event	359
+Event	42	fighting	event	373
+Event	43	said	report	379
+Event	44	fight	event	389
+Event	45	killed	event	394
+Event	46	surrender	event	396
+Event	47	attacks	event	416
+Event	48	reported	report	435
+Event	49	attacks	event	447
+Event	72	carrying	event	449
+Event	51	bombings	event	451
+Event	52	killed	event	456
+Event	53	wounded	event	462
+Event	54	attacks	event	467
+Event	55	bombing	event	471
+Event	56	wounded	event	480
+Event	57	said	report	489
+Event	58	killed	event	496
+Event	59	attacks	event	499
+Event	60	killed	event	512
+Event	61	injured	event	514
+Event	64	conflict	event	543
+Event	65	killed	event	547
+Relation	3	2	subevent_of
+Relation	4	1	coreference
+Relation	4	7	in_reporting
+Relation	5	47	member_of
+Relation	5	2	coreference
+Relation	5	7	in_reporting
+Relation	6	3	coreference
+Relation	6	7	in_reporting
+Relation	8	10	in_reporting
+Relation	69	8	in_reporting
+Relation	9	47	member_of
+Relation	9	2	coreference
+Relation	9	8	in_reporting
+Relation	12	47	member_of
+Relation	70	12	subevent_of
+Relation	14	16	in_reporting
+Relation	66	14	subevent_of
+Relation	66	16	in_reporting
+Relation	15	14	subevent_of
+Relation	15	16	in_reporting
+Relation	17	42	subevent_of
+Relation	28	64	subevent_of
+Relation	28	32	in_reporting
+Relation	32	31	in_reporting
+Relation	44	64	subevent_of
+Relation	44	43	in_reporting
+Relation	45	43	in_reporting
+Relation	46	43	in_reporting
+Relation	47	48	in_reporting
+Relation	49	17	coreference
+Relation	51	49	member_of
+Relation	52	51	subevent_of
+Relation	53	51	subevent_of
+Relation	54	51	member_of
+Relation	55	54	coreference
+Relation	56	54	subevent_of
+Relation	58	59	subevent_of
+Relation	58	57	in_reporting
+Relation	59	57	in_reporting
+Relation	60	59	subevent_of
+Relation	60	57	in_reporting
+Relation	61	59	subevent_of
+Relation	61	57	in_reporting
+Relation	65	64	subevent_of

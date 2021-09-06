@@ -1,0 +1,55 @@
+Text	TURKISH EXPLOSION WAS SET AUTOMATICALLY , OFFICIAL SAYS . ISTANBUL , Turkey . The explosion that killed five people and wounded 13 on Saturday in the Turkish resort town of Kusadasi was set off by a timer or remote control , not a suicide bomber , a regional government official said Sunday . The governor of Aydin Province , Mustafa Malay , said the blast was caused by a small device that was apparently placed under a window seat in the second to last row of a minibus . Investigators are still awaiting the forensic identification of the type of explosives , and are examining possible links between the bombing on Saturday and an attack that wounded 20 people in Cesme , another seaside town , on July 10 . " No one has yet claimed responsibility of the attack in Kusadasi , but given the similarities with the attack in Cesme last week , experts are examining a possible link between them , " Malay said . An armed Kurdish group , the Kurdistan Freedom Hawks Organization ( TAK ) that is thought to be a splinter group of the separatist Kurdish Worker 's Party ( PKK ) claimed responsibility for the attack in Cesme . The military wing of the PKK , which has been fighting for autonomy in the Turkish southeast for more than 20 years , on the other hand , denied responsibility for the attack and said it had no links with any other Kurdish groups , including TAK , in a written statement to a Kurdish news agency on Sunday . Four women were killed in the attacks : Eda Okyay , 24 , and Deniz Tutum , 21 , from Turkey , as well as two foreign tourists , Helen Bennett , 21 , of Britain , and Tara Whelan , 17 , of Ireland ; and a Turkish man , Ufuk Yucedeniz , 23 . 
+Event	26	EXPLOSION	event	1
+Event	27	SET	event	3
+Event	28	SAYS	report	7
+Event	1	explosion	event	12
+Event	2	killed	event	14
+Event	3	wounded	event	18
+Event	4	set	event	30
+Event	5	said	report	48
+Event	6	said	report	59
+Event	7	blast	event	61
+Event	8	placed	event	71
+Event	10	bombing	event	105
+Event	11	attack	event	110
+Event	12	wounded	event	112
+Event	13	claimed	report	130
+Event	14	attack	event	134
+Event	15	attack	event	144
+Event	17	said	report	161
+Event	18	claimed	report	193
+Event	19	attack	event	197
+Event	20	fighting	event	210
+Event	21	denied	report	228
+Event	22	attack	event	232
+Event	24	killed	event	262
+Event	25	attacks	event	265
+Relation	26	1	coreference
+Relation	26	28	in_reporting
+Relation	27	28	in_reporting
+Relation	1	26	coreference
+Relation	1	5	in_reporting
+Relation	2	1	subevent_of
+Relation	2	5	in_reporting
+Relation	3	1	subevent_of
+Relation	3	5	in_reporting
+Relation	4	1	subevent_of
+Relation	4	27	coreference
+Relation	4	5	in_reporting
+Relation	5	28	coreference
+Relation	7	1	coreference
+Relation	7	6	in_reporting
+Relation	8	1	subevent_of
+Relation	8	6	in_reporting
+Relation	10	1	coreference
+Relation	12	11	subevent_of
+Relation	13	17	in_reporting
+Relation	14	1	coreference
+Relation	14	17	in_reporting
+Relation	15	11	coreference
+Relation	15	17	in_reporting
+Relation	19	15	coreference
+Relation	22	14	coreference
+Relation	24	2	member_of
+Relation	24	25	subevent_of
+Relation	25	22	coreference

@@ -1,0 +1,83 @@
+Text	Ansar al-Sunna accuses US of misinformation over Mosul blast . The Al-Qaeda linked group which said it carried out the deadly attack against US soldiers in the Iraqi city of Mosul accused the United States of feeding misinformation about the bombing , according to a statement posted on its website Friday . The statement , whose authenticity could not be confirmed , was signed by the " information section " of the Army of Ansar al-Sunna , which has claimed responsibility for Tuesday 's attack in which 14 US soldiers were among 22 people killed . Another 72 people were injured in the blast . The operation , " one of the heaviest blows to the crusaders and which they will never forget " , was the work of a " martyrdom-seeker " from the Army of Ansar al-Sunna , said the latest statement . It was released as US Defense Secretary Donald Rumsfeld made a surprise Christmas Eve visit to troops in Mosul . " We are monitoring the crusaders as they hold conferences and analyze this blow , trying -- as usual -- to mislead people by variously saying that it was a mortar and rocket attack or that it was a suicide operation with local ( improvised ) explosives , " said the statement , dated December 23 . " Are they that stupid that they still do n't know the nature of the blow they received , or was the blow so painful that they do n't dare say the truth " . it scoffed . " The US officials ' talk is groundless . God willing , we will very soon release a statement giving the full details of the blessed Mosul conquest and the losses suffered by the crusaders , " the statement said . Ansar al-Sunna had claimed responsibility for what it described as a suicide attack a few hours after an explosion ripped through a canteen at a US army base in the northern Iraqi city on Tuesday . The chairman of the US Joint Chiefs of Staff , General Richard Myers , said on Wednesday that it appeared to be a suicide bombing carried out by an attacker wearing an " improvised explosive device " . US President George W. Bush had suggested the explosion , the deadliest single attack on American forces in Iraq , was caused by a rocket attack . The base commander , Brigadier General Carter Ham , said on Thursday that the suicide bomber who carried out the attack was likely wearing an Iraqi army uniform . Ansar al-Sunna has split from another radical group , called Ansar al - Islam , both of which are believed to have links with suspected Al - Qaeda operative Abu Musab al-Zarqawi , Iraq 's most-wanted man . 
+Event	55	accuses	report	2
+Event	2	blast	event	8
+Event	3	said	report	14
+Event	49	carried	event	16
+Event	5	attack	event	20
+Event	56	accused	report	30
+Event	7	bombing	event	39
+Event	54	according	report	41
+Event	12	claimed	report	77
+Event	13	attack	event	82
+Event	14	killed	event	92
+Event	15	injured	event	97
+Event	16	blast	event	100
+Event	17	operation	event	102
+Event	43	blows	event	109
+Event	18	said	report	136
+Event	44	blow	event	172
+Event	21	saying	report	184
+Event	22	attack	event	192
+Event	23	operation	event	199
+Event	24	said	report	208
+Event	45	blow	event	230
+Event	46	blow	event	237
+Event	48	scoffed	report	250
+Event	52	conquest	event	277
+Event	51	said	report	289
+Event	25	claimed	report	293
+Event	27	attack	event	302
+Event	28	explosion	event	308
+Event	29	ripped	event	309
+Event	30	said	report	339
+Event	31	bombing	event	349
+Event	47	carried	event	350
+Event	32	suggested	report	368
+Event	33	explosion	event	370
+Event	34	attack	event	375
+Event	35	attack	event	387
+Event	36	said	report	397
+Event	53	carried	event	405
+Event	38	attack	event	408
+Relation	2	43	member_of
+Relation	3	8	in_reporting
+Relation	5	2	coreference
+Relation	5	3	in_reporting
+Relation	56	55	coreference
+Relation	7	5	coreference
+Relation	7	6	in_reporting
+Relation	13	7	coreference
+Relation	13	12	in_reporting
+Relation	14	2	subevent_of
+Relation	15	16	subevent_of
+Relation	16	13	coreference
+Relation	17	13	coreference
+Relation	17	18	in_reporting
+Relation	43	18	in_reporting
+Relation	44	2	coreference
+Relation	44	24	in_reporting
+Relation	21	24	in_reporting
+Relation	22	2	coreference
+Relation	22	21	in_reporting
+Relation	23	2	coreference
+Relation	23	21	in_reporting
+Relation	45	44	coreference
+Relation	45	48	in_reporting
+Relation	46	45	coreference
+Relation	46	48	in_reporting
+Relation	52	51	in_reporting
+Relation	27	2	coreference
+Relation	27	25	in_reporting
+Relation	28	45	coreference
+Relation	29	2	subevent_of
+Relation	31	27	coreference
+Relation	31	30	in_reporting
+Relation	47	30	in_reporting
+Relation	33	34	coreference
+Relation	33	32	in_reporting
+Relation	34	2	coreference
+Relation	34	32	in_reporting
+Relation	35	2	subevent_of
+Relation	35	32	in_reporting
+Relation	38	2	coreference
+Relation	38	36	in_reporting

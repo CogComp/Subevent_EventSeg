@@ -1,0 +1,35 @@
+Text	Yemeni minister 's son assassinated . Unidentified gunmen have shot dead the eldest son of Yemeni Transport Minister Ahmed Mussaed Hussein in the capital Sanaa , police sources in Yemen told AFP on Friday . The sources said three passers-by were injured in the attack on Thursday , which they said was not carried out for political motives , and that the gunmen managed to escape . The authorities in Yemen have made no mention of the attack , which police said could have been linked to a tribal feud in the southern Chabwa region . The sources said Mohammed Ahmed Hussein , 27 , was shot dead in broad daylight outside his father 's house in Sanaa on Thursday afternoon , and that one of the attackers was injured during a gunbattle with minister 's bodyguards . Hussein was a member of a tribe in the Chabwa region which has been engaged in a long-running feud with another local tribe , the source added . Ahmed Mussaed Hussein was named transport minister in 1994 after the civil war sparked by southern leaders who wanted to re-establish a Marxist republic in the south . Ahmed , a member of the ruling General People 's Congress ( GPC ) of President Ali Abdallah Saleh , opposed the secession by the south . 
+Event	1	assassinated	event	4
+Event	2	shot	event	8
+Event	3	told	report	29
+Event	4	said	report	35
+Event	5	injured	event	39
+Event	6	attack	event	42
+Event	7	said	report	48
+Event	21	carried	event	51
+Event	9	escape	event	63
+Event	10	mention	report	71
+Event	11	attack	event	74
+Event	13	said	report	94
+Event	14	shot	event	102
+Event	15	injured	event	125
+Event	16	gunbattle	event	128
+Event	17	war	event	172
+Relation	1	6	subevent_of
+Relation	2	1	coreference
+Relation	2	3	in_reporting
+Relation	5	6	subevent_of
+Relation	5	4	in_reporting
+Relation	6	4+7	in_reporting
+Relation	7	4	coreference
+Relation	21	7	in_reporting
+Relation	9	7	in_reporting
+Relation	11	6	coreference
+Relation	11	10	in_reporting
+Relation	13	4	coreference
+Relation	14	6	subevent_of
+Relation	14	1	coreference
+Relation	14	13	in_reporting
+Relation	15	16	subevent_of
+Relation	15	13	in_reporting
+Relation	16	13	in_reporting

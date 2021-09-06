@@ -1,0 +1,57 @@
+Text	Eight Iraqi Kurds killed in convoy ambush . Turkish Kurdish separatist guerrillas killed eight Iraqi Kurds , including four children and a woman , in an ambush on a convoy of vehicles in northern Iraq , informed sources said here Friday . One of the victims was Faddah Irfan Harcouri a former leader of the Kurdistan Democratic Party ( KDP ) which Turkey on Thursday said it would entrust with border security after it withdraws its troops from the country . Guerrillas belonging to the Kurdistan Workers ' Party ( PKK ) attacked the convoy , travelling from Zakho to Telkeber village , with automatic weapons and rockets , the sources said , citing Zako 's police chief , Naguib Shalon . The attack on Thursday was led by Said Abdullah , leader of the PKK in Telkeber , who is working with the KDP 's main rivals , the Patriotic Union of Kurdistan ( PUK ) , the sources said . There was no immediate comment from inside Iraqi Kurdistan . The KDP , led by Massud Barzani , controls the border area between Turkey and Iraq and has been in armed conflict with the PUK since last year . The killings were the third serious incident in northern Iraq since Turkey launched a huge military operation against the PKK in the border region on March 20 . On Wednesday three Turkish Red Crescent workers and five Kurds were killed in a clash near the city of Dahuk during a funeral procession . The Kurds were in mourning for seven Iraqi Kurdish shepherds killed and mutilated by Turkish troops , a charge denied by Ankara which blamed the PKK separatists . The Turkish army has said at least 334 PKK militants have been killed in its operation , which has been roundly condemned by the international community . The European Parliament criticized the intervention Thursday and stressed that it would withhold its approval of a proposed customs union between the EU and Turkey . But Prime Minister Tansu Ciller rejected the criticism . " The decision of the European Parliament does not affect us at all , " she said . 
+Event	1	killed	event	3
+Event	26	ambush	event	6
+Event	2	killed	event	11
+Event	3	ambush	event	25
+Event	4	said	report	37
+Event	34	said	report	63
+Event	27	withdraws	event	72
+Event	5	attacked	event	89
+Event	6	said	report	108
+Event	7	citing	report	110
+Event	8	attack	event	119
+Event	9	said	report	156
+Event	33	controls	event	174
+Event	10	conflict	event	187
+Event	11	killings	event	195
+Event	12	incident	event	200
+Event	14	operation	event	210
+Event	15	killed	event	232
+Event	16	clash	event	235
+Event	17	killed	event	255
+Event	18	mutilated	event	257
+Event	19	charge	report	263
+Event	20	denied	report	264
+Event	21	blamed	report	268
+Event	22	said	report	276
+Event	23	killed	event	284
+Event	24	operation	event	287
+Event	25	condemned	report	293
+Event	28	criticized	report	301
+Event	29	intervention	event	303
+Event	32	rejected	report	328
+Event	31	criticism	report	330
+Relation	1	26	subevent_of
+Relation	2	1	coreference
+Relation	2	4	in_reporting
+Relation	3	26	coreference
+Relation	3	4	in_reporting
+Relation	27	34	in_reporting
+Relation	5	3	coreference
+Relation	5	6	in_reporting
+Relation	7	6	coreference
+Relation	8	10	subevent_of
+Relation	8	5	coreference
+Relation	8	9	in_reporting
+Relation	11	1	coreference
+Relation	15	16	subevent_of
+Relation	17	19+20	in_reporting
+Relation	18	19+20	in_reporting
+Relation	23	24	subevent_of
+Relation	23	22	in_reporting
+Relation	24	14	coreference
+Relation	24	22+25	in_reporting
+Relation	29	24	coreference
+Relation	29	28	in_reporting
+Relation	31	28	coreference
+Relation	31	30	in_reporting

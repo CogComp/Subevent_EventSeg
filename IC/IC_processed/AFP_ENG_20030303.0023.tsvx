@@ -1,0 +1,46 @@
+Text	Information from Al-Qaeda operative key in capture of Mohammed : report . Intelligence officials were able to track down alleged terror mastermind Khalid Sheik Mohammed in Pakistan with leads gotten from a key al-Qaeda lieutenant , the Washington Post reported Monday . Interrogations of Mohammed 's cohort Ramzi Binalshibh have pierced some of the secrecy surrounding al-Qaeda , it said , and given international intelligence officials valuable leads as they work to track down key members of the group . The capture of Binalshibh , a former roomate of September 11 suicide pilot Mohamed Atta , " provided incredible intelligence and human sources on al-Qaeda and its operations to the Americans , " one intelligence official told the daily . " Ramzi showed the way to Khalid Sheik Mohammed , and Mohammed may lead the Americans to Osama bin Laden and Ayman al-Zawahiri , " bin Laden 's top aide , the official said . Binalshibh is said to be the planner of several attacks on US and other Western targets inside Pakistan . He was apprehended in Pakistan on the first anniversary of the September 11 attacks and Pakistani officials said his capture , like that of Mohammed , was made possible by an earlier raid . " Abu Zubaida 's arrest led to Ramzi 's capture , " the official told the Post , referring to the apprehension of al Qaeda 's top recruiter in Faisalabad , Pakistan , in March 2002 . Binalshibh was handed over to US authorities by Pakistan 's Inter - Services Intelligence agency within a few hours of his capture and interrogated at an undisclosed location . The arrest of Mohammed , considered a key planner of the September 11 attacks , is considered a major breakthrough in the hunt for al-Qaeda fugitives . He is currently in the custody of US authorities , at a location outside the United States , according to intelligence officials . 
+Event	1	capture	event	6
+Event	3	track	event	16
+Event	4	reported	report	38
+Event	7	track	event	70
+Event	8	capture	event	78
+Event	10	operations	event	104
+Event	11	told	report	113
+Event	13	attacks	event	159
+Event	15	apprehended	event	170
+Event	16	attacks	event	181
+Event	17	said	report	185
+Event	18	capture	event	187
+Event	19	raid	event	200
+Event	20	arrest	event	205
+Event	21	capture	event	210
+Event	22	told	report	215
+Event	23	referring	report	219
+Event	24	apprehension	event	222
+Event	25	handed	event	239
+Event	26	capture	event	258
+Event	28	arrest	event	266
+Event	30	attacks	event	278
+Event	34	hunt	event	287
+Event	32	custody	event	296
+Event	33	according	report	309
+Relation	3	1	coreference
+Relation	3	4	in_reporting
+Relation	4	2	coreference
+Relation	8	11	in_reporting
+Relation	10	11	in_reporting
+Relation	15	8	coreference
+Relation	18	8	coreference
+Relation	18	17	in_reporting
+Relation	19	17	in_reporting
+Relation	20	22	in_reporting
+Relation	21	8	coreference
+Relation	21	22	in_reporting
+Relation	22	17	in_reporting
+Relation	24	20	coreference
+Relation	26	8	coreference
+Relation	28	1	coreference
+Relation	30	16	coreference
+Relation	34	7	coreference
+Relation	32	1	subevent_of
+Relation	32	33	in_reporting

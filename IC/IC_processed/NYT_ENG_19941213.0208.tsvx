@@ -1,0 +1,68 @@
+Text	IN PERU , THE SHINING PATH 'S REIGN OF TERROR IS ENDING . AYACUCHO , Peru . The main plaza of this Andean town is buzzing with activity : vendors hawking their wares , schoolboys playing soccer , students arguing politics and lost tourists seeking directions . These lively streets provide the best evidence that the Peruvian government has all but won the war against the Shining Path guerrilla movement . It was in 1980 , at the University of Ayacucho , that Abimael Guzman founded the Maoist insurgent group , which has killed more than 30,000 people in its quest to turn Peru into a cooperative farming society . And it was on the streets of Ayacucho that the Shining Path 's reign of terror was most strongly felt . A few years ago , gunfire and explosions were heard throughout the day and well into the night as the Shining Path and the army battled each other and imposed competing visions of justice on the local citizenry . Almost everyone in this war-scarred town of 100,000 people has a relative or friend who was killed in the warfare . Nearly one-third of the population fled Ayacucho for safety in Lima , the Peruvian capital 200 miles away , and those who remained dared not venture out after dark . `` When this city was dominated by the Shining Path , there was an ever - present fear and terror , '' said Jorge Garcia Prado , who was mayor from 1983 to 1989 . `` There was no joy , no happiness , no social life . So many of our family and friends were killed that we had no more emotions . We were like the walking dead '' . Today , following the capture of Guzman and most of Shining Path 's top leaders in 1992 , the life in Ayacucho 's main plaza -- the Parque Sucre -- is back , under the watchful eye of the military . Dozens of new bars , hotels , restaurants and other businesses have opened in the past year , including three new discos , which have revived Ayacucho 's night life . Early this year , the Puerto Rican rock group La CoCoban gave a concert in the plaza ; the top-rated soap opera , `` The Upper and Lower Classes , '' filmed an episode here ; and a well-known road race , Caminos de Inca , has started passing through Ayacucho again . `` We can say without reservation that the Shining Path no longer exists in the place where it was born , '' said Walter Ascarza Olivares , Ayacucho 's mayor . `` Ayacucho is once again the lively , energetic city that people used to know '' . Founded in 1539 , Ayacucho is an important business and tourist center in the central Andes . Before the Shining Path , it was famous for its churches , colonial mansions and markets . It was the site of the battle on Dec. 9 , 1824 , that ended Spanish rule in Peru . With the decline of the Shining Path , thousands of people have come home . After spending three years studying in Lima , Cesar Prado , 29 , a Hare Krishna , returned this year to set up a street stand where he sells religious literature and products . `` I left because there was nothing here but killing and destruction , '' Prado said . `` I decided to come back because things have changed here and I have changed . With the end of the violence I think people here are ready to accept the teachings of Krishna '' . Marine Sulca , 20 , a grocery clerk , left Ayacucho with her family in 1992 , after the Shining Path killed her brother as they stole his car . Her family returned early this year . `` They shot him in the head as he begged for mercy , '' she said . `` The pain was unbearable for me . But it 's different now . It 's more tranquil , more normal -- the way it was when I was a girl . I pray that the Shining Path wo n't come back . We ca n't let them '' . President Alberto Fujimori has pledged to eliminate the Shining Path by the end of his term next July . Fujimori , who is seeking re - election , seized sweeping dictatorial powers in April 1992 after charging that a corrupt Congress was hindering the fight against terrorism . The military scored its greatest blow against the Shining Path in September 1992 when it captured Guzman , who has since called for peace talks . In the last two years , the military crackdown has led to widespread arrests and defections from the Shining Path . Oscar Ramirez Duran , known as Feliciano , took over the movement and has vowed to continue fighting . Last month , guerrillas bombed targets in Lima , including two branches of the country 's largest bank and an air force officers ' club . The buildings were damaged , but there were no injuries . But Western intelligence sources in Peru said that they believed the Shining Path had been largely defeated strategically because its central committee , which coordinated the various factions , had been captured . ( STORY CAN END HERE . OPTIONAL MATERIAL FOLLOWS ) . The crackdown is succeeding in part with the cooperation of peasants , who with military help formed hundreds of village militias to fend off the rebels in the country 's mountainous interior . Carlos Torres , 19 , a student at the University of Ayacucho , put on his best boots to go out dancing the other night . `` It 's 11:30 p.m. , and I 'm going out to have fun , '' Torres said . `` A few years ago this would have been unthinkable in this town . I 'm glad that the Shining Path is gone so that I can go out and dance while I 'm still young enough to enjoy it '' . 
+Event	57	won	event	58
+Event	2	war	event	60
+Event	3	killed	event	89
+Event	5	gunfire	event	130
+Event	6	explosions	event	132
+Event	7	battled	event	150
+Event	9	killed	event	179
+Event	10	warfare	event	182
+Event	14	killed	event	266
+Event	16	capture	event	284
+Event	17	battle	event	486
+Event	21	killing	event	555
+Event	51	destruction	event	557
+Event	22	said	report	561
+Event	25	violence	event	582
+Event	27	killed	event	617
+Event	28	shot	event	633
+Event	30	said	report	646
+Event	36	charging	report	727
+Event	37	fight	event	735
+Event	58	terrorism	event	737
+Event	38	captured	event	753
+Event	52	crackdown	event	771
+Event	40	arrests	event	776
+Event	41	vowed	report	797
+Event	43	fighting	event	800
+Event	44	bombed	event	805
+Event	54	damaged	event	829
+Event	46	injuries	event	835
+Event	47	said	report	842
+Event	56	defeated	event	852
+Event	49	captured	event	867
+Event	55	crackdown	event	878
+Event	50	fend	event	899
+Relation	5	2	subevent_of
+Relation	6	2	subevent_of
+Relation	7	2	coreference
+Relation	9	10	subevent_of
+Relation	9	3	coreference
+Relation	10	2	coreference
+Relation	14	9	coreference
+Relation	14	13	in_reporting
+Relation	16	10	subevent_of
+Relation	21	3	coreference
+Relation	21	22	in_reporting
+Relation	51	2	subevent_of
+Relation	51	22	in_reporting
+Relation	25	2	coreference
+Relation	27	3	member_of
+Relation	27	28	subevent_of
+Relation	28	2	subevent_of
+Relation	28	30	in_reporting
+Relation	37	2	coreference
+Relation	37	36	in_reporting
+Relation	38	16	coreference
+Relation	52	2	coreference
+Relation	40	52	subevent_of
+Relation	43	2	subevent_of
+Relation	43	41	in_reporting
+Relation	44	2	subevent_of
+Relation	54	44	subevent_of
+Relation	46	44	subevent_of
+Relation	56	47	in_reporting
+Relation	49	38	coreference
+Relation	49	47	in_reporting
+Relation	55	52	coreference
+Relation	50	55	subevent_of

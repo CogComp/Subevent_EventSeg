@@ -1,0 +1,90 @@
+Text	Israel vows to intensify Gaza bombardments by Jean-Luc Renaudie = ( PICTURE ) = . Defence Minister Shaul Mofaz said Tuesday Israel would intensify its bombardments of Gaza , as Palestinian premier Ismail Haniya accused Israel of trying to bring the Palestinian people to their knees . Sixteen Palestinians have been killed since Friday night by Israeli air strikes and tank shelling designed to put a permanent halt to repeated salvoes of makeshift missiles fired by hardline factions such as Islamic Jihad and the Al-Aqsa Martyrs ' Brigades . The latest victim was an eight-year-old girl who died on Monday when an Israeli shell struck a house in the Beit Lahiya region of northern Gaza . A seven-year-old boy was also killed in an air strike on Friday . But Israeli ministers , while expressing regret over the deaths , made clear Tuesday that there would be no easing off in the military activity . " As long as calm does not prevail on the Israeli side , neither will it do so on the Palestinian side , " said the defence minister . " Our operations are going to intensify " . . Foreign Minister Tzipi Livni struck a similarly uncompromising line . " The role of the Israeli army is to defend Israeli civilians , combat terrorism and prevent rocket attacks , " she told public radio . " As long as Palestinians fire at residential areas , the army must reply " . . But Haniya said the bombardments were clearly designed to shatter the will of the Palestinian people . " The bombardments in the north of the Gaza Strip and in ( southern ) Khan Yunis ... are part of a political and economic siege of the Palestinian people , " said Haniya , whose Hamas movement came to power two weeks ago . " This is an attempt to bring the Palestinian people to their knees and strangle the government which was democratically elected , " he added . Both Jihad and Al-Aqsa insisted they would not be cowed into submission . " We will continue firing rockets in response to the crimes and Israeli aggressions , namely their assassinations and bombardments against the Palestinian people , " Al-Aqsa Brigades spokesman Abu Ahmed told AFP . A spokesman for Jihad , the most hardline of all the Palestinian factions , said the movement would " continue to respond to the Israeli aggression by any means " . . Palestinian Authority president Mahmud Abbas said that his office had been in contact with the Israeli government over the bombardments . " We are making these contacts to stop the Israeli escalation in Gaza , " he said without elaborating . A senior military source said a fall in the number of rocket attacks had already been detected and that their effectiveness had been diminished . " At this stage our action has proved to be effective . There were two incidents today when Qassam ( rocket ) launchers backtracked because of our artillery . There are more rockets falling in Palestinian areas because they need to hurry , " he told AFP . The officer said plans had been drawn up for a ground operation , but any such move would require approval from government ministers . " This is n't a fantasy . One of the reasons we planned this intermediate stage was to avoid a ground operation . There are other means that should be used before going in " . . Israel withdrew all its ground troops from the Gaza Strip last September and its bombardments of the territory have been either from the air or sea or by tank shelling from across the border . Livni acknowledged that such tactics could have tragic consequences . The Gaza head of the United Nations agency for Palestinian refugees , John Ging , expressed " great concern " over the situation after visiting UN-run schools which he feared could end up in the firing line . " There are very real concerns and we want this to be taken into account , " he said . 
+Event	1	vows	report	1
+Event	2	bombardments	event	5
+Event	3	said	report	18
+Event	4	bombardments	event	24
+Event	6	killed	event	49
+Event	7	strikes	event	56
+Event	8	shelling	event	59
+Event	41	salvoes	event	68
+Event	9	fired	event	72
+Event	10	died	event	94
+Event	11	struck	event	101
+Event	12	killed	event	117
+Event	13	strike	event	121
+Event	14	deaths	event	133
+Event	16	activity	event	148
+Event	36	said	report	173
+Event	17	operations	event	179
+Event	55	defend	event	203
+Event	44	combat	event	207
+Event	45	terrorism	event	208
+Event	46	attacks	event	212
+Event	47	told	report	216
+Event	48	fire	event	224
+Event	18	said	report	236
+Event	19	bombardments	event	238
+Event	20	bombardments	event	252
+Event	22	said	report	282
+Event	56	insisted	report	323
+Event	57	cowed	event	328
+Event	23	firing	event	335
+Event	37	assassinations	event	348
+Event	38	bombardments	event	350
+Event	24	told	report	362
+Event	25	said	report	399
+Event	26	bombardments	event	413
+Event	27	said	report	437
+Event	28	attacks	event	445
+Event	49	action	event	462
+Event	29	incidents	event	471
+Event	50	falling	event	488
+Event	30	told	report	500
+Event	31	said	report	504
+Event	51	operation	event	513
+Event	52	planned	event	536
+Event	53	operation	event	545
+Event	34	withdrew	event	559
+Event	35	bombardments	event	572
+Event	54	shelling	event	587
+Relation	2	16	subevent_of
+Relation	4	2	coreference
+Relation	4	3	in_reporting
+Relation	6	2	subevent_of
+Relation	7	2	member_of
+Relation	8	2	member_of
+Relation	9	41	subevent_of
+Relation	10	6	member_of
+Relation	10	11	subevent_of
+Relation	11	8	member_of
+Relation	12	6	member_of
+Relation	12	13	subevent_of
+Relation	13	7	member_of
+Relation	14	6	coreference
+Relation	17	2	coreference
+Relation	17	36	in_reporting
+Relation	55	47	in_reporting
+Relation	44	47	in_reporting
+Relation	45	47	in_reporting
+Relation	46	47	in_reporting
+Relation	48	47	in_reporting
+Relation	19	2	coreference
+Relation	19	18	in_reporting
+Relation	20	2	coreference
+Relation	20	22	in_reporting
+Relation	23	24	in_reporting
+Relation	37	24	in_reporting
+Relation	38	20	coreference
+Relation	38	24	in_reporting
+Relation	26	2	coreference
+Relation	26	25	in_reporting
+Relation	28	27	in_reporting
+Relation	49	16	coreference
+Relation	49	30	in_reporting
+Relation	29	28	member_of
+Relation	29	30	in_reporting
+Relation	50	30	in_reporting
+Relation	51	31	in_reporting
+Relation	53	51	coreference
+Relation	35	2	coreference
+Relation	54	8	coreference

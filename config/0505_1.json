@@ -1,0 +1,1 @@
+{"time": "14/05/2021 04:02:43", "gpu_num": "1", "task": "subevent", "dataset": "HiEve", "cons_no": "0429_1_cons", "add_loss": 2, "lambda_annoH": 2.0, "lambda_annoS": 1.0, "lambda_cons": 0.2, "MLP_size": 512, "roberta_hidden_size": 1024, "finetune": 1, "epochs": 40, "batch_size": 16, "downsample": 0.01, "learning_rate": 1e-07, "fold": 5}

@@ -1,0 +1,108 @@
+Text	Shining Path car bomb injures 25 in Peru Eds : UPDATES throughout with analysis , eyewitness testimony . ADDS . ATE-VITARTE , Peru ( AP ) . A car bomb that police said was set by Shining Path guerrillas ripped off the front of a Lima police station before dawn Thursday , wounding 25 people . The attack marked the return to the spotlight of the feared Maoist group , recently overshadowed by a smaller rival band of rebels . The pre-dawn bombing destroyed part of the police station and a municipal office in Lima 's industrial suburb of Ate-Vitarte , wounding 8 police officers , one seriously , Interior Minister Cesar Saucedo told reporters . The bomb collapsed the roof of a neighboring hospital , injuring 15 , and blew out windows and doors in a public market , wounding two guards . People near the blast were cut by shards of flying glass and rescue workers helped police and civilians , many bleeding from the head and face , into ambulances . Police said they did not know the total number injured . Saucedo said guerrillas in one car opened fire on police standing guard , while a second car carrying 88 pounds ( 40 kgs ) of dynamite parked in front of the building , and a third car rushed the attackers away . Pamphlets attributing the attack to the Maoist Shining Path were found at the scene , he said . Analysts said the bombing may be an attempt by the Shining Path to reestablish its position as Peru 's leading guerrilla group after the smaller Tupac Amaru rebel group grabbed world headlines when it seized the Japanese ambassador 's residence on Dec. 17 . The pro-Cuban Tupac Amaru rebels held 72 high-profile hostages for 126 days before military commandos rescued 71 of the 72 in a bloody raid that killed all 14 rebels , one hostage and two commandos . `` With the press that the Tupac Amaru rebels won in recent months the Shining Path felt the need to make their presence felt , '' Shining Path expert Raul Gonzalez told The Associated Press . He said he expected more Shining Path attacks as they try to re - establish their dominant position . Sweeping up the rubble and broken glass in their stalls , shopkeepers in the Modelo market across the road from the bombed police station said it could have been worse . The market was empty when the pre-dawn bombing occurred . `` These terrorists have done so much damage to the country . Now they 're at it again , '' storeowner Teodor Fabio Herrera said . Gonzalez said the bombing was probably meant to honor the anniversary of the launching of the Shining Path 's insurgency on May 17 , 1980 , when guerrillas burned ballot boxes in the highland department of Ayacucho . The Shining Path usually plans its attacks for the days before or after a major anniversary to avoid security measures . It was the first car bomb in Lima since July 1996 , when one ripped through a downtown Lima police station , killing one person and wounding nine . Political violence by the Shining Path has fallen sharply since its leader and founder , Abimael Guzman , was captured in 1992 . Although more than 30,000 people have been killed in political violence since the Shining Path launched its insurgency in 1980 , rebels killed fewer than 200 people in 1996 . Peru 's anti-terrorism police say the Shining Path in recent years has been working in the sprawling shantytowns that ring Lima to rebuild its grassroots networks and find young recruits who are not known by intelligence services . 
+Event	1	injures	event	4
+Event	2	said	report	29
+Event	3	set	event	31
+Event	4	ripped	event	36
+Event	5	wounding	event	49
+Event	6	attack	event	53
+Event	7	bombing	event	77
+Event	8	destroyed	event	78
+Event	9	wounding	event	96
+Event	10	told	report	108
+Event	11	collapsed	event	112
+Event	12	injuring	event	120
+Event	13	blew	event	124
+Event	14	wounding	event	134
+Event	15	blast	event	140
+Event	16	cut	event	142
+Event	17	bleeding	event	157
+Event	18	said	report	167
+Event	19	injured	event	175
+Event	20	said	report	177
+Event	21	opened	event	182
+Event	60	parked	event	202
+Event	61	rushed	event	213
+Event	23	attack	event	220
+Event	25	said	report	233
+Event	26	said	report	235
+Event	27	bombing	event	237
+Event	28	seized	event	268
+Event	29	held	event	282
+Event	30	rescued	event	292
+Event	31	raid	event	300
+Event	32	killed	event	302
+Event	33	said	report	348
+Event	35	attacks	event	354
+Event	36	bombing	event	402
+Event	37	damage	event	411
+Event	38	said	report	427
+Event	39	said	report	429
+Event	40	bombing	event	431
+Event	42	insurgency	event	447
+Event	43	burned	event	456
+Event	58	plans	event	469
+Event	44	attacks	event	471
+Event	59	car	event	489
+Event	56	ripped	event	499
+Event	46	killing	event	507
+Event	47	wounding	event	511
+Event	48	violence	event	514
+Event	50	captured	event	532
+Event	51	killed	event	542
+Event	52	violence	event	545
+Event	54	insurgency	event	552
+Event	55	killed	event	557
+Relation	3	6	subevent_of
+Relation	3	2	in_reporting
+Relation	4	6	subevent_of
+Relation	4	2	in_reporting
+Relation	5	6	subevent_of
+Relation	5	1	coreference
+Relation	5	2	in_reporting
+Relation	7	6	coreference
+Relation	7	10	in_reporting
+Relation	8	7	subevent_of
+Relation	8	10	in_reporting
+Relation	9	5	member_of
+Relation	9	7	subevent_of
+Relation	9	10	in_reporting
+Relation	11	7	subevent_of
+Relation	12	5	member_of
+Relation	12	7	subevent_of
+Relation	13	7	subevent_of
+Relation	14	5	member_of
+Relation	14	7	subevent_of
+Relation	15	7	coreference
+Relation	16	15	subevent_of
+Relation	17	16	subevent_of
+Relation	19	7	subevent_of
+Relation	19	18	in_reporting
+Relation	21	6	subevent_of
+Relation	21	20	in_reporting
+Relation	60	6	subevent_of
+Relation	60	20	in_reporting
+Relation	61	6	subevent_of
+Relation	23	6	coreference
+Relation	23	25	in_reporting
+Relation	27	7	coreference
+Relation	27	26	in_reporting
+Relation	28	26	in_reporting
+Relation	30	31	subevent_of
+Relation	32	31	subevent_of
+Relation	35	33	in_reporting
+Relation	36	7	coreference
+Relation	37	38	in_reporting
+Relation	40	7	coreference
+Relation	40	39	in_reporting
+Relation	42	39	in_reporting
+Relation	43	42	subevent_of
+Relation	43	39	in_reporting
+Relation	59	7	coreference
+Relation	56	59	subevent_of
+Relation	46	59	subevent_of
+Relation	47	59	subevent_of
+Relation	51	52	subevent_of
+Relation	52	48	coreference
+Relation	54	52	subevent_of
+Relation	54	42	coreference
+Relation	55	51	member_of

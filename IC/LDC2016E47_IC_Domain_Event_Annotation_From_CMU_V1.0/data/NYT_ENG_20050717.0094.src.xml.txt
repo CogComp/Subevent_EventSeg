@@ -1,0 +1,49 @@
+<DOC id="NYT_ENG_20050717.0094" type="newswire">
+<DATETIME> 2005-07-17 </DATETIME>
+<HEADLINE>
+TURKISH EXPLOSION WAS SET AUTOMATICALLY, OFFICIAL SAYS
+</HEADLINE>
+<TEXT>
+<P>
+ISTANBUL, Turkey
+</P>
+<P>
+The explosion that killed five people and wounded 13 on Saturday in
+the Turkish resort town of Kusadasi was set off by a timer or remote
+control, not a suicide bomber, a regional government official said
+Sunday.
+</P>
+<P>
+The governor of Aydin Province, Mustafa Malay, said the blast was
+caused by a small device that was apparently placed under a window
+seat in the second to last row of a minibus.
+</P>
+<P>
+Investigators are still awaiting the forensic identification of the
+type of explosives, and are examining possible links between the
+bombing on Saturday and an attack that wounded 20 people in Cesme,
+another seaside town, on July 10.
+</P>
+<P>
+"No one has yet claimed responsibility of the attack in Kusadasi, but
+given the similarities with the attack in Cesme last week, experts are
+examining a possible link between them," Malay said.
+</P>
+<P>
+An armed Kurdish group, the Kurdistan Freedom Hawks Organization (TAK)
+that is thought to be a splinter group of the separatist Kurdish
+Worker's Party (PKK) claimed responsibility for the attack in Cesme.
+The military wing of the PKK, which has been fighting for autonomy in
+the Turkish southeast for more than 20 years, on the other hand,
+denied responsibility for the attack and said it had no links with any
+other Kurdish groups, including TAK, in a written statement to a
+Kurdish news agency on Sunday.
+</P>
+<P>
+Four women were killed in the attacks: Eda Okyay, 24, and Deniz Tutum,
+21, from Turkey, as well as two foreign tourists, Helen Bennett, 21,
+of Britain, and Tara Whelan, 17, of Ireland; and a Turkish man, Ufuk
+Yucedeniz, 23.
+</P>
+</TEXT>
+</DOC>

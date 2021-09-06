@@ -1,0 +1,71 @@
+Text	Bloodshed shows up failure of Kurdish self-rule by Patrick Rahir . A bloody car-bomb attack after months of conflict between Kurdish factions has shown up the failure of four years of self-rule in Iraqi Kurdistan , diplomats and aid workers said Tuesday . " The fighting has stripped the experiment in autonomy of all credibility , " said one diplomat . A Western diplomat said bloodshed was on the cards from the very start , after a May 1992 election resulted in a fragile power-sharing arrangement between rivals Massud Barzani and Jalal Talabani . Barzani 's Kurdistan Democratic Party ( KDP ) has blamed the Patriotic Union of Kurdistan ( PUK ) of Talabani for the car bombing in the border town of Zakho that killed more than 70 people on Monday . The PUK , meanwhile , pointed the finger at Baghdad , which has been blamed for all past bombings since the Kurdish factions took control of northern Iraq in the aftermath of the 1991 Gulf War . To highlight the failure of autonomy and the 50-50 deal between the PUK and KDP , Amnesty International charged Tuesday that both groups were responsible for " a human rights crisis " . . " Hundreds of people -- civilians and combatants taken prisoner -- have suffered human rights abuses at the hands of forces acting under the authority of Kurdish political parties , " the London-based rights group said . The KDP and PUK had " perverted the course of justice , preventing any effective investigations into scores of political assassinations and killings of prisoners and peaceful demonstrators , " said Amnesty . " The knowledge that crime will go unpunished -- and may even be rewarded -- has contributed to the spiral of violence in society at large , which has in turn escalated human rights abuses in Iraqi Kurdistan " . . Barzani , leader of a feudal family which has fought Baghdad for decades , and a Talabani , a former KDP man who broke off to found his own party in 1975 , are now " risking their skins in a battle for supremacy , " said an aid worker . They have battled for overall control since May 1994 , with the PUK accusing the KDP of monopolizing customs revenues along the Turkish border . The clashes have cost more than 400 lives . The biggest losers have been the more than three million Kurds living in the region , under a double blockade from Baghdad and the UN embargo in force against the whole of Iraq since its August 1990 invasion of Kuwait . The Kurds , traditionally , have had no friends in the region as neighbouring Turkey , Iran and Syria all have their own Kurdish minorities which they do not want to encourage to seek autonomy . Iraq , which withdrew its forces from Iraqi Kurdistan in 1991 , has offered mediation between the PUK and KDP . But the failure of the self-rule experiment serves Baghdad 's interests . " The ' security zone ' imposed by the UN in Kurdistan has become dangerous for everyone , " said Information Minister Yussef Humadi , referring to an exclusion zone set up north of the 36th parallel to protect the Kurds from Iraqi attack . " Kurds are pitted against Kurds , Iraqis against Kurds , Turks against Kurds -- and the American planes just circle overhead without intervening , " the minister said . Turkish warplanes enter a " no-fly zone " for Iraqi aircraft in the north to strike at Turkish rebels of the Kurdistan Workers Party ( PKK ) . Ankara , meanwhile , is pressuring the Iraqi Kurds to reconcile with Baghdad . Iran , which supports a Kurdish Hezbollah group allied with the KDP , often shells areas under the control of the PUK . Adding to the outside interference , the United States backs Talabani but plays the two factions against each other to maintain a balance , according to an Asian diplomat in Baghdad . 
+Event	52	Bloodshed	event	0
+Event	3	attack	event	13
+Event	4	conflict	event	17
+Event	6	said	report	39
+Event	7	fighting	event	43
+Event	8	said	report	55
+Event	9	said	report	61
+Event	10	bloodshed	event	62
+Event	11	blamed	report	99
+Event	12	bombing	event	113
+Event	13	killed	event	121
+Event	14	pointed	report	133
+Event	15	blamed	report	142
+Event	16	bombings	event	146
+Event	56	War	event	163
+Event	19	taken	event	204
+Event	57	abuses	event	211
+Event	20	said	report	231
+Event	23	investigations	event	247
+Event	24	assassinations	event	252
+Event	25	killings	event	254
+Event	26	said	report	262
+Event	62	crime	event	268
+Event	60	violence	event	285
+Event	61	abuses	event	298
+Event	30	fought	event	312
+Event	33	battle	event	344
+Event	34	said	report	349
+Event	35	battled	event	355
+Event	64	control	event	358
+Event	37	clashes	event	378
+Event	53	cost	event	380
+Event	38	invasion	event	422
+Event	39	withdrew	event	463
+Event	42	said	report	510
+Event	43	referring	report	516
+Event	45	attack	event	534
+Event	46	intervening	event	558
+Event	47	said	report	563
+Event	48	strike	event	579
+Event	51	shells	event	618
+Event	63	control	event	622
+Relation	3	4	subevent_of
+Relation	3	52	coreference
+Relation	3	6	in_reporting
+Relation	4	6	in_reporting
+Relation	7	8	in_reporting
+Relation	10	7	coreference
+Relation	10	9	in_reporting
+Relation	12	3	coreference
+Relation	13	12	subevent_of
+Relation	19	20	in_reporting
+Relation	57	20	in_reporting
+Relation	23	26	in_reporting
+Relation	24	4	subevent_of
+Relation	24	26	in_reporting
+Relation	25	4	subevent_of
+Relation	25	26	in_reporting
+Relation	62	26	in_reporting
+Relation	60	26	in_reporting
+Relation	61	26	in_reporting
+Relation	30	34	in_reporting
+Relation	33	4	coreference
+Relation	33	34	in_reporting
+Relation	35	33	coreference
+Relation	37	35	coreference
+Relation	53	37	subevent_of
+Relation	43	42	coreference
+Relation	45	43	in_reporting
+Relation	46	47	in_reporting

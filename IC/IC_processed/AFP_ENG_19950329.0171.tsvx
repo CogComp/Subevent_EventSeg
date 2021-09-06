@@ -1,0 +1,56 @@
+Text	Heavy fighting reported in breakaway Somaliland . Heavy fighting has erupted in Somaliland between forces loyal to the breakaway republic 's leader Mohamed Ibrahim Egal and opposition militia in the region 's second largest city of Buro , the opposition group 's spokesman Mohamed Ismail said here Wednesday . Tanks , heavy artillery and rocket propelled grenades were used during the battles , which left 12 people dead and a large number of wounded on both sides , he said . Ismail said the fighting , which lasted several days , intensified when forces loyal to Egal 's Habar Awal sub-clan of the Issak attacked a militia stronghold of his main opposition rival , the Gar Hajis sub - clan , at El-Hume , 20 kilometres ( 12 miles ) west of Buro . Egal militia , claiming to be the national defence force , said they had captured two opposition posts , killing and wounding many of the fighters , destroying three technicals ( armed pick-up trucks ) and confiscating artillery guns and assorted ammunition . Ismail dismissed that claim , saying " the terrorist attack " against the stability of Somalia 's northern region was repelled with great loss to the attackers , who had abandoned their military hardware . Egal , currently in the " capital , " Hargeisa , earlier said his government had launched an eradication campaign against what he called anti-Somaliland government elements . He accused Somali warlord Mohamed Farah Aidid and some foreign governments of illegally intervening in Somaliland 's internal affairs . Warring Issak sub-clans mainly support the independence of Somaliland , which broke away from Somalia in May 1991 , but the non-Issak sub-clans of the Dlbahanti , Gadabursi , Warsangeli and Issa are in favour of unity of Somalia . No foreign government has recognised the independence of Somaliland , a former British colony which joined with a former Italian colony to form inmdependent Somalia in 1960 . Somalia has been without a government since the overthrow of dictator Mohamed Siad Barre in January 1991 . 
+Event	1	fighting	event	1
+Event	2	reported	report	2
+Event	3	fighting	event	7
+Event	5	said	report	44
+Event	6	battles	event	59
+Event	7	dead	event	65
+Event	8	wounded	event	71
+Event	9	said	report	77
+Event	10	said	report	79
+Event	11	fighting	event	81
+Event	12	attacked	event	101
+Event	14	said	report	141
+Event	15	captured	event	144
+Event	16	killing	event	149
+Event	17	wounding	event	151
+Event	18	destroying	event	157
+Event	19	confiscating	event	166
+Event	22	saying	report	177
+Event	23	attack	event	181
+Event	24	repelled	event	192
+Event	33	loss	event	195
+Event	34	abandoned	event	202
+Event	25	said	report	218
+Event	27	campaign	event	225
+Event	29	accused	report	234
+Event	31	overthrow	event	326
+Relation	1	2	in_reporting
+Relation	3	1	coreference
+Relation	3	5	in_reporting
+Relation	6	1	coreference
+Relation	6	9	in_reporting
+Relation	7	6	subevent_of
+Relation	7	9	in_reporting
+Relation	8	6	subevent_of
+Relation	8	9	in_reporting
+Relation	11	1	coreference
+Relation	11	10	in_reporting
+Relation	12	11	subevent_of
+Relation	12	10	in_reporting
+Relation	15	12	subevent_of
+Relation	15	14	in_reporting
+Relation	16	12	subevent_of
+Relation	16	14	in_reporting
+Relation	17	12	subevent_of
+Relation	17	14	in_reporting
+Relation	18	12	subevent_of
+Relation	18	14	in_reporting
+Relation	19	12	subevent_of
+Relation	19	14	in_reporting
+Relation	23	12	coreference
+Relation	23	22	in_reporting
+Relation	24	11	subevent_of
+Relation	24	22	in_reporting
+Relation	27	25	in_reporting
+Relation	29	25	in_reporting

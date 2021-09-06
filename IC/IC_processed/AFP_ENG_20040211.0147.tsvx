@@ -1,0 +1,37 @@
+Text	Kurdish paper says Al Qaeda-linked suspects in Arbil blasts were Iraqis . A Kurdish newspaper said Wednesday that Iraqi members of an Al Qaeda - linked group , a Kurd and an Arab , blew themselves up in northern Iraq on February 1 , killing at least 105 people . The twin suicide bombing was the deadliest attack in post-war Iraq and was suspected to have been carried out by foreign fighters , possibly linked to Osama bin Laden 's Al-Qaeda network . The pair were named respectively as Abu Bakr Hawleri and Kazem Al - Juburi , alias Abu Turab , by independent newspaper Hawlani , which said they belonged to the Army of Ansar al-Sunna . The Kurd blew himself up in the offices of the Patriotic Union of Kurdistan ( PUK ) and the Arab in the offices of the Kurdistan Democratic Party ( KDP ) , both in the Kurdish city of Arbil , said the newspaper . Each one carried a belt packed with four kilograms ( 8.8 pounds ) of TNT mixed with phosphorus , a highly flammable material , the newspaper said . Ansar al-Sunna last week claimed the twin bombings in a statement posted on an Islamist website . The newspaper said the motive of the attack was to " punish " the two Kurdish secular groups , which control Iraqi Kurdistan , for their alliance with the US-led coalition . The newspaper said Ansar al-Sunna broke away from the Ansar al-Islam group last October and was led by an Arab whose alias is Abu Abdullah Hasan bin Mahmud . Ansar al-Sunna is more extreme , said the newspaper . The newspaper added that bin Mahmud is the brother of man whose alias is Abdullah Al-Shami , an Ansar al-Islam leader who was killed last year while fighting a US-backed onslaught by the PUK that forced the group out of its enclave near the Iranian border at the end of March last year . 
+Event	1	says	report	2
+Event	2	blasts	event	8
+Event	3	said	report	14
+Event	4	blew	event	33
+Event	5	killing	event	43
+Event	6	bombing	event	51
+Event	7	attack	event	55
+Event	22	carried	event	65
+Event	8	blew	event	116
+Event	10	said	report	154
+Event	11	claimed	report	188
+Event	12	bombings	event	191
+Event	14	said	report	202
+Event	15	attack	event	207
+Event	20	control	event	220
+Event	16	added	report	270
+Event	17	killed	event	291
+Event	18	fighting	event	295
+Event	19	onslaught	event	298
+Event	21	forced	event	303
+Relation	2	1	in_reporting
+Relation	3	1	coreference
+Relation	4	2	subevent_of
+Relation	4	3	in_reporting
+Relation	5	2	subevent_of
+Relation	5	3	in_reporting
+Relation	6	2	coreference
+Relation	7	6	coreference
+Relation	8	4	member_of
+Relation	8	10	in_reporting
+Relation	12	6	coreference
+Relation	15	7	coreference
+Relation	15	14	in_reporting
+Relation	17	18	subevent_of
+Relation	17	16	in_reporting
+Relation	18	16	in_reporting

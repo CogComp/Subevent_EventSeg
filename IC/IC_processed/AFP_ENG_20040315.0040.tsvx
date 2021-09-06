@@ -1,0 +1,76 @@
+Text	Group that bombed Madrid had links to Al-Qaeda , Morocco attacks : report . Spanish security services believe that the people who carried out last week 's deadly bombings on trains in Madrid may have had links to the Islamic extremist group Al-Qaeda and also be part of the group which carried out devastating attacks in the Moroccan city of Casablanca almost a year ago , the El Pais newspaper said on Monday . Quoting sources close to the investigation into the Madrid bombings , which left 200 people dead and over 1,400 injured last Thursday , the paper said the security services had found links between one of three Moroccans detained since the Madrid bombings , and the group held responsible for the Casablanca attacks . El Pais said investigators had found links between Jamal Zougam , a Moroccan who was arrested after the Madrid bombings , and people who are being held in both Morocco and Spain over the Casablanca attacks , which killed 45 people on May 16 last year . One of the targets was a Spanish cultural centre , where four Spaniards were among the dead . The paper said Jamal Zougam also had links to a Spanish cell of Al - Qaeda which was headed by one Imad Eddin Barakat Yarkas , also known as " Abu Dahdah " . He has been indicted by the Spanish anti-terrorist prosecutor Baltasar Garzon on charges relating to the preparation of the attacks of September 11 , 2001 in the United States . El Pais said Zougam was cited at two points in Garzon 's indictment , but was not charged . The paper said he was believed to be an Islamic radical who had formerly fought in Afghanistan , and who took part in the Casablanca bombings . El Pais also quoted its security service sources as saying that Spanish police were looking for four more people believed to be involved in last week 's attacks . 
+Event	1	bombed	event	2
+Event	2	attacks	event	10
+Event	42	carried	event	21
+Event	5	bombings	event	27
+Event	43	carried	event	50
+Event	6	attacks	event	53
+Event	7	said	report	69
+Event	8	Quoting	report	72
+Event	44	investigation	event	77
+Event	9	bombings	event	81
+Event	10	dead	event	87
+Event	11	injured	event	91
+Event	12	said	report	97
+Event	13	detained	event	109
+Event	14	bombings	event	113
+Event	16	attacks	event	123
+Event	17	said	report	126
+Event	18	arrested	event	139
+Event	19	bombings	event	143
+Event	20	held	event	150
+Event	21	attacks	event	159
+Event	22	killed	event	162
+Event	24	indicted	event	223
+Event	25	preparation	event	236
+Event	26	attacks	event	239
+Event	27	said	report	251
+Event	29	indictment	event	261
+Event	30	charged	event	266
+Event	31	said	report	269
+Event	33	fought	event	281
+Event	45	took	event	287
+Event	35	bombings	event	292
+Event	36	quoted	report	296
+Event	37	saying	report	302
+Event	38	looking	event	307
+Event	40	involved	event	315
+Event	41	attacks	event	320
+Relation	42	7	in_reporting
+Relation	5	1	coreference
+Relation	5	7	in_reporting
+Relation	43	7	in_reporting
+Relation	6	2	coreference
+Relation	6	7	in_reporting
+Relation	9	1	coreference
+Relation	10	9	subevent_of
+Relation	11	9	subevent_of
+Relation	12	8	coreference
+Relation	13	12	in_reporting
+Relation	14	1	coreference
+Relation	14	12	in_reporting
+Relation	16	2	coreference
+Relation	16	12	in_reporting
+Relation	17	12	coreference
+Relation	18	13	subevent_of
+Relation	18	17	in_reporting
+Relation	19	1	coreference
+Relation	19	17	in_reporting
+Relation	20	17	in_reporting
+Relation	21	2	coreference
+Relation	21	17	in_reporting
+Relation	22	21	subevent_of
+Relation	24	29	coreference
+Relation	25	26	subevent_of
+Relation	29	27	in_reporting
+Relation	30	27	in_reporting
+Relation	31	27	coreference
+Relation	33	31	in_reporting
+Relation	35	2	coreference
+Relation	35	31	in_reporting
+Relation	37	36	in_reporting
+Relation	38	37	in_reporting
+Relation	40	41	subevent_of
+Relation	40	37	in_reporting
+Relation	41	1	coreference
+Relation	41	37	in_reporting

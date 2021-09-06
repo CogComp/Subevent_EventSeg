@@ -1,0 +1,191 @@
+Text	HAMAS burns Israeli flag in Gaza demonstration . More than 1,000 members of the Palestinian radical group HAMAS demonstrated at Gaza 's Islamic University on Wednesday and burned an Israeli flag , witnesses said . Youths wearing headbands emblazoned " Ezz Eddin al-Qassam Brigades , " HAMAS ' military wing , stomped on the Israeli flag before setting it alight on stage before the crowd , made up mostly of students . They also carried pictures of Yehiya Ayash , the " engineer " of HAMAS suicide bombing attacks who was killed in Gaza City last January , apparently by Israeli agents . The demonstration was officially to mark the ninth anniversary of the start of the Palestinian Intifada uprising , from 1987 to 1994 . It comes two days before a planned public rally by the Islamic Resistance Movement HAMAS , the first one in over a year to be permitted by Yasser Arafat 's Palestinian Authority . The rally , to be held Friday in Khan Yunis , south of Gaza City , sparked criticisms from Israel that Arafat was seeking to send a warning that the " HAMAS option " still exists if negotiations with Israel remain deadlocked . HAMAS , along with Islamic Jihad , conducted a string of anti-Israeli suicide bombings which left 58 people dead in February and March in revenge for Ayash 's assassination . Under Israeli pressure , Arafat launched a crackdown against Islamic groups , arresting hundreds of their members . But most have been released in the past few months . 
+Event	1	burns	event	6
+Event	2	demonstration	event	33
+Event	3	demonstrated	event	112
+Event	4	burned	event	172
+Event	5	said	report	207
+Event	6	setting	event	344
+Event	7	attacks	event	506
+Event	8	killed	event	522
+Event	9	demonstration	event	592
+Event	10	uprising	event	692
+Event	11	rally	event	765
+Event	12	rally	event	907
+Event	13	conducted	event	1165
+Event	14	suicide	event	1200
+Event	15	left	event	1223
+Event	16	assassination	event	1289
+Event	17	crackdown	event	1348
+Event	18	arresting	event	1383
+Event	19	released	event	1440
+Relation	1	2	SubSuper	true	burns	demonstration
+Relation	1	3	SubSuper	true	burns	demonstrated
+Relation	1	4	Coref	true	burns	burned
+Relation	1	5	NoRel	true	burns	said
+Relation	1	6	Coref	true	burns	setting
+Relation	1	7	NoRel	true	burns	attacks
+Relation	1	8	NoRel	true	burns	killed
+Relation	1	9	SubSuper	true	burns	demonstration
+Relation	1	10	NoRel	true	burns	uprising
+Relation	1	11	NoRel	true	burns	rally
+Relation	1	12	NoRel	true	burns	rally
+Relation	1	13	NoRel	true	burns	conducted
+Relation	1	14	NoRel	true	burns	suicide
+Relation	1	15	NoRel	true	burns	left
+Relation	1	16	NoRel	true	burns	assassination
+Relation	1	17	NoRel	true	burns	crackdown
+Relation	1	18	NoRel	true	burns	arresting
+Relation	1	19	NoRel	true	burns	released
+Relation	2	3	Coref	true	demonstration	demonstrated
+Relation	2	4	SuperSub	true	demonstration	burned
+Relation	2	5	NoRel	true	demonstration	said
+Relation	2	6	SuperSub	true	demonstration	setting
+Relation	2	7	NoRel	true	demonstration	attacks
+Relation	2	8	NoRel	true	demonstration	killed
+Relation	2	9	Coref	true	demonstration	demonstration
+Relation	2	10	NoRel	true	demonstration	uprising
+Relation	2	11	NoRel	true	demonstration	rally
+Relation	2	12	NoRel	true	demonstration	rally
+Relation	2	13	NoRel	true	demonstration	conducted
+Relation	2	14	NoRel	true	demonstration	suicide
+Relation	2	15	NoRel	true	demonstration	left
+Relation	2	16	NoRel	true	demonstration	assassination
+Relation	2	17	NoRel	true	demonstration	crackdown
+Relation	2	18	NoRel	true	demonstration	arresting
+Relation	2	19	NoRel	true	demonstration	released
+Relation	3	4	SuperSub	true	demonstrated	burned
+Relation	3	5	NoRel	true	demonstrated	said
+Relation	3	6	SuperSub	true	demonstrated	setting
+Relation	3	7	NoRel	true	demonstrated	attacks
+Relation	3	8	NoRel	true	demonstrated	killed
+Relation	3	9	Coref	true	demonstrated	demonstration
+Relation	3	10	NoRel	true	demonstrated	uprising
+Relation	3	11	NoRel	true	demonstrated	rally
+Relation	3	12	NoRel	true	demonstrated	rally
+Relation	3	13	NoRel	true	demonstrated	conducted
+Relation	3	14	NoRel	true	demonstrated	suicide
+Relation	3	15	NoRel	true	demonstrated	left
+Relation	3	16	NoRel	true	demonstrated	assassination
+Relation	3	17	NoRel	true	demonstrated	crackdown
+Relation	3	18	NoRel	true	demonstrated	arresting
+Relation	3	19	NoRel	true	demonstrated	released
+Relation	4	5	NoRel	true	burned	said
+Relation	4	6	Coref	true	burned	setting
+Relation	4	7	NoRel	true	burned	attacks
+Relation	4	8	NoRel	true	burned	killed
+Relation	4	9	SubSuper	true	burned	demonstration
+Relation	4	10	NoRel	true	burned	uprising
+Relation	4	11	NoRel	true	burned	rally
+Relation	4	12	NoRel	true	burned	rally
+Relation	4	13	NoRel	true	burned	conducted
+Relation	4	14	NoRel	true	burned	suicide
+Relation	4	15	NoRel	true	burned	left
+Relation	4	16	NoRel	true	burned	assassination
+Relation	4	17	NoRel	true	burned	crackdown
+Relation	4	18	NoRel	true	burned	arresting
+Relation	4	19	NoRel	true	burned	released
+Relation	5	6	NoRel	true	said	setting
+Relation	5	7	NoRel	true	said	attacks
+Relation	5	8	NoRel	true	said	killed
+Relation	5	9	NoRel	true	said	demonstration
+Relation	5	10	NoRel	true	said	uprising
+Relation	5	11	NoRel	true	said	rally
+Relation	5	12	NoRel	true	said	rally
+Relation	5	13	NoRel	true	said	conducted
+Relation	5	14	NoRel	true	said	suicide
+Relation	5	15	NoRel	true	said	left
+Relation	5	16	NoRel	true	said	assassination
+Relation	5	17	NoRel	true	said	crackdown
+Relation	5	18	NoRel	true	said	arresting
+Relation	5	19	NoRel	true	said	released
+Relation	6	7	NoRel	true	setting	attacks
+Relation	6	8	NoRel	true	setting	killed
+Relation	6	9	SubSuper	true	setting	demonstration
+Relation	6	10	NoRel	true	setting	uprising
+Relation	6	11	NoRel	true	setting	rally
+Relation	6	12	NoRel	true	setting	rally
+Relation	6	13	NoRel	true	setting	conducted
+Relation	6	14	NoRel	true	setting	suicide
+Relation	6	15	NoRel	true	setting	left
+Relation	6	16	NoRel	true	setting	assassination
+Relation	6	17	NoRel	true	setting	crackdown
+Relation	6	18	NoRel	true	setting	arresting
+Relation	6	19	NoRel	true	setting	released
+Relation	7	8	NoRel	true	attacks	killed
+Relation	7	9	NoRel	true	attacks	demonstration
+Relation	7	10	NoRel	true	attacks	uprising
+Relation	7	11	NoRel	true	attacks	rally
+Relation	7	12	NoRel	true	attacks	rally
+Relation	7	13	NoRel	true	attacks	conducted
+Relation	7	14	NoRel	true	attacks	suicide
+Relation	7	15	NoRel	true	attacks	left
+Relation	7	16	NoRel	true	attacks	assassination
+Relation	7	17	NoRel	true	attacks	crackdown
+Relation	7	18	NoRel	true	attacks	arresting
+Relation	7	19	NoRel	true	attacks	released
+Relation	8	9	NoRel	true	killed	demonstration
+Relation	8	10	NoRel	true	killed	uprising
+Relation	8	11	NoRel	true	killed	rally
+Relation	8	12	NoRel	true	killed	rally
+Relation	8	13	NoRel	true	killed	conducted
+Relation	8	14	NoRel	true	killed	suicide
+Relation	8	15	NoRel	true	killed	left
+Relation	8	16	Coref	true	killed	assassination
+Relation	8	17	NoRel	true	killed	crackdown
+Relation	8	18	NoRel	true	killed	arresting
+Relation	8	19	NoRel	true	killed	released
+Relation	9	10	NoRel	true	demonstration	uprising
+Relation	9	11	NoRel	true	demonstration	rally
+Relation	9	12	NoRel	true	demonstration	rally
+Relation	9	13	NoRel	true	demonstration	conducted
+Relation	9	14	NoRel	true	demonstration	suicide
+Relation	9	15	NoRel	true	demonstration	left
+Relation	9	16	NoRel	true	demonstration	assassination
+Relation	9	17	NoRel	true	demonstration	crackdown
+Relation	9	18	NoRel	true	demonstration	arresting
+Relation	9	19	NoRel	true	demonstration	released
+Relation	10	11	NoRel	true	uprising	rally
+Relation	10	12	NoRel	true	uprising	rally
+Relation	10	13	NoRel	true	uprising	conducted
+Relation	10	14	NoRel	true	uprising	suicide
+Relation	10	15	NoRel	true	uprising	left
+Relation	10	16	NoRel	true	uprising	assassination
+Relation	10	17	NoRel	true	uprising	crackdown
+Relation	10	18	NoRel	true	uprising	arresting
+Relation	10	19	NoRel	true	uprising	released
+Relation	11	12	NoRel	true	rally	rally
+Relation	11	13	NoRel	true	rally	conducted
+Relation	11	14	NoRel	true	rally	suicide
+Relation	11	15	NoRel	true	rally	left
+Relation	11	16	NoRel	true	rally	assassination
+Relation	11	17	NoRel	true	rally	crackdown
+Relation	11	18	NoRel	true	rally	arresting
+Relation	11	19	NoRel	true	rally	released
+Relation	12	13	NoRel	true	rally	conducted
+Relation	12	14	NoRel	true	rally	suicide
+Relation	12	15	NoRel	true	rally	left
+Relation	12	16	NoRel	true	rally	assassination
+Relation	12	17	NoRel	true	rally	crackdown
+Relation	12	18	NoRel	true	rally	arresting
+Relation	12	19	NoRel	true	rally	released
+Relation	13	14	NoRel	true	conducted	suicide
+Relation	13	15	NoRel	true	conducted	left
+Relation	13	16	NoRel	true	conducted	assassination
+Relation	13	17	NoRel	true	conducted	crackdown
+Relation	13	18	NoRel	true	conducted	arresting
+Relation	13	19	NoRel	true	conducted	released
+Relation	14	15	SuperSub	true	suicide	left
+Relation	14	16	NoRel	true	suicide	assassination
+Relation	14	17	NoRel	true	suicide	crackdown
+Relation	14	18	NoRel	true	suicide	arresting
+Relation	14	19	NoRel	true	suicide	released
+Relation	15	16	NoRel	true	left	assassination
+Relation	15	17	NoRel	true	left	crackdown
+Relation	15	18	NoRel	true	left	arresting
+Relation	15	19	NoRel	true	left	released
+Relation	16	17	NoRel	true	assassination	crackdown
+Relation	16	18	NoRel	true	assassination	arresting
+Relation	16	19	NoRel	true	assassination	released
+Relation	17	18	SuperSub	true	crackdown	arresting
+Relation	17	19	NoRel	true	crackdown	released
+Relation	18	19	NoRel	true	arresting	released

@@ -1,0 +1,101 @@
+Text	Insurgent group claims responsibility for Irbil bombings that killed 109 . TIKRIT , Iraq ( AP ) . An Iraqi militant group claimed responsibility for the suicide bombings in Irbil , and a senior U.S. commander blamed recent attacks on insurgents seeking to sabotage a future independent Iraqi government . Meanwhile , the United States said it is sticking to its timetable for Iraq self-rule by July 1 even though U.N. Secretary-General Kofi Annan said Wednesday the deadline might have to be reconsidered to forge an agreement on a provisional government . The United States says it is impossible to arrange elections in such a short time because of the ongoing insurgency . In their latest violence , two suicide bombers blew themselves up at the offices of two Kurdish parties in the northern city of Irbil on Sunday , killing a total of 109 people . On Wednesday , an Iraqi insurgent group , the `` Jaish Ansar al-Sunna , '' claimed responsibility for the bombings . It said it targeted the `` dens of the devils '' because of the parties ' ties to the United States . The claim could not be independently confirmed . The two parties are the strongest allies of the United States and had fought alongside its troops during the invasion of Iraq last March . The statement was posted in Arabic on a Web site that frequently carries statements by Islamic militants . The name of the organization was included among a dozen insurgent groups that issued a joint statement this week in Ramadi and Fallujah _ part of the Sunni Triangle stronghold of Saddam Hussein loyalist _ warning Iraqis against cooperating with the U.S.-led occupation . In Baghdad , Brig. Gen. Mark Kimmitt , deputy chief of staff for operations , said U.S. authorities believe Jaish Ansar is a splinter group of Ansar al-Islam , an extremist group in northern Iraq with alleged ties to al-Qaida . He said he believed the Jaish Ansar group had also taken responsibility for Saturday 's car bombing at a Mosul police station that killed nine Iraqis and injured about 45 . The attacks killed numerous officials of the Kurdistan Democratic Party and the Patriotic Union of Kurdistan . Insurgents have in recent weeks widened their operations to include Iraqi civilians in addition to U.S. forces who have lost 368 troops to hostile fire since the invasion . The January toll was five more than in December . Despite continuing losses , Maj. Gen. Raymond Odierno , commander of the Army 's 4th Infantry Division based in Tikrit , predicted that coalition forces would be able to crush the insurgency within a year . He said the violence shows the insurgents are trying to sabotage a future government or even gain leverage in it . `` There are ethnic issues . People are now positioning themselves to see what their role is in the next government , and they are doing it by force , '' Odierno said after a tour of Tikrit , Saddam 's hometown . `` They are trying to disrupt the way things are going so they can get a little advantage '' . He did not elaborate . The U.S.-led Coalition Provisional Authority plans to hand over sovereignty to a provisional Iraqi government on June 30 . However , Iraq 's influential Shiite Muslim clergy is demanding that power be handed over to a directly elected government rather than an administration chosen indirectly through a system of caucuses , as envisaged by Washington . L. Paul Bremer , the head of the Coalition Provisional Authority , told reporters in Baghdad Thursday that a United Nations team will land in Baghdad `` in coming days '' to make recommendations to help end the deadlock . `` The coalition will cooperate in any way the United Nations wants , '' Bremer told reporters . He said although the plan to hand over power on June 30 remains unchanged , the United States is `` prepared to consider refinements or elaborations '' on a Nov. 15 agreement to hold caucuses . At the same time , U.N. Secretary-General Kofi Annan said Wednesday that if the two sides `` were to change that ( Nov. 15 ) understanding , that agreement , of course it would be something that we would have to consider '' . In another fatality , a Spanish military adviser , Gonzalo Perez Garcia , who fell into a coma after being seriously wounded in a shootout last month died Wednesday , the Spanish Defense Ministry said . He is the 11th Spaniard to be killed here since August . U.S. troops , meanwhile , arrested a relative of Izzat Ibrahim al-Douri , and believe he may help in the hunt for the most senior former regime figure still at large , a U.S. officer said Wednesday . Al-Douri was the vice chairman of the Baath Party 's Revolutionary Command Council and a longtime confidant of Saddam . He is No. 6 on the wanted list and U.S. forces have offered a US$ 10 million bounty for his arrest . vars/vj . 
+Event	1	claims	report	2
+Event	2	bombings	event	6
+Event	3	killed	event	8
+Event	4	claimed	report	20
+Event	5	bombings	event	25
+Event	6	blamed	report	34
+Event	7	attacks	event	36
+Event	63	sabotage	event	41
+Event	8	says	report	91
+Event	10	insurgency	event	107
+Event	11	violence	event	111
+Event	12	blew	event	116
+Event	13	killing	event	135
+Event	14	claimed	report	156
+Event	15	bombings	event	160
+Event	16	said	report	162
+Event	17	targeted	event	164
+Event	70	claim	report	183
+Event	71	confirmed	report	188
+Event	20	fought	event	202
+Event	21	invasion	event	208
+Event	24	warning	report	265
+Event	25	occupation	event	272
+Event	26	operations	event	286
+Event	30	said	report	314
+Event	32	taken	report	323
+Event	33	bombing	event	329
+Event	34	killed	event	336
+Event	35	injured	event	340
+Event	36	attacks	event	344
+Event	37	killed	event	345
+Event	38	operations	event	366
+Event	64	lost	event	378
+Event	65	fire	event	383
+Event	39	invasion	event	386
+Event	72	losses	event	398
+Event	40	predicted	report	417
+Event	41	crush	event	425
+Event	42	insurgency	event	427
+Event	43	said	report	432
+Event	44	violence	event	434
+Event	67	sabotage	event	441
+Event	73	force	event	478
+Event	52	fatality	event	705
+Event	53	wounded	event	724
+Event	54	shootout	event	727
+Event	55	died	event	730
+Event	56	said	report	737
+Event	57	killed	event	745
+Event	58	arrested	event	754
+Event	68	hunt	event	769
+Event	69	large	event	779
+Event	60	said	report	784
+Event	62	arrest	event	825
+Relation	2	7	member_of
+Relation	2	1	in_reporting
+Relation	3	2	subevent_of
+Relation	5	2	coreference
+Relation	5	4	in_reporting
+Relation	7	6	in_reporting
+Relation	10	8	in_reporting
+Relation	11	2	coreference
+Relation	12	11	subevent_of
+Relation	13	3	coreference
+Relation	15	10	subevent_of
+Relation	15	2	coreference
+Relation	15	14	in_reporting
+Relation	17	15	subevent_of
+Relation	17	16	in_reporting
+Relation	20	21	subevent_of
+Relation	25	21	subevent_of
+Relation	26	21	coreference
+Relation	32	30	in_reporting
+Relation	33	7	member_of
+Relation	33	30	in_reporting
+Relation	34	33	subevent_of
+Relation	34	30	in_reporting
+Relation	35	33	subevent_of
+Relation	36	7	coreference
+Relation	64	65	subevent_of
+Relation	65	39	subevent_of
+Relation	39	21	coreference
+Relation	41	40	in_reporting
+Relation	42	10	coreference
+Relation	42	40	in_reporting
+Relation	44	36	coreference
+Relation	44	43	in_reporting
+Relation	67	63	coreference
+Relation	67	43	in_reporting
+Relation	52	54	subevent_of
+Relation	52	56	in_reporting
+Relation	53	54	subevent_of
+Relation	53	56	in_reporting
+Relation	54	42	subevent_of
+Relation	54	56	in_reporting
+Relation	55	52	coreference
+Relation	55	56	in_reporting
+Relation	57	55	coreference
+Relation	58	60	in_reporting
+Relation	68	60	in_reporting

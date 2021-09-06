@@ -1,0 +1,70 @@
+Text	Kurdish group claims Istanbul attacks ( ADDS details , background ) . A previously unknown Kurdish group Tuesday claimed responsibility for deadly blasts in two Istanbul hotels , following a similar claim by the Al-Qaeda network , the pro-Kurdish MHA news agency reported . " A person who called our agency and presented himself ( herself ) as an activist from the Kurdistan Freedom Falcons organization claimed responsibility for the acts in Istanbul which claimed two lives , " the Germany-based agency reported . The person said the attacks were in retaliation for to " recent operations in Kurdistan and the execution of Kurdish guerrilas , " adding that details would be revealed later , MHA said . The agency is seen here as a mouthpiece of the former outlawed Kurdistan Workers ' Party ( PKK ) , which has waged a bloody 15-year campaign for self-rule in mainly Kurdish southeast Turkey , and groups related to it . A MHA reporter contacted by AFP said the caller did not specify whether the Kurdistan Freedom Falcons were linked to the PKK or its most recent incarnation , the KONGRA-GEL . " It is the first time we 've heard about this group , " she said . Turkish Interior Minister Abdulkadir Aksu hinted earlier that the police were looking into a possible Kurdish involvement in the bombings , in which 11 other people , mostly foreign tourists , were injured . Two near simultanous attacks targetted two hotels in the heart of Istanbul early on Tuesday . They were followed about an hour later with two explosions at a major gas complex in the outskirts of the city , in which no one was harmed . Aksu said the police had recently cracked down on the PKK , arresting four alleged members of the group in Istanbul . The four suspects were thought to have been involved in a July 2 bomb attack on the convoy of the governor of the eastern Tunceli province , in which six people were killed and 23 injured , and other violent acts in the mainly Kurdish southeast , Aksu said . " Our colleagues are looking into all these links , " he said . The PKK called off a five-year unilateral ceasefire with the Ankara government on June 1 , warning foreign tourists and investors to stay away from Turkey . 
+Event	1	claims	report	2
+Event	2	attacks	event	4
+Event	3	claimed	report	17
+Event	4	blasts	event	21
+Event	5	claim	report	30
+Event	6	reported	report	41
+Event	9	claimed	report	64
+Event	42	acts	event	68
+Event	10	claimed	event	72
+Event	11	reported	report	80
+Event	12	said	report	83
+Event	13	attacks	event	85
+Event	15	operations	event	93
+Event	16	execution	event	98
+Event	19	said	report	113
+Event	46	waged	event	136
+Event	43	campaign	event	140
+Event	22	hinted	report	205
+Event	47	looking	event	211
+Event	24	involvement	event	216
+Event	25	bombings	event	219
+Event	26	injured	event	232
+Event	27	attacks	event	236
+Event	44	targetted	event	237
+Event	28	explosions	event	257
+Event	29	harmed	event	275
+Event	30	said	report	277
+Event	31	cracked	event	282
+Event	32	arresting	event	288
+Event	34	involved	event	305
+Event	35	attack	event	311
+Event	36	killed	event	329
+Event	45	injured	event	332
+Event	37	acts	event	337
+Event	38	said	report	345
+Relation	2	1	in_reporting
+Relation	3	6	in_reporting
+Relation	4	2	coreference
+Relation	4	6	in_reporting
+Relation	5	6	in_reporting
+Relation	9	11	in_reporting
+Relation	42	4	coreference
+Relation	42	11	in_reporting
+Relation	10	42	subevent_of
+Relation	10	11	in_reporting
+Relation	13	4	coreference
+Relation	13	12	in_reporting
+Relation	15	12	in_reporting
+Relation	16	12	in_reporting
+Relation	19	17	coreference
+Relation	24	25	subevent_of
+Relation	24	22	in_reporting
+Relation	25	4	coreference
+Relation	25	22	in_reporting
+Relation	26	25	subevent_of
+Relation	26	22	in_reporting
+Relation	27	2	coreference
+Relation	44	27	subevent_of
+Relation	29	28	subevent_of
+Relation	31	30	in_reporting
+Relation	32	31	subevent_of
+Relation	32	30	in_reporting
+Relation	34	35	subevent_of
+Relation	34	38	in_reporting
+Relation	35	38	in_reporting
+Relation	36	35	subevent_of
+Relation	36	38	in_reporting
+Relation	45	35	subevent_of
+Relation	37	38	in_reporting

@@ -1,0 +1,64 @@
+Text	Pakistan sets deadline for ex-Guantanamo rebel , captures Uzbek . Pakistan has told a former Guantanamo Bay inmate wanted for the kidnapping of two Chinese men to surrender by January 15 or face a military onslaught , officials said Tuesday . One-legged Abdullah Mahsud was given the deadline on Monday by a Pakistani army commander in charge of hunting down Al-Qaeda-linked militants in the tribal region of South Waziristan . Meanwhile Pakistani security forces captured an Uzbek suspected Al - Qaeda member in a nearby region on the Afghan border , also on Monday , while his five Chechen comrades managed to flee . Thousands of Pakistani troops are deployed in the area to track down some 600 Al-Qaeda and Taliban fighters , who are believed to have crossed from Afghanistan after the hardline Islamic regime was ousted in late 2001 . Mahsud , a long-haired , battle-hardened former Taliban fighter , was behind the October kidnapping of two Chinese engineers , which he used to press for an end to army operations in the border area . One of the abducted Chinese died in a rescue operation . Mahsud , 29 , has been on the run since and Pakistan recently offered a five - million-rupee ( 83,350-dollar ) reward for information leading to his capture . Pakistani commander Lieutenant General Safdar Hussain warned that if Mahsud and his fellow militant Baitullah did not lay down their arms before mid-January " stern military action would be taken against them " . Pakistan has already rejected a conditional offer of surrender from Mahsud . The general told a tribal delegation in Monday to get rid of foreign militants hiding in South Waziristan , adding : " You should kick them out of your areas or hand them over to us " . . The Uzbek Al-Qaeda suspect was captured in neighbouring North Waziristan after Pakistani troops intercepted a car heading towards Afghanistan 's Khost province , officials in the region 's main town Miran Shah said . One of them , identified as Abdullah , surrendered after an exchange of fire on Monday night while five others made off under cover of darkness , local administration official Jamil Khan told AFP . The authorities impounded their vehicle and recovered two assault rifles , he said . 
+Event	2	captures	event	7
+Event	3	told	report	11
+Event	4	kidnapping	event	20
+Event	5	surrender	event	26
+Event	7	onslaught	event	34
+Event	8	said	report	37
+Event	10	hunting	event	56
+Event	11	captured	event	71
+Event	13	flee	event	99
+Event	41	deployed	event	105
+Event	40	track	event	110
+Event	46	crossed	event	124
+Event	36	ousted	event	133
+Event	47	behind	event	148
+Event	14	kidnapping	event	151
+Event	17	operations	event	167
+Event	18	died	event	177
+Event	19	operation	event	181
+Event	20	run	event	190
+Event	22	capture	event	209
+Event	37	warned	report	216
+Event	48	lay	event	227
+Event	38	action	event	236
+Event	24	surrender	event	251
+Event	25	told	report	256
+Event	26	get	event	263
+Event	50	hiding	event	268
+Event	27	adding	report	273
+Event	28	kick	event	278
+Event	49	hand	event	285
+Event	29	captured	event	296
+Event	39	intercepted	event	304
+Event	30	said	report	323
+Event	32	surrendered	event	332
+Event	43	exchange	event	335
+Event	42	made	event	344
+Event	33	told	report	356
+Relation	3	8	in_reporting
+Relation	4	8	in_reporting
+Relation	5	8	in_reporting
+Relation	7	8	in_reporting
+Relation	11	2	coreference
+Relation	41	40	subevent_of
+Relation	40	10	coreference
+Relation	14	4	coreference
+Relation	18	19	subevent_of
+Relation	38	7	coreference
+Relation	38	37	in_reporting
+Relation	24	5	coreference
+Relation	26	25	in_reporting
+Relation	27	25	coreference
+Relation	28	26	coreference
+Relation	28	27	in_reporting
+Relation	29	39	subevent_of
+Relation	29	2	coreference
+Relation	29	30	in_reporting
+Relation	39	30	in_reporting
+Relation	32	43	subevent_of
+Relation	32	33	in_reporting
+Relation	43	33	in_reporting
+Relation	42	43	subevent_of
+Relation	42	13	coreference
+Relation	42	33	in_reporting

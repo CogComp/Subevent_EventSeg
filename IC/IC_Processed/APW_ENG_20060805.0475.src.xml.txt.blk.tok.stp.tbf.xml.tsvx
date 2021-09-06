@@ -1,0 +1,232 @@
+Text	Kurdish group claims responsibility for blasts in Turkish city . ANKARA , Turkey . A militant Kurdish group claimed responsibility Saturday for two bombings in southern Turkey that injured 17 people . The Kurdistan Freedom Falcons said in a statement on their Web site that the two blasts Friday were in retaliation for actions by Turkish security forces . Kurdish guerrillas have recently escalated their attacks against Turkish targets , and Turkish security forces have been cracking down against militants . The first blast occurred in front of a bank on a busy road in the city of Adana , injuring two bank employees . The second explosion occurred about 10 minutes later a few meters ( yards ) away and injured police who had rushed to the site of the first blast . Rebels of the Kurdistan Workers Party or PKK have been fighting for autonomy since 1984 , and some 37,000 people have been killed as a result of the conflict . The Kurdistan Freedom Falcons are believed to be linked to the PKK . Unlike the PKK , which has largely concentrated its attacks against security forces in the overwhelmingly rural and Kurdish southeast of Turkey , the Falcons appear mostly to be based in urban areas and have largely carried out attacks against civilian targets . 
+Event	1	claims	report	14
+Event	2	blasts	event	40
+Event	3	claimed	report	108
+Event	4	bombings	event	148
+Event	5	injured	event	181
+Event	6	said	report	231
+Event	7	blasts	event	282
+Event	8	actions	event	320
+Event	9	attacks	event	406
+Event	10	cracking	event	478
+Event	11	blast	event	522
+Event	12	injuring	event	594
+Event	13	explosion	event	635
+Event	14	injured	event	709
+Event	15	blast	event	764
+Event	16	fighting	event	827
+Event	17	killed	event	895
+Event	18	conflict	event	921
+Event	19	attacks	event	1053
+Event	20	carried	event	1217
+Event	21	attacks	event	1229
+Relation	1	2	NoRel	true	claims	blasts
+Relation	1	3	NoRel	true	claims	claimed
+Relation	1	4	NoRel	true	claims	bombings
+Relation	1	5	NoRel	true	claims	injured
+Relation	1	6	NoRel	true	claims	said
+Relation	1	7	NoRel	true	claims	blasts
+Relation	1	8	NoRel	true	claims	actions
+Relation	1	9	NoRel	true	claims	attacks
+Relation	1	10	NoRel	true	claims	cracking
+Relation	1	11	NoRel	true	claims	blast
+Relation	1	12	NoRel	true	claims	injuring
+Relation	1	13	NoRel	true	claims	explosion
+Relation	1	14	NoRel	true	claims	injured
+Relation	1	15	NoRel	true	claims	blast
+Relation	1	16	NoRel	true	claims	fighting
+Relation	1	17	NoRel	true	claims	killed
+Relation	1	18	NoRel	true	claims	conflict
+Relation	1	19	NoRel	true	claims	attacks
+Relation	1	20	NoRel	true	claims	carried
+Relation	1	21	NoRel	true	claims	attacks
+Relation	2	3	NoRel	true	blasts	claimed
+Relation	2	4	Coref	true	blasts	bombings
+Relation	2	5	SuperSub	true	blasts	injured
+Relation	2	6	NoRel	true	blasts	said
+Relation	2	7	Coref	true	blasts	blasts
+Relation	2	8	NoRel	true	blasts	actions
+Relation	2	9	NoRel	true	blasts	attacks
+Relation	2	10	NoRel	true	blasts	cracking
+Relation	2	11	SuperSub	true	blasts	blast
+Relation	2	12	SuperSub	true	blasts	injuring
+Relation	2	13	SuperSub	true	blasts	explosion
+Relation	2	14	SuperSub	true	blasts	injured
+Relation	2	15	SuperSub	true	blasts	blast
+Relation	2	16	NoRel	true	blasts	fighting
+Relation	2	17	NoRel	true	blasts	killed
+Relation	2	18	NoRel	true	blasts	conflict
+Relation	2	19	NoRel	true	blasts	attacks
+Relation	2	20	NoRel	true	blasts	carried
+Relation	2	21	NoRel	true	blasts	attacks
+Relation	3	4	NoRel	true	claimed	bombings
+Relation	3	5	NoRel	true	claimed	injured
+Relation	3	6	NoRel	true	claimed	said
+Relation	3	7	NoRel	true	claimed	blasts
+Relation	3	8	NoRel	true	claimed	actions
+Relation	3	9	NoRel	true	claimed	attacks
+Relation	3	10	NoRel	true	claimed	cracking
+Relation	3	11	NoRel	true	claimed	blast
+Relation	3	12	NoRel	true	claimed	injuring
+Relation	3	13	NoRel	true	claimed	explosion
+Relation	3	14	NoRel	true	claimed	injured
+Relation	3	15	NoRel	true	claimed	blast
+Relation	3	16	NoRel	true	claimed	fighting
+Relation	3	17	NoRel	true	claimed	killed
+Relation	3	18	NoRel	true	claimed	conflict
+Relation	3	19	NoRel	true	claimed	attacks
+Relation	3	20	NoRel	true	claimed	carried
+Relation	3	21	NoRel	true	claimed	attacks
+Relation	4	5	SuperSub	true	bombings	injured
+Relation	4	6	NoRel	true	bombings	said
+Relation	4	7	Coref	true	bombings	blasts
+Relation	4	8	NoRel	true	bombings	actions
+Relation	4	9	NoRel	true	bombings	attacks
+Relation	4	10	NoRel	true	bombings	cracking
+Relation	4	11	SuperSub	true	bombings	blast
+Relation	4	12	SuperSub	true	bombings	injuring
+Relation	4	13	SuperSub	true	bombings	explosion
+Relation	4	14	SuperSub	true	bombings	injured
+Relation	4	15	SuperSub	true	bombings	blast
+Relation	4	16	NoRel	true	bombings	fighting
+Relation	4	17	NoRel	true	bombings	killed
+Relation	4	18	NoRel	true	bombings	conflict
+Relation	4	19	NoRel	true	bombings	attacks
+Relation	4	20	NoRel	true	bombings	carried
+Relation	4	21	NoRel	true	bombings	attacks
+Relation	5	6	NoRel	true	injured	said
+Relation	5	7	SubSuper	true	injured	blasts
+Relation	5	8	NoRel	true	injured	actions
+Relation	5	9	NoRel	true	injured	attacks
+Relation	5	10	NoRel	true	injured	cracking
+Relation	5	11	NoRel	true	injured	blast
+Relation	5	12	SuperSub	true	injured	injuring
+Relation	5	13	NoRel	true	injured	explosion
+Relation	5	14	SuperSub	true	injured	injured
+Relation	5	15	NoRel	true	injured	blast
+Relation	5	16	NoRel	true	injured	fighting
+Relation	5	17	NoRel	true	injured	killed
+Relation	5	18	NoRel	true	injured	conflict
+Relation	5	19	NoRel	true	injured	attacks
+Relation	5	20	NoRel	true	injured	carried
+Relation	5	21	NoRel	true	injured	attacks
+Relation	6	7	NoRel	true	said	blasts
+Relation	6	8	NoRel	true	said	actions
+Relation	6	9	NoRel	true	said	attacks
+Relation	6	10	NoRel	true	said	cracking
+Relation	6	11	NoRel	true	said	blast
+Relation	6	12	NoRel	true	said	injuring
+Relation	6	13	NoRel	true	said	explosion
+Relation	6	14	NoRel	true	said	injured
+Relation	6	15	NoRel	true	said	blast
+Relation	6	16	NoRel	true	said	fighting
+Relation	6	17	NoRel	true	said	killed
+Relation	6	18	NoRel	true	said	conflict
+Relation	6	19	NoRel	true	said	attacks
+Relation	6	20	NoRel	true	said	carried
+Relation	6	21	NoRel	true	said	attacks
+Relation	7	8	NoRel	true	blasts	actions
+Relation	7	9	NoRel	true	blasts	attacks
+Relation	7	10	NoRel	true	blasts	cracking
+Relation	7	11	SuperSub	true	blasts	blast
+Relation	7	12	SuperSub	true	blasts	injuring
+Relation	7	13	SuperSub	true	blasts	explosion
+Relation	7	14	SuperSub	true	blasts	injured
+Relation	7	15	SuperSub	true	blasts	blast
+Relation	7	16	NoRel	true	blasts	fighting
+Relation	7	17	NoRel	true	blasts	killed
+Relation	7	18	NoRel	true	blasts	conflict
+Relation	7	19	NoRel	true	blasts	attacks
+Relation	7	20	NoRel	true	blasts	carried
+Relation	7	21	NoRel	true	blasts	attacks
+Relation	8	9	NoRel	true	actions	attacks
+Relation	8	10	SuperSub	true	actions	cracking
+Relation	8	11	NoRel	true	actions	blast
+Relation	8	12	NoRel	true	actions	injuring
+Relation	8	13	NoRel	true	actions	explosion
+Relation	8	14	NoRel	true	actions	injured
+Relation	8	15	NoRel	true	actions	blast
+Relation	8	16	NoRel	true	actions	fighting
+Relation	8	17	NoRel	true	actions	killed
+Relation	8	18	NoRel	true	actions	conflict
+Relation	8	19	NoRel	true	actions	attacks
+Relation	8	20	NoRel	true	actions	carried
+Relation	8	21	NoRel	true	actions	attacks
+Relation	9	10	NoRel	true	attacks	cracking
+Relation	9	11	NoRel	true	attacks	blast
+Relation	9	12	NoRel	true	attacks	injuring
+Relation	9	13	NoRel	true	attacks	explosion
+Relation	9	14	NoRel	true	attacks	injured
+Relation	9	15	NoRel	true	attacks	blast
+Relation	9	16	NoRel	true	attacks	fighting
+Relation	9	17	NoRel	true	attacks	killed
+Relation	9	18	NoRel	true	attacks	conflict
+Relation	9	19	NoRel	true	attacks	attacks
+Relation	9	20	NoRel	true	attacks	carried
+Relation	9	21	NoRel	true	attacks	attacks
+Relation	10	11	NoRel	true	cracking	blast
+Relation	10	12	NoRel	true	cracking	injuring
+Relation	10	13	NoRel	true	cracking	explosion
+Relation	10	14	NoRel	true	cracking	injured
+Relation	10	15	NoRel	true	cracking	blast
+Relation	10	16	NoRel	true	cracking	fighting
+Relation	10	17	NoRel	true	cracking	killed
+Relation	10	18	NoRel	true	cracking	conflict
+Relation	10	19	NoRel	true	cracking	attacks
+Relation	10	20	NoRel	true	cracking	carried
+Relation	10	21	NoRel	true	cracking	attacks
+Relation	11	12	SuperSub	true	blast	injuring
+Relation	11	13	NoRel	true	blast	explosion
+Relation	11	14	NoRel	true	blast	injured
+Relation	11	15	Coref	true	blast	blast
+Relation	11	16	NoRel	true	blast	fighting
+Relation	11	17	NoRel	true	blast	killed
+Relation	11	18	NoRel	true	blast	conflict
+Relation	11	19	NoRel	true	blast	attacks
+Relation	11	20	NoRel	true	blast	carried
+Relation	11	21	NoRel	true	blast	attacks
+Relation	12	13	NoRel	true	injuring	explosion
+Relation	12	14	NoRel	true	injuring	injured
+Relation	12	15	SubSuper	true	injuring	blast
+Relation	12	16	NoRel	true	injuring	fighting
+Relation	12	17	NoRel	true	injuring	killed
+Relation	12	18	NoRel	true	injuring	conflict
+Relation	12	19	NoRel	true	injuring	attacks
+Relation	12	20	NoRel	true	injuring	carried
+Relation	12	21	NoRel	true	injuring	attacks
+Relation	13	14	SuperSub	true	explosion	injured
+Relation	13	15	NoRel	true	explosion	blast
+Relation	13	16	NoRel	true	explosion	fighting
+Relation	13	17	NoRel	true	explosion	killed
+Relation	13	18	NoRel	true	explosion	conflict
+Relation	13	19	NoRel	true	explosion	attacks
+Relation	13	20	NoRel	true	explosion	carried
+Relation	13	21	NoRel	true	explosion	attacks
+Relation	14	15	NoRel	true	injured	blast
+Relation	14	16	NoRel	true	injured	fighting
+Relation	14	17	NoRel	true	injured	killed
+Relation	14	18	NoRel	true	injured	conflict
+Relation	14	19	NoRel	true	injured	attacks
+Relation	14	20	NoRel	true	injured	carried
+Relation	14	21	NoRel	true	injured	attacks
+Relation	15	16	NoRel	true	blast	fighting
+Relation	15	17	NoRel	true	blast	killed
+Relation	15	18	NoRel	true	blast	conflict
+Relation	15	19	NoRel	true	blast	attacks
+Relation	15	20	NoRel	true	blast	carried
+Relation	15	21	NoRel	true	blast	attacks
+Relation	16	17	SuperSub	true	fighting	killed
+Relation	16	18	Coref	true	fighting	conflict
+Relation	16	19	NoRel	true	fighting	attacks
+Relation	16	20	NoRel	true	fighting	carried
+Relation	16	21	NoRel	true	fighting	attacks
+Relation	17	18	SubSuper	true	killed	conflict
+Relation	17	19	NoRel	true	killed	attacks
+Relation	17	20	NoRel	true	killed	carried
+Relation	17	21	NoRel	true	killed	attacks
+Relation	18	19	NoRel	true	conflict	attacks
+Relation	18	20	NoRel	true	conflict	carried
+Relation	18	21	NoRel	true	conflict	attacks
+Relation	19	20	NoRel	true	attacks	carried
+Relation	19	21	NoRel	true	attacks	attacks
+Relation	20	21	NoRel	true	carried	attacks

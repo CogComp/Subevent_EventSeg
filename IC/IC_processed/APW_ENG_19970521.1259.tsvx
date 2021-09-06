@@ -1,0 +1,68 @@
+Text	Shining Path kills police officer as attacks continue . LIMA , Peru ( AP ) . Maoist Shining Path guerrillas opened fire on two police officers , killing one and seriously wounding the other , continuing a series of guerrilla attacks , police said Wednesday . The attack happened late Tuesday night in the poor district of Lurigancho in northeast Lima when four guerrillas opened fire on the policemen from a speeding car , police said . At the same time , two small fire bombs went off in a movie theater in the middle-class Lima district of San Borja , but no injuries were reported . The bombs set fire to several seats and part of the theater 's carpet , but the fire was controlled by employees with fire extinguishers . Police said the bombs were left by two people seen rapidly leaving the theater before the explosions and it was done `` in the style '' of the Shining Path . Guerrillas also hung a Shining Path banner with the hammer-and-sickle on a hill in Lurigancho , surrounding it with seven homemade bombs , police said . The bombs were deactivated by the police . The latest series of guerrilla attacks began May 15 when a powerful Shining Path car bomb ripped through the front of a police station in Lima 's industrial suburb of Ate-Vitarte wounding 25 people , including eight police officers . It was the first Shining Path car bomb since July 1996 . On Monday , guerrillas shot and wounded a police officer in Lima 's port city Callao . Experts on the rebel movement had predicted attacks as the Shining Path tries to re-establish its reputation as Peru 's dominant rebel group , following a four-month hostage crisis led by the smaller rival Tupac Amaru group . All 14 Tupac Amaru rebels were killed in the April 22 rescue by military commandos that freed 72 hostages who had been held for 126 days by the rebels in the Japanese ambassador 's residence . Political violence committed by the Shining Path has fallen sharply since its leader and founder , Abimael Guzman , was captured in 1992 . Although more than 30,000 people have been killed on both sides since the Shining Path launched its insurgency in 1980 , rebels killed fewer than 200 people in 1996 . 
+Event	1	kills	event	2
+Event	2	attacks	event	6
+Event	4	opened	event	18
+Event	5	killing	event	25
+Event	6	wounding	event	29
+Event	7	attacks	event	38
+Event	8	said	report	41
+Event	9	attack	event	44
+Event	10	opened	event	61
+Event	11	said	report	72
+Event	12	off	event	83
+Event	13	injuries	event	99
+Event	14	reported	report	101
+Event	15	fire	event	105
+Event	16	said	report	128
+Event	17	left	event	132
+Event	18	explosions	event	143
+Event	20	surrounding	event	173
+Event	21	said	report	181
+Event	22	deactivated	event	185
+Event	23	attacks	event	194
+Event	26	ripped	event	205
+Event	27	wounding	event	220
+Event	46	car	event	234
+Event	29	shot	event	243
+Event	30	wounded	event	245
+Event	32	attacks	event	262
+Event	34	killed	event	298
+Event	35	rescue	event	303
+Event	36	freed	event	308
+Event	37	held	event	314
+Event	38	violence	event	328
+Event	47	committed	event	329
+Event	40	captured	event	347
+Event	41	killed	event	357
+Event	43	insurgency	event	367
+Event	44	killed	event	372
+Relation	2	43	subevent_of
+Relation	5	9	subevent_of
+Relation	5	1	coreference
+Relation	6	9	subevent_of
+Relation	7	2	coreference
+Relation	7	8	in_reporting
+Relation	9	2	member_of
+Relation	10	4	coreference
+Relation	12	18	coreference
+Relation	13	45	subevent_of
+Relation	13	14	in_reporting
+Relation	17	45	subevent_of
+Relation	17	16	in_reporting
+Relation	18	12	coreference
+Relation	20	19	subevent_of
+Relation	20	21	in_reporting
+Relation	22	19	subevent_of
+Relation	23	7	coreference
+Relation	26	25	subevent_of
+Relation	27	25	subevent_of
+Relation	46	23	member_of
+Relation	29	28	subevent_of
+Relation	30	28	subevent_of
+Relation	34	33	subevent_of
+Relation	35	33	subevent_of
+Relation	36	35	subevent_of
+Relation	37	33	subevent_of
+Relation	41	43	subevent_of
+Relation	43	38	subevent_of
+Relation	44	41	member_of

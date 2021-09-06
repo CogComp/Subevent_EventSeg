@@ -1,0 +1,71 @@
+Text	Bangladesh arrests Islamic militant leader blamed for bombings . DHAKA , Bangladesh . An Islamic militant leader blamed for recent deadly bombings tried to blow himself up to avoid capture before being arrested Monday by security forces in northern Bangladesh , officials said . Siddiqul Islam was captured at his hideout in northern Mymensingh district , said Mashuk Hasan , an official of Bangladesh 's Rapid Action Battalion , an elite anti-crime force that led the operation . Islam is one of the top leaders of Jumatul Mujahedeen Bangladesh , a militan group blamed for a wave of bombings across Bangladesh in recent months that killed at least 26 people . The group seeks to introduce harsh Islamic rule in Bangladesh , which is governed by secular laws . About 50 security agents surrounded the tin-roof house in Muktagachha , an area near Mymensingh town , about 110 kilometers ( 70 miles ) north of national capital on Monday , and urged Islam to surrender , Hasan told reporters at the scene . The militants responded with gunfire and then detonated a bomb inside the house , that ripped the roof off and injured at least seven people , including Islam and security agents , Lt. Col. Gulzar Uddin , chief intelligence official of the battalion , told reporters . Islam _ who had lost a lot of blood _ was later taken to a government hospital in Mymensingh town where he was operated on , Abdul Ahad , a doctor who treated him in the emergency room , told The Associated Press by phone . Ahad said Islam suffered burns and splinter injuries to his whole body . Uddin said an agent , also seriously injured in the blast , was taken to the Dhaka by helicopter for treatment . Islam 's wife _ who was detained Sunday night _ apparently led agents to her husband 's hideout , private television station NTV reported . Hasan could not confirm this . Islam 's arrest came five days after his leader Shaikh Abdur Rahman , head of banned Islamic militant group Jumatul Mujahedeen Bangladesh , surrendered in northeastern Sylhet city after being surrounded by security agents . Islam , known as Bangla Bhai or friend of Bangla , gained notoriety in 2004 when he founded an Islamic vigilante group , Jagrata Muslim Janata , or Vigilant Muslim Citizens , in northern Bangladesh . The group operated in remote villages , fighting Maoist rebels who were seeking to turn Muslim-majority Bangladesh into a communist state . It also invoked strict Islamic codes like forcing women to wear veils and men to grow beards . His group was blamed for killing at least 22 people , including opposition politicians , in 2004 , before joining Rahman 's organization Jumatul Mujahedeen Bangladesh in 2005 . 
+Event	1	arrests	event	1
+Event	2	blamed	report	5
+Event	3	bombings	event	7
+Event	4	blamed	report	15
+Event	5	bombings	event	19
+Event	6	blow	event	22
+Event	8	capture	event	27
+Event	9	arrested	event	30
+Event	10	said	report	40
+Event	11	captured	event	44
+Event	12	said	report	53
+Event	13	operation	event	73
+Event	14	blamed	report	89
+Event	15	bombings	event	94
+Event	16	killed	event	101
+Event	18	surrounded	event	127
+Event	43	urged	report	155
+Event	19	surrender	event	158
+Event	20	told	report	161
+Event	21	responded	event	168
+Event	22	gunfire	event	170
+Event	23	detonated	event	173
+Event	24	ripped	event	181
+Event	25	injured	event	186
+Event	26	told	report	210
+Event	48	lost	event	216
+Event	47	told	report	251
+Event	31	injured	event	276
+Event	32	blast	event	279
+Event	33	detained	event	296
+Event	36	arrest	event	321
+Event	37	surrendered	event	342
+Event	38	surrounded	event	349
+Event	39	fighting	event	395
+Event	41	blamed	report	429
+Event	42	killing	event	431
+Relation	4	14	member_of
+Relation	4	2	coreference
+Relation	4	10	in_reporting
+Relation	5	3	coreference
+Relation	5	10	in_reporting
+Relation	6	13	subevent_of
+Relation	6	10	in_reporting
+Relation	8	10	in_reporting
+Relation	9	8	subevent_of
+Relation	9	1	coreference
+Relation	9	10	in_reporting
+Relation	11	13	subevent_of
+Relation	11	8	coreference
+Relation	11	12	in_reporting
+Relation	15	5	coreference
+Relation	16	15	subevent_of
+Relation	18	13	subevent_of
+Relation	18	20	in_reporting
+Relation	43	20	in_reporting
+Relation	19	20	in_reporting
+Relation	21	13	subevent_of
+Relation	21	26	in_reporting
+Relation	22	13	subevent_of
+Relation	22	26	in_reporting
+Relation	23	26	in_reporting
+Relation	24	23	subevent_of
+Relation	25	23	subevent_of
+Relation	48	25	member_of
+Relation	31	25	member_of
+Relation	31	32	subevent_of
+Relation	32	23	coreference
+Relation	36	9	coreference
+Relation	42	39	subevent_of
+Relation	42	41	in_reporting

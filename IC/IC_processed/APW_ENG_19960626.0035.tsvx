@@ -1,0 +1,48 @@
+Text	Israel Sends Condolences To United States For Soldiers ' Deaths . JERUSALEM ( AP ) . Israel sent condolences to the United States Wednesday for the deaths of 23 Americans in a Saudi Arabia bombing and said the attack emphasized the need for an international fight against terrorism . `` I would like to express , in the name of the government of Israel , deep regret over the lives of American soldiers lost in the Saudi Arabia attack , '' said Cabinet Secretary Dan Naveh . A powerful truck bomb exploded at a U.S. Air Force complex in Saudi Arabia Tuesday , killing 23 Americans and injuring about 345 . It was the worst blast involving Americans in the Middle East since the 1983 bombing in Beirut , Lebanon , that killed 241 American servicemen . `` The attack shows the issue we are talking about here , the need to achieve security , '' said Naveh . `` In a uncompromising struggle against terrorism we will be able to achieve peace , peace with security '' . On Tuesday , Israeli Prime Minister Benjamin Netanyahu said he would resume peace negotiations , but indicated he would bargain hard to protect Israel 's security . After the Saudi attack , Naveh urged more international cooperation in the fight against terrorism . `` In order to succeed in this an international effort is necessary , cooperation between all peace-lovers countries , first and foremost between Israel and the United States , '' Naveh said . ga-nbt . 
+Event	2	Deaths	event	9
+Event	4	deaths	event	24
+Event	5	bombing	event	32
+Event	6	said	report	34
+Event	7	attack	event	36
+Event	8	fight	event	43
+Event	24	terrorism	event	45
+Event	9	lives	event	66
+Event	9	lost	event	70
+Event	10	attack	event	75
+Event	11	said	report	78
+Event	12	exploded	event	87
+Event	13	killing	event	99
+Event	14	injuring	event	103
+Event	15	blast	event	110
+Event	16	bombing	event	120
+Event	17	killed	event	127
+Event	18	attack	event	133
+Event	19	said	report	150
+Event	20	struggle	event	156
+Event	25	terrorism	event	158
+Event	21	attack	event	200
+Event	23	urged	report	203
+Event	22	fight	event	209
+Event	26	terrorism	event	211
+Relation	4	5	subevent_of
+Relation	4	2	coreference
+Relation	7	5	coreference
+Relation	7	6	in_reporting
+Relation	8	6	in_reporting
+Relation	9	2	coreference
+Relation	9	11	in_reporting
+Relation	10	5	coreference
+Relation	10	11	in_reporting
+Relation	12	5	subevent_of
+Relation	13	5	subevent_of
+Relation	13	4	coreference
+Relation	14	5	subevent_of
+Relation	15	5	coreference
+Relation	17	16	subevent_of
+Relation	18	7	coreference
+Relation	18	19	in_reporting
+Relation	20	19	in_reporting
+Relation	25	24	coreference
+Relation	25	19	in_reporting
+Relation	21	7	coreference
+Relation	26	25	coreference

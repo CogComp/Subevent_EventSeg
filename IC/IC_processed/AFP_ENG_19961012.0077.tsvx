@@ -1,0 +1,69 @@
+Text	Taliban claim victory over Masood supporters . The Taliban militia Saturday claimed victory over guerrillas loyal to the ousted Afghan government , saying it had regained control of areas north of Kabul and killed and wounded scores of rebels . " The situation has changed drastically in our favour over the last two days , " acting Information and Culture Minister Amir Khan Mutaqi told AFP . The victory claim came despite evidence that the fighting north of Kabul was moving nearer to the capital . Fighting between the Taliban religious militia and armed supporters of the ousted Kabul government forced closure of the main road 20 kilometres ( 12 miles ) north of Kabul Saturday . " The road is closed . We have a clean-up operation to clear the area of Masood fighters , " a Taliban commander told AFP , referring to Ahmad Shah Masood , military strongman of the former government . The closure indicated that the fighting had crept closer to the Afghan capital captured by the Islamic militia on September 27 . On Friday , the fighting was about 40 kilometres ( 25 miles ) from the capital . The former regime 's top military commander Ahmad Shah Masood on Wednesday began launching a series of commando-style attacks on the Taliban in their newly captured territory north of Kabul , sending the panicked militiamen scurrying to defend themselves , observers said . Radio Kabul echoed Muttaqi 's claim that the Taliban were again fully in control of Kabul and its surroundings , saying that Masood 's men had suffered serious casualties in their clashes with the religious militia . " Units of the Islamic Afghan army are forging ahead on all fronts and have made the enemy retreat and have inflicted heavy casualties on them , " the Taliban-run state radio station said . It added that the Taliban forces had Friday launched an operation to " clean up the forces of evil and corruption " in the areas north of here . Taliban fighters fired rockets Saturday at the village of Shakar Darra , once a stronghold of mujahedeen loyal to Masood , the former Afghan defence minister and main military backer of ousted President Burhanuddin Rabbani . The Taliban themselves were not clear if they were fighting Masood infiltrators from outside the area or pro-Masood supporters who were local residents . But they described one bound prisoner as a " Masood combat commander " . . " We do n't know how many of Masood 's people are there but we expect to clear the area by tomorrow or the day after , " the Taliban commander noted . 
+Event	35	claim	report	1
+Event	39	victory	event	2
+Event	1	claimed	report	10
+Event	40	victory	event	11
+Event	2	saying	report	21
+Event	41	control	event	25
+Event	3	killed	event	32
+Event	4	wounded	event	34
+Event	5	claim	report	66
+Event	6	fighting	event	72
+Event	38	moving	event	77
+Event	7	Fighting	event	82
+Event	9	operation	event	121
+Event	46	clear	event	123
+Event	10	told	report	134
+Event	13	fighting	event	154
+Event	42	crept	event	156
+Event	14	captured	event	162
+Event	15	fighting	event	174
+Event	18	attacks	event	204
+Event	19	defend	event	223
+Event	20	said	report	227
+Event	21	echoed	report	230
+Event	22	claim	report	233
+Event	43	control	event	241
+Event	23	saying	report	248
+Event	24	casualties	event	256
+Event	25	clashes	event	259
+Event	37	forging	event	272
+Event	44	retreat	event	282
+Event	27	casualties	event	287
+Event	28	said	report	297
+Event	29	added	report	299
+Event	31	operation	event	308
+Event	33	fired	event	328
+Event	34	fighting	event	370
+Event	45	clear	event	414
+Event	47	noted	report	428
+Relation	40	39	coreference
+Relation	2	1	coreference
+Relation	3	6	subevent_of
+Relation	3	2	in_reporting
+Relation	4	6	subevent_of
+Relation	4	2	in_reporting
+Relation	7	6	coreference
+Relation	9	10	in_reporting
+Relation	46	10	in_reporting
+Relation	13	7	coreference
+Relation	42	38	coreference
+Relation	15	13	coreference
+Relation	18	20	in_reporting
+Relation	19	25	subevent_of
+Relation	19	20	in_reporting
+Relation	22	1	coreference
+Relation	23	21	coreference
+Relation	24	25	subevent_of
+Relation	24	23	in_reporting
+Relation	25	18	coreference
+Relation	25	23	in_reporting
+Relation	37	28	in_reporting
+Relation	27	24	coreference
+Relation	27	28	in_reporting
+Relation	28	21	coreference
+Relation	29	28	coreference
+Relation	31	9	coreference
+Relation	31	29	in_reporting
+Relation	34	31	coreference
+Relation	45	47	in_reporting

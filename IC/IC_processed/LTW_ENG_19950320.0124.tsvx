@@ -1,0 +1,115 @@
+Text	Turkey Attacks Kurdish Rebels in Northern Iraq ( Ankara ) . ANKARA , Turkey . Turkey launched a large-scale military assault against Kurdish separatist bases in northern Iraq Monday , dispatching a 35,000-man force backed by warplanes , armored vehicles and artillery along a front stretching 135 miles through rugged border mountains . The attack , on the eve of the Newroz spring festival celebrated by many Kurds , marked Turkey 's largest military campaign on foreign soil , including the Turkish invasion of Cyprus in 1974 , according to government spokesman Yildirim Aktuna . But Turkey has launched previous raids into Iraq , notably in 1992 , when 20,000 troops were sent in to flush rebels from their mountain bases and 2,500 rebels were killed , according to the government . Prime Minister Tansu Ciller described Monday 's offensive as part of a growing battle to vanquish the separatist insurgency in southeastern Turkey being waged by guerrillas of the Kurdistan Workers ' Party . An estimated 15,000 people have been killed in the 10-year-old conflict , which has included terrorist tactics by the separatists and widely criticized reprisals by the Turkish military . Ciller said the offensive will continue until the objective of clearing the Iraqi border area of Kurdish forces is achieved . She forcefully reiterated what she described as her government 's determination to `` stamp out terrorism against the state '' . `` The operation will be of limited duration and the forces involved will be withdrawn immediately following the elimination of the targets , '' a government statement said . The massive operation , involving mostly elite commando units , was the latest illustration of the Ciller government 's pursuit of a military solution to the Kurdish insurgency , despite the heavy costs to Turkey 's already battered economy -- an estimated $ 7 billion last year -- and mounting accusations of human rights abuses associated with the conflict . Western nations , especially European ones , have increasingly urged Turkey to improve its human rights record . At the same time , Ankara has received support from the United States and Western European governments for its fight against Kurdish terrorism . But both foreign and domestic groups have pressed the government to consider a political solution to the larger issue of political and human rights for the 12 million Kurds among Turkey 's 60 million inhabitants . There are about 20 million Kurds in the mountainous region where the borders of Iraq , Iran , Syria and Turkey converge . The Kurds are the world 's largest ethnic group without an independent homeland , despite years of struggle . About 3.5 million live in Iraq , primarily in the north . The Clinton administration raised no objections to the military campaign , citing government pledges that the operation will be limited and is directed against `` terrorist operations '' . White House Press Secretary Michael McCurry said Ciller offered President Clinton a briefing on the operation and assurances of the limited goals and duration during a 10-minute telephone conversation that the two leaders had Monday . Turkey 's long-running war against the Kurdistan Workers ' Party has presented a dilemma for the Clinton administration . The United States values Turkey as a NATO ally . In addition , the administration needs Ankara 's cooperation to continue Provide Comfort , the military operation begun after the 1991 Persian Gulf War to protect the Kurds of northern Iraq from the government of Saddam Hussein . That effort covers some of the same territory attacked Monday by Turkish forces with tacit U.S. assent . Ciller assured Clinton in the telephone conversation that care is being taken to avoid civilian casualties and that the operation is being conducted in keeping with international law giving the right to `` hot pursuit '' of terrorists , Turkish sources said . There was no immediate reaction from Baghdad , the Iraqi capital . The targeted Kurdish camps are located near the border in the Sinad - Haftanin , Methina and Khakurk regions of northern Iraq , Turkish officials said , adding that about 2,400 to 2,800 rebels were believed sheltered there . Fourteen Turkish warplanes bombed Kurdish targets in the area of Bote , while elite commando , mechanized and armored forces penetrated 25 miles into northern Iraq , Turkish military spokesman Doqu Silahcioglu said . The push into Iraq comes amid increased fighting between Iraqi Kurdish groups that Ankara has said provides a fertile environment for the Kurdistan Workers ' Party . The Kurdistan Democratic Party of Massoud Barzani and the Patriotic Union of Kurdistan led by Jalal Talabani , the two Iraqi groups that have set up a de facto government in northern Iraq under cover of Provide Comfort , have been fighting intermittently since April . 
+Event	70	Attacks	event	1
+Event	2	assault	event	18
+Event	3	dispatching	event	28
+Event	4	attack	event	51
+Event	71	campaign	event	71
+Event	6	invasion	event	79
+Event	7	according	report	85
+Event	9	raids	event	96
+Event	75	flush	event	111
+Event	10	killed	event	121
+Event	11	according	report	123
+Event	12	described	report	131
+Event	13	offensive	event	134
+Event	14	battle	event	140
+Event	76	vanquish	event	142
+Event	15	insurgency	event	145
+Event	79	waged	event	150
+Event	17	killed	event	165
+Event	18	conflict	event	169
+Event	80	tactics	event	175
+Event	81	reprisals	event	182
+Event	20	said	report	188
+Event	22	offensive	event	190
+Event	82	clearing	event	197
+Event	83	terrorism	event	222
+Event	25	operation	event	229
+Event	26	withdrawn	event	241
+Event	77	elimination	event	245
+Event	29	said	report	254
+Event	30	operation	event	257
+Event	31	insurgency	event	282
+Event	88	accusations	report	305
+Event	84	abuses	event	309
+Event	33	conflict	event	313
+Event	35	fight	event	350
+Event	89	terrorism	event	353
+Event	38	struggle	event	428
+Event	72	campaign	event	449
+Event	40	citing	report	451
+Event	41	operation	event	456
+Event	44	operations	event	466
+Event	45	said	report	474
+Event	47	operation	event	483
+Event	48	war	event	506
+Event	51	operation	event	546
+Event	74	War	event	553
+Event	52	attacked	event	575
+Event	53	assured	report	585
+Event	55	casualties	event	599
+Event	56	operation	event	603
+Event	90	conducted	event	606
+Event	58	said	report	625
+Event	86	adding	report	664
+Event	85	sheltered	event	673
+Event	62	bombed	event	678
+Event	78	penetrated	event	695
+Event	64	said	report	707
+Event	87	push	event	709
+Event	65	fighting	event	715
+Event	66	said	report	723
+Event	69	fighting	event	775
+Relation	2	33	subevent_of
+Relation	2	70	coreference
+Relation	3	2	subevent_of
+Relation	4	2	coreference
+Relation	4	7	in_reporting
+Relation	71	4	coreference
+Relation	71	7	in_reporting
+Relation	6	7	in_reporting
+Relation	9	18	subevent_of
+Relation	9	11	in_reporting
+Relation	75	9	subevent_of
+Relation	75	11	in_reporting
+Relation	10	9	subevent_of
+Relation	10	11	in_reporting
+Relation	13	14	member_of
+Relation	13	2	coreference
+Relation	13	12	in_reporting
+Relation	14	18	coreference
+Relation	14	12	in_reporting
+Relation	76	14	subevent_of
+Relation	76	12	in_reporting
+Relation	15	18	subevent_of
+Relation	15	12	in_reporting
+Relation	17	18	subevent_of
+Relation	22	13	coreference
+Relation	22	20	in_reporting
+Relation	25	22	coreference
+Relation	25	29	in_reporting
+Relation	26	25	subevent_of
+Relation	26	29	in_reporting
+Relation	77	29	in_reporting
+Relation	30	25	coreference
+Relation	31	15	coreference
+Relation	33	18	coreference
+Relation	38	33	coreference
+Relation	72	30	coreference
+Relation	41	30	coreference
+Relation	41	40	in_reporting
+Relation	44	40	in_reporting
+Relation	47	41	coreference
+Relation	47	45	in_reporting
+Relation	48	33	coreference
+Relation	52	2	coreference
+Relation	53	58	in_reporting
+Relation	55	56	subevent_of
+Relation	55	58	in_reporting
+Relation	56	41	coreference
+Relation	56	58	in_reporting
+Relation	62	56	subevent_of
+Relation	62	64	in_reporting
+Relation	78	64	in_reporting
+Relation	65	11+66	in_reporting
+Relation	69	65	coreference

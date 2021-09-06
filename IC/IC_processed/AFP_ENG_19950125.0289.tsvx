@@ -1,0 +1,63 @@
+Text	Kurd fighting said to block aid distribution in Iraq . Renewed fighting between Kurdish factions in northern Iraq is preventing shipment and distribution of humanitarian aid to the region , a Turkish foreign ministry spokesman said Wednesday . " We appeal again to the two sides ... to end the hostilities , " spokesman Ferhat Ataman said , without giving details on the reported breakdown in aid efforts . Hundreds of thousands of Kurdish refugees resettled in northern Iraq after a campaign against them by Baghdad following the Gulf war of 1991 . Clashes which have left hundreds dead erupted in May between the rival Patriotic Union of Kurdistan ( PUK ) and Kurdistan Democratic Party ( KDP ) , which control northern Iraq in defiance of Baghdad . Almost 500 have been killed since major fighting resumed on December 24 , according to Kurdish sources here . There has been no independent confirmation of the toll . On Sunday , the official Iranian news agency quoted PUK radio as saying violent clashes Saturday left more than 20 dead and many wounded in the Seyed Sadeq region . KDP radio meanwhile reported PUK bombing of Sulaymaniyah , near the Iranian border , IRNA said . More than 2,000 Iraqi Kurds demonstrated in the northern Iraqi city Tuesday to appeal for a halt to the bloodshed in northern Iraq , according to IRNA . Turning to Turkey , where a Kurdish separatist insurrection is underway in southeastern Anatolia , Ataman charged that a pledge by the Kurdistan Workers ' Party ( PKK ) to respect Geneva human rights conventions was " only propaganda from a terrorist organization which kills women and children " . . PKK made the commitment -- and denounced what it called " the Turkish Army 's war to destroy the Kurdish people " -- in a statement signed by its leader Abdullah " Apo " Ocalan and given Tuesday to the International Committee of the Red Cross in Geneva . 
+Event	1	fighting	event	1
+Event	2	said	report	2
+Event	3	fighting	event	10
+Event	4	said	report	34
+Event	39	appeal	report	38
+Event	5	hostilities	event	48
+Event	37	said	report	54
+Event	6	campaign	event	78
+Event	7	war	event	86
+Event	8	Clashes	event	89
+Event	9	dead	event	94
+Event	11	control	event	117
+Event	12	killed	event	128
+Event	13	fighting	event	131
+Event	15	according	report	137
+Event	15	to	report	138
+Event	16	quoted	report	159
+Event	17	saying	report	163
+Event	18	clashes	event	165
+Event	19	dead	event	171
+Event	20	wounded	event	174
+Event	21	reported	report	183
+Event	22	bombing	event	185
+Event	23	said	report	195
+Event	24	demonstrated	event	201
+Event	40	appeal	report	209
+Event	26	bloodshed	event	215
+Event	27	according	report	220
+Event	27	to	report	221
+Event	28	insurrection	event	231
+Event	29	charged	report	239
+Event	30	kills	event	267
+Event	31	denounced	report	278
+Event	33	war	event	287
+Event	34	destroy	event	289
+Relation	1	2	in_reporting
+Relation	3	8	member_of
+Relation	3	1	coreference
+Relation	3	4	in_reporting
+Relation	4	2	coreference
+Relation	39	37	in_reporting
+Relation	5	3	coreference
+Relation	5	37	in_reporting
+Relation	9	8	subevent_of
+Relation	12	13	subevent_of
+Relation	12	15	in_reporting
+Relation	13	8	member_of
+Relation	13	15	in_reporting
+Relation	17	16	in_reporting
+Relation	18	17	in_reporting
+Relation	19	18	subevent_of
+Relation	20	18	subevent_of
+Relation	21	23	in_reporting
+Relation	22	18	subevent_of
+Relation	22	21	in_reporting
+Relation	24	27	in_reporting
+Relation	26	3	subevent_of
+Relation	26	27	in_reporting
+Relation	30	28	subevent_of
+Relation	31	35	in_reporting
+Relation	33	32	in_reporting
+Relation	34	31	in_reporting

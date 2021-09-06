@@ -1,0 +1,37 @@
+Text	Masood dynamites entance to Panjshir by Terence White . Afghan troops forced out of Kabul dynamited the entrance to the key Panjshir Valley on Tuesday to halt the rapidly advancing Taliban fundamentalist militia . " We are going to put up a very strong defence , and God willing deny the Taliban entry to the Panjshir , " said Bismillah Khan , a commander loyal to Ahmad Shah Masood , one of the key defenders of the previous Kabul regime . The Panjshir Valley , some 100 kilometres ( 60 miles ) north of Kabul , is now the frontline of troops loyal to Burhanuddin Rabbani , whose Kabul government was routed by the Taliban last Friday . But in the Salang Pass , west of the Panjshir , there was no fighting reported between the Taliban and the army of ex-communist general Abdul Rashid Dostam . The Taliban deputy foreign minister held a press conference Tuesday to deny that his group had given a 24 hour deadline to Dostam to give in . Bismillah Khan and his men were seen burying massive quantities of explosives to blow up the single lane dirt road running alongside the river . There is now no access to the Panjshir Valley by car from the nearby town of Gulbahar , which is occupied by the Taliban . Scores of families were seen leaving the Panjshir on foot Tuesday before soldiers blew up the road . Two smaller explosions on Monday denied Taliban tanks access to the Panjsher , but civilians were able to get through . Soon after the Taliban captured the provincial capital of Charikar on Sunday they pushed north to Jabal us-Saraj and Gulbahar . At least three Taliban infantry attempts to get into the Panjsher from Gulbahar were repulsed , Bismillah Khan said . " We have put men on top of all the mountains here . This is our native country and you can expect that we know how to deal with our enemies who tresspass , " said Bismillah Khan . Masood , who travellers reported seeing in the Panjshir town of Bozarak Monday , has massive stockpiles of heavy weapons and ammunition , but observers have raised doubts about the morale of his men to stand firm . Bismillah Khan used to be commander of Bagram airbase to the south , from where Masood saved jets , transport planes and helicopters before it was captured by the Taliban . East of the neighbouring provincial capital of Kunduz , is Takhar province where the ousted government of Rabbani and ex-prime minister Gulbuddin Hekmatyar is reportedly based in the capital Taloqan . 
+Event	29	dynamites	event	1
+Event	2	dynamited	event	14
+Event	4	defence	event	42
+Event	34	entry	event	50
+Event	6	said	report	56
+Event	35	routed	event	108
+Event	7	fighting	event	128
+Event	8	reported	report	129
+Event	39	deny	report	153
+Event	36	give	event	166
+Event	28	burying	event	175
+Event	12	blow	event	181
+Event	13	occupied	event	212
+Event	14	blew	event	229
+Event	15	explosions	event	235
+Event	18	captured	event	257
+Event	37	pushed	event	266
+Event	40	attempts	event	278
+Event	31	get	event	280
+Event	21	repulsed	event	287
+Event	22	said	report	291
+Event	38	put	event	295
+Event	32	tresspass	event	323
+Event	33	said	report	326
+Event	27	captured	event	392
+Relation	2	29	coreference
+Relation	4	6	in_reporting
+Relation	34	6	in_reporting
+Relation	7	8	in_reporting
+Relation	28	2	subevent_of
+Relation	12	4	subevent_of
+Relation	14	2	coreference
+Relation	40	22	in_reporting
+Relation	31	22	in_reporting
+Relation	21	22	in_reporting
+Relation	32	33	in_reporting

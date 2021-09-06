@@ -1,0 +1,122 @@
+Text	Town council member shot dead north of Baghdad , as car bomb kills three . A council member from a town north of Baghdad was shot dead Saturday and a car bomb near the Shiite shrine city of Najaf killed three Iraqis and wounded two others . Meanwhile , the Committee of Muslim Scholars , a powerful grouping of Sunni clerics , accused US forces of killing one of its members . On Saturday morning , a group of gunmen shot dead Jalil Ibrahim , a local council member , and his friend Ali Muhammad , in Taji , about 20 kilometres ( 15 miles ) north of Baghdad , a police official said on condition of anonymity . The town is home to US and Iraqi military bases , and a centre of rebel activity . Three Iraqis were killed and two wounded in a car bombing between the Shiite holy cities of Najaf and Karbala , said hospital officials . " Three Iraqis were killed and two wounded in the blast , " said Yusif Zahi , a doctor at a clinic in Khan al-Nus , north of Najaf . He said the attack took place at about 3:00 pm ( 1200 GMT ) in the path of a US military convoy , which escaped unscathed . The committee of scholars , which claims to represent 3,000 mosques in Iraq , accused US soldiers of raiding the home Friday of Sheikh Mowafaq Muzaffar al-Duri , the prayer leader at Baghdad 's Abu Bakr Seddiq mosque , and " savagely executing " him . One cleric , Sheikh Yehyia al-Tai , said the Americans had raided the group 's offices in Iskandariyah , south of Baghdad , Saturday . And the statement said the Americans raided their offices based on " false information supplied by people who sold their soul to the devil " . . The US military had no information on any of the incidents . The committee recently said 20 of its clerics had been assassinated since the fall of Saddam , while more than 80 had been arrested by the Americans . It has called on the country 's Sunni minority , ousted from power with the fall of Saddam Hussein , to boycott next month 's elections for an Iraqi national parliament . Police also said a US patrol opened fire and killed a suspect who tried to flee them in his car in western Baghdad , near the old Muthanna airport . The US military said it had no information on the incident . Elsewhere , the governor of Diyala province , Abdullah Hassan al-Jaburi , narrowly escaped a bomb attack on his convoy in Baquba that wounded two policemen and two of his bodyguards , police said . By his own account , Jaburi has survived at least two assassination attempts in the past year . In a coup for the US military , the marines announced Saturday two insurgents with links to Iraq 's most wanted man , Abu Musab Al-Zarqawi , have been arrested in the turbulent city of Ramadi . Saleh Arugayan Kahlil , also called Abu Ubaydah , and Bassim Mohammad Hazem , also known as Abu Khattab , were captured respectively on December 8 and 12 in Ramadi , the marines said . The pair were leaders of a cell the marines called the " Harun terrorist network " . Marines accused the group of murdering 11 Iraqi national guardsmen , blowing up booby-trap devices and car bombs that killed or wounded dozens of Iraqis and smuggling foreign fighters into the country to fight the US-backed Iraqi government . The marines also announced they had arrested 29 people since Friday in Ramadi in an offensive dubbed Operation Wonderland , aimed at rounding up insurgents . 
+Event	1	shot	event	3
+Event	2	kills	event	12
+Event	3	shot	event	24
+Event	4	killed	event	38
+Event	5	wounded	event	42
+Event	6	accused	report	60
+Event	7	killing	event	64
+Event	8	shot	event	77
+Event	9	said	report	110
+Event	65	activity	event	131
+Event	10	killed	event	135
+Event	11	wounded	event	138
+Event	12	bombing	event	142
+Event	13	said	report	153
+Event	14	killed	event	160
+Event	15	wounded	event	163
+Event	16	blast	event	166
+Event	17	said	report	169
+Event	18	said	report	186
+Event	19	attack	event	188
+Event	24	accused	report	225
+Event	25	raiding	event	229
+Event	26	executing	event	253
+Event	27	said	report	263
+Event	28	raided	event	267
+Event	29	said	report	283
+Event	30	raided	event	286
+Event	32	incidents	event	315
+Event	33	said	report	319
+Event	34	assassinated	event	326
+Event	68	fall	event	329
+Event	35	arrested	event	339
+Event	67	ousted	event	353
+Event	69	fall	event	358
+Event	36	said	report	376
+Event	37	opened	event	380
+Event	38	killed	event	383
+Event	40	flee	event	389
+Event	41	said	report	406
+Event	42	incident	event	413
+Event	43	escaped	event	427
+Event	44	attack	event	430
+Event	45	wounded	event	437
+Event	46	said	report	447
+Event	47	attempts	event	460
+Event	48	announced	report	475
+Event	49	arrested	event	494
+Event	51	captured	event	522
+Event	52	said	report	534
+Event	53	accused	report	552
+Event	54	murdering	event	556
+Event	55	blowing	event	562
+Event	56	killed	event	570
+Event	57	wounded	event	572
+Event	66	smuggling	event	577
+Event	58	fight	event	584
+Event	59	announced	report	592
+Event	60	arrested	event	595
+Event	61	offensive	event	604
+Event	64	rounding	event	611
+Relation	3	1	coreference
+Relation	4	2	coreference
+Relation	7	6	in_reporting
+Relation	8	3	coreference
+Relation	8	9	in_reporting
+Relation	10	12	subevent_of
+Relation	10	4	coreference
+Relation	10	13	in_reporting
+Relation	11	12	subevent_of
+Relation	11	5	coreference
+Relation	11	13	in_reporting
+Relation	12	13	in_reporting
+Relation	14	10	coreference
+Relation	14	17	in_reporting
+Relation	15	11	coreference
+Relation	15	17	in_reporting
+Relation	16	12	coreference
+Relation	16	17	in_reporting
+Relation	19	16	coreference
+Relation	19	18	in_reporting
+Relation	25	32	member_of
+Relation	25	24	in_reporting
+Relation	26	25	subevent_of
+Relation	26	7	coreference
+Relation	26	24	in_reporting
+Relation	28	27	in_reporting
+Relation	30	32	member_of
+Relation	30	28	coreference
+Relation	30	29	in_reporting
+Relation	34	33	in_reporting
+Relation	35	33	in_reporting
+Relation	69	68	coreference
+Relation	37	36	in_reporting
+Relation	38	42	subevent_of
+Relation	38	36	in_reporting
+Relation	40	42	subevent_of
+Relation	40	36	in_reporting
+Relation	42	37	coreference
+Relation	42	41	in_reporting
+Relation	43	44	subevent_of
+Relation	43	46	in_reporting
+Relation	44	47	member_of
+Relation	44	46	in_reporting
+Relation	45	44	subevent_of
+Relation	45	46	in_reporting
+Relation	49	48	in_reporting
+Relation	51	49	coreference
+Relation	51	52	in_reporting
+Relation	54	53	in_reporting
+Relation	55	53	in_reporting
+Relation	56	55	subevent_of
+Relation	56	53	in_reporting
+Relation	57	55	subevent_of
+Relation	57	53	in_reporting
+Relation	66	53	in_reporting
+Relation	58	53	in_reporting
+Relation	60	61	subevent_of
+Relation	60	59	in_reporting
+Relation	61	59	in_reporting
+Relation	64	61	subevent_of
+Relation	64	59	in_reporting

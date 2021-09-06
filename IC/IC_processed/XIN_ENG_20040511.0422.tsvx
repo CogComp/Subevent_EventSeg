@@ -1,0 +1,39 @@
+Text	Madrid blasts suspect investigated last year for Casablanca attacks . MADRID , May 11 ( Xinhua ) . One of the alleged mastermind behind the March 11 Madrid bombings was under investigation last year for his alleged ties with the Casablanca terror attacks last May , which killed 45 people , including 12 suicide bombers , local media reported Tuesday . The Moroccan Jamal Zougam , 30 , whose telephone had been wiretapped by the Spanish police nine months ago , was arrested two days after the Madrid bombings , along with two other Moroccans , who belonged to a radical group called the Soldiers of Ala , a cell operated in Spain with close links to Osama Bin Laden 's al-Qaida . Since 2001 , Zougam had been under investigation until arrested as key suspect of the Madrid attacks , which killed 191 people and wounded more than 2,000 . Zougam was a longtime resident of Spain and was in Morocco shortly before the bombing in Casablanca . His apartment in Spain was searched in August 2001 . Police found the phone numbers of several al-Qaida members but Zougam was not arrested . Police said Zougam usually spent nights in different places in Madrid to avoid investigations . Soldiers of Ala , a group formed by young radicals of the Islamic Alliance , was founded in 1995 by Imad Eddin Barakat Yarkas , alias Abu Dahdah . Its members distributed magazines and publications by Osama Bin Laden , in different religious centers in the capital . 
+Event	1	blasts	event	1
+Event	2	investigated	event	3
+Event	3	attacks	event	8
+Event	4	bombings	event	26
+Event	5	investigation	event	29
+Event	6	attacks	event	40
+Event	7	killed	event	45
+Event	8	reported	report	56
+Event	9	arrested	event	79
+Event	10	bombings	event	85
+Event	11	investigation	event	126
+Event	12	arrested	event	128
+Event	13	attacks	event	135
+Event	14	killed	event	138
+Event	15	wounded	event	142
+Event	16	bombing	event	160
+Event	18	arrested	event	185
+Event	19	said	report	187
+Event	21	investigations	event	199
+Relation	4	1	coreference
+Relation	4	8	in_reporting
+Relation	5	2	coreference
+Relation	5	8	in_reporting
+Relation	6	3	coreference
+Relation	6	8	in_reporting
+Relation	7	3	subevent_of
+Relation	7	8	in_reporting
+Relation	9	2	subevent_of
+Relation	10	1	coreference
+Relation	11	2	coreference
+Relation	12	9	coreference
+Relation	13	1	coreference
+Relation	14	1	subevent_of
+Relation	15	1	subevent_of
+Relation	16	3	coreference
+Relation	18	2	subevent_of
+Relation	21	2	subevent_of
+Relation	21	19	in_reporting

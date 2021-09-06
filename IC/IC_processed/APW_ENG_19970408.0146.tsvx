@@ -1,0 +1,83 @@
+Text	One Palestinian killed , three wounded in clash with Jewish settler Eds : UPDATES with witness report , new details on weapon used and . HEBRON , West Bank ( AP ) . A Jewish settler armed with a submachine gun on Tuesday shot and killed a Palestinian and wounded three others in the heart of this divided West Bank town , Palestinian officials said . Palestinians rioted after the shooting , throwing stones and a firebomb at Israeli border police , Israeli reports said . Israeli troops fired warning shots in the air . The shooting comes at a time of impasse in negotiations between Israelis and Palestinians . It also follows a summit in Washington in which Israeli Prime Minister Benjamin Netanyahu refused to agree to Palestinian demands for a freeze on building a controversial Jewish housing project in Jerusalem . Noam Federman , leader of the community of 500 Jews living in the city , said the shooting came after two Israeli students from a religious school were attacked with tear gas or stones . One of the Israelis fired in response , he said , adding the two Israelis had to be treated for injuries after the encounter . According to a witness , Hussein Natche , a Jewish settler opened fire with an Uzi submachine gun in a narrow street between the central market and Ibrahimi Mosque , which is also known as the Tomb of the Patriarchs . Natche said the man who was killed was shot three times in the chest . He said there was no apparent reason for the shooting . Palestinian police identified the victim as Assam Rashid Arafeh , 30 , and Aliya hospital officials said he died of his wounds . Israeli police spokeswoman Linda Menuchin said a Jewish settler was arrested for shooting a Palestinian after he was pelted with stones . She said she did not know the condition of the Palestinian . In the unrest that followed the shooting , APTV cameraman Imad Isseid was injured in the leg after being struck with a metal bar . The Israeli army imposed a curfew on the city center where the shooting took place . Israel still controls 20 percent of the city after turning over the rest to Palestinian rule in January . str-nbt . 
+Event	1	killed	event	2
+Event	2	wounded	event	5
+Event	3	clash	event	7
+Event	49	armed	event	34
+Event	4	shot	event	41
+Event	5	killed	event	43
+Event	6	wounded	event	47
+Event	7	said	report	62
+Event	8	rioted	event	64
+Event	9	shooting	event	67
+Event	10	throwing	event	69
+Event	12	said	report	81
+Event	13	fired	event	84
+Event	14	shooting	event	91
+Event	19	said	report	151
+Event	20	shooting	event	153
+Event	21	attacked	event	164
+Event	22	fired	event	174
+Event	23	said	report	179
+Event	27	According	report	194
+Event	27	to	report	195
+Event	28	opened	event	205
+Event	29	said	report	235
+Event	30	killed	event	240
+Event	48	shot	event	242
+Event	32	said	report	249
+Event	33	shooting	event	257
+Event	34	said	report	274
+Event	35	died	event	276
+Event	36	said	report	285
+Event	37	arrested	event	290
+Event	38	shooting	event	292
+Event	39	pelted	event	298
+Event	40	unrest	event	314
+Event	41	shooting	event	318
+Event	42	injured	event	325
+Event	43	struck	event	331
+Event	46	shooting	event	348
+Event	52	controls	event	353
+Relation	1	3	subevent_of
+Relation	2	3	subevent_of
+Relation	49	7	in_reporting
+Relation	4	3	subevent_of
+Relation	4	7	in_reporting
+Relation	5	1	coreference
+Relation	5	7	in_reporting
+Relation	6	2	coreference
+Relation	6	7	in_reporting
+Relation	8	3	subevent_of
+Relation	8	12	in_reporting
+Relation	9	4	coreference
+Relation	9	12	in_reporting
+Relation	10	8	subevent_of
+Relation	10	12	in_reporting
+Relation	13	3	subevent_of
+Relation	14	9	coreference
+Relation	20	9	coreference
+Relation	20	19	in_reporting
+Relation	21	19	in_reporting
+Relation	22	21	subevent_of
+Relation	22	23	in_reporting
+Relation	28	4	coreference
+Relation	28	27	in_reporting
+Relation	29	27	coreference
+Relation	30	5	coreference
+Relation	30	29	in_reporting
+Relation	48	4	coreference
+Relation	33	9	coreference
+Relation	33	32	in_reporting
+Relation	35	30	coreference
+Relation	35	34	in_reporting
+Relation	37	36	in_reporting
+Relation	38	4	coreference
+Relation	38	36	in_reporting
+Relation	39	10	member_of
+Relation	39	40	subevent_of
+Relation	39	36	in_reporting
+Relation	40	8	coreference
+Relation	41	9	coreference
+Relation	42	40	subevent_of
+Relation	43	40	subevent_of
+Relation	46	9	coreference

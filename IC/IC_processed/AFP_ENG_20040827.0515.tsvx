@@ -1,0 +1,37 @@
+Text	Violent protests in Kashmir against Iraq standoff . Riot police fired tear gas on Friday to break up violent protests by thousands of Muslims against the US offensive in the Iraqi holy city of Najaf . The protest erupted after Friday prayers at a mosque in Srinagar , which has a large Shiite Muslim population , with demonstrators pelting security personnel with stones , a police spokesman said . The militia led by firebrand Iraqi cleric Moqtada Sadr surrendered the Imam Ali mosque , one of Shia Islam 's holiest shrines , in Najaf on Friday after a three-week standoff with US troops . Meanwhile shops and businesses were closed in the rest of the Kashmir as lawyers staged a strike in protest at alleged human rights violations by Indian troops and the re-arrest of prisoners after courts set them free . A deadly revolt has raged since 1989 against New Delhi 's rule in Kashmir with the loss of tens of thousands of lives . India denies that its troops are guilty of systematic abuse , adding any complaints are investigated and those found guilty punished . Police also reported that a top commander of Kashmirs main indigenous rebel group , Hizb-ul-Mujahedin , had been shot dead during a gunbattle with troops in Beeru in the central district of Budgam . 
+Event	1	protests	event	1
+Event	2	standoff	event	6
+Event	3	fired	event	9
+Event	4	break	event	15
+Event	5	protests	event	18
+Event	6	offensive	event	26
+Event	7	protest	event	35
+Event	9	pelting	event	56
+Event	10	said	report	65
+Event	11	surrendered	event	75
+Event	12	standoff	event	96
+Event	16	re-arrest	event	129
+Event	17	free	event	136
+Event	18	revolt	event	139
+Event	19	loss	event	153
+Event	20	denies	report	161
+Event	21	abuse	event	169
+Event	22	adding	report	171
+Event	23	investigated	event	175
+Event	25	reported	report	183
+Event	26	shot	event	199
+Event	27	gunbattle	event	203
+Relation	3	5	subevent_of
+Relation	5	1	coreference
+Relation	7	5	coreference
+Relation	7	10	in_reporting
+Relation	9	7	subevent_of
+Relation	9	10	in_reporting
+Relation	12	2	coreference
+Relation	16	21	subevent_of
+Relation	18	6	subevent_of
+Relation	21	20	in_reporting
+Relation	23	22	in_reporting
+Relation	26	27	subevent_of
+Relation	26	25	in_reporting
+Relation	27	25	in_reporting

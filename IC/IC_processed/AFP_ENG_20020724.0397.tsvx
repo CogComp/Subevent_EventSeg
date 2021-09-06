@@ -1,0 +1,74 @@
+Text	Fighting intensifies in Somali capital , 30 dead in two days ( ADDS details , quotes , background ) . Thirty people , mostly civilians , have been killed in Somalia 's capital during two days of heavy clashes rooted in a leadership dispute , witnesses said Wednesday , when at least 17 people died . The fighting , in the Medina area of southwest Mogadishu , is between militiamen loyal to warlord Musa Sudi Yalahow against those supporting his former ally Omar Mohamud Mohamed , better known as " Finish " . Most of the victims were civilians caught in the crossfire or killed when artillery shells struck residential houses . The dead included four children . The latest round of bloodletting comes ahead of talks aimed at bringing lasting peace to Somalia , scheduled to take place in neighbouring Kenya in September , under the auspices of the seven - nation Inter-Governmental Authority on Development ( IGAD ) . It also comes just after the UN Security Council , concerned about the violence in Somalia , unanimously approved a resolution on Monday to tighten a 10-year-old but only lightly enforced arms embargo . Un Security Council Resolution 1425 , which was presented by Norway , bans direct , government-to-government deliveries as well as financing and military advisors , and puts in place a committee charged with setting guidelines for violations and enforcement . Fighting erupted on Tuesday , but died down late in the afternoon with only sporadic gunfire heard in the area overnight . Clashes intensified again on Wednesday morning . Yalahow and Finish are two former allies who headed the United Somali Congress/Somalia Salvation Alliance ( USC/SSA ) faction , but fell out in December when Finish signed a peace deal with Somalia 's interim government , which is fiercely opposed by Yalahow . Each of the two warlords has claimed to be the head of the USC/SSA and the leadership feud is believed to be the cause of the bloodshed . " We have destroyed the military ability of Yalahow . His forces took refuge in the part of Medina controlled by warlord Hussein Mohamed Aidid , " said Abdullahi Sheikh Hassan , one of Finish 's allies . Four of Yalahow 's armed vehicles have been destroyed since Tuesday , including two that were taken out of action on Wednesday when six militiamen travelling in them were killed , Hassan said . Hassan accused Yalahow and Ethiopia of responsibility for the death of civilians by using " unnecessary firepower " against areas populated by civilians . " Ethiopia is accountable for the loss of lives in Medina and promoting hostilities in Somalia by supplying Yalahow with heavy weapons , such as the 120mm mortar shells used on Wednesday morning , " Hassan charged . The country most frequently mentioned in the UN 's July report was Ethiopia , which it says supplied not only small-calibre arms but mortars and anti-aircraft artillery to groups opposed to Somalia 's transitional government in June 2001 . But Yalahow counter-accused the Somali Transitional National Government ( TNG ) of supplying weapons to Finish to undermine security in his fiefdom . " The security I maintained for 11 years in Medina is going to be destabilized by TNG mercenaries . Finish is nothing but a messenger of TNG , " Yalahow told AFP by telephone . He accused Eritrea , Egypt , Yemen , Libya and Djibouti of sending weapons to Somalia to establish a puppet regime in Mogadishu . Somalia has been without an effective national government since 1991 , when the regime of dictator Mohammed Siad Barre collapsed . The TNG has said it will attend the talks in its capacity as the governing authority , while the Somali Reconciliation and Restoration Council ( SRRC ) , grouping armed warlords controlling large parts of southern Somalia , wants the TNG to be represented just like any other " faction " . . Sixteen peace conferences for Somalia have been held in Ethiopia , Djibouti , Kenya , Yemen , Saudi Arabia , Egypt and Libya during the past decade , but all failed to resolve the political quagmire . 
+Event	1	Fighting	event	0
+Event	2	dead	event	7
+Event	3	killed	event	27
+Event	4	clashes	event	37
+Event	5	said	report	45
+Event	6	died	event	53
+Event	7	fighting	event	55
+Event	10	crossfire	event	99
+Event	11	killed	event	101
+Event	12	struck	event	105
+Event	50	bloodletting	event	117
+Event	14	violence	event	168
+Event	21	Fighting	event	227
+Event	24	gunfire	event	242
+Event	25	Clashes	event	248
+Event	31	bloodshed	event	323
+Event	32	destroyed	event	327
+Event	58	took	event	335
+Event	62	controlled	event	342
+Event	63	said	report	350
+Event	34	destroyed	event	368
+Event	55	taken	event	376
+Event	35	killed	event	389
+Event	36	said	report	392
+Event	37	accused	report	394
+Event	38	death	event	402
+Event	59	using	event	406
+Event	39	loss	event	422
+Event	60	hostilities	event	429
+Event	41	supplying	event	433
+Event	42	charged	report	452
+Event	44	says	report	469
+Event	45	supplied	event	470
+Event	51	counter-accused	report	493
+Event	52	supplying	event	503
+Event	53	accused	report	547
+Event	54	sending	event	558
+Event	47	collapsed	event	588
+Event	61	controlling	event	620
+Relation	2	1	subevent_of
+Relation	3	2	coreference
+Relation	3	5	in_reporting
+Relation	4	1	coreference
+Relation	4	5	in_reporting
+Relation	6	3	member_of
+Relation	7	4	coreference
+Relation	10	7	subevent_of
+Relation	11	3	member_of
+Relation	12	7	subevent_of
+Relation	50	7	coreference
+Relation	14	50	coreference
+Relation	21	1	coreference
+Relation	24	21	subevent_of
+Relation	25	21	coreference
+Relation	31	25	coreference
+Relation	31	30	in_reporting
+Relation	32	36	in_reporting
+Relation	58	63	in_reporting
+Relation	62	63	in_reporting
+Relation	34	31	subevent_of
+Relation	34	36	in_reporting
+Relation	55	34	member_of
+Relation	55	36	in_reporting
+Relation	35	2	member_of
+Relation	35	55	subevent_of
+Relation	35	36	in_reporting
+Relation	38	2	member_of
+Relation	39	2	coreference
+Relation	39	42	in_reporting
+Relation	41	31	subevent_of
+Relation	41	42	in_reporting
+Relation	45	41	coreference
+Relation	45	44	in_reporting

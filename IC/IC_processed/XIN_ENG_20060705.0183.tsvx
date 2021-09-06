@@ -1,0 +1,42 @@
+Text	Israel decides to expand operations in Gaza . JERUSALEM , July 5 ( Xinhua ) . An urgent meeting of Israeli security cabinet convened by Prime Minister Ehud Olmert decided on Wednesday to expand the ongoing military operation in the Gaza Strip in reaction to stepped-up Palestinian rocket attack . Local media said that the cabinet also decided to create a " security buffer zone " in the northern Gaza Strip in a bid to prevent attacks on innocent civilians . A Qassam rocket landed at the center of the southern Israeli coastal city of Ashkelon for the first time on Tuesday evening , causing damages to a high school building but no injury . It was the furthest north in Israel that a Qassam fired from Gaza has reached , signaling that Palestinian militants have improved the range of the primitive weapons . Hamas ' armed wing , the Izz el-Deen al-Qassam Brigades , claimed responsibility for the attack . In response to the strike , Defense Minister Amir Peretz on Tuesday ordered the Israel Defense Forces to step up the pace and force of its operation in the Gaza Strip to secure the return of an abducted Israeli soldier . Israeli security forces foiled on Wednesday " a large-scale terror attack " set to be launched in the center of the country after a would-be attacker was arrested , local Israeli newspaper Yedioth Ahronoth said . According to the report , Israeli defense establishment currently holds 19 specific alerts regarding plans to carry out attacks , most of them are related to the Islamic Jihad . On Wednesday , Israeli troops killed a wanted Fatah militant in the West Bank town of Jericho , who was allegedly involved in potential attacks and was responsible for an attack in 2000 in which an Israeli taxi driver was killed . In addition , Israel Defense Forces nabbed ten wanted Palestinian militants in the West Bank , who are believed to be operatives from Hamas and Fatah . 
+Event	2	operations	event	4
+Event	4	operation	event	35
+Event	5	attack	event	46
+Event	6	said	report	49
+Event	8	attacks	event	73
+Event	9	landed	event	80
+Event	10	damages	event	101
+Event	11	injury	event	109
+Event	12	fired	event	120
+Event	14	claimed	report	149
+Event	15	attack	event	153
+Event	16	strike	event	158
+Event	17	ordered	report	166
+Event	18	operation	event	180
+Event	38	return	event	188
+Event	20	attack	event	204
+Event	22	arrested	event	221
+Event	23	said	report	228
+Event	24	According	report	229
+Event	35	plans	event	243
+Event	36	out	event	246
+Event	27	attacks	event	247
+Event	29	killed	event	263
+Event	37	involved	event	279
+Event	30	attacks	event	282
+Event	31	attack	event	288
+Event	32	killed	event	298
+Event	33	nabbed	event	305
+Relation	4	2	coreference
+Relation	8	6	in_reporting
+Relation	9	5	subevent_of
+Relation	10	5	subevent_of
+Relation	11	5	subevent_of
+Relation	12	5	subevent_of
+Relation	16	15	coreference
+Relation	18	2	coreference
+Relation	20	23	in_reporting
+Relation	22	23	in_reporting
+Relation	24	23	coreference
+Relation	30	8	member_of
+Relation	32	31	subevent_of

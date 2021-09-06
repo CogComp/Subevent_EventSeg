@@ -1,0 +1,44 @@
+Text	Three suspected al-Qaida members arraigned in Morocco By NICOLAS MARMIE . RABAT , Morocco ( AP ) . Three Saudi nationals suspected of planning suicide attacks against U.S. and British warships were arraigned in a Moroccan court on Monday , officials said . The suspects , identified as Hilal Jaber Aouad Alassiri , Zuher Hilal Mohamed Al Tbabti and Abdellah M ' Sefer Ali Al Ghamdi , were charged with `` breach of internal and external state security '' . The charge carries the death penalty , but Morocco rarely carries out capital punishment . The last person to be executed after being convicted of a capital crime was in 1995 . The three men are Saudi citizens between the ages of 25 and 35 and claim to be members of Osama bin Laden 's al-Qaida terrorist network . The suspects will be tried in a Moroccan court , officials here said , excluding for now the possibility that they would be either extradited to Saudi Arabia or handed over to the United States . The United States is holding detainees suspected of links to the fallen Taliban regime of Afghanistan or al-Qaida at the U.S. naval base in Guantanamo Bay , Cuba . Three women , including two wives of the suspects , have been summoned to appear before a criminal court on related charges . The men , who allegedly were planning attacks against U.S. and British warships in the Strait of Gibraltar , were arrested in May . Moroccan authorities said the suspects planned to sail a dinghy loaded with explosives from Morocco into the strait to attack the vessels . The plan was similar to one carried out in October 2000 , when two suicide bombers in a small dinghy rammed the USS Cole destroyer in a port in Yemen , killing 17 sailors . The United States blames bin Laden 's network for the Cole attack and the Sept. 11 attacks on the World Trade Center and the Pentagon . 
+Event	2	arraigned	event	4
+Event	4	planning	event	21
+Event	5	attacks	event	23
+Event	6	arraigned	event	30
+Event	7	said	report	39
+Event	9	charged	event	65
+Event	37	charge	event	77
+Event	10	executed	event	95
+Event	11	convicted	event	98
+Event	38	crime	event	102
+Event	13	tried	event	136
+Event	14	said	report	144
+Event	18	holding	event	171
+Event	36	summoned	event	207
+Event	20	charges	event	216
+Event	21	planning	event	223
+Event	22	attacks	event	224
+Event	23	arrested	event	237
+Event	24	said	report	242
+Event	25	planned	event	245
+Event	27	attack	event	259
+Event	35	plan	event	263
+Event	34	carried	event	268
+Event	29	rammed	event	282
+Event	30	killing	event	293
+Event	31	blames	report	299
+Event	32	attack	event	307
+Event	33	attacks	event	312
+Relation	4	7	in_reporting
+Relation	5	7	in_reporting
+Relation	6	2	coreference
+Relation	6	7	in_reporting
+Relation	37	9	coreference
+Relation	13	14	in_reporting
+Relation	21	4	coreference
+Relation	22	5	coreference
+Relation	25	21	coreference
+Relation	25	24	in_reporting
+Relation	27	22	coreference
+Relation	27	24	in_reporting
+Relation	35	25	coreference
+Relation	29	32	subevent_of
+Relation	30	32	subevent_of

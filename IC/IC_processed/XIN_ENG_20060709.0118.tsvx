@@ -1,0 +1,66 @@
+Text	Update : One Palestinian killed in Israeli air raid . GAZA , July 9 ( Xinhua ) . One Palestinian was killed and at least four others were wounded in an Israeli air raid near the southern Gaza town of Rafah on Sunday , Palestinian security sources said . An Israeli military plane fired a missile at a car carrying five members of Izz el-Deen al-Qassam Brigades , which is an armed wing of Hamas , in the village of Shuka near Rafah , said the sources . The militants managed to jump out of the car and escaped the attack , but the Israeli plane then fired a second missile at the militants , said the sources . Reports conflicted concerning the identities of the casualties . Palestinian security sources said that one Palestinian bystander was killed and at least four others were injured . But witnesses said that the killed Palestinian was one of the five Hamas militants targeted by the Israeli airstrike , adding that the four other militants were wounded . Palestinian medics said that one of the injured was in critical condition . The Israeli army confirmed the airstrike , which it said targeted Palestinian militants . Israeli troops continued a massive ground and air offensive in the Gaza Strip on Sunday in a bid to free an Israeli soldier kidnapped by Palestinian militants on June 25 and prevent Palestinian militants from firing rockets onto Israel . Izz el-Deen al-Qassam Brigades took part in the June 25 cross - border raid on an Israeli army post , during which two other Israeli soldiers were killed and the 19-year-old Corporal Gilad Shalit was kidnapped . 
+Event	1	killed	event	4
+Event	2	raid	event	8
+Event	3	killed	event	19
+Event	4	wounded	event	26
+Event	5	raid	event	31
+Event	6	said	report	45
+Event	7	fired	event	50
+Event	8	said	report	81
+Event	11	attack	event	96
+Event	12	fired	event	103
+Event	13	said	report	111
+Event	14	casualties	event	121
+Event	15	said	report	125
+Event	16	killed	event	131
+Event	17	injured	event	138
+Event	18	said	report	141
+Event	19	targeted	event	153
+Event	31	airstrike	event	157
+Event	20	adding	report	159
+Event	21	wounded	event	166
+Event	32	confirmed	report	182
+Event	33	airstrike	event	184
+Event	34	said	report	188
+Event	35	targeted	event	189
+Event	25	offensive	event	200
+Event	26	free	event	211
+Event	36	kidnapped	event	215
+Event	28	firing	event	227
+Event	29	raid	event	244
+Event	30	killed	event	258
+Event	38	kidnapped	event	266
+Relation	1	2	subevent_of
+Relation	2	25	member_of
+Relation	3	1	coreference
+Relation	3	6	in_reporting
+Relation	4	5	subevent_of
+Relation	4	6	in_reporting
+Relation	5	2	coreference
+Relation	5	6	in_reporting
+Relation	7	5	subevent_of
+Relation	7	8	in_reporting
+Relation	11	5	coreference
+Relation	11	13	in_reporting
+Relation	12	11	subevent_of
+Relation	12	13	in_reporting
+Relation	16	14	member_of
+Relation	16	3	coreference
+Relation	16	15	in_reporting
+Relation	17	14	member_of
+Relation	17	4	coreference
+Relation	17	15	in_reporting
+Relation	19	31	subevent_of
+Relation	19	18	in_reporting
+Relation	31	2	coreference
+Relation	31	18	in_reporting
+Relation	20	18	coreference
+Relation	21	17	coreference
+Relation	21	20	in_reporting
+Relation	33	2	coreference
+Relation	33	32+34	in_reporting
+Relation	35	34	in_reporting
+Relation	26	25	subevent_of
+Relation	30	29	subevent_of
+Relation	38	29	subevent_of
+Relation	38	36	coreference

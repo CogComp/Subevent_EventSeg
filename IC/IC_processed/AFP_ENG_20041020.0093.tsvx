@@ -1,0 +1,65 @@
+Text	Pakistan army helicopters attack militant hideouts in tribal region . Pakistani helicopter gunships on Wednesday attacked suspected hideouts of Al-Qaeda-linked militants in a remote tribal region near the Afghan border , a day after an ambush killed several soldiers , residents said . Witnesses said the gunships targeted hideouts in Spinkai Raghzai . The town is a stronghold of tribal militant commander Abdullah Mahsud , the man behind the recent kidnapping of two Chinese engineers . " I saw two helicopters firing into the town early this morning but I am not aware of any casualties , " resident Dost Mohammad told AFP by telephone . No immediate confirmation of the raid was available from military officials . On Tuesday militants believed to be Mahsud loyalists attacked an army convoy , kiliong five soldiers and wounding seven . Initial reports put the toll at three soldiers dead and five injured . Mahsud , a former prisoner at Guantanamo Bay , is being hunted for the abduction of two Chinese engineers , which ended last Thursday when commandos killed five kidnappers and rescued one Chinese . The other Chinese died of bullet wounds suffered during the rescue . Pakistan President Pervez Musharraf has said the kidnap mastermind would be brought to justice and severely punished . The military has launched several previous operations in the wild South Waziristan region against hundreds of militants , including foreigners , who are believed to be hiding there with local help . On Tuesday the head of operations for the tribal territory gave a new casualty count . Lieutenant General Safadr Hussain said 246 militants including 100 foreigners had been killed along with 171 soldiers since March . Mahsud became commander of Al-Qaeda-linked militants after the military killed his predecessor Nek Mohammad in a missile strike in June on his hideout near Wana , the main town in the district . Mahsud returned to his rugged homeland after he was released in March from the US Guantanamo Bay detention center in Cuba . Pakistan authorities have said he was not on the list of Pakistanis released from the center and might have returnned via Afghanistan . He was captured there in late 2001 after the US-led invasion ousted the Taliban regime . 
+Event	1	attack	event	3
+Event	2	attacked	event	14
+Event	4	ambush	event	34
+Event	5	killed	event	35
+Event	6	said	report	40
+Event	7	said	report	42
+Event	8	targeted	event	45
+Event	9	kidnapping	event	67
+Event	35	firing	event	77
+Event	10	casualties	event	91
+Event	11	told	report	97
+Event	12	raid	event	106
+Event	14	attacked	event	120
+Event	36	kiliong	event	125
+Event	15	wounding	event	129
+Event	38	dead	event	139
+Event	16	injured	event	142
+Event	17	hunted	event	154
+Event	18	abduction	event	157
+Event	19	killed	event	169
+Event	20	rescued	event	173
+Event	39	died	event	179
+Event	21	rescue	event	186
+Event	40	said	report	192
+Event	41	brought	event	198
+Event	42	punished	event	203
+Event	23	operations	event	210
+Event	47	casualty	event	248
+Event	27	said	report	254
+Event	28	killed	event	262
+Event	29	killed	event	278
+Event	30	strike	event	286
+Event	43	released	event	310
+Event	31	said	report	325
+Event	44	released	event	334
+Event	33	captured	event	346
+Event	34	invasion	event	354
+Event	48	ousted	event	355
+Relation	2	1	coreference
+Relation	2	6	in_reporting
+Relation	4	6	in_reporting
+Relation	5	4	subevent_of
+Relation	5	6	in_reporting
+Relation	8	1	subevent_of
+Relation	8	7	in_reporting
+Relation	35	1	subevent_of
+Relation	35	11	in_reporting
+Relation	10	1	subevent_of
+Relation	10	11	in_reporting
+Relation	12	1	coreference
+Relation	14	4	coreference
+Relation	36	5	coreference
+Relation	15	14	subevent_of
+Relation	38	36	coreference
+Relation	38	37	in_reporting
+Relation	16	15	coreference
+Relation	16	37	in_reporting
+Relation	18	9	coreference
+Relation	42	40	in_reporting
+Relation	47	23	subevent_of
+Relation	28	47	member_of
+Relation	28	27	in_reporting
+Relation	29	30	subevent_of
+Relation	44	31	in_reporting

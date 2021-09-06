@@ -1,0 +1,191 @@
+Text	Suspected Al-Qaeda cell leader said to condemn Madrid attacks ( ADDS background ) . A man currently detained by Spain on suspicion of being the ringleader of an Al-Qaeda cell in the country , Imad Eddin Barakat Yarkas , alias Abu Dahdah , Monday condemned as an " atrocious crime " last week 's train bombings in Madrid , in a letter published by his lawyer . Spanish police had dismantled the 18-men cell in late 2001 . Abu Dahdah has been detained in a Spanish prison since November 2001 . He said the train bombings Thursday which killed 200 people and left nearly 1,500 others wounded were " a savage and indiscriminate act untypical of a good Muslim " . He also called on judicial officials to investigate the bombings carefully . Abu Dahdah and two other suspects who are also detained , Ghasoub al Abrash Ghalyoun , who extensively filmed the Twin Towers in New York , and Driss Chebli are accused of direct involvement with the September 11 attacks in New York and Washington . 
+Event	1	condemn	report	39
+Event	2	attacks	event	54
+Event	3	detained	event	100
+Event	4	condemned	report	246
+Event	5	crime	event	274
+Event	6	bombings	event	301
+Event	7	detained	event	441
+Event	8	said	report	495
+Event	9	bombings	event	510
+Event	10	killed	event	534
+Event	11	left	event	556
+Event	12	act	event	624
+Event	13	called	report	667
+Event	14	investigate	event	699
+Event	15	bombings	event	715
+Event	16	detained	event	783
+Event	17	accused	report	897
+Event	18	involvement	event	915
+Event	19	attacks	event	949
+Relation	1	2	NoRel	true	condemn	attacks
+Relation	1	3	NoRel	true	condemn	detained
+Relation	1	4	NoRel	true	condemn	condemned
+Relation	1	5	NoRel	true	condemn	crime
+Relation	1	6	NoRel	true	condemn	bombings
+Relation	1	7	NoRel	true	condemn	detained
+Relation	1	8	NoRel	true	condemn	said
+Relation	1	9	NoRel	true	condemn	bombings
+Relation	1	10	NoRel	true	condemn	killed
+Relation	1	11	NoRel	true	condemn	left
+Relation	1	12	NoRel	true	condemn	act
+Relation	1	13	NoRel	true	condemn	called
+Relation	1	14	NoRel	true	condemn	investigate
+Relation	1	15	NoRel	true	condemn	bombings
+Relation	1	16	NoRel	true	condemn	detained
+Relation	1	17	NoRel	true	condemn	accused
+Relation	1	18	NoRel	true	condemn	involvement
+Relation	1	19	NoRel	true	condemn	attacks
+Relation	2	3	NoRel	true	attacks	detained
+Relation	2	4	NoRel	true	attacks	condemned
+Relation	2	5	NoRel	true	attacks	crime
+Relation	2	6	Coref	true	attacks	bombings
+Relation	2	7	NoRel	true	attacks	detained
+Relation	2	8	NoRel	true	attacks	said
+Relation	2	9	Coref	true	attacks	bombings
+Relation	2	10	SuperSub	true	attacks	killed
+Relation	2	11	SuperSub	true	attacks	left
+Relation	2	12	NoRel	true	attacks	act
+Relation	2	13	NoRel	true	attacks	called
+Relation	2	14	NoRel	true	attacks	investigate
+Relation	2	15	Coref	true	attacks	bombings
+Relation	2	16	NoRel	true	attacks	detained
+Relation	2	17	NoRel	true	attacks	accused
+Relation	2	18	NoRel	true	attacks	involvement
+Relation	2	19	NoRel	true	attacks	attacks
+Relation	3	4	NoRel	true	detained	condemned
+Relation	3	5	NoRel	true	detained	crime
+Relation	3	6	NoRel	true	detained	bombings
+Relation	3	7	Coref	true	detained	detained
+Relation	3	8	NoRel	true	detained	said
+Relation	3	9	NoRel	true	detained	bombings
+Relation	3	10	NoRel	true	detained	killed
+Relation	3	11	NoRel	true	detained	left
+Relation	3	12	NoRel	true	detained	act
+Relation	3	13	NoRel	true	detained	called
+Relation	3	14	NoRel	true	detained	investigate
+Relation	3	15	NoRel	true	detained	bombings
+Relation	3	16	SubSuper	true	detained	detained
+Relation	3	17	NoRel	true	detained	accused
+Relation	3	18	NoRel	true	detained	involvement
+Relation	3	19	NoRel	true	detained	attacks
+Relation	4	5	NoRel	true	condemned	crime
+Relation	4	6	NoRel	true	condemned	bombings
+Relation	4	7	NoRel	true	condemned	detained
+Relation	4	8	NoRel	true	condemned	said
+Relation	4	9	NoRel	true	condemned	bombings
+Relation	4	10	NoRel	true	condemned	killed
+Relation	4	11	NoRel	true	condemned	left
+Relation	4	12	NoRel	true	condemned	act
+Relation	4	13	NoRel	true	condemned	called
+Relation	4	14	NoRel	true	condemned	investigate
+Relation	4	15	NoRel	true	condemned	bombings
+Relation	4	16	NoRel	true	condemned	detained
+Relation	4	17	NoRel	true	condemned	accused
+Relation	4	18	NoRel	true	condemned	involvement
+Relation	4	19	NoRel	true	condemned	attacks
+Relation	5	6	NoRel	true	crime	bombings
+Relation	5	7	NoRel	true	crime	detained
+Relation	5	8	NoRel	true	crime	said
+Relation	5	9	NoRel	true	crime	bombings
+Relation	5	10	NoRel	true	crime	killed
+Relation	5	11	NoRel	true	crime	left
+Relation	5	12	NoRel	true	crime	act
+Relation	5	13	NoRel	true	crime	called
+Relation	5	14	NoRel	true	crime	investigate
+Relation	5	15	NoRel	true	crime	bombings
+Relation	5	16	NoRel	true	crime	detained
+Relation	5	17	NoRel	true	crime	accused
+Relation	5	18	NoRel	true	crime	involvement
+Relation	5	19	NoRel	true	crime	attacks
+Relation	6	7	NoRel	true	bombings	detained
+Relation	6	8	NoRel	true	bombings	said
+Relation	6	9	Coref	true	bombings	bombings
+Relation	6	10	SuperSub	true	bombings	killed
+Relation	6	11	SuperSub	true	bombings	left
+Relation	6	12	NoRel	true	bombings	act
+Relation	6	13	NoRel	true	bombings	called
+Relation	6	14	NoRel	true	bombings	investigate
+Relation	6	15	Coref	true	bombings	bombings
+Relation	6	16	NoRel	true	bombings	detained
+Relation	6	17	NoRel	true	bombings	accused
+Relation	6	18	NoRel	true	bombings	involvement
+Relation	6	19	NoRel	true	bombings	attacks
+Relation	7	8	NoRel	true	detained	said
+Relation	7	9	NoRel	true	detained	bombings
+Relation	7	10	NoRel	true	detained	killed
+Relation	7	11	NoRel	true	detained	left
+Relation	7	12	NoRel	true	detained	act
+Relation	7	13	NoRel	true	detained	called
+Relation	7	14	NoRel	true	detained	investigate
+Relation	7	15	NoRel	true	detained	bombings
+Relation	7	16	SubSuper	true	detained	detained
+Relation	7	17	NoRel	true	detained	accused
+Relation	7	18	NoRel	true	detained	involvement
+Relation	7	19	NoRel	true	detained	attacks
+Relation	8	9	NoRel	true	said	bombings
+Relation	8	10	NoRel	true	said	killed
+Relation	8	11	NoRel	true	said	left
+Relation	8	12	NoRel	true	said	act
+Relation	8	13	NoRel	true	said	called
+Relation	8	14	NoRel	true	said	investigate
+Relation	8	15	NoRel	true	said	bombings
+Relation	8	16	NoRel	true	said	detained
+Relation	8	17	NoRel	true	said	accused
+Relation	8	18	NoRel	true	said	involvement
+Relation	8	19	NoRel	true	said	attacks
+Relation	9	10	SuperSub	true	bombings	killed
+Relation	9	11	SuperSub	true	bombings	left
+Relation	9	12	NoRel	true	bombings	act
+Relation	9	13	NoRel	true	bombings	called
+Relation	9	14	NoRel	true	bombings	investigate
+Relation	9	15	Coref	true	bombings	bombings
+Relation	9	16	NoRel	true	bombings	detained
+Relation	9	17	NoRel	true	bombings	accused
+Relation	9	18	NoRel	true	bombings	involvement
+Relation	9	19	NoRel	true	bombings	attacks
+Relation	10	11	NoRel	true	killed	left
+Relation	10	12	NoRel	true	killed	act
+Relation	10	13	NoRel	true	killed	called
+Relation	10	14	NoRel	true	killed	investigate
+Relation	10	15	SubSuper	true	killed	bombings
+Relation	10	16	NoRel	true	killed	detained
+Relation	10	17	NoRel	true	killed	accused
+Relation	10	18	NoRel	true	killed	involvement
+Relation	10	19	NoRel	true	killed	attacks
+Relation	11	12	NoRel	true	left	act
+Relation	11	13	NoRel	true	left	called
+Relation	11	14	NoRel	true	left	investigate
+Relation	11	15	SubSuper	true	left	bombings
+Relation	11	16	NoRel	true	left	detained
+Relation	11	17	NoRel	true	left	accused
+Relation	11	18	NoRel	true	left	involvement
+Relation	11	19	NoRel	true	left	attacks
+Relation	12	13	NoRel	true	act	called
+Relation	12	14	NoRel	true	act	investigate
+Relation	12	15	NoRel	true	act	bombings
+Relation	12	16	NoRel	true	act	detained
+Relation	12	17	NoRel	true	act	accused
+Relation	12	18	NoRel	true	act	involvement
+Relation	12	19	NoRel	true	act	attacks
+Relation	13	14	NoRel	true	called	investigate
+Relation	13	15	NoRel	true	called	bombings
+Relation	13	16	NoRel	true	called	detained
+Relation	13	17	NoRel	true	called	accused
+Relation	13	18	NoRel	true	called	involvement
+Relation	13	19	NoRel	true	called	attacks
+Relation	14	15	NoRel	true	investigate	bombings
+Relation	14	16	NoRel	true	investigate	detained
+Relation	14	17	NoRel	true	investigate	accused
+Relation	14	18	NoRel	true	investigate	involvement
+Relation	14	19	NoRel	true	investigate	attacks
+Relation	15	16	NoRel	true	bombings	detained
+Relation	15	17	NoRel	true	bombings	accused
+Relation	15	18	NoRel	true	bombings	involvement
+Relation	15	19	NoRel	true	bombings	attacks
+Relation	16	17	NoRel	true	detained	accused
+Relation	16	18	NoRel	true	detained	involvement
+Relation	16	19	NoRel	true	detained	attacks
+Relation	17	18	NoRel	true	accused	involvement
+Relation	17	19	NoRel	true	accused	attacks
+Relation	18	19	SubSuper	true	involvement	attacks

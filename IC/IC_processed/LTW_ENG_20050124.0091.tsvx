@@ -1,0 +1,91 @@
+Text	Al-Zarqawi Lieutenant Arrested . BAGHDAD , Iraq . A lieutenant of Jordanian terrorist leader Abu Musab al-Zarqawi said to have supervised the construction of 32 car bombs was taken into custody 10 days ago , Iraqi officials announced Monday . Sami Muhammad Ali Said Jaaf admitted to involvement in a substantial share of the car bombs that have exploded in Iraq since August 2003 , according to Thaer Qatib , a spokesman for interim Prime Minister Ayad Allawi . Qatib said Jaaf , who went by the nom de guerre Abu Umar Kurdi , was captured in a raid in Baghdad Jan. 15 . There was no way of verifying Jaaf 's admissions or the government 's claim that he was involved in some 75 percent of the car bombings in Baghdad since August , 2003 . In a flurry of pre-election good news , the government also announced the capture of al-Zarqawi 's `` chief of propaganda , '' 10 insurgent leaders in Ramadi , the capital of troubled Anbar Province west of Baghdad and a resistance leader in the violent northern city of Mosul , Iraq 's third largest city . `` Every arrest of a terrorist in Iraq is making our country safer , bringing us one step closer to a peaceful and prosperous Iraq , '' Thaer said . The accused bomb maker Jaaf allegedly confessed to organizing many of the most notorious attacks in Iraq , including the September , 2003 truck bombing of the United Nations headquarters , the car bomb that killed Ayatollah Mohammed Bakir Hakim outside a shrine in Najaf , the attack that killed the serving president of the Governing Council as his convoy approached the Green Zone in May 2004 and the September 2004 double car bombing at a water treatment plant in south Baghdad that killed dozens of children . All told , the attacks killed hundreds , most of them civilians cut down by the devastating blast wave and shrapnel typically thrown hundreds of yards . Other bomb makers clearly remain at large . A vehicle packed with explosives detonated Monday morning outside the headquarters of the political party led by Allawi , the Iraqi National Accord . The building , located near the capital 's center , was struck by a car bomb earlier this month . Allawi 's spokesman also trumpeted arrests of Zarqawi 's `` chief of propaganda , '' Hasam Hamad Abdullah Muhsin al - Dulaymi , known as `` Dr. Hassan , '' in a raid before Jaaf was taken . Naqib said Hassan took over distributing public statements for Zarqawi 's network after his previous chief propagandist , Hassan Ibrahim , was killed by coalition forces in a Baghdad raid Dec. 13 . `` Dr. Hassan has told us that Abu Musab al-Zarqawi designated Abu Umar al-Kurdi as the lieutenant responsible for attacking election sites located in Baghdad , '' Naqib said . Iraq is scheduled to hold its first nationwide election in decades on Sunday . Zarqawi and other insurgents have threatened to disrupt the balloting and to kill voters after they return from the polls . Al-Zarqawi also recently issued a statement urging followers to buckle down for the long haul in Iraq , warning that the battle against U.S. and Iraqi forces in the country could drag on for years . Allawi 's spokesman seized on that statement as evidence that the terrorist leader is losing ground . `` The recent call by Zarqawi for patience tells us that he is losing his fight against the Iraqi people , '' Naqib said . `` He is losing his key cell leaders , planners and bomb builders every day to Iraqi and coalition security forces '' . 
+Event	1	Arrested	event	2
+Event	60	construction	event	20
+Event	2	custody	event	28
+Event	3	announced	report	35
+Event	4	admitted	report	42
+Event	5	involvement	event	44
+Event	6	exploded	event	55
+Event	7	according	report	62
+Event	8	captured	event	91
+Event	9	raid	event	94
+Event	11	admissions	report	107
+Event	13	involved	event	116
+Event	14	bombings	event	124
+Event	15	announced	report	142
+Event	16	capture	event	144
+Event	49	arrest	event	188
+Event	50	said	report	214
+Event	17	confessed	report	221
+Event	62	organizing	event	223
+Event	18	attacks	event	229
+Event	19	bombing	event	239
+Event	61	car	event	247
+Event	21	killed	event	250
+Event	22	attack	event	262
+Event	23	killed	event	264
+Event	24	bombing	event	288
+Event	25	killed	event	298
+Event	26	attacks	event	306
+Event	27	killed	event	307
+Event	28	down	event	315
+Event	64	blast	event	319
+Event	31	at	event	333
+Event	32	detonated	event	340
+Event	33	struck	event	369
+Event	34	trumpeted	report	381
+Event	35	arrests	event	382
+Event	36	raid	event	409
+Event	37	taken	event	413
+Event	38	killed	event	436
+Event	39	raid	event	443
+Event	40	told	report	450
+Event	42	attacking	event	465
+Event	43	said	report	474
+Event	46	threatened	report	493
+Event	48	kill	event	500
+Event	53	warning	report	526
+Event	54	battle	event	529
+Event	55	tells	report	567
+Event	65	losing	event	572
+Event	56	fight	event	574
+Event	57	said	report	582
+Relation	1	8	subevent_of
+Relation	60	3	in_reporting
+Relation	2	3	in_reporting
+Relation	4	7	in_reporting
+Relation	5	59	subevent_of
+Relation	5	7	in_reporting
+Relation	6	59	subevent_of
+Relation	6	7	in_reporting
+Relation	8	9	subevent_of
+Relation	11	4	coreference
+Relation	13	14	subevent_of
+Relation	13	5	coreference
+Relation	14	18	member_of
+Relation	14	59	coreference
+Relation	16	15	in_reporting
+Relation	49	50	in_reporting
+Relation	19	18	member_of
+Relation	61	18	member_of
+Relation	21	27	member_of
+Relation	21	61	subevent_of
+Relation	22	18	member_of
+Relation	23	27	member_of
+Relation	23	22	subevent_of
+Relation	24	18	member_of
+Relation	25	27	member_of
+Relation	25	24	subevent_of
+Relation	26	18	coreference
+Relation	27	26	subevent_of
+Relation	28	26	subevent_of
+Relation	64	26	subevent_of
+Relation	35	36	subevent_of
+Relation	36	34	in_reporting
+Relation	37	2	coreference
+Relation	38	39	subevent_of
+Relation	40	43	in_reporting
+Relation	42	40	in_reporting
+Relation	55	57	in_reporting
+Relation	65	57	in_reporting
+Relation	56	55	in_reporting

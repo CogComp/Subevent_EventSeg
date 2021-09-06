@@ -1,0 +1,89 @@
+Text	Suspected HAMAS bomber surrenders after six-hour gunbattle . A member of the Islamic militant movement HAMAS suspected of planning a suicide attack against Israel surrendered to Palestinan police here after a six-hour shootout on Friday , HAMAS said . Wail Nassar , 23 , a member of Ezzedin al-Qasim , HAMAS 's military wing , was on the run from both Palestinian and Israeli police for planning anti-Israeli attacks , sources said . The gunbattle began when Palestinian police surrounded a house in the Sheikh Radwan neighborhood of Gaza city where Nassar and two collaborators where hiding . The three HAMAS members , when called on to surrender , opened fire on police with M-16 assault rifles , Palestinian sources reported . Hundreds of police reinforcements were called out for the battle . As the shootout dragged on , hundreds of HAMAS backers demonstrated in support of the militants and threw stones at police , injuring seven of them slightly . Police fired in the air to disperse the crowds . One policeman was shot and wounded , police sources said without specifying who fired the shot . Palestinian security officials opened negotiations with a HAMAS leader in Gaza , Imad Faluji , that which ended with the surrender of the three militants . Israeli security services had been searching for one of the three , Awad Silmi , HAMAS said in a statement , without identifying the third militant . Israeli military sources said Nassar was part of a five-member cell that planned on exploding a bomb-laden Fiat in the streets of Tel Aviv . Nassar , a student at the Islamic university in Gaza , fled his home just before a Palestinian police patrol came hunting for him last week , his family and friends said . Israel closed off the Gaza Strip on August 10 following reports of the planned bombing in Tel Aviv . An army spokesman said the closure would remain in effect until Sunday . The raid on the house came three days after Palestinian police arrested another HAMAS member for planning anti-Israeli attacks , Palestinian officials said without identifying the militant . HAMAS and Islamic Jihad , both opposed to the peace process with Israel , have claimed most anti-Israeli attacks since self-rule was launched in the Gaza Strip and Jericho in the West Bank in May 1994 . 
+Event	1	surrenders	event	3
+Event	2	gunbattle	event	6
+Event	4	planning	event	17
+Event	5	attack	event	20
+Event	6	surrendered	event	23
+Event	7	shootout	event	31
+Event	8	said	report	36
+Event	9	on	event	54
+Event	10	planning	event	64
+Event	11	attacks	event	66
+Event	12	said	report	69
+Event	13	gunbattle	event	71
+Event	15	surrounded	event	76
+Event	16	called	report	100
+Event	17	surrender	event	103
+Event	18	opened	event	105
+Event	19	reported	report	116
+Event	20	called	event	122
+Event	21	battle	event	126
+Event	22	shootout	event	129
+Event	24	demonstrated	event	137
+Event	25	threw	event	144
+Event	26	injuring	event	149
+Event	27	fired	event	155
+Event	28	disperse	event	160
+Event	29	shot	event	166
+Event	30	wounded	event	168
+Event	31	said	report	172
+Event	33	fired	event	176
+Event	35	surrender	event	199
+Event	36	searching	event	209
+Event	37	said	report	220
+Event	40	said	report	233
+Event	41	planned	event	242
+Event	42	exploding	event	244
+Event	43	fled	event	265
+Event	44	hunting	event	275
+Event	45	said	report	285
+Event	47	bombing	event	300
+Event	49	raid	event	317
+Event	50	arrested	event	327
+Event	51	planning	event	332
+Event	52	attacks	event	334
+Event	53	said	report	338
+Event	55	claimed	report	358
+Event	56	attacks	event	361
+Relation	4	8	in_reporting
+Relation	5	11	member_of
+Relation	5	8	in_reporting
+Relation	6	1	coreference
+Relation	6	8	in_reporting
+Relation	7	2	coreference
+Relation	7	8	in_reporting
+Relation	9	12	in_reporting
+Relation	10	4	coreference
+Relation	10	12	in_reporting
+Relation	11	12	in_reporting
+Relation	13	2	coreference
+Relation	16	19	in_reporting
+Relation	17	19	in_reporting
+Relation	18	13	subevent_of
+Relation	18	19	in_reporting
+Relation	21	2	coreference
+Relation	22	2	coreference
+Relation	25	24	subevent_of
+Relation	26	24	subevent_of
+Relation	27	22	subevent_of
+Relation	29	22	subevent_of
+Relation	29	31	in_reporting
+Relation	30	22	subevent_of
+Relation	30	31	in_reporting
+Relation	33	29	coreference
+Relation	35	17	coreference
+Relation	36	37	in_reporting
+Relation	41	4	coreference
+Relation	41	40	in_reporting
+Relation	42	47	subevent_of
+Relation	42	40	in_reporting
+Relation	43	45	in_reporting
+Relation	44	45	in_reporting
+Relation	47	56	member_of
+Relation	47	5	coreference
+Relation	49	2	coreference
+Relation	50	53	in_reporting
+Relation	51	10	coreference
+Relation	51	53	in_reporting
+Relation	52	11	coreference
+Relation	52	53	in_reporting

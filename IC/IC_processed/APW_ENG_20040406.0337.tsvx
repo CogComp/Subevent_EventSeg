@@ -1,0 +1,116 @@
+Text	URGENT Radical Shiite cleric sought by U.S. moves to Najaf , vows to resist . NAJAF , Iraq ( AP ) . A radical Shiite cleric sought by U.S. forces said Tuesday he is willing to die resisting any attempt to capture him , while battles between gunmen and coalition forces in Shiite cities in the south killed at least 30 Iraqis and one soldier and wounded dozens . Followers of Muqtada al-Sadr clashed with British troops in the city of Amarah in battles late Monday that killed 15 Iraqis and wounded eight , said a coalition spokesman in the city , Wun Hornbyckle . Gunmen also traded fire with Italian forces in Nasiriyah on Tuesday . Coalition spokeswoman Paola Della Casa told the Apcom news agency in Rome that 15 Iraqis were killed and 35 others wounded . The city saw clashed two days ago between al-Sadr militiamen and Italians . A Ukrainian soldier was killed and five wounded in clashes with militants in the city of Kut , the Defense Ministry said Tuesday . Al-Sadr , a 30-year-old cleric who frequently denounces the U.S.-led occupation in his sermons and his built a private militia , called on his followers to `` defend their rights '' against U.S.-led forces . `` America has shown its evil intentions , and the proud Iraqi people can not accept it . They must defend their rights by any means they see fit , '' al-Sadr said in a statment released by his office . Fearing a U.S. move to capture him , al-Sadr 's aides said Tuesday he had moved from the fortress-like mosque in the city of Kufa where he had been holed up for the past two days to his office in the nearby holy city of Najaf , south of Baghdad . The United States declared an `` outlaw '' after his militiamen battled coalition troops Sunday in Baghdad and outside Najaf in fights that killed 61 people _ including eight U.S. soldiers . U.S. officials announced an arrest warrant against al-Sadr on Monday , suggesting they would move soon to detain him . Three U.S. soldiers were killed in attacks Monday and Tuesday in a northern Baghdad neighborhood near an area that saw clashes Monday between al-Sadr militiamen and Americans , the military said _ though it was not immediately clear whether they were killed by al-Sadr supporters . The showdown with al-Sadr could raise tensions with Iraq 's Shiite majority . U.S. officials appear to be counting on Shiites not to rally around al-Sadr , who is widely distrusted within his community for his youth and radicalism . But the clashes Monday and Tuesday suggested that even without widespread popular support , his al-Mahdi Army militia can put up a fight . At least 11 Iraqis were killed overnight by blasts in Sadr City , a mostly Shiite neighborhood in Baghdad that saw some of the fiercest fighting Sunday between militiamen and U.S. troops . A top al-Sadr aide , Sheik Qays al-Khaz ' ali , said Tuesday that al-Sadr had moved to his main office , in Najaf . On Tuesday , dozens of heavily armed militiamen were outside the Najaf office , located in a small alley near Shiism 's holiest site , the golden-domed shrine of Imam Ali . The black-garbed gunmen , some carrying rocket-propelled grenade launchers , crowded the narrow alley and roamed nearby streets . There was no way to confirm reports that al-Sadr was inside . Asked if al-Sadr will resist if U.S. forces come to arrest him , al - Khaz ' ali replied : `` God forbid if this happens , al-Sayed will win martyrdom '' _ referring to al-Sadr by an Arabic title meaning `` master '' . Al-Khaz ' ali quoted al-Sadr as saying , `` My fate will be either assassination or arrested '' . A move from Kufa to Najaf would be an unusual move . Al-Sadr is widely unpopular in Najaf , where most Shiites support older , more moderate clerics . By contrast , his al-Mahdi Army has been in virtual control of Kufa since Sunday , holding the police station and patrolling the streets . His gunmen were out in force around the main mosque in Kufa , which has high , fortresslike walls . In a statement released earlier by his office , al-Sadr said he was moving to avoid bloodshed in the Kufa mosque . `` I feared that the sanctity of a glorious and esteemed mosque would be violated by scum and evil people , '' he said . The Americans `` will have no qualms to embark on such actions '' . `` I have pledged not to allow a drop of blood to be shed except my own , '' al-Sadr said . `` I 'm prepared to have my own blood shed for what is holy to me '' . He also denounced U.S. President George W. Bush , who said Monday that al-Sadr aimed at wrecking democracy in Iraq . `` I would like to direct my words to the father of evil , Bush , '' al - Sadr said . `` Who is against democracy . Is it the one who calls for peaceful resistance or the one who bombs people , sheds their blood and leads them away from the leaders under feeble and dirty pretexts '' . The arrest warrant was issued on charges al-Sadr was involved in the slaying of a rival cleric last year . The arrest of an aide to al-Sadr last week on the same charges prompted widespread protests by al-Sadr supporters that turned into heavy gunbattles in the Baghdad neighborhood of Sadr City and outside Najaf . 
+Event	3	said	report	28
+Event	4	die	event	34
+Event	67	capture	event	39
+Event	6	battles	event	43
+Event	7	killed	event	55
+Event	8	wounded	event	64
+Event	9	clashed	event	70
+Event	10	battles	event	80
+Event	11	killed	event	84
+Event	12	wounded	event	88
+Event	13	said	report	91
+Event	14	traded	event	103
+Event	15	told	report	117
+Event	16	killed	event	128
+Event	17	wounded	event	132
+Event	18	clashed	event	136
+Event	19	killed	event	149
+Event	20	wounded	event	152
+Event	21	clashes	event	154
+Event	22	said	report	166
+Event	23	denounces	report	175
+Event	24	occupation	event	178
+Event	27	capture	event	246
+Event	31	battled	event	302
+Event	32	fights	event	312
+Event	33	killed	event	314
+Event	36	suggesting	report	333
+Event	37	detain	event	339
+Event	38	killed	event	345
+Event	39	attacks	event	347
+Event	40	clashes	event	361
+Event	41	said	report	371
+Event	42	killed	event	382
+Event	43	clashes	event	426
+Event	46	fight	event	446
+Event	47	killed	event	452
+Event	48	blasts	event	455
+Event	49	fighting	event	472
+Event	78	Asked	report	563
+Event	79	resist	event	567
+Event	80	arrest	event	573
+Event	70	quoted	report	610
+Event	71	saying	report	613
+Event	72	assassination	event	621
+Event	73	arrested	event	623
+Event	90	control	event	662
+Event	50	holding	event	668
+Event	91	patrolling	event	673
+Event	52	said	report	705
+Event	54	bloodshed	event	711
+Event	92	embark	event	748
+Event	93	actions	event	751
+Event	83	said	report	773
+Event	94	blood	event	782
+Event	85	said	report	831
+Event	86	calls	report	842
+Event	88	bombs	event	850
+Event	58	charges	event	875
+Event	59	involved	event	878
+Event	60	slaying	event	881
+Event	61	arrest	event	889
+Event	62	charges	event	900
+Event	63	protests	event	903
+Event	65	gunbattles	event	911
+Relation	4	3	in_reporting
+Relation	67	3	in_reporting
+Relation	7	6	subevent_of
+Relation	8	6	subevent_of
+Relation	9	10	subevent_of
+Relation	9	13	in_reporting
+Relation	10	6	member_of
+Relation	10	13	in_reporting
+Relation	11	7	member_of
+Relation	11	10	subevent_of
+Relation	11	13	in_reporting
+Relation	12	8	member_of
+Relation	12	10	subevent_of
+Relation	12	13	in_reporting
+Relation	14	89	subevent_of
+Relation	16	7	member_of
+Relation	16	89	subevent_of
+Relation	16	15	in_reporting
+Relation	17	8	member_of
+Relation	17	89	subevent_of
+Relation	17	15	in_reporting
+Relation	19	21	subevent_of
+Relation	19	22	in_reporting
+Relation	20	21	subevent_of
+Relation	20	22	in_reporting
+Relation	21	6	member_of
+Relation	21	22	in_reporting
+Relation	27	67	coreference
+Relation	31	6	member_of
+Relation	31	32	subevent_of
+Relation	33	32	subevent_of
+Relation	37	67	coreference
+Relation	38	39	subevent_of
+Relation	38	41	in_reporting
+Relation	39	41	in_reporting
+Relation	40	6	member_of
+Relation	40	41	in_reporting
+Relation	42	38	coreference
+Relation	43	39	coreference
+Relation	47	48	subevent_of
+Relation	49	31	coreference
+Relation	71	70	in_reporting
+Relation	72	71	in_reporting
+Relation	73	71	in_reporting
+Relation	54	52	in_reporting
+Relation	92	83	in_reporting
+Relation	93	83	in_reporting
+Relation	86	85	in_reporting
+Relation	88	85	in_reporting
+Relation	59	60	subevent_of
+Relation	62	58	coreference

@@ -1,0 +1,67 @@
+Text	Three Palestinian Protesters Wounded in . JERUSALEM , April 4 ( Xinhua ) . At least three Palestinians were wounded in East Jerusalem Saturday by Israeli soldiers as the Palestinians continued protesting the murder of Hamas bomb maker Muhi Sharif . Dozens of Palestinian youths held rally in the Abu Dis Arab village in East Jerusalem to protest against the killing of Sharif . The protesters later rioted by throwing stones at Israeli soldiers , who fired rubber bullets and tear gas to disperse them , Israel Radio reported . Despite Israel 's strong denial , Hamas has been accusing Israel of murdering Sharif , whose burned body was found inside a bombed car . Some reports said he was killed hours before the car bomb was set off to cover his assassination . At least three protesters were wounded by rubber bullets , but some reports put the number of injured at six . Protests were also held in Gaza and several towns in the West Bank . In Halhul between Jerusalem and Hebron , Israeli armed patrol vehicles came under stone attacks by Palestinians . The Israeli soldiers fired rubber bullets and tear gas in response . No injuries were reported . In Qalqilyah , Palestinian protesters clashed with Israeli soldiers by throwing stones . The rioting was brought control by Palestinian police , who arrived to separate the protesters from Israeli soldiers . In the biggest rally held in Gaza , over 1,000 pro-Hamas Palestinian students gathered at the campus of the Islamic University and later marched through downtown streets of the city . Protesters , waving the green Hamas flags , chanted anti-Israeli slogans and burned Israeli flags . They called on the Hamas military wing Izzedin Kassim to launch attacks against Israeli targets inside and outside Israel to avenge the death of Sharif , who was killed in a controversial car bombing in Ramallah last Sunday . Israeli security forces have been put on high alert across the country to prevent possible Hamas revenge attacks . 
+Event	1	Wounded	event	3
+Event	2	wounded	event	17
+Event	3	protesting	event	29
+Event	4	murder	event	31
+Event	42	held	event	42
+Event	43	rally	event	43
+Event	6	protest	event	54
+Event	7	killing	event	57
+Event	8	rioted	event	63
+Event	9	throwing	event	65
+Event	10	fired	event	72
+Event	11	disperse	event	79
+Event	12	reported	report	84
+Event	13	denial	report	89
+Event	14	accusing	report	94
+Event	15	murdering	event	97
+Event	16	said	report	111
+Event	17	killed	event	114
+Event	18	set	event	121
+Event	19	assassination	event	126
+Event	20	wounded	event	132
+Event	21	injured	event	144
+Event	41	Protests	event	147
+Event	44	held	event	150
+Event	23	attacks	event	174
+Event	24	fired	event	180
+Event	25	injuries	event	189
+Event	26	reported	report	191
+Event	27	clashed	event	197
+Event	28	throwing	event	202
+Event	29	rioting	event	205
+Event	46	control	event	208
+Event	45	rally	event	225
+Event	32	called	report	268
+Event	34	attacks	event	278
+Event	37	death	event	289
+Event	38	killed	event	295
+Event	39	bombing	event	300
+Event	40	attacks	event	322
+Relation	2	1	coreference
+Relation	6	3	coreference
+Relation	7	4	coreference
+Relation	8	12	in_reporting
+Relation	9	8	subevent_of
+Relation	9	12	in_reporting
+Relation	10	12	in_reporting
+Relation	11	12	in_reporting
+Relation	15	4	coreference
+Relation	15	14	in_reporting
+Relation	17	15	coreference
+Relation	17	16	in_reporting
+Relation	18	39	subevent_of
+Relation	18	16	in_reporting
+Relation	19	17	coreference
+Relation	19	16	in_reporting
+Relation	20	1	coreference
+Relation	21	20	coreference
+Relation	24	23	subevent_of
+Relation	25	23	subevent_of
+Relation	25	26	in_reporting
+Relation	28	27	subevent_of
+Relation	29	27	coreference
+Relation	37	4	coreference
+Relation	38	39	subevent_of
+Relation	38	37	coreference
+Relation	40	34	coreference

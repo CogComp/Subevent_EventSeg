@@ -1,0 +1,65 @@
+Text	Yemen Conflict Intensifies . Ignoring U.N. efforts to halt the war in Yemen , northern Yemeni ground forces backed by bombers have pushed closer to Aden , capital of the southern Yemeni secessionist regime , intensifying a conflict that has raised fears of instability and foreign intervention along the Persian Gulf oil routes . Arab and U.S. officials voiced concern that the six-week-old civil war , which has already destroyed Yemen 's four-year experiment with unity , could become an invitation to involvement by radical governments in Iran , Sudan and Libya on the side of Islamic militants who wield great influence in Sanaa , the northern capital . Saudi Arabia , the oil giant just north of Yemen with a history of involvement in Yemeni affairs and a large Yemeni community , has shown increasing nervousness over pursuit of the war by the northern government of President Ali Abdallah Salih despite a June 1 cease-fire brokered by the United Nations . Salih , who was president of the unified Yemen government from 1990 until the south broke away May 21 , has allied himself with a conservative Islamic party , Al Islah , that posted a strong showing in legislative elections last year . The increasingly bloody battle between Salih and southern leader Ali Salim Beidh , although still confined to a small , remote corner of the Arabian Peninsula on the Bab al-Mandeb Strait , thus has taken on regional dimensions and generated the concern voiced with growing urgency in Arab and Western capitals as northern forces move relentlessly toward Aden . Southern Yemeni leaders said 54 people were killed Thursday and Friday in bombing of besieged Aden . Officials quoted in news agency reports from the southern capital said the casualty toll is likely to rise . The northern Yemeni bombing raids appeared to be targeting Aden 's military airport . The facility , on the coastal fringe of the city , is southern Yemen 's most developed air base and the platform for its most effective air attacks against advancing northern ground forces . The northern troops have moved to within six miles of Aden , on a desert plain on the southern side of a forbidding mountain range that constituted a natural barrier . They also are approaching Mukalla , an oil port 300 miles east of Aden where Beidh set up his headquarters soon after the war broke out . In broadcasts on Sanaa radio monitored by news agencies , the north warned southern civilians Friday to stay away from strategic targets in Aden , including the south 's military headquarters , radio and television buildings and offices of the south 's ruling Socialist Party . This was taken as an indication more bombings are planned . The southern leadership , whose army has been outmanned and outgunned since the outbreak of hostilities May 4 , has given a proposed a plan to Lakhdar Ibrahimi , the U.N. envoy and troubleshooter , for 200 U.N. observers to enforce the cease-fire . But there has been no reaction from the northern forces . Ibrahimi , an Algerian aide to U.N. Secretary General Boutros Boutros - Ghali , has been moving between Sanaa and Aden and other Arab capitals of the Persian Gulf in an effort -- so far fruitless -- to engineer an effective cease-fire . `` The longer this lasts , the more scores to settle and the less likely it is to settle this peacefully . You do n't want to have a war raging in the Arabian peninsula , '' a Saudi diplomat in Washington cautioned . Robert Pelletreau , assistant secretary of state for the Middle East , said in congressional testimony Tuesday that there is considerable investment in Yemen by American companies , particularly involving oil production and exploration in northern and southern Yemen . `` We do not want to see Yemen become a source of instability in the region . We would not want to see the fighting produce an outflow of refugees , for example , that could become a destabilizing factor in that area of the world , '' Pelletreau said . Countries sponsoring Islamic militants in the Middle East , particularly Iran , have solicited followers by providing social services and religious comfort in crisis areas neglected by state institutions . This has been especially effective in areas of Lebanon , Egypt , Sudan and Algeria . Washington strongly backed the Yemeni union when it was formed . But Pelletreau 's testimony indicated that the war and other complexities in an evolving political configuration of the conservative north and the formerly Marxist south are delaying development of a clear-cut U.S. position on whether unity remains viable . Most Arab countries of the Persian Gulf , led by Saudi Arabia , have expressed support for Beidh 's breakaway government , concluding that Salih 's attempt to reimpose a unified government weighted with northern leaders and policies can not succeed . 
+Event	57	Conflict	event	1
+Event	3	war	event	9
+Event	60	pushed	event	21
+Event	4	conflict	event	36
+Event	52	intervention	event	45
+Event	6	voiced	report	56
+Event	7	war	event	62
+Event	9	involvement	event	80
+Event	10	involvement	event	120
+Event	12	war	event	138
+Event	16	battle	event	203
+Event	59	voiced	report	242
+Event	58	move	event	254
+Event	18	said	report	261
+Event	19	killed	event	265
+Event	20	bombing	event	270
+Event	21	quoted	report	275
+Event	22	said	report	284
+Event	23	casualty	event	286
+Event	24	raids	event	296
+Event	25	targeting	event	300
+Event	26	attacks	event	332
+Event	27	advancing	event	334
+Event	53	moved	event	342
+Event	28	approaching	event	371
+Event	30	war	event	391
+Event	35	bombings	event	446
+Event	56	planned	event	448
+Event	62	outmanned	event	457
+Event	63	outgunned	event	459
+Event	61	hostilities	event	464
+Event	40	war	event	572
+Event	41	cautioned	report	585
+Event	42	fighting	event	648
+Event	43	said	report	673
+Event	46	indicated	report	732
+Event	47	war	event	735
+Relation	3	57	coreference
+Relation	4	57	coreference
+Relation	7	3	coreference
+Relation	7	6	in_reporting
+Relation	9	52	coreference
+Relation	9	6	in_reporting
+Relation	12	3	coreference
+Relation	16	3	coreference
+Relation	58	60	coreference
+Relation	19	23	member_of
+Relation	19	20	subevent_of
+Relation	19	18	in_reporting
+Relation	20	3	subevent_of
+Relation	20	18	in_reporting
+Relation	22	21	coreference
+Relation	23	22	in_reporting
+Relation	24	3	subevent_of
+Relation	25	24	subevent_of
+Relation	53	58	coreference
+Relation	30	3	coreference
+Relation	35	3	subevent_of
+Relation	56	35	subevent_of
+Relation	40	41	in_reporting
+Relation	42	3	coreference
+Relation	42	43	in_reporting
+Relation	47	3	coreference
+Relation	47	46	in_reporting

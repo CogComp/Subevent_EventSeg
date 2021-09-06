@@ -1,0 +1,72 @@
+Text	Kurdish militant group claims responsibility for Istanbul blast . ISTANBUL , Turkey . A Kurdish militant group claimed responsibility for a bomb blast near a bus stop in Istanbul Friday that killed one person and injured 13 others , saying the attack was in response to recent violence in southeastern Turkey . The bomb blast follows three days of some of the worst street violence in overwhelmingly Kurdish southeastern Turkey in a decade . Seven people were killed during the rioting , including a 3-year-old boy killed Friday . The fighting pitted Kurds against Turkish police and paramilitary police . Twenty-one Kurdish rebels have also been killed in fighting in the southeast during the past few days . " From now on , every attack against our people will be met immediately by even more violent acts , " the Kurdistan Freedom Falcons said in an e-mail to journalists . " We will start to harm not just property but lives too . With our actions we will turn Turkey into hell . The bomb attack in Kocamustafapasa , carried out by our action team , was just a warning " . . The bomb went off in a garbage can in the Kocamustafapasa district of Istanbul . A police official , speaking on condition of anonymity , said the bomb was believed to have contained plastic explosives . Turkish rules bar civil servants from speaking to journalists on the record without prior authorization . The Kurdistan Freedom Falcons is a hardline group believed to be linked to the main Kurdish guerrilla group , the Kurdistan Workers Party , or PKK . The shadowy group has claimed responsibility for a number of bomb attacks in Turkey , including a blast in the Aegean resort town of Cesme last summer that wounded 21 people . Istanbul Gov. Muammer Guler said the man killed in the Istanbul blast was a street vendor who sold sesame-coated pretzels . A child was among the injured , CNN-Turk television reported . Video footage broadcast on CNN-Turk showed debris scattered across a residential street in Istanbul , covering the sidewalk and parked cars . Ambulances with flashing lights moved down the street while police carrying submachine guns tried to keep crowds of people from the site . A bomb disposal expert wearing protective gear checked nearby garbage canisters . Earlier on Friday , bomb disposal teams destroyed a remote-controlled bomb containing C-4 plastic explosives in the Aegean port city of Izmir , NTV television reported . The bomb was hidden inside a flower pot left by the side of a road frequently used by police , NTV said . It was discovered by a woman who took the pot home . Kurdish rebels have carried out attacks using C-4 explosives in the past . 
+Event	1	claims	report	3
+Event	2	blast	event	7
+Event	3	claimed	report	15
+Event	4	blast	event	20
+Event	5	killed	event	29
+Event	6	injured	event	33
+Event	7	saying	report	37
+Event	8	attack	event	39
+Event	9	violence	event	45
+Event	10	blast	event	51
+Event	11	violence	event	61
+Event	12	killed	event	73
+Event	13	rioting	event	76
+Event	14	killed	event	82
+Event	15	fighting	event	85
+Event	16	killed	event	100
+Event	17	fighting	event	102
+Event	39	attack	event	117
+Event	40	acts	event	129
+Event	41	said	report	136
+Event	42	harm	event	147
+Event	43	actions	event	156
+Event	18	attack	event	165
+Event	44	carried	event	169
+Event	19	went	event	183
+Event	19	off	event	184
+Event	22	claimed	report	260
+Event	23	attacks	event	267
+Event	24	blast	event	273
+Event	25	wounded	event	284
+Event	26	said	report	291
+Event	27	killed	event	294
+Event	28	blast	event	298
+Event	32	destroyed	event	378
+Event	33	reported	report	396
+Event	34	hidden	event	400
+Event	35	said	report	418
+Event	38	attacks	event	435
+Relation	2	23	member_of
+Relation	3	1	coreference
+Relation	4	2	coreference
+Relation	5	4	subevent_of
+Relation	6	4	subevent_of
+Relation	8	2	coreference
+Relation	8	7	in_reporting
+Relation	9	7	in_reporting
+Relation	10	2	coreference
+Relation	11	9	coreference
+Relation	12	13	subevent_of
+Relation	13	9	member_of
+Relation	14	12	member_of
+Relation	15	13	coreference
+Relation	16	17	subevent_of
+Relation	17	9	member_of
+Relation	39	41	in_reporting
+Relation	40	41	in_reporting
+Relation	42	40	member_of
+Relation	42	41	in_reporting
+Relation	43	40	coreference
+Relation	43	41	in_reporting
+Relation	18	8	coreference
+Relation	18	41	in_reporting
+Relation	19	18	subevent_of
+Relation	24	23	member_of
+Relation	25	24	subevent_of
+Relation	27	5	coreference
+Relation	27	26	in_reporting
+Relation	28	2	coreference
+Relation	28	26	in_reporting
+Relation	32	33	in_reporting
+Relation	34	35	in_reporting

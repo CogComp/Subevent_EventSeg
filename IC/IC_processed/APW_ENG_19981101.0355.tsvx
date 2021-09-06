@@ -1,0 +1,65 @@
+Text	Hamas makes first direct threat against Arafat government Eds : UPDATES throughout , moving up ` treason ' quote , adding other . JERUSALEM ( AP ) . Hamas ' military wing on Sunday made its first direct threat against the government of Yasser Arafat , accusing the Palestinian leader of treason in a move that could signal trouble for the recent Mideast peace agreement . All-out conflict between Arafat 's government and the radical Islamic group could make it extremely difficult to move ahead with the implementation of the Israeli-Palestinian land-for-security agreement signed Oct. 23 in Washington . The threat comes three days after Arafat put Hamas ' spiritual leader , Sheik Ahmed Yassin , under house arrest , and as the Palestinians were said to be hunting a top Hamas military leader . `` There is no doubt that Arafat and his repressive security apparatus have reached the point of treason , '' said the leaflet signed by the Hamas military arm , the Izzedine al Qassem brigades , and faxed to news organizations . `` The beginning of infighting has appeared , and no one can put out its fire '' . In the leaflet , Hamas appealed to Arafat to halt an ongoing crackdown against `` our sons and fighters '' in order to spare Palestinians `` the horrors ... of civil war '' . Israeli Prime Minister Benjamin Netanyahu 's office declined to comment on the leaflet until its authenticity could be verified to its satisfaction . However , the ornate language , style and phrasing were extremely similar to past communications from Hamas ' military wing . A senior Palestinian security official , speaking on condition of anonymity , also declined immediate comment . Only last week , Yassin said Hamas does not want a bloody confrontation with the Palestinian Authority . But that was before the sheik was put under house arrest following a Hamas claim of responsibility for a failed suicide bombing on Thursday aimed at Jewish settler children in the Gaza Strip . None of the children was hurt , but an Israeli soldier was killed when the military jeep he was riding in intercepted the explosives-rigged car . In the leaflet , Hamas claimed the army jeep , not the school bus , was its real target . `` We would never target children or the elderly , '' it said . Until now , Hamas has insisted that its quarrel is only with Israel , with which it vehemently rejects any peace . However , it has denounced the peace accord 's call for Arafat 's government to move concertedly against Islamic militants . Arafat launched the wide-ranging crackdown against Hamas even before Thursday 's attack . In recent days , more than 100 Hamas activists have been rounded up , including several top leaders . Among those jailed was the group 's spokesman , Mahmoud Zahar . Israel has demanded the dismantling of Hamas ' military wing and also the arrest of Mohammed Deif , one of its leaders . Deif , who is blamed for several terror attacks , has been in hiding in Gaza for three years . The Gaza Strip 's head of security , Abdel Razak Majaydeh , said the Palestinian Authority was working to apprehend Deif , Israel radio reported . `` Anyone who allows himself to plan or conspire against the hero Deif or any of our holy warriors will pay a high price , '' the leaflet said . `` There is no room for self-control or silence any more '' . Earlier Sunday , before the leaflet appeared , chief Palestinian negotiator Saeb Erekat expressed hopes that there would not be an open clash with Hamas . `` I hope all of the 26 Palestinian parties understand that everyone is allowed to work within the rule of law . If they oppose ( the agreement ) , that 's their business , but they ca n't do it violently and cross the red line , '' he said . Not everyone in Arafat 's government has supported the crackdown . Communications minister Imad Falouji , a former member of Hamas , on Saturday said he opposed the arrests and would visit Yassin at home . 
+Event	1	threat	event	4
+Event	3	threat	event	36
+Event	8	conflict	event	64
+Event	10	threat	event	96
+Event	11	house	event	113
+Event	12	said	report	121
+Event	13	hunting	event	124
+Event	19	appealed	report	193
+Event	52	crackdown	event	200
+Event	21	war	event	219
+Event	22	said	report	284
+Event	53	confrontation	event	291
+Event	23	arrest	event	306
+Event	24	claim	report	310
+Event	25	bombing	event	317
+Event	26	aimed	event	320
+Event	27	hurt	event	334
+Event	28	killed	event	341
+Event	54	intercepted	event	350
+Event	31	target	event	377
+Event	32	said	report	385
+Event	55	crackdown	event	431
+Event	34	attack	event	438
+Event	35	rounded	event	450
+Event	36	jailed	event	459
+Event	37	demanded	report	470
+Event	38	arrest	event	481
+Event	39	blamed	report	494
+Event	40	attacks	event	498
+Event	58	hiding	event	503
+Event	59	said	report	521
+Event	57	apprehend	event	528
+Event	60	reported	report	533
+Event	41	expressed	report	588
+Event	42	clash	event	597
+Event	56	crackdown	event	659
+Event	47	said	report	673
+Event	49	arrests	event	677
+Relation	3	1	coreference
+Relation	8	7	coreference
+Relation	10	3	coreference
+Relation	13	52	subevent_of
+Relation	13	12	in_reporting
+Relation	53	22	in_reporting
+Relation	23	11	coreference
+Relation	25	24	in_reporting
+Relation	26	25	subevent_of
+Relation	27	25	subevent_of
+Relation	28	54	subevent_of
+Relation	54	25	subevent_of
+Relation	31	32	in_reporting
+Relation	55	52	coreference
+Relation	34	25	coreference
+Relation	35	55	subevent_of
+Relation	36	35	member_of
+Relation	36	55	subevent_of
+Relation	38	37	in_reporting
+Relation	40	39	in_reporting
+Relation	59	60	in_reporting
+Relation	57	38	coreference
+Relation	57	59	in_reporting
+Relation	42	41	in_reporting
+Relation	56	55	coreference
+Relation	49	47	in_reporting

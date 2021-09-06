@@ -1,0 +1,50 @@
+Text	HAMAS sends Netanyahu conditions for halting attacks . The Islamic movement HAMAS issued a ceasefire offer Thursday to Prime Minister Benjamin Netanyahu , offering to suspend attacks if his new right-wing government agrees to a long list of demands , including the release of Palestinian prisoners . In what the group described as a " golden opportunity " for Netanyahu , the Islamic Resistance Movement ( HAMAS ) said in a statement faxed to news organizations that it was willing to order a " global " freeze in its military activities if its conditions were met . The movement , which was responsible for most suicide bombings in Israel but has not carried out any known attacks since early March , centered its demands on a halt to all " offensive " Israeli actions against Palestinians and on the release of Palestinian prisoners . Taking up the terms of similar truce offers issued earlier this year , the statement insisted on an " end to Zionist terrorism in all its forms against HAMAS and the Qassam Brigades , " the movement 's military wing . It also called for Israel to lift the military closure imposed on the West Bank and Gaza Strip following a spate of suicide bombings by HAMAS and the smaller Islamic Jihad group in February and March which killed 58 people . The statement signed by the Qassam Brigades , and a separate communique addressed to the self-rule Palestinian Authority led by Yasser Arafat , demanded that all militants arrested since those attacks be freed . Israel and the Palestinian Authority have arrested several hundred suspected members of HAMAS and the Islamic Jihad since the bombings . HAMAS also demanded the release of Sheikh Ahmad Yassin , the founder and spiritual leader of the fundamentalist movement who has been serving a life sentence in Israeli prisons since 1989 . " This is a golden opportunity waving on the visible horizon , " the statement said . " Will Israel take this opportunity to plant the seeds of security and stability and avoid the suffering , fear and terror for its people , the scenes of bodies and bullets and explosions , or will it be stupid and plunge the entire region into the flames of old war and destructive conflict , " it asked . " The Qassam brigades maintain the absolute right to make a suitable response ... to any Israeli violation of the above conditions , " it said . The suicide bombings in February and March were widely seen as having ensured Netanyahu 's election victory last month over incumbent prime minsiter Shimon Peres . 
+Event	2	attacks	event	6
+Event	52	offering	report	22
+Event	7	attacks	event	25
+Event	9	release	event	41
+Event	40	said	report	66
+Event	41	order	report	79
+Event	12	activities	event	88
+Event	13	bombings	event	103
+Event	46	carried	event	109
+Event	15	attacks	event	113
+Event	17	actions	event	130
+Event	18	release	event	136
+Event	20	insisted	report	155
+Event	22	terrorism	event	162
+Event	51	called	report	182
+Event	50	closure	event	189
+Event	27	bombings	event	203
+Event	28	killed	event	217
+Event	30	demanded	report	243
+Event	31	arrested	event	247
+Event	32	attacks	event	250
+Event	33	freed	event	252
+Event	34	arrested	event	259
+Event	35	bombings	event	272
+Event	36	demanded	report	275
+Event	37	release	event	277
+Event	48	serving	event	295
+Event	42	sentence	event	298
+Event	49	explosions	event	353
+Event	43	war	event	370
+Event	44	conflict	event	373
+Event	45	asked	report	377
+Event	39	bombings	event	406
+Relation	7	12	member_of
+Relation	7	2	coreference
+Relation	41	40	in_reporting
+Relation	12	40	in_reporting
+Relation	13	7	member_of
+Relation	17	12	coreference
+Relation	18	9	coreference
+Relation	22	17	coreference
+Relation	27	13	member_of
+Relation	28	27	subevent_of
+Relation	32	27	coreference
+Relation	33	18	coreference
+Relation	34	31	coreference
+Relation	35	32	coreference
+Relation	37	9	member_of
+Relation	39	27	coreference

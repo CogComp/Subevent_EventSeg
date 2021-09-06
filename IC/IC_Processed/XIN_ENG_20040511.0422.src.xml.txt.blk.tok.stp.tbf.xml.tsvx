@@ -1,0 +1,191 @@
+Text	Madrid blasts suspect investigated last year for Casablanca attacks . MADRID , May 11 ( Xinhua ) . One of the alleged mastermind behind the March 11 Madrid bombings was under investigation last year for his alleged ties with the Casablanca terror attacks last May , which killed 45 people , including 12 suicide bombers , local media reported Tuesday . The Moroccan Jamal Zougam , 30 , whose telephone had been wiretapped by the Spanish police nine months ago , was arrested two days after the Madrid bombings , along with two other Moroccans , who belonged to a radical group called the Soldiers of Ala , a cell operated in Spain with close links to Osama Bin Laden 's al-Qaida . Since 2001 , Zougam had been under investigation until arrested as key suspect of the Madrid attacks , which killed 191 people and wounded more than 2,000 . Zougam was a longtime resident of Spain and was in Morocco shortly before the bombing in Casablanca . His apartment in Spain was searched in August 2001 . Police found the phone numbers of several al-Qaida members but Zougam was not arrested . Police said Zougam usually spent nights in different places in Madrid to avoid investigations . Soldiers of Ala , a group formed by young radicals of the Islamic Alliance , was founded in 1995 by Imad Eddin Barakat Yarkas , alias Abu Dahdah . Its members distributed magazines and publications by Osama Bin Laden , in different religious centers in the capital . 
+Event	1	blasts	event	7
+Event	2	investigated	event	22
+Event	3	attacks	event	60
+Event	4	bombings	event	156
+Event	5	investigation	event	175
+Event	6	attacks	event	247
+Event	7	killed	event	272
+Event	8	reported	report	334
+Event	9	arrested	event	466
+Event	10	bombings	event	501
+Event	11	investigation	event	716
+Event	12	arrested	event	736
+Event	13	attacks	event	774
+Event	14	killed	event	790
+Event	15	wounded	event	812
+Event	16	bombing	event	916
+Event	17	arrested	event	1071
+Event	18	said	report	1089
+Event	19	investigations	event	1161
+Relation	1	2	NoRel	true	blasts	investigated
+Relation	1	3	NoRel	true	blasts	attacks
+Relation	1	4	Coref	true	blasts	bombings
+Relation	1	5	NoRel	true	blasts	investigation
+Relation	1	6	NoRel	true	blasts	attacks
+Relation	1	7	NoRel	true	blasts	killed
+Relation	1	8	NoRel	true	blasts	reported
+Relation	1	9	NoRel	true	blasts	arrested
+Relation	1	10	Coref	true	blasts	bombings
+Relation	1	11	NoRel	true	blasts	investigation
+Relation	1	12	NoRel	true	blasts	arrested
+Relation	1	13	Coref	true	blasts	attacks
+Relation	1	14	SuperSub	true	blasts	killed
+Relation	1	15	SuperSub	true	blasts	wounded
+Relation	1	16	NoRel	true	blasts	bombing
+Relation	1	17	NoRel	true	blasts	arrested
+Relation	1	18	NoRel	true	blasts	said
+Relation	1	19	NoRel	true	blasts	investigations
+Relation	2	3	NoRel	true	investigated	attacks
+Relation	2	4	NoRel	true	investigated	bombings
+Relation	2	5	Coref	true	investigated	investigation
+Relation	2	6	NoRel	true	investigated	attacks
+Relation	2	7	NoRel	true	investigated	killed
+Relation	2	8	NoRel	true	investigated	reported
+Relation	2	9	SuperSub	true	investigated	arrested
+Relation	2	10	NoRel	true	investigated	bombings
+Relation	2	11	Coref	true	investigated	investigation
+Relation	2	12	SuperSub	true	investigated	arrested
+Relation	2	13	NoRel	true	investigated	attacks
+Relation	2	14	NoRel	true	investigated	killed
+Relation	2	15	NoRel	true	investigated	wounded
+Relation	2	16	NoRel	true	investigated	bombing
+Relation	2	17	SuperSub	true	investigated	arrested
+Relation	2	18	NoRel	true	investigated	said
+Relation	2	19	SuperSub	true	investigated	investigations
+Relation	3	4	NoRel	true	attacks	bombings
+Relation	3	5	NoRel	true	attacks	investigation
+Relation	3	6	Coref	true	attacks	attacks
+Relation	3	7	SuperSub	true	attacks	killed
+Relation	3	8	NoRel	true	attacks	reported
+Relation	3	9	NoRel	true	attacks	arrested
+Relation	3	10	NoRel	true	attacks	bombings
+Relation	3	11	NoRel	true	attacks	investigation
+Relation	3	12	NoRel	true	attacks	arrested
+Relation	3	13	NoRel	true	attacks	attacks
+Relation	3	14	NoRel	true	attacks	killed
+Relation	3	15	NoRel	true	attacks	wounded
+Relation	3	16	Coref	true	attacks	bombing
+Relation	3	17	NoRel	true	attacks	arrested
+Relation	3	18	NoRel	true	attacks	said
+Relation	3	19	NoRel	true	attacks	investigations
+Relation	4	5	NoRel	true	bombings	investigation
+Relation	4	6	NoRel	true	bombings	attacks
+Relation	4	7	NoRel	true	bombings	killed
+Relation	4	8	NoRel	true	bombings	reported
+Relation	4	9	NoRel	true	bombings	arrested
+Relation	4	10	Coref	true	bombings	bombings
+Relation	4	11	NoRel	true	bombings	investigation
+Relation	4	12	NoRel	true	bombings	arrested
+Relation	4	13	Coref	true	bombings	attacks
+Relation	4	14	SuperSub	true	bombings	killed
+Relation	4	15	SuperSub	true	bombings	wounded
+Relation	4	16	NoRel	true	bombings	bombing
+Relation	4	17	NoRel	true	bombings	arrested
+Relation	4	18	NoRel	true	bombings	said
+Relation	4	19	NoRel	true	bombings	investigations
+Relation	5	6	NoRel	true	investigation	attacks
+Relation	5	7	NoRel	true	investigation	killed
+Relation	5	8	NoRel	true	investigation	reported
+Relation	5	9	SuperSub	true	investigation	arrested
+Relation	5	10	NoRel	true	investigation	bombings
+Relation	5	11	Coref	true	investigation	investigation
+Relation	5	12	SuperSub	true	investigation	arrested
+Relation	5	13	NoRel	true	investigation	attacks
+Relation	5	14	NoRel	true	investigation	killed
+Relation	5	15	NoRel	true	investigation	wounded
+Relation	5	16	NoRel	true	investigation	bombing
+Relation	5	17	SuperSub	true	investigation	arrested
+Relation	5	18	NoRel	true	investigation	said
+Relation	5	19	SuperSub	true	investigation	investigations
+Relation	6	7	SuperSub	true	attacks	killed
+Relation	6	8	NoRel	true	attacks	reported
+Relation	6	9	NoRel	true	attacks	arrested
+Relation	6	10	NoRel	true	attacks	bombings
+Relation	6	11	NoRel	true	attacks	investigation
+Relation	6	12	NoRel	true	attacks	arrested
+Relation	6	13	NoRel	true	attacks	attacks
+Relation	6	14	NoRel	true	attacks	killed
+Relation	6	15	NoRel	true	attacks	wounded
+Relation	6	16	Coref	true	attacks	bombing
+Relation	6	17	NoRel	true	attacks	arrested
+Relation	6	18	NoRel	true	attacks	said
+Relation	6	19	NoRel	true	attacks	investigations
+Relation	7	8	NoRel	true	killed	reported
+Relation	7	9	NoRel	true	killed	arrested
+Relation	7	10	NoRel	true	killed	bombings
+Relation	7	11	NoRel	true	killed	investigation
+Relation	7	12	NoRel	true	killed	arrested
+Relation	7	13	NoRel	true	killed	attacks
+Relation	7	14	NoRel	true	killed	killed
+Relation	7	15	NoRel	true	killed	wounded
+Relation	7	16	SubSuper	true	killed	bombing
+Relation	7	17	NoRel	true	killed	arrested
+Relation	7	18	NoRel	true	killed	said
+Relation	7	19	NoRel	true	killed	investigations
+Relation	8	9	NoRel	true	reported	arrested
+Relation	8	10	NoRel	true	reported	bombings
+Relation	8	11	NoRel	true	reported	investigation
+Relation	8	12	NoRel	true	reported	arrested
+Relation	8	13	NoRel	true	reported	attacks
+Relation	8	14	NoRel	true	reported	killed
+Relation	8	15	NoRel	true	reported	wounded
+Relation	8	16	NoRel	true	reported	bombing
+Relation	8	17	NoRel	true	reported	arrested
+Relation	8	18	NoRel	true	reported	said
+Relation	8	19	NoRel	true	reported	investigations
+Relation	9	10	NoRel	true	arrested	bombings
+Relation	9	11	SubSuper	true	arrested	investigation
+Relation	9	12	Coref	true	arrested	arrested
+Relation	9	13	NoRel	true	arrested	attacks
+Relation	9	14	NoRel	true	arrested	killed
+Relation	9	15	NoRel	true	arrested	wounded
+Relation	9	16	NoRel	true	arrested	bombing
+Relation	9	17	NoRel	true	arrested	arrested
+Relation	9	18	NoRel	true	arrested	said
+Relation	9	19	NoRel	true	arrested	investigations
+Relation	10	11	NoRel	true	bombings	investigation
+Relation	10	12	NoRel	true	bombings	arrested
+Relation	10	13	Coref	true	bombings	attacks
+Relation	10	14	SuperSub	true	bombings	killed
+Relation	10	15	SuperSub	true	bombings	wounded
+Relation	10	16	NoRel	true	bombings	bombing
+Relation	10	17	NoRel	true	bombings	arrested
+Relation	10	18	NoRel	true	bombings	said
+Relation	10	19	NoRel	true	bombings	investigations
+Relation	11	12	SuperSub	true	investigation	arrested
+Relation	11	13	NoRel	true	investigation	attacks
+Relation	11	14	NoRel	true	investigation	killed
+Relation	11	15	NoRel	true	investigation	wounded
+Relation	11	16	NoRel	true	investigation	bombing
+Relation	11	17	SuperSub	true	investigation	arrested
+Relation	11	18	NoRel	true	investigation	said
+Relation	11	19	SuperSub	true	investigation	investigations
+Relation	12	13	NoRel	true	arrested	attacks
+Relation	12	14	NoRel	true	arrested	killed
+Relation	12	15	NoRel	true	arrested	wounded
+Relation	12	16	NoRel	true	arrested	bombing
+Relation	12	17	NoRel	true	arrested	arrested
+Relation	12	18	NoRel	true	arrested	said
+Relation	12	19	NoRel	true	arrested	investigations
+Relation	13	14	SuperSub	true	attacks	killed
+Relation	13	15	SuperSub	true	attacks	wounded
+Relation	13	16	NoRel	true	attacks	bombing
+Relation	13	17	NoRel	true	attacks	arrested
+Relation	13	18	NoRel	true	attacks	said
+Relation	13	19	NoRel	true	attacks	investigations
+Relation	14	15	NoRel	true	killed	wounded
+Relation	14	16	NoRel	true	killed	bombing
+Relation	14	17	NoRel	true	killed	arrested
+Relation	14	18	NoRel	true	killed	said
+Relation	14	19	NoRel	true	killed	investigations
+Relation	15	16	NoRel	true	wounded	bombing
+Relation	15	17	NoRel	true	wounded	arrested
+Relation	15	18	NoRel	true	wounded	said
+Relation	15	19	NoRel	true	wounded	investigations
+Relation	16	17	NoRel	true	bombing	arrested
+Relation	16	18	NoRel	true	bombing	said
+Relation	16	19	NoRel	true	bombing	investigations
+Relation	17	18	NoRel	true	arrested	said
+Relation	17	19	NoRel	true	arrested	investigations
+Relation	18	19	NoRel	true	said	investigations

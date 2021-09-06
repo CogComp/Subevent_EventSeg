@@ -1,0 +1,45 @@
+Text	Kurdish militants claim bombing in Istanbul last week , vow to increase violence . ISTANBUL , Turkey . A Kurdish militant group on Tuesday claimed responsibility for a recent bombing at a sidewalk cafe in Istanbul and vowed to further increase bloodshed in Turkey . The Kurdistan Freedom Falcons warned in the message on their Web site that " bombs will explode in Turkey , not a single day will pass in peace " . . The bombing last Sunday in Bakirkoy injured some 30 people , most of them hurt by flying glass . No reason was given for why the group waited more than a week to claim responsibility . The Kurdistan Freedom Falcons , who go by the Kurdish acronym TAK , have claimed numerous bombings in Turkey , including attacks that killed tourists at an Aegean resort last summer . They stated in a recent posting that the tourism industry was one of their primary targets . " We will continue to increase the violence and to obey no rules , " the group said Tuesday . Kurdish militants have been fighting for autonomy mainly in southeastern Turkey since 1984 , though TAK has concentrated its attacks on the large western cities and tourism centers . The violence over more than two decades has killed some 37,000 people . 
+Event	1	claim	report	2
+Event	2	bombing	event	3
+Event	27	vow	report	9
+Event	3	violence	event	12
+Event	4	claimed	report	22
+Event	5	bombing	event	27
+Event	6	vowed	report	35
+Event	26	bloodshed	event	39
+Event	7	warned	report	46
+Event	8	explode	event	58
+Event	10	bombing	event	72
+Event	11	injured	event	77
+Event	12	hurt	event	85
+Event	13	claim	report	103
+Event	14	claimed	report	119
+Event	15	bombings	event	121
+Event	16	attacks	event	126
+Event	17	killed	event	128
+Event	20	violence	event	159
+Event	21	said	report	169
+Event	22	fighting	event	175
+Event	23	attacks	event	190
+Event	24	violence	event	200
+Event	25	killed	event	207
+Relation	2	1	in_reporting
+Relation	3	27	in_reporting
+Relation	5	15	member_of
+Relation	5	2	coreference
+Relation	5	4	in_reporting
+Relation	26	3	coreference
+Relation	26	6	in_reporting
+Relation	8	3	subevent_of
+Relation	8	7	in_reporting
+Relation	10	5	coreference
+Relation	11	10	subevent_of
+Relation	12	11	member_of
+Relation	15	14	in_reporting
+Relation	16	15	member_of
+Relation	17	16	subevent_of
+Relation	20	3	coreference
+Relation	20	21	in_reporting
+Relation	23	15	coreference
+Relation	24	22	coreference
+Relation	25	24	subevent_of

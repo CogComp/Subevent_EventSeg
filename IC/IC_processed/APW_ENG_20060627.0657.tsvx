@@ -1,0 +1,94 @@
+Text	Kurdish rebel group claims explosion that killed foreign tourists in Turkey . ISTANBUL , Turkey . A Kurdish rebel group said it was responsible for an explosion over the weekend that killed four people , including three foreign tourists , but local authorities insisted on Tuesday that the blast was caused by an exploding gas canister . The Kurdistan Freedom Falcons rebel group claimed responsibility for the explosion in a call to the pro-Kurdish Firat news agency , warning tourists not to come to Turkey , the news agency said . But authorities denied the claims . " It was n't that . It was a gas canister explosion , " said Guzide Ormeci , a spokeswoman for the governor 's office of the Mediterranean resort town of Antalya . Turkish authorities are reluctant to publicize attacks at the height of the tourism season in Turkey . After a bombing in Istanbul earlier this month , the police chief asked journalists not to " exaggerate " the incident " because the tourist season is coming up " . . Authorities later said that explosion was caused by a bomb in a trash can , which the Kurdistan Freedom Falcons also claimed . The explosion on Sunday occurred at a restaurant near a waterfall in Manavgat , a popular tourist district of Antalya . Those killed included a Norwegian , a Hungarian and a Turkish waiter , authorities have said . Local official Fikret Dayioglu said Tuesday that the fourth victim , previously believed to be a Russian , was in fact a 42-year-old Dutch woman . The Vatan newspaper said security cameras near the waterfall showed two people standing watch as another put a package into a trash container some 20 minutes before the explosion . The newspaper 's claims could not be independently verified , and Vatan did not publish pictures from the security cameras . The Kurdistan Freedom Falcons have claimed responsibility for several fires , sabotage attacks and explosions , but authorities have either denied or failed to verify those claims . Kurdish rebels have been fighting for autonomy in Turkey since 1984 , and some 37,000 people have been killed . Most of the fighting has occurred in the Kurdish-majority southeast , where deadly clashes between rebels and Turkish soldiers are frequent . The Kurdistan Freedom Falcons appear to be a new and particularly violent group , which has vowed repeatedly to bring the fight to Turkey 's cities and tourist areas . Separately , no official reason has yet been given for the massive fire in May that destroyed much of the cargo section at Istanbul 's airport , which the Kurdistan Freedom Falcons also claimed . Also Tuesday , suspected Kurdish rebels exploded a remote-controlled bomb on a railway in eastern Turkey , causing damage to the line , the state-run Anatolia news agency reported . The explosion came just after a passenger train had passed , the agency said . 
+Event	1	claims	report	3
+Event	2	explosion	event	4
+Event	3	killed	event	6
+Event	4	said	report	18
+Event	5	explosion	event	24
+Event	6	killed	event	29
+Event	7	insisted	report	41
+Event	8	blast	event	46
+Event	10	claimed	report	60
+Event	11	explosion	event	64
+Event	13	said	report	86
+Event	62	denied	report	89
+Event	61	claims	event	91
+Event	14	explosion	event	102
+Event	15	said	report	105
+Event	16	publicize	report	128
+Event	17	attacks	event	129
+Event	18	bombing	event	141
+Event	19	asked	report	151
+Event	21	incident	event	159
+Event	22	said	report	171
+Event	23	explosion	event	173
+Event	24	claimed	report	190
+Event	25	explosion	event	192
+Event	26	killed	event	212
+Event	27	said	report	226
+Event	30	said	report	255
+Event	64	standing	event	264
+Event	63	put	event	268
+Event	34	explosion	event	280
+Event	35	claimed	report	306
+Event	60	fires	event	310
+Event	36	attacks	event	313
+Event	37	explosions	event	315
+Event	38	denied	report	321
+Event	39	verify	report	325
+Event	40	claims	report	327
+Event	41	fighting	event	332
+Event	42	killed	event	346
+Event	43	fighting	event	350
+Event	44	clashes	event	360
+Event	45	vowed	report	384
+Event	46	fight	event	389
+Event	59	fire	event	409
+Event	47	destroyed	event	413
+Event	48	claimed	report	430
+Event	49	exploded	event	437
+Event	50	damage	event	449
+Event	51	reported	report	459
+Event	52	explosion	event	461
+Event	54	said	report	473
+Relation	2	17	member_of
+Relation	2	1	in_reporting
+Relation	3	2	subevent_of
+Relation	5	2	coreference
+Relation	5	4	in_reporting
+Relation	6	3	coreference
+Relation	6	4	in_reporting
+Relation	8	5	coreference
+Relation	8	7	in_reporting
+Relation	10	13	in_reporting
+Relation	11	8	coreference
+Relation	11	13	in_reporting
+Relation	14	2	coreference
+Relation	14	15	in_reporting
+Relation	18	17	member_of
+Relation	21	18	coreference
+Relation	21	19	in_reporting
+Relation	23	18	coreference
+Relation	23	22	in_reporting
+Relation	25	5	coreference
+Relation	26	3	coreference
+Relation	26	27	in_reporting
+Relation	34	25	coreference
+Relation	34	30	in_reporting
+Relation	60	35	in_reporting
+Relation	36	35	in_reporting
+Relation	37	35	in_reporting
+Relation	40	35	coreference
+Relation	42	41	subevent_of
+Relation	43	41	coreference
+Relation	44	43	subevent_of
+Relation	46	43	coreference
+Relation	46	45	in_reporting
+Relation	59	60	member_of
+Relation	59	48	in_reporting
+Relation	47	59	subevent_of
+Relation	47	48	in_reporting
+Relation	49	52	coreference
+Relation	49	51	in_reporting
+Relation	50	49	subevent_of
+Relation	50	51	in_reporting
+Relation	52	54	in_reporting

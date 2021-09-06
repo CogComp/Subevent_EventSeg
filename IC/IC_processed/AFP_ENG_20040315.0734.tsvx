@@ -1,0 +1,32 @@
+Text	Suspected Al-Qaeda cell leader said to condemn Madrid attacks ( ADDS background ) . A man currently detained by Spain on suspicion of being the ringleader of an Al-Qaeda cell in the country , Imad Eddin Barakat Yarkas , alias Abu Dahdah , Monday condemned as an " atrocious crime " last week 's train bombings in Madrid , in a letter published by his lawyer . Spanish police had dismantled the 18-men cell in late 2001 . Abu Dahdah has been detained in a Spanish prison since November 2001 . He said the train bombings Thursday which killed 200 people and left nearly 1,500 others wounded were " a savage and indiscriminate act untypical of a good Muslim " . He also called on judicial officials to investigate the bombings carefully . Abu Dahdah and two other suspects who are also detained , Ghasoub al Abrash Ghalyoun , who extensively filmed the Twin Towers in New York , and Driss Chebli are accused of direct involvement with the September 11 attacks in New York and Washington . 
+Event	2	condemn	report	6
+Event	3	attacks	event	8
+Event	4	detained	event	16
+Event	5	condemned	report	43
+Event	21	crime	event	48
+Event	6	bombings	event	54
+Event	8	detained	event	79
+Event	9	said	report	88
+Event	10	bombings	event	91
+Event	11	killed	event	94
+Event	12	wounded	event	102
+Event	22	act	event	109
+Event	13	called	report	118
+Event	19	investigate	event	123
+Event	14	bombings	event	125
+Event	15	detained	event	136
+Event	16	accused	report	157
+Event	17	involvement	event	160
+Event	18	attacks	event	165
+Relation	3	1	in_reporting
+Relation	6	3	coreference
+Relation	8	15	member_of
+Relation	8	4	coreference
+Relation	10	6	coreference
+Relation	10	9	in_reporting
+Relation	11	10	subevent_of
+Relation	11	9	in_reporting
+Relation	12	10	subevent_of
+Relation	12	9	in_reporting
+Relation	14	10	coreference
+Relation	17	18	subevent_of

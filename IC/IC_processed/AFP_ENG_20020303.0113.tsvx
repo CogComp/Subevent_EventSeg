@@ -1,0 +1,76 @@
+Text	Islamic Jihad , Martyrs Brigades , claim killing of Israeli soldier . The radical Muslim Islamic Jihad and the Al-Aqsa Martyrs Brigades claimed responsibility for killing an Israeli soldier in the Gaza Strip Sunday , in a joint statement sent to AFP in Damascus . " Around 7:30 this morning our heroes of the Jerusalem Brigades ( Jihad 's armed wing ) and the Al-Aqsa Martyrs Brigades attacked with bombs and automatic weapons a convoy of Zionist soldiers south of the Kissoufim roadblock in the Gaza Strip , killing one Zionist soldier and wounding four more , " it said . The attackers were unharmed , the statement added . The two groups also said they attacked a convoy of soldiers and settlers on the road between the Jewish settlement of Netzarim and the Karni crossing point between the Gaza Strip and Israel , wounding a number of people . Both incidents were confirmed by Israeli sources , which said that one soldier was killed and three wounded in the first attack , but there were no casualties in the second . " The Jerusalem Brigades and the Al-Aqsa Martyrs Brigades state that these heroic operations are responses of the Palestinian people to the crimes committed by the Zionists in the camps of Balata and Jenin and throughout Palestine , " the statement added . The Al-Aqsa Brigades claimed responsibility for a suicide bomb in Jerusalem Saturday which killed nine Israelis and wounded more than 50 . A further 10 were killed in the West Bank Sunday by a Palestinian sniper in an attack which has yet to be claimed . More than 20 Palestinians and two Israeli soldiers were killed in fierce fighting after Israeli incursions last week in the Balata and Jenin refugee camps in the West Bank , prompting threats of vengeance by the Al-Aqsa Brigades . 
+Event	1	claim	report	6
+Event	2	killing	event	7
+Event	3	claimed	report	21
+Event	4	killing	event	24
+Event	6	attacked	event	65
+Event	7	killing	event	86
+Event	8	wounding	event	91
+Event	9	said	report	97
+Event	10	unharmed	event	101
+Event	11	added	report	105
+Event	12	said	report	110
+Event	13	attacked	event	112
+Event	14	wounding	event	140
+Event	15	incidents	event	146
+Event	16	confirmed	report	148
+Event	17	said	report	154
+Event	18	killed	event	159
+Event	19	wounded	event	162
+Event	20	attack	event	166
+Event	21	casualties	event	172
+Event	23	state	report	185
+Event	24	operations	event	189
+Event	40	crimes	event	198
+Event	41	committed	event	199
+Event	27	added	report	217
+Event	28	claimed	report	221
+Event	28	responsibility	report	222
+Event	29	bomb	event	226
+Event	30	killed	event	231
+Event	31	wounded	event	235
+Event	32	killed	event	243
+Event	33	attack	event	255
+Event	34	claimed	report	261
+Event	35	killed	event	271
+Event	36	fighting	event	274
+Event	37	incursions	event	277
+Event	39	threats	event	293
+Relation	2	6	subevent_of
+Relation	3	1	coreference
+Relation	3	5	in_reporting
+Relation	4	6	subevent_of
+Relation	4	2	coreference
+Relation	6	15	member_of
+Relation	6	9	in_reporting
+Relation	7	6	subevent_of
+Relation	7	2	coreference
+Relation	7	9	in_reporting
+Relation	8	6	subevent_of
+Relation	8	9	in_reporting
+Relation	10	6	subevent_of
+Relation	10	11	in_reporting
+Relation	13	15	member_of
+Relation	13	12	in_reporting
+Relation	14	13	subevent_of
+Relation	14	12	in_reporting
+Relation	18	20	subevent_of
+Relation	18	7	coreference
+Relation	18	17	in_reporting
+Relation	19	20	subevent_of
+Relation	19	8	coreference
+Relation	19	17	in_reporting
+Relation	20	15	member_of
+Relation	20	6	coreference
+Relation	20	17	in_reporting
+Relation	21	22	subevent_of
+Relation	23	27	in_reporting
+Relation	24	15	coreference
+Relation	24	23	in_reporting
+Relation	40	23	in_reporting
+Relation	41	23	in_reporting
+Relation	30	29	subevent_of
+Relation	31	29	subevent_of
+Relation	32	33	subevent_of
+Relation	35	36	subevent_of
+Relation	36	37	subevent_of

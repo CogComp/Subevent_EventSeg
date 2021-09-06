@@ -1,0 +1,68 @@
+Text	Ansar al-Sunna , fanatics with a penchant for bombings and mutilation . Ansar al-Sunna , a small secretive network of Islamic radicals which claimed the deadly attack on a US military base in northern Iraq Tuesday has carried out some of the most gruesome attacks of the insurgency . The tiny group announced to the world it had carried out the devastating strike on a packed US army mess hall in Mosul , killing 22 people , among them 14 US soldiers , four US civilians and four Iraqi security forces . The attack was the deadliest ever against Americans in Iraq . The group called the attack a suicide bombing and the US military sent a team of FBI explosive experts to the scene to determine whether or not the Islamic militant group had actually penetrated their base or just got lucky lobbing a rocket or mortar at the US base . " One of the mujahedeen of the Army of Ansar al-Sunna carried out a martyrdom-seeking ( suicide ) operation in a restaurant of the infidel occupation forces at the Ghazlani camp in Mosul , " the group said in a website statement , whose authenticity could not be confirmed . ABC News , quoting unidentified government sources , reported that " a backpack found by investigators at the site and remnants of a torso indicate the attack was caused by a suicide bombing " . Ansar al-Sunna is a splinter faction that broke away from another fundamentalist group called Ansar al-Islam . Both movements espouse a puritanical vision of Islam , redolent of that of Afghanistan 's Taliban , for Iraq . Both factions are believed to have links with the Jordanian-born fugitive Abu Musab al-Zarqawi , who is widely credited by US and Iraqi officials with introducing the scourge of suicide attacks and car bombings to Iraq . Ansar al-Islam was formed in September 2001 in the northern Kurdish province of Sulaimaniyah when a collection of Kurdish Islamist factions joined forces . The group was joined by Arab Islamists in the mountains along Iraqi Kurdistan 's Iranian border after the militants quit Afghanistan 's celebrated Jihad training camps in autumn 2001 , faced with the US war on the fundamentalist Taliban and the Al-Qaeda terror group . US officials believe that Zarqawi set up shop at the mountain base of Ansar al-Islam sometime after the Taliban regime 's collapse . With the US invasion of Iraq in March 2003 , Ansar al-Islam splintered as the group was evicted from its Kurdish mountain base . Some members fled to Iran but eventually returned to Iraq in the chaos of the US - led occupation . The group gradually set up underground networks across northern Iraq by late summer 2003 . However , some members decided by early 2004 to form Ansar al-Sunna . The group 's most infamous act before Tuesday 's strike in Mosul was the August execution of 12 Nepalese labourers in Iraq , with the gory video footage of their execution posted on an Internet site . The group also claimed in September the execution of three Kurds taken hostage in Taji , north of Baghdad . Footage of the bodies , with slit throats , was also posted on the Internet . The group also claimed the execution of 11 Iraqi national guardsmen . However , both Ansar al-Sunna and Ansar al-Islam have lost some recruits to Zarqawi 's larger organisation Unity and Holy War , a US military intelligence officer told AFP in July . The movements still have links to Zarqawi 's organisation . 
+Event	1	bombings	event	8
+Event	2	mutilation	event	10
+Event	3	claimed	report	22
+Event	4	attack	event	25
+Event	45	carried	event	36
+Event	6	attacks	event	43
+Event	7	insurgency	event	46
+Event	8	announced	report	50
+Event	46	carried	event	56
+Event	10	strike	event	60
+Event	11	killing	event	71
+Event	12	attack	event	90
+Event	14	attack	event	103
+Event	15	bombing	event	106
+Event	42	penetrated	event	132
+Event	43	lobbing	event	139
+Event	47	carried	event	159
+Event	17	operation	event	166
+Event	18	said	report	185
+Event	19	quoting	report	200
+Event	20	reported	report	205
+Event	21	attack	event	223
+Event	22	bombing	event	229
+Event	25	attacks	event	296
+Event	26	bombings	event	299
+Event	27	war	event	359
+Event	28	collapse	event	390
+Event	29	invasion	event	394
+Event	30	evicted	event	408
+Event	31	fled	event	416
+Event	48	returned	event	421
+Event	32	occupation	event	432
+Event	33	act	event	464
+Event	34	strike	event	468
+Event	35	execution	event	474
+Event	36	execution	event	489
+Event	37	claimed	report	498
+Event	38	execution	event	502
+Event	39	taken	event	506
+Event	40	claimed	report	532
+Event	41	execution	event	534
+Relation	4	6	member_of
+Relation	46	8	in_reporting
+Relation	10	4	coreference
+Relation	10	8	in_reporting
+Relation	11	4	subevent_of
+Relation	11	8	in_reporting
+Relation	12	4	coreference
+Relation	14	4	coreference
+Relation	15	25	member_of
+Relation	15	4	coreference
+Relation	47	46	coreference
+Relation	17	15	coreference
+Relation	17	18	in_reporting
+Relation	19	20	in_reporting
+Relation	21	4	coreference
+Relation	21	20	in_reporting
+Relation	22	17	coreference
+Relation	22	20	in_reporting
+Relation	25	23	in_reporting
+Relation	26	23	in_reporting
+Relation	29	32	subevent_of
+Relation	30	29	subevent_of
+Relation	31	29	subevent_of
+Relation	34	4	coreference
+Relation	35	33	coreference
+Relation	36	33	coreference

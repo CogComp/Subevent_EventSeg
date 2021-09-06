@@ -1,0 +1,62 @@
+Text	Two dead as US helicopter crashes in western Iraq by Ned Parker ( UPDATES with Ulum ) . Two American soldiers died as a US helicopter crashed into a river Wednesday , while Iraq 's Governing Council said it would deliver next week its opinion on a crucial UN report recommending the country postpone holding national elections . The OH-58 Kiowa helicopter crashed near Haditha , 250 kilometres ( 150 miles ) west of Baghdad , apparently not due to hostile fire , US army spokesmen said , without confirming the nationality of the dead nor the number on board . In January , five US military helicopters crashed in Iraq , most downed by enemy fire . Interim Governing Council member Mohammad Bahr Ulum said Wednesday the Iraqi legislative body will weigh in next week on the UN findings about how the country should best proceed on holding elections and forming a caretaker government . " The council has received the report and decided to submit it for examination to a special committee and they will deliver a detailed opinion on the document and give an answer in writing to the United Nations Secretary General " Kofi Annan , Ulum told reporters . Ulum hails from Iraq 's 60 percent Shiite majority , which under the leadership of its senior clerics rejected the US plan to hold regional caucuses to choose Iraq 's next government . A UN team , headed by Lakhdar Brahimi , visited Iraq earlier this month at the request of the US-led coalition and Shiite clerics to determine whether or not elections could be held before June -- which the Americans claimed was impossible . Annan on Monday finally delivered his report , which rejected both the US notion of caucuses and the Shiite majority 's demand for speedy elections . Annan warned it would probably take until early 2005 to conduct polls , citing Iraq 's need for an electoral law . A deputy to Ulum also said that the body would meet its Saturday deadline for completing the transitional law that will rule Iraq after the country recovers its independence on June 30 . The assurances come after Muwaffaq Rubai , an independent Shiite member of the Governing Council , warned Monday the council would most likely miss the crucual date . Progress on the transitional law has been stymied by fierce debate among Governing Council members concerning federalism , women 's representation in a new government and the role of Islamic law in Iraq . The coalition , meanwhile , said it was willing to postpone a " status of forces " agreement until after Iraq receives its sovereignty at the end of June , a move which could leave US soldiers this summer battling a dangerous Iraqi insurgency without any deal legitimising their presence in the country . The US military appeared Wednesday to receive some breaks in the 11-month battle with a tenacious insurgency , grouping loyalists of Saddam Hussein , criminals , nationalists , Islamic militants and foreign fighters . US forces said they had uncovered the latest footprint of alleged Al - Qaeda operative Abu Mussab al-Zarqawi in Iraq after shooting dead one of his " lieutenants " at a " terrorist safehouse " in the restive western town of Ramadi last Thursday . The noose also tightened on Izzat Ibrahim al-Duri , the highest-ranking fugitive from the old regime , as US troops and an Iraqi paramilitary captured three of his associates . Duri , who has a 10-million-dollar price on his head , has been accused by the Americans of being the nexus of an alliance between Baathists and Islamic militants waging guerrilla war against post-Saddam Iraq . Elsewhere , Polish General Mieczyslaw Bieniek , who commands a multinational division in central Iraq , was quoted by Polish media as saying that six men were detained on Tuesday , suspected of involvement in deadly car bombings in the central towns of Iskandariya and Hilla . In the northern city of Mosul , unknown assailants gunned down in separate incidents a top police officer and a former member of jailed dictator Saddam 's ruling Baath party , police said Wednesday . In Baghdad , US and Iraqi soldiers detained about 20 people suspected of posing a " security threat " and seized 175 fifty-five gallon drums of explosives in a large operation near the health ministry , US military officials said . 
+Event	1	dead	event	1
+Event	2	crashes	event	5
+Event	3	died	event	20
+Event	4	crashed	event	25
+Event	9	crashed	event	60
+Event	60	fire	event	79
+Event	10	said	report	84
+Event	13	crashed	event	105
+Event	14	downed	event	110
+Event	61	fire	event	113
+Event	29	said	report	415
+Event	31	battling	event	449
+Event	32	insurgency	event	453
+Event	34	battle	event	475
+Event	35	insurgency	event	479
+Event	36	said	report	498
+Event	37	shooting	event	517
+Event	38	captured	event	564
+Event	39	accused	report	582
+Event	62	waging	event	598
+Event	41	war	event	600
+Event	43	quoted	report	621
+Event	44	saying	report	626
+Event	45	detained	event	631
+Event	47	involvement	event	637
+Event	48	bombings	event	641
+Event	49	gunned	event	659
+Event	50	incidents	event	663
+Event	52	said	report	682
+Event	53	detained	event	691
+Event	56	threat	event	701
+Event	57	seized	event	704
+Event	58	operation	event	714
+Event	59	said	report	723
+Relation	1	2	subevent_of
+Relation	3	1	coreference
+Relation	4	2	coreference
+Relation	9	4	coreference
+Relation	9	10	in_reporting
+Relation	60	10	in_reporting
+Relation	14	13	member_of
+Relation	14	61	subevent_of
+Relation	31	29	in_reporting
+Relation	32	29	in_reporting
+Relation	34	35	subevent_of
+Relation	35	32	coreference
+Relation	37	36	in_reporting
+Relation	44	43	coreference
+Relation	45	44	in_reporting
+Relation	47	48	subevent_of
+Relation	47	44	in_reporting
+Relation	48	44	in_reporting
+Relation	49	50	subevent_of
+Relation	49	52	in_reporting
+Relation	50	52	in_reporting
+Relation	53	58	subevent_of
+Relation	53	59	in_reporting
+Relation	56	59	in_reporting
+Relation	57	58	subevent_of
+Relation	57	59	in_reporting
+Relation	58	59	in_reporting

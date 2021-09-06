@@ -1,0 +1,147 @@
+Text	IRAQ SECURITY FORCES CAPTURE TWO ZARQAWI AIDES . BAGHDAD , Iraq . Security forces in Iraq have captured two senior aides to the most wanted militant in Iraq , bringing in his top bomb-maker and his propaganda chief in the past 10 days , an Iraqi government spokesman said on Monday . The announcements came hours after a suicide car bomb exploded near the headquarters of Prime Minister Ayad Allawi 's political party , injuring at least 14 people , nine of them policemen , the Interior Ministry said . The bomb detonated at a checkpoint guarded by a special unit of the Iraqi police . The captured bomb-maker , Sami Muhammad Ali Said al-Jaaf , was seized in Baghdad on Jan. 15 . He is believed to have taken part in three - quarters of the car bombings in the capital since the war began , the government spokesman , Thaier al-Naqib , said in a written statement . Major car bombings here began with an attack on the Jordanian Embassy in August 2003 and have killed hundreds . Al-Naqib said al-Jaaf also used the name Abu Omar al-Kurdi and is considered to be a lieutenant of Abu Musab al-Zarqawi , a Jordanian militant who has a $ 25 million bounty on his head . Al-Jaaf has confessed to making the explosives used in the bombing of the Jordanian Embassy , which killed at least 11 people , al-Naqib said . He also confessed to taking part in the car bombing later the same month in Najaf that killed at least 95 people , including Muhammad Bakr al-Hakim , a cleric who founded the most prominent Shiite political party . Al-Naqib issued another statement later on Monday saying that on Jan. 14 , security forces captured al-Zarqawi 's chief of propaganda , Hasam Hamad Abdullah Muhsin al-Dulaimi , who is also known as Dr. Hassan . Al - Dulaimi had not served long in the post ; he took the job after American-led forces killed the former propaganda chief , Hassan Ibrahim , in a Baghdad raid on Dec. 13 , al-Naqib said . " Dr. Hassan has told us that Abu Musab al-Zarqawi designated Abu Omar al-Kurdi as the lieutenant responsible for attacking election sites located in Baghdad , " he said . Al-Naqib 's statements could not be independently verified , but it seems that any such arrests , while providing some good news before the elections this Sunday , have not lessened the violence aimed at disrupting the voting . Al-Zarqawi 's group posted an Internet message claiming responsibility for the car bombing on Monday morning near Allawi 's political headquarters , the latest in a string of at least a half-dozen such attacks in the past week which have killed and wounded scores of people . In recent days , rumors have spread throughout the capital that al - Zarqawi might have been captured , or that American forces might have detained him and let him go without realizing whom they had arrested . Those rumors dovetailed with two incendiary Internet audio recordings attributed to al-Zarqawi . In the second one , which appeared on Sunday , al-Zarqawi said his forces " have declared an all-out war on this evil principle of democracy and those who follow this wrong ideology " . He renewed a call for insurgents to attack the electoral process . The bombing on Monday morning near the headquarters of Allawi 's party , the Iraqi National Accord , rattled windows miles away and sent a plume of smoke above the Baghdad skyline . Policemen at a checkpoint had opened fire on a driver speeding up to the post , forcing the car bomb to detonate early , said Col. Adnan Abdul-Rahman , an Interior Ministry spokesman . The attack took place near the Green Zone , a four-square-mile fortified compound that houses the U.S. Embassy and the headquarters of the interim Iraqi government . In Najaf , the local chief of Iraqi intelligence , Haidar Ghalib al - Jazaeri , said American soldiers had shot dead an intelligence officer on Monday on the road between Najaf and Diwaniya . The officer , Imad Abid Shaban al-Khuzai , was shot while trying to pass an American convoy , al-Jazaeri said , adding that al-Khuzai 's brother was wounded . Maj. Flora Lee , a spokeswoman for the U.S. military , said the military 's media desk had no reports on such a shooting . On Tuesday , gunmen assassinated an Iraqi judge as he was leaving his home in eastern Baghdad , the Iraqi police said . The judge , identified as Qais Hashim Shameri , and his son were killed in a roadside ambush , the police said . Five American soldiers were killed and two were injured in a vehicle accident near the town of Khan Bani Saad north of Baghdad on Monday night , the military said Tuesday without releasing details . The military also said another soldier had died Tuesday morning in a roadside bomb attack . 
+Event	1	CAPTURE	event	3
+Event	2	captured	event	15
+Event	79	bringing	event	27
+Event	3	said	report	46
+Event	5	exploded	event	58
+Event	6	injuring	event	71
+Event	7	said	report	85
+Event	8	detonated	event	88
+Event	9	seized	event	112
+Event	75	taken	event	123
+Event	11	bombings	event	132
+Event	12	war	event	138
+Event	13	said	report	148
+Event	14	bombings	event	155
+Event	15	attack	event	160
+Event	16	killed	event	170
+Event	17	confessed	report	209
+Event	18	making	event	211
+Event	19	bombing	event	217
+Event	20	killed	event	224
+Event	21	said	report	231
+Event	22	confessed	report	234
+Event	76	taking	event	236
+Event	23	bombing	event	241
+Event	24	killed	event	249
+Event	25	saying	report	277
+Event	26	captured	event	285
+Event	27	killed	event	323
+Event	78	raid	event	335
+Event	29	said	report	341
+Event	30	told	report	346
+Event	31	attacking	event	361
+Event	32	said	report	370
+Event	33	arrests	event	386
+Event	34	violence	event	403
+Event	36	claiming	report	416
+Event	37	bombing	event	421
+Event	38	attacks	event	442
+Event	39	killed	event	449
+Event	40	wounded	event	451
+Event	41	captured	event	472
+Event	42	detained	event	480
+Event	43	let	event	483
+Event	44	arrested	event	491
+Event	45	said	report	515
+Event	46	declared	report	520
+Event	47	war	event	523
+Event	48	attack	event	545
+Event	49	bombing	event	550
+Event	50	opened	event	586
+Event	52	detonate	event	602
+Event	53	said	report	605
+Event	54	attack	event	615
+Event	55	said	report	656
+Event	56	shot	event	660
+Event	57	shot	event	683
+Event	58	said	report	693
+Event	59	adding	report	695
+Event	60	wounded	event	701
+Event	61	said	report	713
+Event	63	shooting	event	725
+Event	64	assassinated	event	730
+Event	65	said	report	747
+Event	66	killed	event	761
+Event	67	said	report	769
+Event	68	killed	event	774
+Event	69	injured	event	778
+Event	70	accident	event	782
+Event	71	said	report	799
+Event	72	said	report	807
+Event	73	died	event	811
+Event	74	attack	event	818
+Relation	1	33	member_of
+Relation	2	1	coreference
+Relation	2	3	in_reporting
+Relation	79	2	subevent_of
+Relation	79	3	in_reporting
+Relation	5	11	member_of
+Relation	5	37	subevent_of
+Relation	5	7	in_reporting
+Relation	6	5	subevent_of
+Relation	6	7	in_reporting
+Relation	7	3	coreference
+Relation	8	37	subevent_of
+Relation	8	5	coreference
+Relation	9	1	member_of
+Relation	75	13	in_reporting
+Relation	11	14	member_of
+Relation	11	13	in_reporting
+Relation	12	13	in_reporting
+Relation	13	3	coreference
+Relation	14	34	subevent_of
+Relation	15	14	member_of
+Relation	16	14	subevent_of
+Relation	17	21	in_reporting
+Relation	18	15	subevent_of
+Relation	18	21	in_reporting
+Relation	19	15	coreference
+Relation	19	21	in_reporting
+Relation	20	16	member_of
+Relation	20	15	subevent_of
+Relation	20	21	in_reporting
+Relation	22	17	coreference
+Relation	23	11	member_of
+Relation	24	16	member_of
+Relation	24	23	subevent_of
+Relation	26	1	member_of
+Relation	26	28	subevent_of
+Relation	26	25	in_reporting
+Relation	27	78	subevent_of
+Relation	27	29	in_reporting
+Relation	30	32	in_reporting
+Relation	31	30	in_reporting
+Relation	32	29	coreference
+Relation	33	1	coreference
+Relation	37	14+38	member_of
+Relation	39	38	subevent_of
+Relation	40	38	subevent_of
+Relation	42	41	coreference
+Relation	44	41	coreference
+Relation	49	37	coreference
+Relation	50	37	subevent_of
+Relation	50	53	in_reporting
+Relation	52	37	subevent_of
+Relation	52	5	coreference
+Relation	52	53	in_reporting
+Relation	54	37	coreference
+Relation	56	55	in_reporting
+Relation	57	56	coreference
+Relation	57	58	in_reporting
+Relation	58	55	coreference
+Relation	60	59	in_reporting
+Relation	63	56	coreference
+Relation	63	61	in_reporting
+Relation	64	65	in_reporting
+Relation	66	64	coreference
+Relation	67	65	coreference
+Relation	68	70	subevent_of
+Relation	68	71	in_reporting
+Relation	69	70	subevent_of
+Relation	69	71	in_reporting
+Relation	70	71	in_reporting
+Relation	72	71	subevent_of
+Relation	73	74	subevent_of
+Relation	73	72	in_reporting
+Relation	74	72	in_reporting
