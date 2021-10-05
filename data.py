@@ -13,14 +13,13 @@ import json
 
 rel_type = {"IC": 0, "HiEve": 0, "MATRES": 1, "TB-Dense": 1, "CaTeRS": 2, "RED": 3}
 
-def data(dataset, debugging, downsample, batch_size, undersmp_ratio = 0.4, shuffle = True):
+def data(dataset, debugging, downsample, batch_size, undersmp_ratio = 1.0, shuffle = True):
     train_set = []
     valid_set = []
     test_set = []
     train_range = range(0, 60)
     valid_range = range(60, 80)
     test_range = range(80, 100)
-    count_rel = {0: 0, 1: 0, 2: 0, 3: 0}
     
     print("Processing " + dataset + " dataset...")
     if dataset == "IC":
@@ -95,32 +94,14 @@ def data(dataset, debugging, downsample, batch_size, undersmp_ratio = 0.4, shuff
                                     xz_sent, x_position, x_position+x_subword_len, len(x_sent)-1+z_position, len(x_sent)-1+z_position+z_subword_len, \
                                     float(x_seg_id==y_seg_id), float(y_seg_id==z_seg_id), float(x_seg_id==z_seg_id), \
                                     xy, yz, xz, rel_type[dataset], x, y, z, doc_id
-                        '''
+                        
                         if xy == 3 and yz == 3:
                             pass
                         elif xy == 3 or yz == 3 or xz == 3:
                             if random.uniform(0, 1) <= downsample:
                                 train_set.append(to_append)
-                                count_rel[xy] += 1
-                                count_rel[yz] += 1
-                                count_rel[xz] += 1
                         else:
-                            train_set.append(to_append)
-                            count_rel[xy] += 1
-                            count_rel[yz] += 1
-                            count_rel[xz] += 1
-                        '''    
-                        if xy == 3:
-                            if random.uniform(0, 1) <= downsample:
                                 train_set.append(to_append)
-                                count_rel[xy] += 1
-                                count_rel[yz] += 1
-                                count_rel[xz] += 1
-                        else:
-                            train_set.append(to_append)
-                            count_rel[xy] += 1
-                            count_rel[yz] += 1
-                            count_rel[xz] += 1
         else:
             my_dict = tsvx_reader(dataset, dir_name, file_name)
             num_event = len(my_dict["event_dict"])
@@ -137,9 +118,6 @@ def data(dataset, debugging, downsample, batch_size, undersmp_ratio = 0.4, shuff
                         
                     x_subword_len = len(tokenizer.encode(my_dict["event_dict"][x]['mention'])) - 2
                     y_subword_len = len(tokenizer.encode(my_dict["event_dict"][y]['mention'])) - 2
-
-                    #x_sent_pos = padding(my_dict["sentences"][x_sent_id]["roberta_subword_pos"], pos = True)
-                    #y_sent_pos = padding(my_dict["sentences"][y_sent_id]["roberta_subword_pos"], pos = True)
                         
                     x_seg_id = my_dict["event_dict"][x]["segment_id"]
                     y_seg_id = my_dict["event_dict"][y]["segment_id"]
@@ -168,7 +146,6 @@ def data(dataset, debugging, downsample, batch_size, undersmp_ratio = 0.4, shuff
                                 test_set.append(to_append)
                         else:
                             test_set.append(to_append)
-                            
     if debugging:
         train_set = train_set[0:1000]
         valid_set = test_set = train_set
@@ -183,4 +160,5 @@ def data(dataset, debugging, downsample, batch_size, undersmp_ratio = 0.4, shuff
         train_dataloader = DataLoader(EventDataset(train_set), batch_size=batch_size, shuffle = shuffle)
         valid_dataloader = DataLoader(EventDataset(valid_set), batch_size=batch_size, shuffle = False)    
         test_dataloader = DataLoader(EventDataset(test_set), batch_size=batch_size, shuffle = False) 
-        return train_dataloader, None, None, valid_dataloader, test_dataloader, num_classes, count_rel
+        return train_dataloader, None, None, valid_dataloader, test_dataloader, num_classes
+    

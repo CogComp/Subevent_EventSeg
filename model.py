@@ -39,7 +39,7 @@ def sum_2_power(dim):
 
 # roberta + MLP + Constraints
 class roberta_mlp_cons(nn.Module):
-    def __init__(self, num_classes, lambdas, cuda, label_weights, Sub = None, Mul = True, freq = None):
+    def __init__(self, num_classes, lambdas, cuda, Sub = None, Mul = True, freq = None):
         super(roberta_mlp_cons, self).__init__()
         self.cuda = cuda
         self.dataset = lambdas['dataset']
@@ -52,8 +52,10 @@ class roberta_mlp_cons(nn.Module):
         self.num_classes = num_classes
         self.softmax = torch.nn.Softmax()
         self.model = RobertaModel.from_pretrained("roberta-large", config=config)
-        self.hier_class_weights = torch.FloatTensor(label_weights).cuda()
-        self.anno_loss = nn.CrossEntropyLoss(weight=self.hier_class_weights)
+        self.hier_class_weights_h = torch.FloatTensor(hier_weights_h).cuda()
+        self.hier_class_weights_i = torch.FloatTensor(hier_weights_i).cuda()
+        self.HiEve_anno_loss = nn.CrossEntropyLoss(weight=self.hier_class_weights_h)
+        self.IC_anno_loss = nn.CrossEntropyLoss(weight=self.hier_class_weights_i)
         self.seg_loss = nn.BCEWithLogitsLoss()
         #self.ones = torch.ones([batch_size, 1]).float().to(self.cuda)
         self.zero = Variable(torch.zeros(1), requires_grad=False)
@@ -194,7 +196,10 @@ class roberta_mlp_cons(nn.Module):
             loss = 0.0
             if self.dataset in ["HiEve", "IC"]:
                 # subevent relation annotation loss
-                loss += self.lambdas['lambda_annoH'] * (self.anno_loss(alpha_logits_no_cons_, batch[18]) + self.anno_loss(beta_logits_no_cons_, batch[19]) + self.anno_loss(gamma_logits_no_cons_, batch[20]))
+                if self.dataset == "HiEve":
+                    loss += self.lambdas['lambda_annoH'] * (self.HiEve_anno_loss(alpha_logits_no_cons_, batch[18]) + self.HiEve_anno_loss(beta_logits_no_cons_, batch[19]) + self.HiEve_anno_loss(gamma_logits_no_cons_, batch[20]))
+                else:
+                    loss += self.lambdas['lambda_annoH'] * (self.IC_anno_loss(alpha_logits_no_cons_, batch[18]) + self.IC_anno_loss(beta_logits_no_cons_, batch[19]) + self.IC_anno_loss(gamma_logits_no_cons_, batch[20]))
                     
                 if self.lambdas['lambda_annoS'] > 0.0:
                     # segmentation annotation loss

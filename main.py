@@ -24,27 +24,29 @@ params = {
             'time': dt_string,
             'gpu_num': gpu_num,
             'task': 'subevent',
-            'dataset': 'HiEve', # either HiEve, or IC
-            'cons_no': "0429_4_cons", # learned constraints to be enforced
-            'add_loss': 2, #### add_loss == 2: seg_TRUE; add_loss == 1: seg_FALSE, subevent only; add_loss == 0: no constraints
-            'lambda_annoH': 1.0, ####
-            'lambda_annoS': 1.0, ####
-            'lambda_cons': 1.0,  ####
-            'MLP_size': 4096, #hp.quniform('MLP_size', 128, 1024, 1),
-            'roberta_hidden_size': 1024, #hp.quniform('roberta_hidden_size', 768, 1024, 1),
+            'dataset': 'IC', # HiEve or IC
+            'cons_no': "0429_5_cons", # 0429_6_cons or 0429_5_cons
+            'add_loss': 1, 
+            'lambda_annoH': 1.0,
+            'lambda_annoS': 1.0,
+            'lambda_cons': 1.0,
+            'MLP_size': 4096,
+            'roberta_hidden_size': 1024,
             'finetune': 1,
             'epochs': 10,
-            'batch_size': 3, 
-            'downsample': 0.4,
-            'undersmp_ratio': 0.4,
+            'batch_size': 2, # 3 or 2
+            'downsample': 1.0,
             'learning_rate': 0.00000001,
-            'debugging': 0, ####
+            'debugging': 0,
          }
 
 if params['cons_no'] in ['0429_3_cons', '0429_4_cons', '0429_5_cons', '0429_6_cons']:
     params['fold'] = 4
 else:
     params['fold'] = 5
+
+with open("config/" + rst_file_name.replace("rst", "json"), 'w') as config_file:
+    json.dump(params, config_file)
     
 model_params_dir = "./model_params/"
 HiEve_best_PATH = model_params_dir + "HiEve_best/" + rst_file_name.replace(".rst", ".pt")
@@ -55,14 +57,9 @@ def count_parameters(model):
     return sum(p.numel() for p in model.parameters() if p.requires_grad)
 
 # MEM: membership relations; TEMP: temporal relations
-train_dataloader, valid_dataloader_TEMP, test_dataloader_TEMP, valid_dataloader_MEM, test_dataloader_MEM, num_classes, count_rel = data(params['dataset'], params['debugging'], params['downsample'], params['batch_size'])
+train_dataloader, valid_dataloader_TEMP, test_dataloader_TEMP, valid_dataloader_MEM, test_dataloader_MEM, num_classes = data(params['dataset'], params['debugging'], params['downsample'], params['batch_size'])
 
-params['count_rel'] = count_rel
-with open("config/" + rst_file_name.replace("rst", "json"), 'w') as config_file:
-    json.dump(params, config_file)
-total_rel = sum([count_rel[i] for i in range(0, 4)])                 
-label_weights = [(0.25 * total_rel / count_rel[i]) for i in range(0, 4)]
-model = roberta_mlp_cons(num_classes, params, cuda, label_weights)
+model = roberta_mlp_cons(num_classes, params, cuda)
 model.to(cuda)
 model.zero_grad()
 print("# of parameters:", count_parameters(model))
