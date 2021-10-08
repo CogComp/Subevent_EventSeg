@@ -24,8 +24,8 @@ params = {
             'time': dt_string,
             'gpu_num': gpu_num,
             'task': 'subevent',
-            'dataset': 'IC', # HiEve or IC
-            'cons_no': "0429_5_cons", # 0429_6_cons or 0429_5_cons
+            'dataset': 'HiEve', # HiEve or IC
+            'cons_no': "0429_6_cons", # 0429_6_cons or 0429_5_cons
             'add_loss': 1, 
             'lambda_annoH': 1.0,
             'lambda_annoS': 1.0,
@@ -34,7 +34,7 @@ params = {
             'roberta_hidden_size': 1024,
             'finetune': 1,
             'epochs': 10,
-            'batch_size': 2, # 3 or 2
+            'batch_size': 3, # 3 or 2
             'downsample': 1.0,
             'learning_rate': 0.00000001,
             'debugging': 0,

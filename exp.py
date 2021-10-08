@@ -220,9 +220,12 @@ class exp:
                     else:
                         numpyData = {"labels": "0 -- Parent-Child; 1 -- Child-Parent; 2 -- Coref; 3 -- NoRel", "array": y_logits}
                     json.dump(numpyData, outfile, cls=NumpyArrayEncoder)
-                msg = message(subject=eval_data + " Prediction Notice",
+                try:
+                    msg = message(subject=eval_data + " Prediction Notice",
                               text=self.dataset + "/" + self.model_name + " Predicted " + str(y_logits.shape[0] - 1) + " instances. (Current Path: " + os.getcwd() + ")")
-                send(msg)  # and send it
+                    send(msg)  # and send it
+                except:
+                    pass
                 return 0
             else:
                 with open(predict + "gold", 'w') as outfile:
@@ -258,12 +261,18 @@ class exp:
                 print("  F1_PC_CP_avg: {0:.3f}".format(F1_PC_CP_avg), file = self.file)
                 print("  Segmentation perf: {0:.3f}".format(correct/total), file = self.file)
                 
-                msg = message(subject=eval_data + " Test Notice", text = self.dataset + "/" + self.model_name + " Test results:\n" + "  F1_PC_CP_avg: {0:.3f}".format(F1_PC_CP_avg) + " (Current Path: " + os.getcwd() + ")")
-                send(msg)  # and send it
+                try:
+                    msg = message(subject=eval_data + " Test Notice", text = self.dataset + "/" + self.model_name + " Test results:\n" + "  F1_PC_CP_avg: {0:.3f}".format(F1_PC_CP_avg) + " (Current Path: " + os.getcwd() + ")")
+                    send(msg)  # and send it
+                except:
+                    pass
                 
             if not test:
-                msg = message(subject=eval_data + " Validation Notice", text = self.dataset + "/" + self.model_name + " Validation results:\n" + "  F1_PC_CP_avg: {0:.3f}".format(F1_PC_CP_avg) + " (Current Path: " + os.getcwd() + ")")
-                send(msg)  # and send it
+                try:
+                    msg = message(subject=eval_data + " Validation Notice", text = self.dataset + "/" + self.model_name + " Validation results:\n" + "  F1_PC_CP_avg: {0:.3f}".format(F1_PC_CP_avg) + " (Current Path: " + os.getcwd() + ")")
+                    send(msg)  # and send it
+                except:
+                    pass
                 if eval_data == "HiEve":
                     if F1_PC_CP_avg > self.HiEve_best_F1 or path.exists(self.HiEve_best_PATH) == False:
                         self.HiEve_best_F1 = F1_PC_CP_avg
