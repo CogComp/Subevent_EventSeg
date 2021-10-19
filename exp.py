@@ -239,13 +239,16 @@ class exp:
             # Report the final accuracy for this validation run.
             cr = classification_report(y_gold, y_pred, output_dict = True)
             rst = classification_report(y_gold, y_pred)
-            F1_PC = cr['0']['f1-score']
-            F1_CP = cr['1']['f1-score']
-            F1_coref = cr['2']['f1-score']
-            F1_NoRel = cr['3']['f1-score']
-            F1_PC_CP_avg = (F1_PC + F1_CP) / 2.0
-            print(rst)
-            print("  F1_PC_CP_avg: {0:.3f}".format(F1_PC_CP_avg))
+            try:
+                F1_PC = cr['0']['f1-score']
+                F1_CP = cr['1']['f1-score']
+                F1_coref = cr['2']['f1-score']
+                F1_NoRel = cr['3']['f1-score']
+                F1_PC_CP_avg = (F1_PC + F1_CP) / 2.0
+                print(rst)
+                print("  F1_PC_CP_avg: {0:.3f}".format(F1_PC_CP_avg))
+            except:
+                pass
             
             correct = 0
             total = 0
@@ -256,12 +259,11 @@ class exp:
             print("  Segmentation perf: {0:.3f}".format(correct/total))
             
             if test:
-                print("  Test rst:", file = self.file)
-                print(rst, file = self.file)
-                print("  F1_PC_CP_avg: {0:.3f}".format(F1_PC_CP_avg), file = self.file)
-                print("  Segmentation perf: {0:.3f}".format(correct/total), file = self.file)
-                
                 try:
+                    print("  Test rst:", file = self.file)
+                    print(rst, file = self.file)
+                    print("  F1_PC_CP_avg: {0:.3f}".format(F1_PC_CP_avg), file = self.file)
+                    print("  Segmentation perf: {0:.3f}".format(correct/total), file = self.file)
                     msg = message(subject=eval_data + " Test Notice", text = self.dataset + "/" + self.model_name + " Test results:\n" + "  F1_PC_CP_avg: {0:.3f}".format(F1_PC_CP_avg) + " (Current Path: " + os.getcwd() + ")")
                     send(msg)  # and send it
                 except:

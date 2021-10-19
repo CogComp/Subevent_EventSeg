@@ -20,14 +20,15 @@ if len(sys.argv) > 1:
 gpu_num = '0'
 os.environ["CUDA_VISIBLE_DEVICES"] = gpu_num
 cuda = torch.device('cuda')
-rst_file_name = '0804_0.rst'
+rst_file_name = '1236.rst'
+f_out = "output/" + f_out
 
 params = {
             'time': dt_string,
             'gpu_num': gpu_num,
             'task': 'subevent',
-            'dataset': 'HiEve',
-            'cons_no': "0429_6_cons",
+            'dataset': 'IC',
+            'cons_no': "0429_5_cons",
             'add_loss': 1, 
             'lambda_annoH': 1.0, ####
             'lambda_annoS': 1.0, ####
@@ -36,7 +37,7 @@ params = {
             'roberta_hidden_size': 1024,
             'finetune': 1,
             'epochs': 10,
-            'batch_size': 3, 
+            'batch_size': 2, 
             'downsample': 1.0,
             'learning_rate': 0.00000001,
             'debugging': 0
@@ -63,16 +64,22 @@ test_set = []
 for an_instance in input_list:
     x_sent, x_position = subword_id_getter_space_split(an_instance["sent_1"], an_instance["e1_start_char"])
     y_sent, y_position = subword_id_getter_space_split(an_instance["sent_2"], an_instance["e2_start_char"])
-    xy_sent = padding(x_sent + y_sent[1:], max_sent_len = 155)
-    
     x_subword_len = len(tokenizer.encode(an_instance['e1_mention'])) - 2
     y_subword_len = len(tokenizer.encode(an_instance['e2_mention'])) - 2
-
-    to_append = xy_sent, x_position, x_position+x_subword_len, len(x_sent)-1+y_position, len(x_sent)-1+y_position+y_subword_len, \
-                                xy_sent, x_position, x_position+x_subword_len, len(x_sent)-1+y_position, len(x_sent)-1+y_position+y_subword_len, \
-                                xy_sent, x_position, x_position+x_subword_len, len(x_sent)-1+y_position, len(x_sent)-1+y_position+y_subword_len, \
-                                0, 0, 0, \
-                                0, 0, 0, 0, 0, 1, 0, 0
+    if an_instance["sent_1"] == an_instance["sent_2"]:
+        xy_sent = padding(x_sent, max_sent_len = 193)
+        to_append = xy_sent, x_position, x_position+x_subword_len, y_position, y_position+y_subword_len, \
+                    xy_sent, x_position, x_position+x_subword_len, y_position, y_position+y_subword_len, \
+                    xy_sent, x_position, x_position+x_subword_len, y_position, y_position+y_subword_len, \
+                    0, 0, 0, \
+                    0, 0, 0, 0, 0, 1, 0, 0
+    else:
+        xy_sent = padding(x_sent + y_sent[1:], max_sent_len = 193)
+        to_append = xy_sent, x_position, x_position+x_subword_len, len(x_sent)-1+y_position, len(x_sent)-1+y_position+y_subword_len, \
+                    xy_sent, x_position, x_position+x_subword_len, len(x_sent)-1+y_position, len(x_sent)-1+y_position+y_subword_len, \
+                    xy_sent, x_position, x_position+x_subword_len, len(x_sent)-1+y_position, len(x_sent)-1+y_position+y_subword_len, \
+                    0, 0, 0, \
+                    0, 0, 0, 0, 0, 1, 0, 0
     test_set.append(to_append)
 test_dataloader = DataLoader(EventDataset(test_set), batch_size=params['batch_size'], shuffle = False)
 
@@ -85,5 +92,5 @@ print("# of parameters:", count_parameters(model))
 #        print(name, param.data.size())
 model_name = rst_file_name.replace(".rst", "") # to be designated after finding the best parameters
     
-mem_exp = exp(cuda, model, params['epochs'], params['learning_rate'], None, None, None, None, test_dataloader, params['finetune'], params['dataset'], None, HiEve_best_PATH, None, model_name)
-mem_exp.evaluate(eval_data = params['dataset'], test = True)
+mem_exp = exp(cuda, model, params['epochs'], params['learning_rate'], None, None, None, None, test_dataloader, params['finetune'], params['dataset'], None, IC_best_PATH, None, model_name)
+mem_exp.evaluate(eval_data = params['dataset'], test = True, predict = f_out)
