@@ -1,6 +1,7 @@
 runs/*
 *.pt
 rst_file/*
+config/*
 output_redirect/*
 hyperopt_results/*
 .ipynb_checkpoints/*
