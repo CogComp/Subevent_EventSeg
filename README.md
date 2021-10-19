@@ -54,7 +54,7 @@ Output will also be a json file under [output](https://github.com/CogComp/Subeve
 `<OUTPUT_FILE>`: name for a json file
 
 ### Example commands
-#### Command for predicting temporal relations
+#### Command for predicting subevent relations
 `python predict.py example/subevent_example_input.json predict_subevent.json`
 
 #### [Link to pre-trained model](https://drive.google.com/drive/folders/1T_lOE75mzK86NzEhWDxC9rHKEdVc1_KB?usp=sharing)
