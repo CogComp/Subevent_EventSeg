@@ -19,6 +19,7 @@ pip install -r env/requirements.txt
 python spacy -m en-core-web-sm
 
 mkdir rst_file
+mkdir output_redirect
 mkdir model_params
 cd model_params
 mkdir HiEve_best
