@@ -59,8 +59,8 @@ Output will also be a json file under [output](https://github.com/CogComp/Subeve
 
 #### [Link to pre-trained model](https://drive.google.com/drive/folders/1T_lOE75mzK86NzEhWDxC9rHKEdVc1_KB?usp=sharing)
 
-Store `0429_5_cons.pt`, `0429_6_cons.pt` under `model_params/cons_learn`; store `1236.pt` under `model_params/IC_best`
-
+Store `0429_5_cons.pt`, `0429_6_cons.pt` under `model_params/cons_learn`; store `1236.pt`, `1233.pt` under `model_params/IC_best`, `model_params/HiEve_best` respectively
+ 
 ### Sending notifications
 [Changing the google account settings](https://www.google.com/settings/security/lesssecureapps)
 ## Reference
