@@ -1,7 +1,3 @@
-Link to pretrained constraints: 
-
-
-
 # Learning Constraints and Descriptive Segmentation for Subevent Detection
 
 This is the repository for the resources in EMNLP 2021 Paper ["Learning Constraints and Descriptive Segmentation for Subevent Detection"](https://arxiv.org/pdf/2109.06316.pdf). This repository contains the source code and datasets used in our paper.
