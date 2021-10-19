@@ -23,6 +23,7 @@ mkdir model_params
 cd model_params
 mkdir HiEve_best
 mkdir IC_best
+mkdir cons_learn
 cd ..
 ```
 ### Running experiments in the paper
@@ -57,6 +58,8 @@ Output will also be a json file under [output](https://github.com/CogComp/Subeve
 `python predict.py example/subevent_example_input.json predict_subevent.json`
 
 #### [Link to pre-trained model](https://drive.google.com/drive/folders/1T_lOE75mzK86NzEhWDxC9rHKEdVc1_KB?usp=sharing)
+
+Store `0429_5_cons.pt`, `0429_6_cons.pt` under `model_params/cons_learn`; store `1236.pt` under `model_params/IC_best`
 
 ### Sending notifications
 [Changing the google account settings](https://www.google.com/settings/security/lesssecureapps)
