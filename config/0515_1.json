@@ -1,1 +1,0 @@
-{"time": "15/05/2021 08:47:48", "gpu_num": "2", "task": "subevent", "dataset": "IC", "cons_no": "0429_3_cons", "add_loss": 0, "lambda_annoH": 2.0, "lambda_annoS": 0.0, "lambda_cons": 0.0, "MLP_size": 512, "roberta_hidden_size": 1024, "finetune": 1, "epochs": 40, "batch_size": 16, "downsample": 0.01, "learning_rate": 1e-07, "fold": 4}
