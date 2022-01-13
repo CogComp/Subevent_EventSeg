@@ -81,6 +81,7 @@ for an_instance in input_list:
                     0, 0, 0, \
                     0, 0, 0, 0, 0, 1, 0, 0
     test_set.append(to_append)
+print(len(test_set))
 test_dataloader = DataLoader(EventDataset(test_set), batch_size=params['batch_size'], shuffle = False)
 
 model = roberta_mlp_cons(num_classes, params, cuda)
@@ -91,6 +92,5 @@ print("# of parameters:", count_parameters(model))
 #    if param.requires_grad:
 #        print(name, param.data.size())
 model_name = rst_file_name.replace(".rst", "") # to be designated after finding the best parameters
-    
 mem_exp = exp(cuda, model, params['epochs'], params['learning_rate'], None, None, None, None, test_dataloader, params['finetune'], params['dataset'], None, IC_best_PATH, None, model_name)
 mem_exp.evaluate(eval_data = params['dataset'], test = True, predict = f_out)
